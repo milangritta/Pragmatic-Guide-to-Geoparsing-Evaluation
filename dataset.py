@@ -1,10 +1,14 @@
 import codecs
+import sqlite3
 from collections import Counter
+from os.path import isfile
 from urlparse import urlparse
 from lxml import etree, objectify
 import matplotlib
-matplotlib.use('TkAgg')
+from objects_and_functions import Annotation
 
+matplotlib.use('TkAgg')
+from os import listdir
 import matplotlib.pyplot as plt
 
 # -------------------------------START OF GENERATION---------------------------------
@@ -70,3 +74,56 @@ import matplotlib.pyplot as plt
 #         raise Exception("Ring Ding Ding!!!")
 
 # ------------------------------------END OF BRAT FILES GENERATION-----------------------------------------
+
+
+conn = sqlite3.connect('../data/geonames.db')
+c = conn.cursor()
+dir_path = u"/Users/milangritta/Downloads/BRAT/data/WebNews500-Annotator-1/"
+files = [f for f in listdir(dir_path) if isfile(dir_path + f)]
+annotations = {}
+for f in files:
+    if f.endswith(".txt") or f.startswith("."):
+        continue
+    ann = {}
+    annotations[str(f)] = ann
+    f = codecs.open(dir_path + f, encoding="utf-8")
+    for line in f:
+        line = line.strip().split("\t")
+        if line[0].startswith("T"):
+            if line[0] in ann:
+                raise Exception("What's going on here? Alarm!")
+            else:
+                ann[line[0]] = Annotation(line[0])
+                ann[line[0]].text = line[2]
+                data = line[1].split(" ")
+                ann[line[0]].type = data[0]
+                ann[line[0]].start = data[1]
+                ann[line[0]].end = data[2]
+        elif line[0].startswith("A"):
+            data = line[1].split(" ")
+            if data[1] not in ann:
+                ann[data[1]] = Annotation(data[1])
+            if data[0].startswith("Modifier"):
+                ann[data[1]].mod_type = data[0]
+                ann[data[1]].mod_value = data[2]
+            elif data[0].startswith("Non"):
+                ann[data[1]].non_locative = True
+            elif data[0].startswith("Idiom"):
+                ann[data[1]].idiom = True
+            else:
+                raise Exception("What on Earth is going on here?!")
+        elif line[0].startswith("#"):
+            data = line[1].split(" ")
+            if data[1] not in ann:
+                ann[data[1]] = Annotation(data[1])
+            ann[data[1]].geonames = line[2]
+        else:
+            raise Exception("This shouldn't be happening! Alarm!")
+
+c, t = 0, 0
+for ann in annotations:
+    for key in annotations[ann]:
+        t += 1
+        if annotations[ann][key].type == "Literal_Expression":
+            c += 1
+print c, t
