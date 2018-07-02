@@ -2,6 +2,7 @@ import codecs
 import sqlite3
 from collections import Counter
 from os.path import isfile
+import numpy as np
 from urlparse import urlparse
 from lxml import etree, objectify
 import matplotlib
@@ -120,13 +121,103 @@ for f in files:
                 raise Exception("No record! Check.")
             ann[data[1]].geonames = line[2]
 
-c, t = 0, 0
+literal_type, non_literal_type, total = 0, 0, 0
+literal_exp, non_lit_exp, literals = 0, 0, 0
+literal_heads, non_lit_heads = 0, 0
+mixed, pragmatics, metonymy = 0, 0, 0
+embedded_assoc, embedded_non, homonyms = 0, 0, 0
+modifier_noun_lit, modifier_adj_lit, post_mod_lit = 0, 0, 0
+modifier_noun_non, modifier_adj_non, post_mod_non = 0, 0, 0
+demonym, language = 0, 0
+
 for ann in annotations:
     for key in annotations[ann]:
-        t += 1
         x = annotations[ann][key]
-        if x.type == "Literal": # and x.mod_value =="Demonym":
-            c += 1
-print c, t
+        if x.type == "Literal_Expression":
+            literal_exp += 1
+            if x.non_locative:
+                non_lit_heads += 1
+            else:
+                literal_heads += 1
+        if x.type == "Non_Lit_Expression":
+            non_lit_exp += 1
+            if x.non_locative:
+                non_lit_heads += 1
+            else:
+                literal_heads += 1
+        if x.type == "Literal":
+            literals += 1
+        if x.type == "Mixed":
+            mixed += 1
+        if x.type == "Pragmatics":
+            pragmatics += 1
+        if x.type == "Metonymic":
+            metonymy += 1
+        if x.type == "Modifier":
+            if x.non_locative:
+                if x.mod_value == "Noun" or x.mod_value == "Possessive":
+                    modifier_noun_non += 1
+                if x.mod_value == "Adjective":
+                    modifier_adj_non += 1
+                if x.mod_value == "Appositional":
+                    post_mod_non += 1
+            else:
+                if x.mod_value == "Noun" or x.mod_value == "Possessive":
+                    modifier_noun_lit += 1
+                if x.mod_value == "Adjective":
+                    modifier_adj_lit += 1
+                if x.mod_value == "Appositional":
+                    post_mod_lit += 1
+            if x.mod_value == "Demonym":
+                demonym += 1
+            if x.mod_value == "Language":
+                language += 1
+        if x.type == "Embedded":
+            if x.non_locative:
+                embedded_non += 1
+            else:
+                embedded_assoc += 1
+        if x.type == "Homonym":
+            homonyms += 1
+        total += 1
+
+print "------------------------------------------------------------------"
+print "Total Annotations:", total
+print "Literal Expressions:", literal_exp
+print "Non_Lit Expressions:", non_lit_exp
+print "Heads (literal, non_literal):", (literal_heads, non_lit_heads)
+total_minus_expressions = total - literal_exp - non_lit_exp
+print "Total excluding Expressions:", total_minus_expressions
+print "------------------------------------------------------------------"
+print "Literals:", literals, np.around(float(literals) / total_minus_expressions, 3) * 100, "%"
+print "Mixed:", mixed, np.around(float(mixed) / total_minus_expressions, 3) * 100, "%"
+print "Pragmatics:", pragmatics, np.around(float(pragmatics) / total_minus_expressions, 3) * 100, "%"
+print "Literal Mods (noun, adj):", (modifier_noun_lit + post_mod_lit, modifier_adj_lit),\
+(np.around(float(modifier_noun_lit + post_mod_lit) / total_minus_expressions, 3) * 100,
+ np.around(float(modifier_adj_lit) / total_minus_expressions, 3) * 100), "%"
+group_tot = literals + mixed + pragmatics + modifier_noun_lit + modifier_adj_lit + post_mod_lit
+print "Group total:", (group_tot), np.around(float(group_tot) / total_minus_expressions, 3) * 100, "%"
+print "------------------------------------------------------------------"
+print "Metonymy:", metonymy, np.around(float(metonymy) / total_minus_expressions, 3) * 100, "%"
+print "Non_Lit Mods (noun, adj, post):", (modifier_noun_non, modifier_adj_non, post_mod_non), \
+(np.around(float(modifier_noun_non) / total_minus_expressions, 3) * 100,
+ np.around(float(modifier_adj_non) / total_minus_expressions, 3) * 100,
+ np.around(float(post_mod_non) / total_minus_expressions, 3) * 100), "%"
+print "Demonyms:", demonym, np.around(float(demonym) / total_minus_expressions, 3) * 100, "%"
+group_tot = metonymy + modifier_noun_non + modifier_adj_non + post_mod_non + demonym
+print "Group total:", (group_tot), np.around(float(group_tot) / total_minus_expressions, 3) * 100, "%"
+print "------------------------------------------------------------------"
+print "Homonyms:", homonyms, np.around(float(homonyms) / total_minus_expressions, 3) * 100, "%"
+print "Language:", language, np.around(float(language) / total_minus_expressions, 3) * 100, "%"
+print "Embedded (assoc, non-loc):", (embedded_assoc, embedded_non), \
+(np.around(float(embedded_assoc) / total_minus_expressions, 3) * 100,
+ np.around(float(embedded_non) / total_minus_expressions, 3) * 100), "%"
+group_tot = homonyms + language + embedded_assoc + embedded_non
+print "Group total:", (group_tot), np.around(float(group_tot) / total_minus_expressions, 3) * 100, "%"
+print "------------------------------------------------------------------"
+print "Sanity Check:", demonym + language + homonyms + post_mod_lit + post_mod_non + embedded_non + embedded_assoc + \
+                        modifier_adj_non + modifier_noun_non + modifier_adj_lit + modifier_noun_lit + metonymy + \
+                        pragmatics + mixed + literals + literal_exp + non_lit_exp, "should equal total above!"
+print "------------------------------------------------------------------"
 
 # ------------------------------------END OF CORPUS STATISTICS-----------------------------------------

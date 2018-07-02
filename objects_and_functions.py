@@ -17,7 +17,7 @@ def get_coordinates(con, loc_name):
 
 class Annotation:
     """
-    A container ...
+    A small container for annotations, a convenient object for queries.
     """
     def __init__(self, key):
         self.key = key
@@ -27,10 +27,8 @@ class Annotation:
     start = None
     end = None
     text = None
-    mod_type = None
     mod_value = None
-    idiom = None
-    non_locative = None
+    non_locative = False
     geonames = None
 
     # def change_name(self, argument):
