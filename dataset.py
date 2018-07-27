@@ -64,7 +64,7 @@ import matplotlib.pyplot as plt
 # ------------------------------------END OF CORPUS GENERATION-----------------------------------------
 
 
-# -----------------------------------START OF BRAT FILES GENERATION--------------------------------------
+# -----------------------------------START OF BRAT FILES GENERATION------------------------------------
 
 # tree = etree.parse(u'data/WebNews500.xml')
 # c = etree.parse(u'data/EMM.xml')
@@ -78,7 +78,7 @@ import matplotlib.pyplot as plt
 #     if article.find('text').text != control.find('{http://emm.jrc.it}text').text:
 #         raise Exception("Ring Ding Ding!!!")
 
-# ------------------------------------END OF BRAT FILES GENERATION-----------------------------------------
+# ------------------------------------END OF BRAT FILES GENERATION---------------------------------------
 
 
 # ------------------------------------START OF CORPUS STATISTICS-----------------------------------------
@@ -124,11 +124,12 @@ for f in files:
     if len(ann) > 0:
         annotated += 1
 
-literal_type, non_literal_type, total = 0, 0, 0
-literal_exp, non_lit_exp, literals = 0, 0, 0
+
+embedded, homonyms, no_geo = 0, 0, 0
 literal_heads, non_lit_heads = 0, 0
-mixed, pragmatics, metonymy = 0, 0, 0
-embedded_assoc, embedded_non, homonyms = 0, 0, 0
+mixed, coercion, metonymy = 0, 0, 0
+literal_exp, non_lit_exp, literals = 0, 0, 0
+literal_type, non_literal_type, total = 0, 0, 0
 modifier_noun_lit, modifier_adj_lit, post_mod_lit = 0, 0, 0
 modifier_noun_non, modifier_adj_non, post_mod_non = 0, 0, 0
 demonym, language, has_coordinates, has_geonames = 0, 0, 0, 0
@@ -152,8 +153,8 @@ for ann in annotations:
             literals += 1
         if x.type == "Mixed":
             mixed += 1
-        if x.type == "Facilities":
-            pragmatics += 1
+        if x.type == "Coercion":
+            coercion += 1
         if x.type == "Metonymic":
             metonymy += 1
         if x.type == "Modifier":
@@ -176,10 +177,7 @@ for ann in annotations:
             if x.mod_value == "Language":
                 language += 1
         if x.type == "Embedded":
-            if x.non_locative:
-                embedded_non += 1
-            else:
-                embedded_assoc += 1
+            embedded += 1
         if x.type == "Homonym":
             homonyms += 1
         if x.geonames is not None:
@@ -187,6 +185,8 @@ for ann in annotations:
                 has_coordinates += 1
             else:
                 has_geonames += 1
+        else:
+            no_geo += 1
         total += 1
 
 print "------------------------------------------------------------------"
@@ -199,12 +199,12 @@ print "Total excluding Expressions:", total_minus_expressions
 print "------------------------------------------------------------------"
 print "Literals:", literals, np.around(float(literals) / total_minus_expressions, 3) * 100, "%"
 print "Mixed:", mixed, np.around(float(mixed) / total_minus_expressions, 3) * 100, "%"
-print "Facilities:", pragmatics, np.around(float(pragmatics) / total_minus_expressions, 3) * 100, "%"
+print "Coercion:", coercion, np.around(float(coercion) / total_minus_expressions, 3) * 100, "%"
 print "Literal Mods (noun, adj, post):", (modifier_noun_lit, modifier_adj_lit, post_mod_lit), \
     (np.around(float(modifier_noun_lit + post_mod_lit) / total_minus_expressions, 3) * 100,
      np.around(float(modifier_adj_lit) / total_minus_expressions, 3) * 100,
      np.around(float(post_mod_lit) / total_minus_expressions, 3) * 100), "%"
-group_tot = literals + mixed + pragmatics + modifier_noun_lit + modifier_adj_lit + post_mod_lit
+group_tot = literals + mixed + coercion + modifier_noun_lit + modifier_adj_lit + post_mod_lit
 print "Group total:", (group_tot), np.around(float(group_tot) / total_minus_expressions, 3) * 100, "%"
 print "------------------------------------------------------------------"
 print "Metonymy:", metonymy, np.around(float(metonymy) / total_minus_expressions, 3) * 100, "%"
@@ -218,16 +218,15 @@ group_tot = metonymy + modifier_noun_non + modifier_adj_non + post_mod_non + dem
 print "Group total:", (group_tot), np.around(float(group_tot) / total_minus_expressions, 3) * 100, "%"
 print "------------------------------------------------------------------"
 print "Homonyms:", homonyms, np.around(float(homonyms) / total_minus_expressions, 3) * 100, "%"
-print "Embedded (assoc, non-loc):", (embedded_assoc, embedded_non), \
-    (np.around(float(embedded_assoc) / total_minus_expressions, 3) * 100,
-     np.around(float(embedded_non) / total_minus_expressions, 3) * 100), "%"
-group_tot = homonyms + embedded_assoc + embedded_non
+print "Embedded:", embedded, \
+     np.around(float(embedded) / total_minus_expressions, 3) * 100, "%"
+group_tot = homonyms + embedded
 print "Group total:", (group_tot), np.around(float(group_tot) / total_minus_expressions, 3) * 100, "%"
 print "------------------------------------------------------------------"
-print "Sanity Check:", demonym + language + homonyms + post_mod_lit + post_mod_non + embedded_non + embedded_assoc + \
+print "Sanity Check:", demonym + language + homonyms + post_mod_lit + post_mod_non + embedded + \
                        modifier_adj_non + modifier_noun_non + modifier_adj_lit + modifier_noun_lit + metonymy + \
-                       pragmatics + mixed + literals + literal_exp + non_lit_exp, "should equal total above!"
-print "Coordinates vs Geonames:", has_coordinates, has_geonames
+                       coercion + mixed + literals + literal_exp + non_lit_exp, "should equal total above!"
+print "Coordinates vs Geonames vs None:", has_coordinates, has_geonames, no_geo
 print "Total files annotated:", annotated
 print "------------------------------------------------------------------"
 
@@ -235,31 +234,4 @@ print "------------------------------------------------------------------"
 
 # ------------------------------------END OF CORPUS STATISTICS-----------------------------------------
 
-# ------------------------------------START OF 100% TOPONYM RECALL---------------------------------------
 
-nlp = spacy.load(u'en_core_web_lg')
-files = [f for f in listdir(dir_path) if isfile(dir_path + f)]
-conn = sqlite3.connect('../data/geonames.db')
-c = conn.cursor()
-stopwords = nlp.Defaults.stop_words
-# add plural and singular
-adjectival_tops = set([annotations[x][y].text for x in annotations for y in annotations[x]
-                       if annotations[x][y].mod_value == 'Adjective' or annotations[x][y].mod_value == 'Demonym'])
-
-for f in files:
-    if f.endswith(".ann") or f.startswith("."):
-        continue
-    file_id = f.replace(".txt", "")
-    f = codecs.open(dir_path + f, encoding="utf-8")
-    doc = nlp(f.read())
-    print doc
-    print "ID:", file_id
-    indices = dict([(annotations[file_id][ann].start, annotations[file_id][ann].end) for ann in annotations[file_id]])
-    for word in doc:
-        if word.text.istitle() and word.text.lower() not in stopwords:
-            coord = get_coordinates(c, word.text)
-            if len(coord) > 0 or word.text in adjectival_tops:
-                if unicode(word.idx) not in indices:
-                    print word, word.i
-
-# ------------------------------------END OF 100% TOPONYM RECALL-----------------------------------------
