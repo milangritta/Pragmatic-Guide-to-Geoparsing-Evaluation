@@ -1,3 +1,7 @@
+import codecs
+from os import listdir
+from os.path import isfile
+WORKING_DIR = u"/Users/milangritta/Downloads/BRAT/data/milano/"
 
 
 def get_coordinates(con, loc_name):
@@ -33,3 +37,47 @@ class Annotation:
 
     # def change_name(self, argument):
     #     self.name = argument
+
+
+def text_to_ann():
+    """
+
+    :return:
+    """
+    annotated = 0
+    annotations = {}
+    files = [f for f in listdir(WORKING_DIR) if isfile(WORKING_DIR + f)]
+    for f in files:
+        if f.endswith(".txt") or f.startswith("."):
+            continue
+        ann = {}
+        annotations[str(f.replace(".ann", ""))] = ann
+        f = codecs.open(WORKING_DIR + f, encoding="utf-8")
+        for line in f:
+            line = line.strip().split("\t")
+            if line[0].startswith("T"):  # token
+                if line[0] in ann:
+                    raise Exception("Duplicate! Check.")
+                else:
+                    ann[line[0]] = Annotation(line[0])
+                    ann[line[0]].text = line[2]
+                    data = line[1].split(" ")
+                    ann[line[0]].type = data[0]
+                    ann[line[0]].start = data[1]
+                    ann[line[0]].end = data[2]
+            if line[0].startswith("A"):  # attribute
+                data = line[1].split(" ")
+                if data[1] not in ann:
+                    raise Exception("No record! Check.")
+                if data[0] == "Modifier_Type":
+                    ann[data[1]].mod_value = data[2]
+                elif data[0] == "Non_Locative":
+                    ann[data[1]].non_locative = True
+                else:
+                    raise Exception("This should never be triggered!")
+            if line[0].startswith("#"):  # annotator note
+                data = line[1].split(" ")
+                if data[1] not in ann:
+                    raise Exception("No record! Check.")
+                ann[data[1]].geonames = line[2]
+    return annotations
