@@ -1,7 +1,9 @@
 import codecs
 from os import listdir
+# noinspection PyUnresolvedReferences
 from os.path import isfile
-WORKING_DIR = u"/Users/milangritta/Downloads/BRAT/data/milano/"
+import xml.etree.ElementTree as ET
+ANNOT_SOURCE_DIR = u"/Users/milangritta/Downloads/BRAT/data/milano/"
 
 
 def get_coordinates(con, loc_name):
@@ -46,13 +48,13 @@ def text_to_ann():
     """
     annotated = 0
     annotations = {}
-    files = [f for f in listdir(WORKING_DIR) if isfile(WORKING_DIR + f)]
+    files = [f for f in listdir(ANNOT_SOURCE_DIR) if isfile(ANNOT_SOURCE_DIR + f)]
     for f in files:
         if f.endswith(".txt") or f.startswith("."):
             continue
         ann = {}
         annotations[str(f.replace(".ann", ""))] = ann
-        f = codecs.open(WORKING_DIR + f, encoding="utf-8")
+        f = codecs.open(ANNOT_SOURCE_DIR + f, encoding="utf-8")
         for line in f:
             line = line.strip().split("\t")
             if line[0].startswith("T"):  # token
@@ -81,3 +83,78 @@ def text_to_ann():
                     raise Exception("No record! Check.")
                 ann[data[1]].geonames = line[2]
     return annotations
+
+
+def transform_tags(file_name, output):
+    """
+
+    :param file_name:
+    :param output:
+    :return:
+    """
+    inp = codecs.open(file_name, encoding="utf-8")
+    out = codecs.open(output, mode="w", encoding="utf-8")
+    last = inp.next()
+    current = inp.next()
+    if last.split(" ")[-1].strip() != u"0":
+        o = last.split(" ")
+        if current.split(" ")[-1].strip() == u"0":
+            o[-1] = u"S-" + last.split(" ")[-1]
+        else:
+            o[-1] = u"B-" + last.split(" ")[-1]
+        out.write(u" ".join(o))
+    else:
+        out.write(last)
+
+    for line in inp:
+        if current.strip() == u"":
+            out.write(current)
+        elif current.split(" ")[-1].strip() != u"0":
+            o = current.split(" ")
+            if last.split(" ")[-1].strip() == u"0" or last.strip() == u"":
+                if line.split(" ")[-1].strip() == u"0":
+                    o[-1] = u"S-" + current.split(" ")[-1]
+                else:
+                    o[-1] = u"B-" + current.split(" ")[-1]
+            elif line.split(" ")[-1].strip() == u"0":
+                o[-1] = u"E-" + current.split(" ")[-1]
+            else:
+                o[-1] = u"M-" + current.split(" ")[-1]
+            out.write(u" ".join(o))
+        else:
+            out.write(current)
+        last = current
+        current = line
+
+    if current.strip() == u"":
+        out.write(current)
+    elif current.split(" ")[-1].strip() != u"0":
+        o = current.split(" ")
+        if last.split(" ")[-1].strip() == u"0" or last.strip() == u"":
+            o[-1] = u"S-" + current.split(" ")[-1]
+        else:
+            o[-1] = u"E-" + current.split(" ")[-1]
+        out.write(u" ".join(o))
+    else:
+        out.write(current)
+
+
+def build_noun_toponyms():
+    """
+
+    :return:
+    """
+    tree = ET.parse('data/GeoVirus.xml')
+    toponyms = set()
+    for article in tree.getroot():
+        for location in article.findall("locations/location"):
+            name = location.find("name").text
+            toponyms.add(name)
+    tree = ET.parse("data/WikToR.xml")
+    for page in tree.getroot():
+        name = page.find("toponymName").text
+        toponyms.add(name)
+    out = codecs.open("data/noun_toponyms.txt", mode="w", encoding="utf-8")
+    for top in toponyms:
+        out.write(top + "\n")
+
