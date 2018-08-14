@@ -1,9 +1,18 @@
+# coding=utf-8
 import codecs
+import os
+import sqlite3
 from os import listdir
+import six
 # noinspection PyUnresolvedReferences
 from os.path import isfile
+# Imports the Google Cloud client library
+from google.cloud import language
+from google.cloud.language import enums
+from google.cloud.language import types
 import xml.etree.ElementTree as ET
 ANNOT_SOURCE_DIR = u"/Users/milangritta/Downloads/BRAT/data/milano/"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/milangritta/Downloads/GeoWebNews-0dca974782b0.json"
 
 
 def get_coordinates(con, loc_name):
@@ -145,16 +154,74 @@ def build_noun_toponyms():
     :return:
     """
     tree = ET.parse('data/GeoVirus.xml')
+    conn = sqlite3.connect(u'../data/geonames.db')
+    c = conn.cursor()
     toponyms = set()
     for article in tree.getroot():
         for location in article.findall("locations/location"):
             name = location.find("name").text
-            toponyms.add(name)
+            meta = get_coordinates(c, name)
+            if 2 < len(meta) < 6:
+                toponyms.add(name)
     tree = ET.parse("data/WikToR.xml")
     for page in tree.getroot():
         name = page.find("toponymName").text
-        toponyms.add(name)
-    out = codecs.open("data/noun_toponyms.txt", mode="w", encoding="utf-8")
+        meta = get_coordinates(c, name)
+        if 2 < len(meta) < 6:
+            toponyms.add(name)
+    out = codecs.open("data/n_toponyms.txt", mode="w", encoding="utf-8")
     for top in toponyms:
         out.write(top + "\n")
+    print("Saved:", len(toponyms), "toponyms.")
 
+
+def google_NER(text):
+    """
+
+    :param text:
+    :return:
+    """
+    client = language.LanguageServiceClient()
+
+    if isinstance(text, six.binary_type):
+        text = text.decode('utf-8')
+
+    # Instantiates a plain text document.
+    document = types.Document(content=text, type=enums.Document.Type.PLAIN_TEXT)
+
+    # Detects entities in the document. You can also analyze HTML with:
+    #   document.type == enums.Document.Type.HTML
+    entities = client.analyze_entities(document, encoding_type=enums.EncodingType.UTF8).entities
+
+    # entity types from enums.Entity.Type
+    entity_type = ('UNKNOWN', 'PERSON', 'LOCATION', 'ORGANIZATION',
+                   'EVENT', 'WORK_OF_ART', 'CONSUMER_GOOD', 'OTHER')
+
+    for entity in entities:
+        print('=' * 20)
+        print(u'{:<16}: {}'.format('name', entity.name))
+        print(u'{:<16}: {}'.format('type', entity_type[entity.type]))
+        print(u'{:<16}: {}'.format('metadata', entity.metadata))
+        print(u'{:<16}: {}'.format('salience', entity.salience))
+        print(u'{:<16}: {}'.format('wikipedia_url',
+              entity.metadata.get('wikipedia_url', '-')))
+
+
+# google_NER(u"This area formed the heart of the plantation of Bernard Xavier Philippe de Marigny de Mandeville, who lived in a mansion where the electrical substation now stands. Expecting that the Louisiana Purchase would spur urban expansion, Marigny had his parcel subdivided for urbanization in 1805, hiring French engineer Nicolas de Finiels to design a plat. Finiels successfully reconciled an extension of the French Quarter street grid with a sharp bend of the Mississippi River by reshaping key connector squares into polygons of various configurations, which surveyor Barthelemy Lafon then laid out in 1806. The first neighborhood downriver from the city proper, the Faubourg Marigny soon developed into a predominantly Creole community, including substantial numbers of both Free People of Color, as well as enslaved African Americans and German, Irish and other immigrant populations. A century later, these riverfront blocks hosted a variety of light industrial land uses worked by the neighborhood’s blue-collar residents. The four blocks surrounding this intersection were occupied in the early 1900s by rice mills, an ice plant, horse and mule stables, a yarn and hosiery factory and a streetcar barn; the streets themselves were paved in granite stones.")
+
+def strip_sentence(s, is_augmented, is_annotated, keep_tags):
+    """
+
+    :param s:
+    :param is_augmented:
+    :param is_annotated:
+    :param keep_tags:
+    :return:
+    """
+    if is_augmented and is_annotated:
+        return [(a, b, c) for (a, b, c) in s if not b] if keep_tags else [a for (a, b, c) in s if not b]
+    else:
+        return [(a, b, c) for (a, b, c) in s] if keep_tags else [a for (a, b, c) in s]
+
+
+# build_noun_toponyms()
