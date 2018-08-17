@@ -1,12 +1,15 @@
 # coding=utf-8
+from __future__ import print_function
 import codecs
 import os
+import random
+
+import spacy
 import sqlite3
 from os import listdir
 import six
 # noinspection PyUnresolvedReferences
 from os.path import isfile
-# Imports the Google Cloud client library
 from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
@@ -55,7 +58,6 @@ def text_to_ann():
 
     :return:
     """
-    annotated = 0
     annotations = {}
     files = [f for f in listdir(ANNOT_SOURCE_DIR) if isfile(ANNOT_SOURCE_DIR + f)]
     for f in files:
@@ -153,61 +155,50 @@ def build_noun_toponyms():
 
     :return:
     """
-    tree = ET.parse('data/GeoVirus.xml')
-    conn = sqlite3.connect(u'../data/geonames.db')
-    c = conn.cursor()
-    toponyms = set()
-    for article in tree.getroot():
-        for location in article.findall("locations/location"):
-            name = location.find("name").text
-            meta = get_coordinates(c, name)
-            if 2 < len(meta) < 6:
-                toponyms.add(name)
-    tree = ET.parse("data/WikToR.xml")
-    for page in tree.getroot():
-        name = page.find("toponymName").text
-        meta = get_coordinates(c, name)
-        if 2 < len(meta) < 6:
-            toponyms.add(name)
-    out = codecs.open("data/n_toponyms.txt", mode="w", encoding="utf-8")
-    for top in toponyms:
-        out.write(top + "\n")
-    print("Saved:", len(toponyms), "toponyms.")
+    # toponyms = set()
+    for line in codecs.open(u"../data/allCountries.txt", u"r", encoding=u"utf-8"):
+        line = line.split("\t")
+        name = line[2]
+        # if line[7] in ["BCH", "DSRT", "ISL", "MT", "VAL", "FRST", "ST", "RD", "AIRP", "BLDG", "CH", "CSTL", "FCL", "RES",
+        #                "BAY", "FRM", "HSP", "MAR", "MKT", "QUAY", "SCH", "UNIV", "SQR", "STDM", "TMPL", "ZOO", "CST",
+        #                "PRK", "RGN", "CNL", "GULF", "LK", "LKS", "OCN", "SEA"]:
+        #     toponyms.add(name)
+        #     if random.random() > 0.9999:
+        #         print(name)
+        if line[6] in ["A", "P"] and int(line[14]) > 500000:
+            # toponyms.add(name)
+            if random.random() > 0.9:
+                print(name)
+    # out = codecs.open("data/n_toponyms.txt", mode="w", encoding="utf-8")
+    # for top in toponyms:
+    #     out.write(top + "\n")
+    # print("Saved:", len(toponyms), "toponyms.")
 
 
-def google_NER(text):
+def google_NER(text, nlp):
     """
 
     :param text:
     :return:
     """
+    locations = []
     client = language.LanguageServiceClient()
-
-    if isinstance(text, six.binary_type):
-        text = text.decode('utf-8')
-
-    # Instantiates a plain text document.
     document = types.Document(content=text, type=enums.Document.Type.PLAIN_TEXT)
-
-    # Detects entities in the document. You can also analyze HTML with:
-    #   document.type == enums.Document.Type.HTML
-    entities = client.analyze_entities(document, encoding_type=enums.EncodingType.UTF8).entities
-
-    # entity types from enums.Entity.Type
-    entity_type = ('UNKNOWN', 'PERSON', 'LOCATION', 'ORGANIZATION',
-                   'EVENT', 'WORK_OF_ART', 'CONSUMER_GOOD', 'OTHER')
+    entities = client.analyze_entities(document, encoding_type=enums.EncodingType.UTF32).entities
 
     for entity in entities:
-        print('=' * 20)
-        print(u'{:<16}: {}'.format('name', entity.name))
-        print(u'{:<16}: {}'.format('type', entity_type[entity.type]))
-        print(u'{:<16}: {}'.format('metadata', entity.metadata))
-        print(u'{:<16}: {}'.format('salience', entity.salience))
-        print(u'{:<16}: {}'.format('wikipedia_url',
-              entity.metadata.get('wikipedia_url', '-')))
+        for mention in entity.mentions:
+            if mention.type == 1 and entity.type == 2:
+                last_offset = mention.text.begin_offset
+                for word in nlp(mention.text.content):
+                    if word.is_punct:
+                        locations.append((last_offset - 1, word.text))
+                        last_offset += len(word) - 1
+                    else:
+                        locations.append((last_offset, word.text))
+                        last_offset += len(word) + 1
+    return dict(locations)
 
-
-# google_NER(u"This area formed the heart of the plantation of Bernard Xavier Philippe de Marigny de Mandeville, who lived in a mansion where the electrical substation now stands. Expecting that the Louisiana Purchase would spur urban expansion, Marigny had his parcel subdivided for urbanization in 1805, hiring French engineer Nicolas de Finiels to design a plat. Finiels successfully reconciled an extension of the French Quarter street grid with a sharp bend of the Mississippi River by reshaping key connector squares into polygons of various configurations, which surveyor Barthelemy Lafon then laid out in 1806. The first neighborhood downriver from the city proper, the Faubourg Marigny soon developed into a predominantly Creole community, including substantial numbers of both Free People of Color, as well as enslaved African Americans and German, Irish and other immigrant populations. A century later, these riverfront blocks hosted a variety of light industrial land uses worked by the neighborhood’s blue-collar residents. The four blocks surrounding this intersection were occupied in the early 1900s by rice mills, an ice plant, horse and mule stables, a yarn and hosiery factory and a streetcar barn; the streets themselves were paved in granite stones.")
 
 def strip_sentence(s, is_augmented, is_annotated, keep_tags):
     """
@@ -225,3 +216,25 @@ def strip_sentence(s, is_augmented, is_annotated, keep_tags):
 
 
 # build_noun_toponyms()
+
+# nlp = spacy.load('en_core_web_lg')
+# spacy_o = codecs.open("data/spacy.txt", mode="w", encoding="utf-8")
+# google_o = codecs.open("data/google.txt", mode="w", encoding="utf-8")
+#
+# for file_name in text_to_ann():
+#     text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
+#     metadata = text.next()
+#     text = text.read()
+#     google = google_NER(text, nlp)
+#     for sentence in nlp(text).sents:
+#         for word in sentence:
+#             spacy_label = u"Entity" if word.ent_type_ in [u"LOC", u"FAC", u"NORP", u"GPE"] else u"0"
+#             spacy_label = spacy_label if word.text != u"the" else u"0"
+#             google_label = u"Entity" if word.idx in google else u"0"
+#             if word.idx in google:
+#                 if google[word.idx] != word.text:
+#                     print(u"ERR: google[word.idx] != word.text", google[word.idx], word.text, word.idx)
+#             spacy_o.write(word.text + u" " + spacy_label + u"\n")
+#             google_o.write(word.text + u" " + google_label + u"\n")
+#         spacy_o.write("\n")
+#         google_o.write("\n")

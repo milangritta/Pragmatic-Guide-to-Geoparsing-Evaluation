@@ -8,37 +8,13 @@ import numpy as np
 from urlparse import urlparse
 from lxml import etree, objectify
 import matplotlib
-from objects_and_functions import Annotation, get_coordinates, text_to_ann
+from objects_and_functions import text_to_ann
 
 # matplotlib.use('TkAgg')
 # from os import listdir
 # import matplotlib.pyplot as plt
 
 # -------------------------------START OF GENERATION---------------------------------
-
-# big_tree = etree.ElementTree(etree.Element('articles'))
-# big_root = big_tree.getroot()
-# for i in range(1, 27):
-#     tree = etree.parse(u'data/medisys' + unicode(i) + u'.xml')
-#     root = tree.getroot()
-#     for article in root.findall('channel/item'):
-#         if article.find('{http://www.iso.org/3166}language').text == u'en':
-#             big_root.append(article)
-# big_tree.write("data/EMM.xml", encoding='utf-8', pretty_print=True)
-
-# domains = set()
-# tree = etree.parse(u'data/EMM.xml')
-# root = tree.getroot()
-# for article in root:
-#     if len(domains) > 499:
-#         root.remove(article)
-#         continue
-#     link = article.find('link').text
-#     if urlparse(link)[1] not in domains and int(article.find('{http://emm.jrc.it}text').attrib['wordCount']) / 10 > 10:
-#         domains.add(urlparse(link)[1])
-#     else:
-#         root.remove(article)
-# tree.write("data/EMM.xml", encoding='utf-8', pretty_print=True)
 
 # tree = etree.parse(u'data/EMM.xml')
 # root = tree.getroot()
@@ -51,9 +27,7 @@ from objects_and_functions import Annotation, get_coordinates, text_to_ann
 #             article.remove(attribute)
 #         else:
 #             attribute.tag = etree.QName(attribute).localname
-# tree.write("data/WebNews500.xml", encoding='utf-8', pretty_print=True)
-
-# print model.summary()
+# tree.write("data/GeoWebNews.xml", encoding='utf-8', pretty_print=True)
 
 # counter = Counter(domains)
 # print counter.most_common()
@@ -67,7 +41,7 @@ from objects_and_functions import Annotation, get_coordinates, text_to_ann
 
 # -----------------------------------START OF BRAT FILES GENERATION------------------------------------
 
-# tree = etree.parse(u'data/WebNews500.xml')
+# tree = etree.parse(u'data/GeoWebNews.xml')
 # c = etree.parse(u'data/EMM.xml')
 # for (index, article), control in zip(enumerate(tree.getroot()), c.getroot()):
 #     f = codecs.open(u"WebNews500/" + unicode(index) + u".txt", "w", "utf-8")

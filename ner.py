@@ -6,7 +6,7 @@ import spacy
 import random
 from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, transform_tags, strip_sentence
 
-random.seed(1234567)
+random.seed(12345)
 
 annotations = text_to_ann()
 m_toponyms = codecs.open("data/m_toponyms.txt", encoding="utf-8")
@@ -58,13 +58,14 @@ for file_name in annotations:
                         # head = word.text if t.head == t else t.head.text
                         # output.append((t.text + u" [Shape]" + t.shape_ + u" [Head]" + head + u" Entity\n", True))
                         sentence_out.append((t.text + u" [Shape]" + t.shape_ + u" Entity\n", True, word.i - t.i))
-                    top = nlp(n_toponyms[random.randint(0, len(n_toponyms) - 1)])
-                    for t in top:
-                        replacement.append((t.text + u" [Shape]" + t.shape_ + u" Entity\n", True, word.i))
-                    replacements.append(replacement)
+                    if label == u"Literal_Expression":
+                        top = nlp(n_toponyms[random.randint(0, len(n_toponyms) - 1)])
+                        for t in top:
+                            replacement.append((t.text + u" [Shape]" + t.shape_ + u" Entity\n", True, word.i))
+                        replacements.append(replacement)
             # output.append((word.text + u" [Shape]" + word.shape_ + u" [Head]" + word.head.text + u" " + label_map.get(label, u"0") + "\n", False))
             sentence_out.append((word.text + u" [Shape]" + word.shape_ + u" " + label_map.get(label, u"0") + "\n", False, word.i))
-            # DECODE SETUP? How does BMES actually work? Replace SGD? Merge multiple train files?
+            # DECODE SETUP? How does BMES actually work? Replace SGD? Merge multiple train files? Is in Geonames feature?
             if label != u"0":
                 index += len(word) + 1
             if ann != 0 and index - 1 >= int(annot[ann].end):
@@ -85,28 +86,31 @@ for file_name in annotations:
                                 sentence_augmented.insert(i - (right - left), r)
                 all_sents.append((strip_sentence(sentence_augmented, is_aug, is_ann, False), is_aug and not is_ann))
         # http://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
-    all_files.append(all_sents)
+    all_files.append((all_sents, file_name))
 
 train = codecs.open("data/train.txt", mode="w", encoding="utf-8")
-dev = codecs.open("data/dev.txt", mode="w", encoding="utf-8")
 test = codecs.open("data/test.txt", mode="w", encoding="utf-8")
 raw = codecs.open("data/raw.txt", mode="w", encoding="utf-8")
 
-for all_sents in all_files:
-    r = random.random()
+test_indices = sorted(annotations.keys())[0:40]
+assert len(test_indices) == 40 and len(annotations.keys()) == 200
+for all_sents, file_name in all_files:
     for sentence, is_aug in all_sents:
         for word in sentence:
-            if r < 0.8 or is_aug:
+            if file_name not in test_indices or is_aug:
                 train.write(word)
-            elif r > 0.9:
-                dev.write(word)
             else:
                 test.write(word)
             word = word.split(" ")
             raw.write(word[0] + u" " + word[-1])
 
 transform_tags(file_name="data/train.txt", output="data/train_bmes.txt")
-transform_tags(file_name="data/dev.txt", output="data/dev_bmes.txt")
 transform_tags(file_name="data/test.txt", output="data/test_bmes.txt")
 transform_tags(file_name="data/raw.txt", output="data/raw_bmes.txt")
 # http://www.nltk.org/api/nltk.tag.html#module-nltk.tag.stanford
+
+# Fold 1: 86.6 part-augmented
+# Fold 2: 88.1 part-augmented
+# Fold 3: 87.6 part-augmented
+# Fold 4: 90.2 part-augmented
+# Fold 5: 89.1 part-augmented
