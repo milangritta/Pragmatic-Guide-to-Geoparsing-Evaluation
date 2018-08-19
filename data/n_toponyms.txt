@@ -527,6 +527,10 @@ Keaton Ditch
 Jockey Cap Island
 Fulton County
 The Outlet
+U.S.
+US
+UK
+Washington, D.C.
 Lycoming County
 Wesley Chapel
 Osamequin Nature Trails and Bird Sanctuary
@@ -1488,3 +1492,147 @@ Cape Winelands District Municipality
 Capricorn District Municipality
 Bay Metropolitan Municipality
 Mashonaland West Province
+Abu Dhabi
+Luanda
+South Australia
+Manaus
+British Columbia
+North York
+West Region
+Colombia
+Cyprus
+Frankfurt
+Kingdom of Spain
+Cordoba
+Fiji
+Republic of France
+Greater London
+Dorset
+Cornwall
+Volta Region
+Athens
+Northern District
+Chandigarh
+Kolkata
+North Delhi
+Sicilia
+Florence
+Osaka
+Nagoya
+North Central Province
+Macedonia
+Mauritius
+Southern Region
+Mexico
+Baja California
+Namibia
+Netherlands
+City of Manila
+Makati City
+National Capital Region
+Puerto Rico
+Gaza
+Moscow
+Khartoum
+Northern Province
+Western Equatoria
+San Salvador
+Turkmenistan
+Tunis
+Ankara
+Istanbul
+Eastern Region
+Marion County
+Kansas
+Baltimore
+Collin County
+Fort Bend County
+Will County
+Bristol County
+Nebraska
+Erie County
+Lancaster County
+Rhode Island
+Vermont
+Milwaukee
+Riverside County
+Ventura County
+Montana
+Massachusetts
+Montevideo
+Ho Chi Minh City
+Republic of Yemen
+Caracas Municipality
+Caracas
+Johannesburg
+Kabul
+Helmand
+Islamic Republic of Afghanistan
+Yerevan
+Austria
+Queensland
+Baku
+Azerbaijan
+Sarajevo
+Bahrain
+Sao Paulo
+Rio de Janeiro
+Nova Scotia
+Central African Republic
+Algiers
+Sevilla
+Valencia
+Worcestershire
+Staffordshire
+Oxfordshire
+North Yorkshire
+Essex
+Liverpool
+Haiti
+Surakarta
+Jakarta
+Baghdad
+Mosul
+Iraq
+Rift Valley Province
+Korea
+Colombo
+Vilnius
+Riga
+Chisinau
+Central Region
+Cancun
+Mozambique
+Namibia
+Lagos
+Manila
+Davao
+Islamabad
+Samara
+Western Area
+Dakar
+South Sudan
+Damascus
+Tajikistan
+Antalya
+Washington, D.C.
+New Castle County
+Louisiana
+Baltimore
+Jackson County
+Ocean County
+Iowa
+Middlesex
+Brooklyn
+Erie County
+Bucks County
+Sacramento County
+Portland
+South Dakota
+Utah County
+United States
+Midlands Province
+U.S.
+US
+UK
+Washington, D.C.

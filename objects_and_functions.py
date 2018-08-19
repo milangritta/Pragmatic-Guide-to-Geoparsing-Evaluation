@@ -183,7 +183,7 @@ def google_NER(text, nlp):
     """
     locations = []
     client = language.LanguageServiceClient()
-    document = types.Document(content=text, type=enums.Document.Type.PLAIN_TEXT)
+    document = types.Document(content=text, type=enums.Document.Type.PLAIN_TEXT, language='en')
     entities = client.analyze_entities(document, encoding_type=enums.EncodingType.UTF32).entities
 
     for entity in entities:
@@ -217,24 +217,25 @@ def strip_sentence(s, is_augmented, is_annotated, keep_tags):
 
 # build_noun_toponyms()
 
-# nlp = spacy.load('en_core_web_lg')
-# spacy_o = codecs.open("data/spacy.txt", mode="w", encoding="utf-8")
-# google_o = codecs.open("data/google.txt", mode="w", encoding="utf-8")
-#
-# for file_name in text_to_ann():
-#     text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
-#     metadata = text.next()
-#     text = text.read()
-#     google = google_NER(text, nlp)
-#     for sentence in nlp(text).sents:
-#         for word in sentence:
-#             spacy_label = u"Entity" if word.ent_type_ in [u"LOC", u"FAC", u"NORP", u"GPE"] else u"0"
-#             spacy_label = spacy_label if word.text != u"the" else u"0"
-#             google_label = u"Entity" if word.idx in google else u"0"
-#             if word.idx in google:
-#                 if google[word.idx] != word.text:
-#                     print(u"ERR: google[word.idx] != word.text", google[word.idx], word.text, word.idx)
-#             spacy_o.write(word.text + u" " + spacy_label + u"\n")
-#             google_o.write(word.text + u" " + google_label + u"\n")
-#         spacy_o.write("\n")
-#         google_o.write("\n")
+nlp = spacy.load('en_core_web_lg')
+spacy_o = codecs.open("data/spacy.txt", mode="a", encoding="utf-8")
+google_o = codecs.open("data/google.txt", mode="a", encoding="utf-8")
+
+for file_name in sorted(text_to_ann().keys()):
+    print("Starting file name", file_name)
+    text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
+    metadata = text.next()
+    text = text.read()
+    google = google_NER(text, nlp)
+    for sentence in nlp(text).sents:
+        for word in sentence:
+            spacy_label = u"Entity" if word.ent_type_ in [u"LOC", u"FAC", u"NORP", u"GPE"] else u"0"
+            spacy_label = spacy_label if word.text != u"the" else u"0"
+            google_label = u"Entity" if word.idx in google else u"0"
+            if word.idx in google:
+                if google[word.idx] != word.text:
+                    print(u"ERR: google[word.idx] != word.text", google[word.idx], word.text, word.idx)
+            spacy_o.write(word.text + u" " + spacy_label + u"\n")
+            google_o.write(word.text + u" " + google_label + u"\n")
+        spacy_o.write("\n")
+        google_o.write("\n")

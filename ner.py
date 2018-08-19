@@ -58,11 +58,11 @@ for file_name in annotations:
                         # head = word.text if t.head == t else t.head.text
                         # output.append((t.text + u" [Shape]" + t.shape_ + u" [Head]" + head + u" Entity\n", True))
                         sentence_out.append((t.text + u" [Shape]" + t.shape_ + u" Entity\n", True, word.i - t.i))
-                    if label == u"Literal_Expression":
-                        top = nlp(n_toponyms[random.randint(0, len(n_toponyms) - 1)])
-                        for t in top:
-                            replacement.append((t.text + u" [Shape]" + t.shape_ + u" Entity\n", True, word.i))
-                        replacements.append(replacement)
+                    # if label == u"Literal_Expression":
+                    top = nlp(n_toponyms[random.randint(0, len(n_toponyms) - 1)])
+                    for t in top:
+                        replacement.append((t.text + u" [Shape]" + t.shape_ + u" Entity\n", True, word.i))
+                    replacements.append(replacement)
             # output.append((word.text + u" [Shape]" + word.shape_ + u" [Head]" + word.head.text + u" " + label_map.get(label, u"0") + "\n", False))
             sentence_out.append((word.text + u" [Shape]" + word.shape_ + u" " + label_map.get(label, u"0") + "\n", False, word.i))
             # DECODE SETUP? How does BMES actually work? Replace SGD? Merge multiple train files? Is in Geonames feature?
@@ -92,7 +92,7 @@ train = codecs.open("data/train.txt", mode="w", encoding="utf-8")
 test = codecs.open("data/test.txt", mode="w", encoding="utf-8")
 raw = codecs.open("data/raw.txt", mode="w", encoding="utf-8")
 
-test_indices = sorted(annotations.keys())[0:40]
+test_indices = sorted(annotations.keys())[80:120]
 assert len(test_indices) == 40 and len(annotations.keys()) == 200
 for all_sents, file_name in all_files:
     for sentence, is_aug in all_sents:
@@ -109,8 +109,8 @@ transform_tags(file_name="data/test.txt", output="data/test_bmes.txt")
 transform_tags(file_name="data/raw.txt", output="data/raw_bmes.txt")
 # http://www.nltk.org/api/nltk.tag.html#module-nltk.tag.stanford
 
-# Fold 1: 86.6 part-augmented
-# Fold 2: 88.1 part-augmented
-# Fold 3: 87.6 part-augmented
-# Fold 4: 90.2 part-augmented
-# Fold 5: 89.1 part-augmented
+# Fold 1: 86.6 part-augmented -> 87.6 post
+# Fold 2: 88.1 part-augmented -> 88.5 post
+# Fold 3: 87.6 part-augmented -> 87.0 post
+# Fold 4: 90.2 part-augmented -> 91.2 post
+# Fold 5: 89.1 part-augmented -> 87.7 post
