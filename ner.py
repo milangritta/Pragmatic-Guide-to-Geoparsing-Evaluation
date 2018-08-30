@@ -71,6 +71,7 @@ for file_name in annotations:
             if ann != 0 and index - 1 >= int(annot[ann].end):
                 label = u"0"
         sentence_out.append((u"\n", False, -1))
+        # BUT IF THIS SENTENCE GOES INTO TRAINING DATA THEN IT CAN OVERLAP (BE INCLUDED WITH) WITH PROPER NOUNS
         all_sents.append((strip_sentence(sentence_out, is_aug, is_ann, False), is_aug and not is_ann))
         if is_aug and not is_ann:
             for head, replacement in zip(np_heads, replacements):
@@ -90,7 +91,6 @@ for file_name in annotations:
 
 train = codecs.open("data/train.txt", mode="w", encoding="utf-8")
 test = codecs.open("data/test.txt", mode="w", encoding="utf-8")
-raw = codecs.open("data/raw.txt", mode="w", encoding="utf-8")
 
 test_indices = sorted(annotations.keys())[80:120]
 assert len(test_indices) == 40 and len(annotations.keys()) == 200
@@ -101,12 +101,9 @@ for all_sents, file_name in all_files:
                 train.write(word)
             else:
                 test.write(word)
-            word = word.split(" ")
-            raw.write(word[0] + u" " + word[-1])
 
 transform_tags(file_name="data/train.txt", output="data/train_bmes.txt")
 transform_tags(file_name="data/test.txt", output="data/test_bmes.txt")
-transform_tags(file_name="data/raw.txt", output="data/raw_bmes.txt")
 # http://www.nltk.org/api/nltk.tag.html#module-nltk.tag.stanford
 
 # Fold 1: 86.6 part-augmented -> 87.6 post
