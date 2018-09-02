@@ -55,6 +55,59 @@ from objects_and_functions import text_to_ann
 
 # ------------------------------------END OF BRAT FILES GENERATION---------------------------------------
 
+# ----------------------------------- START OF ANNOTATOR AGREEMENT ---------------------------------------
+
+# from bratutils import agreement as a
+#
+# milan = a.DocumentCollection('data/IAA/milano/')
+# flora = a.DocumentCollection('data/IAA/flora/')
+# mina = a.DocumentCollection('data/IAA/mina/')
+# milan.make_gold()
+
+# ------------------ PLEASE READ -------------------------
+# You need to paste this code change into agreement.py in BratUtils at line 650
+# because we must exclude the augmentation files and Non_Toponym boundaries.
+# if not line.startswith("#") and not line.startswith("A"):
+#     ann = Annotation(line)
+#     if ann.tag_name not in ["Non_Toponym", "Literal_Expression", "Non_Lit_Expression"]:
+#         self.tags.append(ann)
+# -------------------- THANKS ----------------------------
+
+
+# print(flora.compare_to_gold(milan))
+# print("Milan-Flora IAA")
+# print(mina.compare_to_gold(milan))
+# print("Milan-Mina IAA")
+
+# milan_geo = text_to_ann("data/IAA/milano/")
+# mina_geo = text_to_ann("data/IAA/mina/")
+# exclude = ["Non_Toponym", "Literal_Expression", "Non_Lit_Expression"]
+# agree, total = 0.0, 0.0
+#
+# for milan_file, mina_file in zip(milan_geo, mina_geo):
+#     assert milan_file == mina_file
+#     for milan_ann in milan_geo[milan_file]:
+#         gold = milan_geo[milan_file][milan_ann]
+#         if gold.toponym_type in exclude:
+#             continue
+#         for mina_ann in mina_geo[mina_file]:
+#             comp = mina_geo[mina_file][mina_ann]
+#             if comp.toponym_type in exclude:
+#                 continue
+#             if comp.start == gold.start and comp.end == gold.end:
+#                 total += 1
+#                 if comp.geonames_id != gold.geonames_id:
+#                     print(comp.text, comp.toponym_type)
+#                     print(comp.geonames_id, gold.geonames_id)
+#                     print(milan_file, comp.key)
+#                     print("---------------------------------")
+#                 else:
+#                     agree += 1
+#
+# print("Geocoding agreement (accuracy):", agree / total)
+
+# ----------------------------------- END OF ANNOTATOR AGREEMENT ---------------------------------------
+
 
 # ------------------------------------START OF CORPUS STATISTICS-----------------------------------------
 
@@ -74,6 +127,7 @@ demonym, language, has_coordinates, has_geonames = 0, 0, 0, 0
 for ann in annotations:
     for key in annotations[ann]:
         x = annotations[ann][key]
+        total += 1
         if x.toponym_type == "Literal_Expression":
             literal_exp += 1
             if x.non_locational:
@@ -123,7 +177,6 @@ for ann in annotations:
                 has_geonames += 1
         else:
             no_geo += 1
-        total += 1
 
 print("------------------------------------------------------------------")
 print("Total Annotations:", total)
@@ -133,30 +186,30 @@ print("Heads (literal, non_literal):", (literal_heads, non_lit_heads))
 total_minus_expressions = total - literal_exp - non_lit_exp - non_toponym
 print("Total excluding Expressions and Non_Toponyms:", total_minus_expressions)
 print("------------------------------------------------------------------")
-print("Literals:", literals, np.around(float(literals) / total_minus_expressions, 3) * 100, "%")
-print("Mixed:", mixed, np.around(float(mixed) / total_minus_expressions, 3) * 100, "%")
-print("Coercion:", coercion, np.around(float(coercion) / total_minus_expressions, 3) * 100, "%")
-print("Embedded Lit:", embedded_lit, np.around(float(embedded_lit) / total_minus_expressions, 3) * 100, "%")
+print("Literals:", literals, np.around(float(literals) / total_minus_expressions, 5) * 100, "%")
+print("Mixed:", mixed, np.around(float(mixed) / total_minus_expressions, 5) * 100, "%")
+print("Coercion:", coercion, np.around(float(coercion) / total_minus_expressions, 5) * 100, "%")
+print("Embedded Lit:", embedded_lit, np.around(float(embedded_lit) / total_minus_expressions, 5) * 100, "%")
 print("Literal Mods (noun, adj):", (modifier_noun_lit, modifier_adj_lit),
-    (np.around(float(modifier_noun_lit) / total_minus_expressions, 3) * 100,
-     np.around(float(modifier_adj_lit) / total_minus_expressions, 3) * 100), "%")
+    (np.around(float(modifier_noun_lit) / total_minus_expressions, 5) * 100,
+     np.around(float(modifier_adj_lit) / total_minus_expressions, 5) * 100), "%")
 group_tot = literals + mixed + coercion + modifier_noun_lit + modifier_adj_lit + embedded_lit
-print("Group total:", group_tot, np.around(float(group_tot) / total_minus_expressions, 3) * 100, "%")
+print("Group total:", group_tot, np.around(float(group_tot) / total_minus_expressions, 5) * 100, "%")
 print("------------------------------------------------------------------")
-print("Metonymy:", metonymy, np.around(float(metonymy) / total_minus_expressions, 3) * 100, "%")
+print("Metonymy:", metonymy, np.around(float(metonymy) / total_minus_expressions, 5) * 100, "%")
 print("Non_Lit Mods (noun, adj):", (modifier_noun_non, modifier_adj_non),
-    (np.around(float(modifier_noun_non) / total_minus_expressions, 3) * 100,
-     np.around(float(modifier_adj_non) / total_minus_expressions, 3) * 100), "%")
-print("Demonyms:", demonym, np.around(float(demonym) / total_minus_expressions, 3) * 100, "%")
-print("Language:", language, np.around(float(language) / total_minus_expressions, 3) * 100, "%")
-print("Homonyms:", homonyms, np.around(float(homonyms) / total_minus_expressions, 3) * 100, "%")
-print("Embedded Non_Lit:", embedded_non_lit, np.around(float(embedded_non_lit) / total_minus_expressions, 3) * 100, "%")
+    (np.around(float(modifier_noun_non) / total_minus_expressions, 5) * 100,
+     np.around(float(modifier_adj_non) / total_minus_expressions, 5) * 100), "%")
+print("Demonyms:", demonym, np.around(float(demonym) / total_minus_expressions, 5) * 100, "%")
+print("Language:", language, np.around(float(language) / total_minus_expressions, 5) * 100, "%")
+print("Homonyms:", homonyms, np.around(float(homonyms) / total_minus_expressions, 5) * 100, "%")
+print("Embedded Non_Lit:", embedded_non_lit, np.around(float(embedded_non_lit) / total_minus_expressions, 5) * 100, "%")
 group_tot = homonyms + embedded_non_lit + metonymy + modifier_noun_non + modifier_adj_non + demonym + language
-print("Group total:", group_tot, np.around(float(group_tot) / total_minus_expressions, 3) * 100, "%")
+print("Group total:", group_tot, np.around(float(group_tot) / total_minus_expressions, 5) * 100, "%")
 print("------------------------------------------------------------------")
 print("Sanity Check:", demonym + language + homonyms + embedded_lit + embedded_non_lit + non_toponym +
                        modifier_adj_non + modifier_noun_non + modifier_adj_lit + modifier_noun_lit + metonymy +
-                       coercion + mixed + literals + literal_exp + non_lit_exp, "should equal total above!")
+                       coercion + mixed + literals + literal_exp + non_lit_exp, "should equal total above.")
 print("Coordinates vs Geonames vs None:", has_coordinates, has_geonames, no_geo)
 print("Non_Toponyms", non_toponym, "should equal", coercion + embedded_non_lit + embedded_lit)
 print("Total files annotated:", len(annotations))

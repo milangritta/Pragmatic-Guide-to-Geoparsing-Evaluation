@@ -1,0 +1,206 @@
+T1	Mixed 145 151	LONDON
+#1	AnnotatorNotes T1	2643743
+T2	Literal 1944 1950	London
+#2	AnnotatorNotes T2	2643743
+T3	Literal 236 243	Britain
+#3	AnnotatorNotes T3	2635167
+T4	Literal 972 979	Britain
+#4	AnnotatorNotes T4	2635167
+T5	Metonymic 842 849	Britain
+#5	AnnotatorNotes T5	2635167
+T6	Metonymic 1180 1187	Britain
+#6	AnnotatorNotes T6	2635167
+T7	Metonymic 2345 2352	Britain
+#7	AnnotatorNotes T7	2635167
+T8	Metonymic 1326 1333	Britain
+#8	AnnotatorNotes T8	2635167
+T9	Literal 1462 1469	Britain
+#9	AnnotatorNotes T9	2635167
+T10	Metonymic 1583 1590	Britain
+#10	AnnotatorNotes T10	2635167
+T11	Metonymic 1782 1789	Britain
+#11	AnnotatorNotes T11	2635167
+T12	Metonymic 2599 2606	Britain
+#12	AnnotatorNotes T12	2635167
+T13	Metonymic 3683 3690	Britain
+#13	AnnotatorNotes T13	2635167
+T14	Literal 3143 3150	Britain
+#14	AnnotatorNotes T14	2635167
+T15	Metonymic 1192 1198	France
+#15	AnnotatorNotes T15	3017382
+T16	Metonymic 1601 1607	France
+#16	AnnotatorNotes T16	3017382
+T17	Metonymic 1714 1720	France
+#17	AnnotatorNotes T17	3017382
+T18	Literal 1074 1080	Russia
+#18	AnnotatorNotes T18	2017370
+T19	Literal_Expression 1065 1069	West
+T20	Metonymic 995 1001	Russia
+#19	AnnotatorNotes T20	2017370
+T21	Literal 1553 1559	Russia
+#20	AnnotatorNotes T21	2017370
+T22	Metonymic 1367 1373	Russia
+#21	AnnotatorNotes T22	2017370
+T23	Metonymic 1899 1911	Soviet Union
+#22	AnnotatorNotes T23	2017370
+T24	Non_Literal_Modifier 1108 1114	Russia
+#23	AnnotatorNotes T24	2017370
+T25	Non_Literal_Modifier 1924 1930	Russia
+#24	AnnotatorNotes T25	2017370
+T26	Metonymic 3032 3038	Russia
+#25	AnnotatorNotes T26	2017370
+T27	Metonymic 757 763	Russia
+#26	AnnotatorNotes T27	2017370
+T28	Metonymic 2361 2367	Russia
+#27	AnnotatorNotes T28	2017370
+T29	Metonymic 2490 2496	Russia
+#28	AnnotatorNotes T29	2017370
+T30	Metonymic 2673 2679	Russia
+#29	AnnotatorNotes T30	2017370
+T31	Metonymic 2572 2578	Russia
+#30	AnnotatorNotes T31	2017370
+T32	Metonymic 1341 1347	Russia
+#31	AnnotatorNotes T32	2017370
+T33	Literal 2693 2699	London
+#32	AnnotatorNotes T33	2643743
+T34	Literal 3873 3879	Moscow
+#33	AnnotatorNotes T34	524901
+T35	Literal 2648 2654	Moscow
+#34	AnnotatorNotes T35	524901
+T36	Literal 616 622	Moscow
+#35	AnnotatorNotes T36	524901
+T37	Literal 277 287	Washington
+#36	AnnotatorNotes T37	4140963
+T39	Literal 346 359	United States
+#37	AnnotatorNotes T39	6252001
+T40	Literal_Modifier 457 461	U.S.
+#38	AnnotatorNotes T40	6252001
+T41	Metonymic 628 632	U.S.
+#39	AnnotatorNotes T41	6252001
+T42	Metonymic 3623 3636	United States
+#40	AnnotatorNotes T42	6252001
+T43	Coercion 434 449	Russian Embassy
+#41	AnnotatorNotes T43	4140269
+T38	Literal_Expression 585 593	compound
+T45	Literal_Expression 732 739	embassy
+T46	Coercion 781 795	United Nations
+#42	AnnotatorNotes T46	5141947
+T48	Literal 1994 2008	United Kingdom
+#43	AnnotatorNotes T48	2635167
+T50	Literal 2473 2482	Salisbury
+#44	AnnotatorNotes T50	2638664
+T51	Literal_Modifier 2801 2809	Heathrow
+#45	AnnotatorNotes T51	2647216
+T52	Literal 3655 3661	Europe
+#46	AnnotatorNotes T52	6255148
+T53	Literal 3928 3937	Salisbury
+#47	AnnotatorNotes T53	2638664
+T54	Non_Literal_Modifier 859 866	Russian
+T55	Non_Literal_Modifier 304 311	Russian
+T56	Non_Literal_Modifier 1254 1261	Russian
+T57	Literal_Modifier 1297 1304	British
+T47	Non_Literal_Modifier 475 482	Russian
+#48	AnnotatorNotes T57	2635167
+T61	Non_Literal_Modifier 204 211	Russian
+T44	Literal_Modifier 2457 2464	English
+T49	Non_Literal_Modifier 2744 2751	British
+#49	AnnotatorNotes T49	2635167
+#50	AnnotatorNotes T44	6269131
+T58	Non_Literal_Modifier 3779 3786	Russian
+T59	Non_Literal_Modifier 2998 3005	British
+#51	AnnotatorNotes T59	2635167
+T60	Non_Literal_Modifier 2257 2264	British
+#52	AnnotatorNotes T60	2635167
+T62	Non_Literal_Modifier 2234 2241	British
+#53	AnnotatorNotes T62	2635167
+T63	Non_Literal_Modifier 3449 3456	British
+#54	AnnotatorNotes T63	2635167
+T64	Non_Literal_Modifier 940 947	Russian
+#55	AnnotatorNotes T64	2017370
+#56	AnnotatorNotes T56	2017370
+#57	AnnotatorNotes T54	2017370
+#58	AnnotatorNotes T55	2017370
+#59	AnnotatorNotes T61	2017370
+#60	AnnotatorNotes T47	2017370
+#61	AnnotatorNotes T58	2017370
+T65	Non_Literal_Modifier 1439 1446	Russian
+#62	AnnotatorNotes T65	2017370
+T66	Non_Literal_Modifier 3499 3506	Russian
+#63	AnnotatorNotes T66	2017370
+T67	Non_Literal_Modifier 2412 2419	Russian
+#64	AnnotatorNotes T67	2017370
+T68	Non_Literal_Modifier 2178 2185	Russian
+#65	AnnotatorNotes T68	N/A
+T69	Non_Literal_Modifier 3707 3714	Russian
+#66	AnnotatorNotes T69	2017370
+T70	Non_Literal_Modifier 3222 3229	Russian
+#67	AnnotatorNotes T70	2017370
+T71	Non_Literal_Modifier 3268 3275	Russian
+#68	AnnotatorNotes T71	2017370
+T72	Non_Literal_Modifier 3088 3095	Russian
+#69	AnnotatorNotes T72	2017370
+T73	Non_Literal_Modifier 2823 2830	Russian
+#70	AnnotatorNotes T73	2017370
+T74	Non_Literal_Modifier 2304 2311	Russian
+#71	AnnotatorNotes T74	2017370
+T75	Literal_Expression 2637 2644	embassy
+T79	Non_Literal_Modifier 1625 1631	French
+#72	AnnotatorNotes T79	3017382
+T80	Non_Lit_Expression 224 232	daughter
+T81	Non_Lit_Expression 539 548	diplomats
+T82	Non_Lit_Expression 671 677	agents
+T83	Non_Lit_Expression 1676 1681	probe
+T86	Non_Lit_Expression 2519 2526	country
+T87	Non_Lit_Expression 3067 3075	daughter
+T88	Non_Lit_Expression 3901 3907	father
+T89	Literal_Expression 833 840	country
+A37	Modifier_Type T55 Adjective
+A38	Modifier_Type T61 Adjective
+A39	Modifier_Type T40 Noun
+A40	Modifier_Type T47 Adjective
+A42	Modifier_Type T54 Adjective
+A43	Modifier_Type T64 Adjective
+A44	Modifier_Type T56 Adjective
+A46	Modifier_Type T57 Adjective
+A47	Modifier_Type T65 Adjective
+A48	Modifier_Type T79 Adjective
+A50	Modifier_Type T74 Adjective
+A51	Modifier_Type T68 Adjective
+A52	Modifier_Type T62 Adjective
+A53	Modifier_Type T60 Adjective
+A54	Modifier_Type T67 Adjective
+A55	Modifier_Type T44 Adjective
+A56	Modifier_Type T49 Adjective
+A57	Modifier_Type T51 Noun
+A58	Modifier_Type T59 Adjective
+A60	Modifier_Type T72 Adjective
+A61	Modifier_Type T70 Adjective
+A62	Modifier_Type T71 Adjective
+A63	Modifier_Type T63 Adjective
+A64	Modifier_Type T66 Adjective
+A66	Modifier_Type T69 Adjective
+A67	Modifier_Type T58 Adjective
+A68	Modifier_Type T73 Adjective
+A34	Modifier_Type T25 Noun
+T90	Non_Lit_Expression 559 567	families
+T91	Non_Lit_Expression 1088 1095	dispute
+T92	Non_Lit_Expression 1486 1492	allies
+T93	Non_Lit_Expression 2088 2095	luggage
+T85	Non_Lit_Expression 2141 2148	website
+T94	Literal_Expression 2792 2797	plane
+T77	Demonym 1967 1975	Russians
+A65	Modifier_Type T1 Noun
+A10	Non_Locational T80
+T76	Non_Toponym 434 449	Russian Embassy
+A2	Non_Locational T81
+A29	Non_Locational T90
+A5	Non_Locational T82
+T78	Non_Toponym 781 795	United Nations
+A1	Non_Locational T91
+A3	Non_Locational T92
+A4	Non_Locational T83
+A13	Non_Locational T93
+A6	Non_Locational T94
+A8	Non_Locational T87
+A7	Non_Locational T88
+A9	Modifier_Type T24 Noun

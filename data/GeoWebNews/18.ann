@@ -1,0 +1,27 @@
+T1	Non_Lit_Expression 294 304	accomplice
+T2	Literal_Modifier 631 644	Walker County
+#1	AnnotatorNotes T2	4229163
+T3	Literal_Modifier 491 506	Hamilton County
+#2	AnnotatorNotes T3	4627306
+A2	Modifier_Type T3 Noun
+T4	Literal 327 338	Chattanooga
+#3	AnnotatorNotes T4	4612862
+T5	Literal 436 444	14th St.
+#4	AnnotatorNotes T5	35.039660, -85.312640
+T6	Non_Lit_Expression 682 688	public
+T7	Literal 812 821	LaFayette
+#5	AnnotatorNotes T7	4204241
+T8	Non_Lit_Expression 983 991	suspects
+T9	Non_Lit_Expression 921 929	relation
+T10	Literal_Modifier 646 649	Ga.
+#6	AnnotatorNotes T10	4197000
+A1	Non_Locational T1
+T11	Non_Toponym 377 407	Walker County Sheriff's Office
+A6	Modifier_Type T2 Noun
+T12	Embedded_Non_Lit 377 407	Walker County Sheriff's Office
+A7	Modifier_Type T12 Noun
+#7	AnnotatorNotes T12	4229163
+A8	Modifier_Type T10 Noun
+A3	Non_Locational T6
+A5	Non_Locational T9
+A4	Non_Locational T8

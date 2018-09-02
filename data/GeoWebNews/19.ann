@@ -1,0 +1,52 @@
+T1	Literal 308 321	Rogers Centre
+#1	AnnotatorNotes T1	43.641453, -79.389546
+T2	Literal_Expression 334 339	field
+T3	Literal_Expression 371 376	booth
+T4	Non_Lit_Expression 483 487	team
+T5	Non_Lit_Expression 435 441	season
+T6	Non_Lit_Expression 578 587	franchise
+T7	Literal_Expression 921 928	leagues
+T8	Non_Lit_Expression 1414 1418	five
+T9	Literal_Expression 1627 1630	air
+T10	Literal_Expression 1699 1704	field
+T11	Non_Literal_Modifier 1785 1793	Canadian
+A7	Modifier_Type T11 Adjective
+#2	AnnotatorNotes T11	6251999
+T12	Non_Lit_Expression 1899 1905	season
+T13	Literal_Expression 2110 2115	booth
+T14	Literal_Expression 2463 2473	microphone
+T15	Literal_Expression 2672 2677	booth
+T16	Non_Lit_Expression 2408 2418	retirement
+A1	Non_Locational T4
+A2	Non_Locational T6
+T17	Non_Toponym 635 651	Baseball Toronto
+T18	Embedded_Non_Lit 644 651	Toronto
+A3	Modifier_Type T18 Noun
+#3	AnnotatorNotes T18	6167865
+T19	Mixed 1202 1209	Toronto
+A4	Modifier_Type T19 Noun
+#4	AnnotatorNotes T19	6167865
+T20	Non_Lit_Expression 775 779	team
+A11	Non_Locational T20
+A5	Non_Locational T8
+T21	Non_Toponym 1431 1462	American League Division Series
+T22	Embedded_Non_Lit 1431 1439	American
+A12	Modifier_Type T22 Adjective
+#5	AnnotatorNotes T22	6252001
+T23	Non_Toponym 1475 1488	Texas Rangers
+T24	Embedded_Non_Lit 1475 1480	Texas
+A13	Modifier_Type T24 Noun
+#6	AnnotatorNotes T24	4736286
+T25	Non_Lit_Expression 1999 2007	attitude
+A6	Non_Locational T25
+T26	Literal_Expression 2237 2244	moments
+T27	Non_Toponym 2369 2383	Canadian Press
+T28	Embedded_Non_Lit 2369 2377	Canadian
+A8	Modifier_Type T28 Adjective
+#7	AnnotatorNotes T28	6251999
+A10	Non_Locational T16
+A9	Non_Locational T14
+T29	Non_Toponym 2850 2864	Buffalo Bisons
+T30	Embedded_Non_Lit 2850 2857	Buffalo
+A14	Modifier_Type T30 Noun
+#8	AnnotatorNotes T30	5110629

@@ -1,0 +1,41 @@
+T1	Non_Literal_Modifier 671 677	Russia
+T2	Non_Literal_Modifier 1217 1223	Russia
+A1	Modifier_Type T2 Noun
+#1	AnnotatorNotes T2	2017370
+#2	AnnotatorNotes T1	2017370
+A3	Modifier_Type T1 Noun
+T4	Non_Literal_Modifier 1705 1712	Russian
+A4	Modifier_Type T4 Adjective
+#3	AnnotatorNotes T4	2017370
+T5	Non_Literal_Modifier 293 300	Russian
+A6	Modifier_Type T5 Adjective
+#4	AnnotatorNotes T5	2017370
+T6	Non_Literal_Modifier 1930 1937	Russian
+A8	Modifier_Type T6 Adjective
+#5	AnnotatorNotes T6	2017370
+T8	Embedded_Non_Lit 1008 1042	Russian Higher School of Economics
+A10	Modifier_Type T8 Adjective
+#6	AnnotatorNotes T8	2017370
+T9	Non_Literal_Modifier 217 224	Russian
+A12	Modifier_Type T9 Adjective
+#7	AnnotatorNotes T9	2017370
+T12	Non_Literal_Modifier 445 454	Hollywood
+#8	AnnotatorNotes T12	5357527
+T14	Literal_Expression 1598 1604	police
+A17	Modifier_Type T12 Noun
+T3	Non_Lit_Expression 842 847	woman
+T7	Literal_Expression 736 742	police
+T10	Literal_Expression 1667 1676	committee
+T11	Non_Lit_Expression 1489 1499	journalist
+T13	Non_Lit_Expression 1446 1455	committee
+T15	Non_Lit_Expression 1740 1751	journalists
+T16	Non_Toponym 1345 1364	BBC Russian Service
+A2	Non_Locational T3
+T17	Embedded_Non_Lit 1349 1356	Russian
+A7	Modifier_Type T17 Adjective
+#9	AnnotatorNotes T17	2017370
+A11	Non_Locational T13
+A13	Non_Locational T11
+A14	Non_Locational T10
+A5	Non_Locational T15
+T18	Non_Toponym 1008 1042	Russian Higher School of Economics

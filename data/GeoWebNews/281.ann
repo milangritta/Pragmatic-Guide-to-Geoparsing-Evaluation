@@ -1,0 +1,64 @@
+T1	Mixed 205 211	WAUSAU
+#1	AnnotatorNotes T1	5278120
+T2	Mixed 213 217	Wis.
+#2	AnnotatorNotes T2	5279468
+T3	Literal_Expression 433 439	prison
+T4	Literal_Expression 288 294	trials
+T5	Non_Lit_Expression 536 542	people
+T6	Non_Lit_Expression 551 565	disappointment
+T7	Homonym 1088 1095	Holland
+T8	Homonym 2500 2507	Holland
+T9	Literal 1572 1590	Saint Croix County
+#3	AnnotatorNotes T9	5270199
+T10	Literal 1348 1357	Minnesota
+#4	AnnotatorNotes T10	5037779
+T11	Literal_Expression 1435 1440	trial
+T12	Non_Literal_Modifier 1749 1764	Marathon County
+A3	Modifier_Type T12 Noun
+#5	AnnotatorNotes T12	5261790
+T13	Literal_Expression 1948 1953	house
+T14	Literal_Expression 1998 2003	house
+T15	Non_Lit_Expression 2198 2205	suicide
+T16	Literal_Expression 2491 2497	prison
+T17	Literal_Expression 2584 2590	prison
+T18	Non_Literal_Modifier 3004 3019	Marathon County
+A5	Modifier_Type T18 Noun
+#6	AnnotatorNotes T18	5261790
+T19	Non_Lit_Expression 3148 3158	department
+T20	Literal_Expression 3262 3266	case
+T21	Non_Lit_Expression 299 312	investigators
+T22	Non_Lit_Expression 658 665	justice
+T23	Non_Lit_Expression 740 746	public
+T24	Non_Lit_Expression 1030 1038	reaction
+T25	Coercion 1152 1165	NewsChannel 7
+#7	AnnotatorNotes T25	44.946846, -89.622126
+T26	Non_Lit_Expression 1240 1250	girlfriend
+T27	Non_Lit_Expression 1292 1299	murders
+T28	Literal_Expression 1544 1548	jury
+T29	Literal_Expression 1840 1851	prosecution
+T30	Literal_Expression 2247 2260	deliberations
+T31	Non_Lit_Expression 2361 2371	prosecutor
+A13	Modifier_Type T1 Noun
+A14	Modifier_Type T2 Noun
+A7	Non_Locational T21
+A2	Non_Locational T6
+A1	Non_Locational T5
+A8	Non_Locational T22
+T32	Non_Lit_Expression 368 375	members
+A15	Non_Locational T32
+A9	Non_Locational T23
+A10	Non_Locational T24
+T33	Non_Toponym 1152 1165	NewsChannel 7
+A11	Non_Locational T26
+T34	Non_Lit_Expression 1653 1662	suffering
+A16	Non_Locational T34
+A4	Non_Locational T29
+T35	Non_Lit_Expression 2120 2127	defense
+A17	Non_Locational T35
+A18	Non_Locational T15
+A12	Non_Locational T31
+T36	Literal_Expression 2686 2693	hearing
+A6	Non_Locational T19
+T37	Literal_Expression 3192 3198	prison
+T38	Non_Lit_Expression 3297 3305	homicide
+A19	Non_Locational T38

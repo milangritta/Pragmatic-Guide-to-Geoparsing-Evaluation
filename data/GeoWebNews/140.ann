@@ -1,0 +1,135 @@
+T1	Literal_Expression 205 209	land
+T2	Non_Lit_Expression 270 276	chiefs
+T3	Literal_Expression 326 331	areas
+T4	Non_Lit_Expression 491 499	research
+T5	Non_Lit_Expression 444 455	communities
+T6	Literal 478 485	Limpopo
+#1	AnnotatorNotes T6	1085597
+T7	Literal_Modifier 3854 3861	Limpopo
+A4	Modifier_Type T7 Noun
+#2	AnnotatorNotes T7	1085597
+T8	Literal_Modifier 3839 3849	North West
+A5	Modifier_Type T8 Noun
+#3	AnnotatorNotes T8	1085598
+T9	Literal 463 473	North West
+#4	AnnotatorNotes T9	1085598
+T10	Literal_Expression 4563 4571	villages
+T11	Literal_Expression 670 674	land
+T12	Non_Lit_Expression 428 434	mining
+T13	Non_Lit_Expression 580 589	expansion
+T14	Non_Lit_Expression 848 856	platinum
+T15	Literal_Expression 928 936	villages
+T16	Non_Lit_Expression 906 915	residents
+T17	Non_Lit_Expression 1090 1101	communities
+T18	Non_Lit_Expression 1216 1227	authorities
+T19	Literal_Expression 1300 1304	land
+T20	Non_Lit_Expression 1368 1373	state
+T21	Non_Lit_Expression 1485 1491	chiefs
+T22	Non_Lit_Expression 1621 1627	chiefs
+T23	Non_Lit_Expression 1688 1697	residents
+T24	Mixed 1699 1706	African
+A16	Modifier_Type T24 Adjective
+#5	AnnotatorNotes T24	6255146
+T25	Non_Lit_Expression 1756 1761	group
+T26	Non_Lit_Expression 1813 1817	clan
+T27	Non_Lit_Expression 1868 1878	generation
+T28	Non_Lit_Expression 2060 2070	government
+T29	Non_Lit_Expression 2145 2151	chiefs
+T30	Literal_Expression 2255 2265	governance
+T31	Non_Lit_Expression 2416 2427	authorities
+T32	Literal_Expression 2474 2479	areas
+T33	Non_Lit_Expression 2515 2525	government
+T34	Non_Lit_Expression 2591 2597	chiefs
+T35	Literal_Expression 2724 2728	land
+T36	Non_Lit_Expression 2835 2838	law
+T37	Non_Lit_Expression 2917 2926	resources
+T38	Non_Lit_Expression 3068 3074	Chiefs
+T39	Non_Lit_Expression 3125 3130	trend
+T40	Non_Lit_Expression 3154 3160	chiefs
+T41	Non_Lit_Expression 3228 3239	communities
+T42	Literal_Expression 3256 3260	belt
+T43	Non_Lit_Expression 3262 3268	Chiefs
+T44	Non_Literal_Modifier 3414 3422	Bafokeng
+A34	Modifier_Type T44 Noun
+#6	AnnotatorNotes T44	1021743
+T45	Non_Literal_Modifier 3498 3506	Bafokeng
+A36	Modifier_Type T45 Noun
+#7	AnnotatorNotes T45	1021743
+T46	Literal 3694 3700	Africa
+#8	AnnotatorNotes T46	6255146
+T47	Literal_Expression 3827 3831	land
+T48	Metonymic 3890 3898	Bafokeng
+#9	AnnotatorNotes T48	1021743
+T49	Non_Lit_Expression 3798 3809	communities
+T50	Literal_Expression 4079 4087	villages
+T51	Non_Lit_Expression 4017 4023	chiefs
+T52	Non_Lit_Expression 4228 4234	chiefs
+T53	Non_Lit_Expression 4522 4531	community
+T54	Literal_Expression 4605 4614	foothills
+T55	Literal 4622 4643	Pilanesburg Mountains
+#10	AnnotatorNotes T55	-25.2567 27.105
+T56	Non_Lit_Expression 4691 4700	community
+T57	Non_Lit_Expression 4840 4849	villagers
+T58	Literal_Expression 4904 4909	farms
+T59	Non_Lit_Expression 5019 5030	forefathers
+T60	Literal_Expression 5101 5105	land
+T61	Literal_Expression 5159 5165	courts
+T62	Non_Lit_Expression 5179 5184	chief
+T63	Non_Lit_Expression 5280 5289	activists
+T64	Non_Lit_Expression 5354 5360	chiefs
+T65	Non_Lit_Expression 5586 5592	people
+T66	Non_Lit_Expression 5762 5766	land
+T67	Non_Lit_Expression 6063 6074	individuals
+T68	Non_Lit_Expression 5877 5886	residents
+T69	Literal_Expression 6208 6212	land
+T70	Non_Lit_Expression 6522 6528	chiefs
+T71	Non_Lit_Expression 6416 6422	rights
+T72	Demonym 743 757	South Africans
+T73	Demonym 6115 6123	Africans
+T74	Literal 4360 4362	SA
+#11	AnnotatorNotes T74	953987
+T75	Literal 764 766	SA
+#13	AnnotatorNotes T75	953987
+T76	Mixed 295 297	SA
+#14	AnnotatorNotes T76	953987
+A1	Non_Locational T2
+A3	Non_Locational T5
+A2	Non_Locational T4
+A6	Non_Locational T14
+A7	Non_Locational T16
+A8	Non_Locational T17
+A9	Non_Locational T18
+A10	Non_Locational T21
+A11	Non_Locational T22
+A12	Non_Locational T23
+A13	Non_Locational T25
+A14	Non_Locational T26
+A15	Non_Locational T27
+A17	Non_Locational T28
+A18	Non_Locational T29
+A19	Non_Locational T30
+A20	Non_Locational T31
+A21	Non_Locational T33
+A22	Non_Locational T34
+A23	Non_Locational T36
+A24	Non_Locational T37
+A25	Non_Locational T38
+A26	Non_Locational T39
+A27	Non_Locational T40
+A28	Non_Locational T41
+A29	Non_Locational T43
+A30	Non_Locational T49
+A31	Non_Locational T51
+A32	Non_Locational T52
+A33	Non_Locational T53
+A35	Non_Locational T56
+A37	Non_Locational T57
+A38	Non_Locational T59
+A39	Non_Locational T62
+A40	Non_Locational T63
+A41	Non_Locational T64
+A42	Non_Locational T65
+A43	Non_Locational T68
+A44	Non_Locational T67
+A45	Non_Locational T71
+A46	Non_Locational T70

@@ -1,0 +1,39 @@
+T1	Non_Literal_Modifier 1275 1289	Suffolk County
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	5140076
+T2	Literal 1233 1241	Southold
+#2	AnnotatorNotes T2	5139054
+T3	Literal_Expression 374 377	bus
+T4	Literal_Expression 566 574	marriage
+T5	Non_Lit_Expression 815 822	account
+T6	Literal_Expression 1180 1188	basement
+T7	Literal_Expression 1213 1217	home
+T8	Literal_Expression 1225 1229	town
+T9	Literal_Expression 1354 1362	basement
+T10	Literal_Expression 1391 1395	slab
+T11	Non_Lit_Expression 1509 1513	life
+T12	Literal_Expression 1750 1760	conference
+T13	Literal_Expression 2017 2023	school
+T14	Non_Literal_Modifier 1692 1704	Suffolk City
+A6	Modifier_Type T14 Noun
+#3	AnnotatorNotes T14	5140076
+T15	Literal_Expression 210 219	relatives
+T16	Embedded_Non_Lit 1414 1428	Suffolk County
+#4	AnnotatorNotes T16	5140076
+T17	Embedded_Non_Lit 497 511	Suffolk County
+#5	AnnotatorNotes T17	5140076
+T18	Embedded_Non_Lit 465 472	Suffolk
+#6	AnnotatorNotes T18	5140076
+T19	Embedded_Non_Lit 850 857	Suffolk
+#7	AnnotatorNotes T19	5140076
+A8	Non_Locational T15
+T20	Non_Toponym 465 478	Suffolk Times
+A3	Modifier_Type T18 Noun
+T21	Non_Toponym 497 517	Suffolk County Times
+A10	Modifier_Type T17 Noun
+A4	Non_Locational T4
+T22	Non_Toponym 850 863	Suffolk Times
+A11	Modifier_Type T19 Noun
+T23	Non_Toponym 1414 1434	Suffolk County Times
+A2	Modifier_Type T16 Noun
+A5	Non_Locational T11

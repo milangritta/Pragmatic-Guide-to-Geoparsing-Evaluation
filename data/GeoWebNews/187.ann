@@ -1,0 +1,121 @@
+T1	Literal 336 342	Greece
+#1	AnnotatorNotes T1	390903
+T2	Literal 416 421	Italy
+#2	AnnotatorNotes T2	3175395
+T3	Literal_Modifier 497 502	Greek
+A1	Modifier_Type T3 Adjective
+#3	AnnotatorNotes T3	390903
+T4	Literal 952 958	Greece
+#4	AnnotatorNotes T4	390903
+T5	Literal_Modifier 4456 4461	Greek
+A2	Modifier_Type T5 Adjective
+#5	AnnotatorNotes T5	390903
+T6	Literal 427 433	Turkey
+#6	AnnotatorNotes T6	298795
+T7	Literal 1041 1047	Turkey
+#7	AnnotatorNotes T7	298795
+T8	Literal 3845 3851	Turkey
+#8	AnnotatorNotes T8	298795
+T9	Literal_Modifier 525 531	Europe
+A3	Modifier_Type T9 Noun
+#9	AnnotatorNotes T9	6255148
+T10	Literal_Expression 636 643	borders
+T11	Literal 726 731	Samos
+#10	AnnotatorNotes T11	254115
+T12	Literal_Modifier 1691 1696	Samos
+A4	Modifier_Type T12 Noun
+#11	AnnotatorNotes T12	254115
+T13	Mixed 2446 2451	Samos
+A5	Modifier_Type T13 Noun
+#12	AnnotatorNotes T13	254115
+T14	Literal 3236 3241	Samos
+#13	AnnotatorNotes T14	254115
+T15	Literal 3483 3488	Samos
+#14	AnnotatorNotes T15	254115
+T16	Literal 767 772	Syria
+#15	AnnotatorNotes T16	163843
+T17	Literal_Modifier 3187 3192	Syria
+A7	Modifier_Type T17 Noun
+#16	AnnotatorNotes T17	163843
+T18	Literal 774 778	Iraq
+#17	AnnotatorNotes T18	99237
+T19	Literal 1221 1225	Iraq
+#18	AnnotatorNotes T19	99237
+T20	Literal 1142 1146	Iraq
+#19	AnnotatorNotes T20	99237
+T21	Literal 784 795	Afghanistan
+#20	AnnotatorNotes T21	1149361
+T22	Demonym 1065 1070	Kurds
+T23	Literal_Expression 1285 1290	tribe
+T24	Literal_Expression 1726 1733	centres
+T25	Literal_Expression 1832 1840	hotspots
+T26	Literal_Expression 1911 1916	camps
+T27	Literal_Expression 2256 2264	hotspots
+T28	Non_Lit_Expression 2550 2557	seekers
+T29	Non_Lit_Expression 2591 2599	tourists
+T30	Literal_Expression 2607 2614	hotspot
+T31	Literal_Expression 2742 2748	fences
+T32	Literal_Expression 2922 2926	site
+T33	Non_Lit_Expression 2943 2955	announcement
+T34	Literal_Expression 4526 4531	homes
+T35	Literal_Expression 4576 4582	school
+T36	Literal_Expression 4631 4640	countries
+T37	Literal 4649 4656	Germany
+#21	AnnotatorNotes T37	2921044
+T38	Literal 4660 4666	Sweden
+#22	AnnotatorNotes T38	2661886
+T39	Mixed 4410 4416	Athens
+#23	AnnotatorNotes T39	264371
+T40	Literal_Expression 4386 4392	island
+T41	Literal_Expression 3979 3984	cells
+T42	Literal_Expression 4065 4075	healthcare
+T43	Non_Lit_Expression 4222 4232	assistance
+T44	Literal_Expression 4303 4310	hotspot
+T45	Non_Lit_Expression 4504 4509	lives
+T46	Non_Lit_Expression 4547 4551	jobs
+T47	Literal_Expression 3673 3677	camp
+T48	Literal_Expression 3722 3730	fighting
+T49	Literal_Expression 3800 3807	station
+T50	Non_Lit_Expression 3641 3649	problems
+T51	Literal_Expression 3519 3525	island
+T52	Literal_Expression 3539 3543	wars
+T53	Literal_Expression 3349 3353	camp
+T54	Non_Lit_Expression 3334 3340	saints
+T55	Literal 3140 3148	Damascus
+#24	AnnotatorNotes T55	170654
+T56	Literal_Expression 3301 3308	hotspot
+T57	Non_Lit_Expression 2982 2990	migrants
+T58	Literal_Expression 3050 3055	front
+T59	Literal_Expression 2640 2647	uniform
+T60	Non_Lit_Expression 2045 2054	education
+T61	Non_Lit_Expression 1619 1625	status
+T62	Non_Lit_Expression 1406 1411	tribe
+T63	Non_Lit_Expression 1362 1369	brother
+T64	Non_Lit_Expression 210 214	news
+T65	Non_Lit_Expression 370 378	smuggler
+T66	Non_Lit_Expression 873 878	needs
+T67	Non_Lit_Expression 1186 1195	nightmare
+T68	Literal_Expression 1504 1512	exchange
+T69	Literal_Expression 1771 1777	crisis
+T70	Literal_Expression 1981 1991	conditions
+T71	Non_Lit_Expression 2206 2214	refugees
+T72	Non_Lit_Expression 2786 2798	clotheslines
+T73	Literal_Expression 3092 3098	brawls
+T74	Literal_Expression 4033 4036	air
+A6	Non_Locational T65
+T75	Non_Toponym 590 604	European Union
+T76	Embedded_Non_Lit 590 604	European Union
+A18	Modifier_Type T76 Noun
+#25	AnnotatorNotes T76	6255148
+A20	Non_Locational T66
+A8	Non_Locational T63
+A9	Non_Locational T62
+A10	Non_Locational T60
+A24	Non_Locational T71
+A11	Non_Locational T28
+A12	Non_Locational T29
+A23	Non_Locational T59
+A13	Non_Locational T33
+A22	Non_Locational T57
+A21	Non_Locational T54
+A14	Non_Locational T43

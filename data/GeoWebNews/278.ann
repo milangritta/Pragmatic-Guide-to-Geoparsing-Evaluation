@@ -1,0 +1,39 @@
+T1	Literal_Expression 303 309	outlet
+T2	Literal 327 337	Cape Peron
+#1	AnnotatorNotes T2	2063540
+T3	Literal 341 351	Rockingham
+#2	AnnotatorNotes T3	2062338
+T4	Literal_Expression 379 385	outlet
+T5	Literal_Expression 412 417	shore
+T6	Non_Lit_Expression 504 510	mullet
+T7	Non_Lit_Expression 528 537	jellyfish
+T9	Literal_Modifier 556 566	Safety Bay
+A3	Modifier_Type T9 Noun
+#3	AnnotatorNotes T9	2062057
+T8	Literal_Expression 738 743	works
+T10	Literal_Modifier 783 796	Woodman Point
+#4	AnnotatorNotes T10	2057923
+T11	Literal_Expression 829 835	outlet
+T12	Literal_Expression 865 872	channel
+T13	Literal_Expression 897 902	shore
+T14	Literal_Expression 1021 1031	wastewater
+T15	Literal_Modifier 1079 1090	Point Peron
+A4	Modifier_Type T15 Noun
+#5	AnnotatorNotes T15	2063540
+A5	Modifier_Type T10 Noun
+T16	Literal_Modifier 1400 1413	Woodman Point
+A6	Modifier_Type T16 Noun
+#6	AnnotatorNotes T16	2057923
+T17	Literal_Expression 1701 1706	water
+T18	Literal_Expression 1464 1471	project
+T19	Literal 1158 1160	WA
+#7	AnnotatorNotes T19	2058645
+T20	Literal_Expression 1807 1811	area
+T21	Literal_Expression 1280 1288	seawater
+T22	Literal_Expression 277 286	kilometre
+T23	Non_Lit_Expression 673 684	spokeswoman
+T24	Non_Lit_Expression 1757 1770	inconvenience
+A1	Non_Locational T6
+A2	Non_Locational T7
+A7	Non_Locational T23
+A8	Non_Locational T24

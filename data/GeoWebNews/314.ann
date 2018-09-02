@@ -1,0 +1,81 @@
+T1	Mixed 1208 1214	Turkey
+#1	AnnotatorNotes T1	298795
+T2	Mixed 759 766	Turkish
+A1	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	298795
+T3	Mixed 518 525	Turkish
+A2	Modifier_Type T3 Adjective
+#3	AnnotatorNotes T3	298795
+T4	Literal 1681 1687	Turkey
+#4	AnnotatorNotes T4	298795
+T5	Mixed 1787 1794	Turkish
+A3	Modifier_Type T5 Adjective
+#5	AnnotatorNotes T5	298795
+T6	Literal_Modifier 373 380	Turkish
+A4	Modifier_Type T6 Adjective
+#6	AnnotatorNotes T6	298795
+T7	Literal 1673 1679	Ankara
+#7	AnnotatorNotes T7	323786
+T8	Literal_Expression 2246 2255	countries
+T9	Literal_Expression 2289 2296	markets
+T10	Literal 2315 2321	Visbek
+#8	AnnotatorNotes T10	2817139
+T11	Literal 2323 2330	Germany
+#9	AnnotatorNotes T11	2921044
+T12	Literal 2390 2397	Germany
+#10	AnnotatorNotes T12	2921044
+T13	Literal 2399 2404	Japan
+#11	AnnotatorNotes T13	1861060
+T14	Literal 2382 2388	Brazil
+#12	AnnotatorNotes T14	3469034
+T15	Literal 2413 2416	USA
+#13	AnnotatorNotes T15	6252001
+T16	Literal_Expression 2368 2378	facilities
+T17	Non_Lit_Expression 1592 1599	company
+T18	Non_Lit_Expression 1008 1015	success
+T19	Literal_Expression 1068 1074	market
+T20	Non_Lit_Expression 1196 1203	clients
+T21	Non_Lit_Expression 828 835	service
+T22	Non_Lit_Expression 403 414	transaction
+T23	Literal_Expression 1429 1435	market
+T24	Non_Lit_Expression 2026 2031	acids
+T25	Non_Lit_Expression 2049 2059	sweeteners
+T26	Non_Lit_Expression 2198 2207	portfolio
+T27	Non_Lit_Expression 1860 1864	fish
+T28	Non_Lit_Expression 598 603	model
+T29	Non_Lit_Expression 1704 1717	veterinarians
+T30	Non_Lit_Expression 277 286	agreement
+T31	Non_Lit_Expression 232 238	shares
+T32	Non_Lit_Expression 671 675	line
+T33	Non_Lit_Expression 711 724	relationships
+T34	Non_Lit_Expression 795 803	strength
+T35	Non_Lit_Expression 898 906	alliance
+T36	Non_Lit_Expression 1294 1302	business
+T37	Non_Lit_Expression 1375 1386	antibiotics
+T38	Non_Lit_Expression 1913 1920	partner
+A17	Non_Locational T31
+A16	Non_Locational T30
+A9	Non_Locational T22
+A14	Non_Locational T28
+A18	Non_Locational T32
+A19	Non_Locational T33
+A20	Non_Locational T34
+A8	Non_Locational T21
+A21	Non_Locational T35
+A6	Non_Locational T18
+A7	Non_Locational T20
+A22	Non_Locational T37
+A24	Non_Locational T36
+T39	Literal_Expression 1515 1524	portfolio
+A5	Non_Locational T17
+A15	Non_Locational T29
+A13	Non_Locational T27
+A23	Non_Locational T38
+T40	Literal_Expression 1958 1966	industry
+T41	Non_Lit_Expression 1981 1990	portfolio
+A25	Non_Locational T41
+A10	Non_Locational T24
+A11	Non_Locational T25
+T42	Non_Lit_Expression 2154 2160	player
+A26	Non_Locational T42
+A12	Non_Locational T26

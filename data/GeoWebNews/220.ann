@@ -1,0 +1,51 @@
+T1	Literal 167 171	A417
+#1	AnnotatorNotes T1	51.7463, -1.981
+T2	Literal_Modifier 347 351	A417
+#2	AnnotatorNotes T2	51.7463, -1.981
+A1	Modifier_Type T2 Noun
+T3	Literal 598 602	A417
+#3	AnnotatorNotes T3	51.7463, -1.981
+T4	Coercion 195 206	Air Balloon
+#4	AnnotatorNotes T4	51.843347, -2.096459
+T5	Coercion 608 619	Air Balloon
+#5	AnnotatorNotes T5	51.843347, -2.096459
+T6	Coercion 565 576	Air Balloon
+#6	AnnotatorNotes T6	51.843347, -2.096459
+T7	Coercion 384 395	Air Balloon
+#7	AnnotatorNotes T7	51.843347, -2.096459
+T8	Non_Lit_Expression 249 256	closure
+T9	Literal_Expression 317 323	county
+T10	Literal_Modifier 419 430	Cirencester
+A4	Modifier_Type T10 Noun
+#8	AnnotatorNotes T10	2652995
+T11	Literal 580 591	Cirencester
+#9	AnnotatorNotes T11	2652995
+T12	Literal 737 748	Cirencester
+#10	AnnotatorNotes T12	2652995
+T13	Literal 634 645	Cirencester
+#11	AnnotatorNotes T13	2652995
+T14	Literal_Modifier 414 418	A429
+A5	Modifier_Type T14 Noun
+#12	AnnotatorNotes T14	52.021, -1.6864
+T15	Non_Lit_Expression 479 488	diversion
+T16	Literal_Expression 941 950	diversion
+T17	Non_Lit_Expression 987 991	road
+T18	Non_Lit_Expression 1133 1140	council
+T19	Literal_Expression 1252 1258	county
+T20	Literal 514 518	A436
+#13	AnnotatorNotes T20	51.8782, -2.0308
+T21	Literal 520 523	A40
+#14	AnnotatorNotes T21	51.8782, -2.0308
+T22	Literal 528 532	A429
+#15	AnnotatorNotes T22	52.021, -1.6864
+T23	Non_Lit_Expression 696 703	closure
+T24	Literal 754 764	Gloucester
+#16	AnnotatorNotes T24	2648404
+T25	Literal 769 779	Cheltenham
+#17	AnnotatorNotes T25	2653261
+T26	Literal_Expression 1236 1244	potholes
+T27	Non_Toponym 195 206	Air Balloon
+T28	Non_Toponym 384 395	Air Balloon
+T29	Non_Toponym 565 576	Air Balloon
+T30	Non_Toponym 608 619	Air Balloon
+T31	Literal_Expression 851 858	closure

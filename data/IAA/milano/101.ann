@@ -1,0 +1,76 @@
+T1	Literal_Modifier 255 260	Abuja
+T2	Mixed 384 391	Nigeria
+T3	Mixed 396 402	Africa
+T4	Literal 538 544	Africa
+T5	Metonymic 1085 1091	Africa
+T6	Literal 1814 1820	Africa
+T7	Literal_Modifier 1921 1928	Nigeria
+T8	Mixed 2018 2024	Africa
+T10	Mixed 2417 2423	Africa	
+T11	Metonymic 2577 2583	Africa
+T12	Metonymic 3400 3406	Africa
+T13	Literal 3633 3639	Africa
+T14	Mixed 4146 4152	Africa
+T15	Literal 4411 4417	Africa
+T16	Literal 4742 4748	Africa
+#1	AnnotatorNotes T1	2352778
+#2	AnnotatorNotes T2	2328926
+#3	AnnotatorNotes T7	2328926
+#4	AnnotatorNotes T3	6255146
+#5	AnnotatorNotes T4	6255146
+#6	AnnotatorNotes T5	6255146
+#7	AnnotatorNotes T6	6255146
+#8	AnnotatorNotes T8	6255146
+#9	AnnotatorNotes T10	6255146
+#10	AnnotatorNotes T11	6255146
+#11	AnnotatorNotes T12	6255146
+#12	AnnotatorNotes T13	6255146
+#13	AnnotatorNotes T14	6255146
+#14	AnnotatorNotes T15	6255146
+#15	AnnotatorNotes T16	6255146
+T17	Mixed 1169 1176	African
+A3	Modifier_Type T17 Adjective
+#16	AnnotatorNotes T17	6255146
+T18	Literal_Modifier 2130 2137	African
+A5	Modifier_Type T18 Adjective
+#17	AnnotatorNotes T18	6255146
+T19	Mixed 2882 2889	African
+A7	Modifier_Type T19 Adjective
+#18	AnnotatorNotes T19	6255146
+T20	Literal_Modifier 962 969	African
+A9	Modifier_Type T20 Adjective
+#19	AnnotatorNotes T20	6255146
+T22	Literal_Modifier 3910 3917	African
+A12	Modifier_Type T22 Adjective
+#20	AnnotatorNotes T22	6255146
+T24	Non_Lit_Expression 3032 3036	gulf
+T25	Non_Lit_Expression 3265 3270	chasm
+T27	Non_Lit_Expression 883 887	base
+A17	Modifier_Type T1 Noun
+T28	Literal_Expression 755 762	service
+T26	Non_Lit_Expression 908 919	foundations
+T29	Non_Lit_Expression 1131 1137	author
+T30	Non_Lit_Expression 2554 2561	culture
+T31	Non_Lit_Expression 3440 3448	audience
+T33	Non_Lit_Expression 3759 3766	history
+A2	Modifier_Type T7 Noun
+T9	Non_Lit_Expression 3283 3290	parties
+T21	Literal_Expression 2315 2324	continent
+T23	Demonym 4531 4539	Africans
+T34	Demonym 1689 1697	Nigerian
+T35	Literal_Expression 2952 2961	workforce
+T36	Non_Lit_Expression 4112 4119	service
+T37	Non_Toponym 303 342	Transforming the African Public Service
+T32	Embedded_Literal 320 327	African
+A6	Modifier_Type T32 Adjective
+#21	AnnotatorNotes T32	6255146
+A8	Non_Locational T29
+A10	Non_Locational T30
+A4	Non_Locational T35
+A11	Non_Locational T9
+A13	Non_Locational T31
+A1	Modifier_Type T2 Noun
+A14	Modifier_Type T3 Noun
+A15	Modifier_Type T8 Noun
+A16	Modifier_Type T10 Noun
+A18	Modifier_Type T14 Noun

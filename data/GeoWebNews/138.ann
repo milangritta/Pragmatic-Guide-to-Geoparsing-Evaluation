@@ -1,0 +1,40 @@
+T1	Non_Lit_Expression 1263 1269	public
+T2	Non_Lit_Expression 282 287	favor
+T3	Non_Lit_Expression 519 522	MPs
+T4	Non_Lit_Expression 6605 6611	motion
+T5	Non_Lit_Expression 6563 6567	scam
+T6	Non_Lit_Expression 7200 7210	government
+T7	Non_Lit_Expression 5552 5560	minister
+T8	Non_Lit_Expression 5358 5364	person
+T9	Non_Lit_Expression 5155 5162	country
+T10	Literal_Expression 2874 2878	time
+T11	Literal_Expression 5310 5317	custody
+T12	Non_Lit_Expression 5683 5691	minister
+T14	Non_Lit_Expression 6224 6232	Minister
+T15	Non_Lit_Expression 6864 6875	legislators
+T16	Non_Lit_Expression 1441 1449	observer
+T17	Non_Lit_Expression 4331 4338	parties
+A2	Non_Locational T2
+A4	Non_Locational T3
+T18	Demonym 749 753	Tami
+T19	Demonym 979 985	Tamils
+A1	Non_Locational T1
+A8	Non_Locational T16
+T20	Non_Lit_Expression 2473 2478	House
+A9	Non_Locational T10
+A14	Non_Locational T17
+T21	Non_Toponym 4625 4665	Tamil National Alliance Parliamentarians
+T22	Embedded_Non_Lit 4625 4630	Tamil
+A15	Modifier_Type T22 Noun
+#1	AnnotatorNotes T22	1255053
+A7	Non_Locational T8
+A6	Non_Locational T7
+A10	Non_Locational T12
+A12	Non_Locational T14
+A3	Non_Locational T4
+A11	Non_Locational T15
+A5	Non_Locational T6
+T13	Non_Toponym 7542 7555	Asian Tribune
+T23	Embedded_Non_Lit 7542 7547	Asian
+A13	Modifier_Type T23 Noun
+#2	AnnotatorNotes T23	6255147

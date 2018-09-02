@@ -1,0 +1,27 @@
+T1	Non_Literal_Modifier 748 764	Gilgit-Baltistan
+#1	AnnotatorNotes T1	1168878
+T2	Non_Literal_Modifier 345 361	Gilgit-Baltistan
+#2	AnnotatorNotes T2	1168878
+T3	Literal 895 911	Gilgit-Baltistan
+#3	AnnotatorNotes T3	1168878
+T4	Literal 2092 2108	Gilgit-Baltistan
+#4	AnnotatorNotes T4	1168878
+T5	Literal 2209 2225	Gilgit-Baltistan
+#5	AnnotatorNotes T5	1168878
+T6	Literal_Expression 248 258	activities
+T8	Non_Lit_Expression 509 519	businesses
+T9	Literal_Expression 649 655	region
+T7	Non_Lit_Expression 1455 1460	rooms
+T10	Non_Lit_Expression 2130 2140	economists
+T11	Literal_Expression 790 796	region
+T12	Literal_Expression 1746 1751	hotel
+T13	Literal_Expression 1720 1725	rooms
+A5	Modifier_Type T2 Noun
+A7	Modifier_Type T1 Noun
+T14	Non_Lit_Expression 1867 1877	Economists
+A2	Non_Locational T14
+A1	Non_Locational T10
+T15	Non_Toponym 2507 2518	IBA-Karachi
+T16	Embedded_Non_Lit 2508 2518	BA-Karachi
+A3	Modifier_Type T16 Noun
+#6	AnnotatorNotes T16	1174872

@@ -1,0 +1,45 @@
+T1	Non_Literal_Modifier 203 208	China
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	1814991
+T2	Metonymic 1059 1064	China
+#2	AnnotatorNotes T2	1814991
+T3	Metonymic 530 535	China
+#3	AnnotatorNotes T3	1814991
+T4	Metonymic 511 524	United States
+#4	AnnotatorNotes T4	6252001
+T5	Non_Literal_Modifier 330 332	US
+A4	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	6252001
+T6	Non_Literal_Modifier 637 639	US
+#6	AnnotatorNotes T6	6252001
+T7	Non_Literal_Modifier 830 832	US
+A6	Modifier_Type T7 Noun
+#7	AnnotatorNotes T7	6252001
+T8	Literal_Modifier 1408 1410	US
+A8	Modifier_Type T8 Noun
+#8	AnnotatorNotes T8	6252001
+T11	Literal 1606 1612	Canada
+#9	AnnotatorNotes T11	6251999
+T12	Non_Literal_Modifier 1518 1526	Canadian
+A11	Modifier_Type T12 Adjective
+#10	AnnotatorNotes T12	6251999
+T13	Literal_Modifier 1618 1628	Pittsburgh
+A13	Modifier_Type T13 Noun
+#11	AnnotatorNotes T13	5206379
+T14	Literal_Modifier 1630 1642	Pennsylvania
+A14	Modifier_Type T14 Noun
+#12	AnnotatorNotes T14	6254927
+T15	Metonymic 1011 1024	United States
+#13	AnnotatorNotes T15	6252001
+T18	Non_Lit_Expression 436 445	countries
+A21	Modifier_Type T6 Noun
+T9	Non_Lit_Expression 1475 1483	insurers
+T10	Non_Lit_Expression 775 783	ministry
+T16	Literal_Expression 1248 1253	place
+T19	Non_Lit_Expression 1199 1205	office
+T17	Embedded_Non_Lit 1173 1175	US
+#14	AnnotatorNotes T17	6252001
+A2	Non_Locational T10
+T20	Non_Toponym 1173 1196	US Trade Representative
+A3	Modifier_Type T17 Noun
+A5	Non_Locational T9

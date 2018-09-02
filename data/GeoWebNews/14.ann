@@ -1,0 +1,53 @@
+T1	Non_Lit_Expression 335 344	mysteries
+T3	Non_Lit_Expression 348 352	ship
+T4	Literal_Expression 419 423	area
+T5	Literal 431 443	Indian Ocean
+#1	AnnotatorNotes T5	1545739
+T6	Non_Literal_Modifier 484 492	Malaysia
+A4	Modifier_Type T6 Noun
+#2	AnnotatorNotes T6	1733045
+T7	Non_Literal_Modifier 1812 1821	Malaysian
+A6	Modifier_Type T7 Adjective
+#3	AnnotatorNotes T7	1733045
+T8	Non_Literal_Modifier 1046 1055	Malaysian
+A8	Modifier_Type T8 Adjective
+#4	AnnotatorNotes T8	1733045
+T9	Non_Lit_Expression 1847 1862	representatives
+T10	Literal_Expression 622 626	area
+T11	Non_Lit_Expression 693 696	jet
+T12	Literal 754 759	China
+#5	AnnotatorNotes T12	1814991
+T13	Literal 787 799	Kuala Lumpur
+#6	AnnotatorNotes T13	1733046
+T14	Literal 803 810	Beijing
+#7	AnnotatorNotes T14	1816670
+T15	Literal_Expression 905 909	zone
+T16	Non_Lit_Expression 963 970	history
+T17	Literal_Expression 1245 1249	area
+T18	Literal_Expression 1341 1345	area
+T19	Literal 1300 1312	Indian Ocean
+#8	AnnotatorNotes T19	1545739
+T20	Literal_Modifier 2210 2222	Indian Ocean
+A13	Modifier_Type T20 Noun
+#9	AnnotatorNotes T20	1545739
+T21	Non_Literal_Modifier 1739 1748	Norwegian
+A14	Modifier_Type T21 Adjective
+#10	AnnotatorNotes T21	3144096
+T22	Literal_Expression 1955 1961	waters
+T23	Non_Lit_Expression 1400 1407	company
+T24	Non_Lit_Expression 1709 1713	ship
+T25	Literal_Expression 1234 1238	zone
+T26	Non_Lit_Expression 2039 2047	families
+T2	Non_Literal_Modifier 918 928	Australian
+A2	Modifier_Type T2 Adjective
+#11	AnnotatorNotes T2	2077456
+T27	Embedded_Non_Lit 169 177	Malaysia
+#12	AnnotatorNotes T27	1733045
+A1	Modifier_Type T27 Noun
+T28	Non_Toponym 169 186	Malaysia Airlines
+A3	Non_Locational T3
+A5	Non_Locational T11
+A9	Non_Locational T23
+A11	Non_Locational T24
+A7	Non_Locational T9
+A10	Non_Locational T26

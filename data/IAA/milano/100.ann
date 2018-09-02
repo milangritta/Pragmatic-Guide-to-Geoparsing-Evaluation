@@ -1,0 +1,84 @@
+T1	Literal 1114 1122	Parkland
+T2	Literal 1124 1131	Florida
+T4	Coercion 1239 1275	Marjory Stoneman Douglas High School
+T5	Literal_Modifier 1634 1644	California
+T6	Literal 1842 1852	San Marcos
+T7	Metonymic 3314 3322	Parkland
+T8	Metonymic 3550 3558	Parkland
+T9	Metonymic 4331 4339	Parkland
+T10	Literal_Expression 4600 4608	shooting
+T11	Metonymic 4801 4808	America
+#1	AnnotatorNotes T1	4167829
+#2	AnnotatorNotes T2	4155751
+#3	AnnotatorNotes T4	26.304532, -80.269693
+#4	AnnotatorNotes T5	5332921
+#5	AnnotatorNotes T6	5392368
+#6	AnnotatorNotes T8	4167829
+#7	AnnotatorNotes T9	4167829
+#8	AnnotatorNotes T11	6252001
+T15	Metonymic 3632 3639	America
+#12	AnnotatorNotes T15	6252001
+A5	Modifier_Type T5 Noun
+T18	Literal_Expression 1391 1398	rallies
+T13	Literal_Expression 362 370	vacation
+T12	Non_Lit_Expression 605 611	angels
+T14	Non_Lit_Expression 4198 4208	supporters
+T16	Non_Lit_Expression 2304 2313	companies
+T17	Non_Lit_Expression 2744 2749	brand
+T19	Literal_Expression 3000 3004	show
+T20	Non_Lit_Expression 4492 4502	government
+T21	Non_Lit_Expression 4749 4755	people
+T22	Non_Lit_Expression 3958 3967	retailers
+T23	Non_Lit_Expression 3853 3864	personality
+T24	Non_Lit_Expression 4070 4079	companies
+T25	Literal_Expression 1136 1147	controversy
+T26	Non_Lit_Expression 751 758	viewers
+T27	Non_Lit_Expression 931 940	criticism
+T3	Literal_Expression 1215 1223	shooting
+T28	Non_Lit_Expression 1485 1491	senior
+T29	Literal_Expression 1940 1944	site
+T31	Non_Lit_Expression 2922 2933	advertisers
+T32	Literal_Expression 3413 3426	controversies
+T33	Literal_Expression 3709 3720	controversy
+T34	Non_Lit_Expression 4281 4290	president
+T35	Non_Toponym 1811 1838	California State University
+T36	Non_Toponym 1767 1806	California Polytechnic State University
+T37	Non_Toponym 1738 1765	Florida Atlantic University
+T38	Non_Toponym 3431 3450	The Washington Post
+T39	Literal_Expression 4878 4886	vacation
+T40	Literal_Expression 796 804	vacation
+T41	Non_Toponym 2033 2057	University of California
+T42	Non_Toponym 260 279	The Washington Post
+T43	Non_Toponym 823 842	The Washington Post
+A16	Non_Locational T26
+A1	Non_Locational T12
+A17	Non_Locational T27
+A19	Non_Locational T28
+A7	Non_Locational T16
+A20	Non_Locational T31
+A8	Non_Locational T17
+A11	Non_Locational T21
+A10	Non_Locational T20
+A6	Non_Locational T14
+A23	Non_Locational T34
+A14	Non_Locational T24
+A13	Non_Locational T23
+T44	Embedded_Non_Lit 264 274	Washington
+A3	Modifier_Type T44 Noun
+#15	AnnotatorNotes T44	4140963
+T45	Embedded_Non_Lit 827 837	Washington
+A4	Modifier_Type T45 Noun
+#16	AnnotatorNotes T45	4140963
+T46	Non_Toponym 1239 1275	Marjory Stoneman Douglas High School
+T47	Coercion 1738 1765	Florida Atlantic University
+#11	AnnotatorNotes T47	4155651
+T48	Coercion 1767 1806	California Polytechnic State University
+#10	AnnotatorNotes T48	5332847
+T49	Coercion 1811 1838	California State University
+#9	AnnotatorNotes T49	7156360
+T50	Coercion 2033 2057	University of California
+#14	AnnotatorNotes T50	5332921
+T51	Embedded_Non_Lit 3435 3445	Washington
+A9	Modifier_Type T51 Noun
+#13	AnnotatorNotes T51	4140963
+#17	AnnotatorNotes T7	4167829

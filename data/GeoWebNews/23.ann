@@ -1,0 +1,22 @@
+T1	Mixed 338 345	TIJUANA
+#1	AnnotatorNotes T1	3981609
+T2	Literal_Modifier 461 468	Tijuana
+#2	AnnotatorNotes T2	3981609
+T3	Literal 598 611	Tijuana River
+#3	AnnotatorNotes T3	3981608
+T4	Literal 615 630	Baja California
+#4	AnnotatorNotes T4	4017700
+T5	Mixed 348 357	SAN DIEGO
+#5	AnnotatorNotes T5	5391811
+T6	Non_Literal_Modifier 382 389	Mexican
+A2	Modifier_Type T6 Adjective
+#6	AnnotatorNotes T6	3996063
+T7	Literal_Expression 518 524	border
+T8	Literal 888 902	Imperial Beach
+#7	AnnotatorNotes T8	5359054
+T9	Literal_Expression 832 838	spills
+A4	Modifier_Type T1 Noun
+A5	Modifier_Type T5 Noun
+A1	Modifier_Type T2 Noun
+T10	Literal_Expression 576 590	infrastructure
+T11	Literal_Expression 770 776	crises

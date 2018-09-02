@@ -1,0 +1,30 @@
+T1	Literal 376 381	Japan
+#1	AnnotatorNotes T1	1861060
+T2	Non_Literal_Modifier 660 668	Japanese
+A1	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	1861060
+T3	Literal 1791 1796	Japan
+#3	AnnotatorNotes T3	1861060
+T4	Non_Literal_Modifier 121 129	Japanese
+A3	Modifier_Type T4 Adjective
+#4	AnnotatorNotes T4	1861060
+T5	Non_Lit_Expression 216 221	theft
+T6	Non_Literal_Modifier 252 260	Japanese
+A4	Modifier_Type T6 Adjective
+#5	AnnotatorNotes T6	1861060
+T7	Non_Lit_Expression 1699 1705	income
+T8	Non_Lit_Expression 802 816	responsibility
+T9	Literal_Expression 1013 1021	exchange
+T10	Literal_Expression 1064 1071	meeting
+T11	Non_Lit_Expression 340 346	shares
+T12	Non_Lit_Expression 478 483	coins
+T13	Non_Lit_Expression 546 554	exchange
+T14	Non_Lit_Expression 616 623	hacking
+T15	Literal_Expression 1480 1487	closure
+A7	Non_Locational T12
+A2	Non_Locational T8
+T16	Non_Lit_Expression 849 860	acquisition
+A6	Non_Locational T16
+T17	Non_Lit_Expression 1564 1571	results
+A8	Non_Locational T17
+A5	Non_Locational T7

@@ -1,0 +1,81 @@
+T1	Mixed 167 175	New York
+#1	AnnotatorNotes T1	5128638
+T2	Non_Lit_Expression 3208 3214	cities
+T3	Literal 3248 3264	Washington, D.C.
+#2	AnnotatorNotes T3	4138106
+T4	Mixed 261 271	WASHINGTON
+#3	AnnotatorNotes T4	4138106
+T5	Literal 2307 2317	Washington
+#4	AnnotatorNotes T5	4138106
+T6	Metonymic 4657 4667	Washington
+#5	AnnotatorNotes T6	4138106
+T7	Literal 3909 3913	D.C.
+#6	AnnotatorNotes T7	4138106
+T9	Literal 210 223	United States
+#8	AnnotatorNotes T9	6252001
+T10	Literal 409 422	United States
+#9	AnnotatorNotes T10	6252001
+T11	Mixed 347 355	New York
+#10	AnnotatorNotes T11	5128638
+T12	Literal_Modifier 2506 2512	London
+A7	Modifier_Type T12 Noun
+#11	AnnotatorNotes T12	2643743
+T13	Literal_Expression 641 650	buildings
+T14	Literal_Expression 658 662	city
+T15	Literal_Modifier 4685 4689	U.S.
+#12	AnnotatorNotes T15	6252001
+T16	Literal_Expression 4552 4556	site
+T17	Non_Lit_Expression 4467 4473	owners
+T18	Literal_Expression 4197 4206	buildings
+T19	Literal_Expression 4166 4172	panels
+T20	Non_Lit_Expression 3762 3769	artists
+T21	Literal_Expression 3864 3868	wall
+T22	Non_Lit_Expression 3892 3903	development
+T23	Non_Lit_Expression 3459 3465	owners
+T24	Non_Lit_Expression 3056 3062	cities
+T25	Literal_Expression 3118 3123	works
+T26	Non_Lit_Expression 3141 3152	millennials
+T27	Mixed 2792 2798	London
+A17	Modifier_Type T27 Noun
+#13	AnnotatorNotes T27	2643743
+T28	Non_Lit_Expression 2944 2950	cities
+T29	Non_Lit_Expression 2843 2849	damage
+T30	Non_Lit_Expression 2421 2426	board
+T31	Non_Lit_Expression 2170 2180	organizers
+T32	Literal_Expression 2123 2132	buildings
+T33	Non_Lit_Expression 1927 1932	owner
+T34	Literal_Expression 1999 2003	site
+T35	Literal_Expression 1973 1982	buildings
+T36	Literal_Expression 1840 1845	walls
+T37	Literal_Expression 1876 1881	world
+T38	Non_Lit_Expression 1436 1443	artists
+T39	Non_Lit_Expression 1449 1453	jury
+T40	Non_Lit_Expression 1109 1112	law
+T41	Non_Lit_Expression 1174 1181	experts
+T42	Non_Lit_Expression 864 870	cities
+T43	Literal_Expression 882 887	world
+T44	Literal_Expression 691 695	site
+T45	Non_Lit_Expression 390 397	artists
+T46	Literal_Expression 3953 3959	murals
+A1	Modifier_Type T1 Noun
+A2	Modifier_Type T11 Noun
+A3	Modifier_Type T15 Noun
+A4	Modifier_Type T4 Noun
+A5	Non_Locational T45
+T8	Literal_Expression 1036 1045	buildings
+A6	Non_Locational T40
+A8	Non_Locational T41
+A9	Non_Locational T38
+A10	Non_Locational T39
+A18	Non_Locational T33
+A19	Non_Locational T31
+A20	Non_Locational T30
+A15	Non_Locational T26
+A14	Non_Locational T23
+T47	Non_Toponym 3687 3729	D.C. Commission on the Arts and Humanities
+T48	Embedded_Non_Lit 3687 3691	D.C.
+A16	Modifier_Type T48 Noun
+#7	AnnotatorNotes T48	4138106
+A12	Non_Locational T20
+A13	Non_Locational T22
+A11	Non_Locational T17

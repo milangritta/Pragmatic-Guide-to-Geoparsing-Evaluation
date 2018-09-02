@@ -1,0 +1,106 @@
+T1	Literal 226 233	Alberta
+#1	AnnotatorNotes T1	5883102
+T2	Mixed 1380 1387	Alberta
+#2	AnnotatorNotes T2	5883102
+T3	Literal 256 262	Hinton
+#3	AnnotatorNotes T3	11807235
+T4	Literal 2789 2795	Hinton
+#4	AnnotatorNotes T4	11807235
+T5	Metonymic 3906 3912	Hinton
+#5	AnnotatorNotes T5	11807235
+T6	Literal_Expression 213 218	towns
+T7	Literal_Expression 239 248	landscape
+T8	Literal_Expression 286 291	wells
+T9	Literal_Expression 329 334	wells
+T10	Non_Lit_Expression 411 415	heat
+T11	Non_Lit_Expression 443 447	town
+T12	Literal_Expression 527 538	underground
+T13	Literal_Expression 574 581	surface
+T14	Literal_Expression 618 624	ground
+T15	Literal_Expression 673 682	buildings
+T16	Non_Lit_Expression 840 849	associate
+T17	Non_Lit_Expression 918 922	town
+T18	Literal_Expression 1016 1023	project
+T19	Mixed 1356 1364	Canadian
+A4	Modifier_Type T19 Adjective
+#6	AnnotatorNotes T19	6251999
+T20	Mixed 1481 1487	Canada
+#7	AnnotatorNotes T20	6251999
+T21	Metonymic 1634 1640	Canada
+#8	AnnotatorNotes T21	6251999
+T22	Literal 3354 3360	Canada
+#9	AnnotatorNotes T22	6251999
+T23	Literal 4681 4687	Canada
+#10	AnnotatorNotes T23	6251999
+T24	Non_Lit_Expression 1524 1533	residents
+T25	Non_Lit_Expression 1939 1943	town
+T26	Non_Lit_Expression 2066 2072	people
+T27	Literal_Expression 2155 2164	community
+T28	Literal_Expression 2295 2299	town
+T29	Non_Lit_Expression 2606 2610	cost
+T30	Non_Lit_Expression 2759 2769	businesses
+T31	Non_Lit_Expression 2846 2850	town
+T32	Non_Lit_Expression 2998 3008	greenhouse
+T33	Mixed 3062 3067	Boise
+#11	AnnotatorNotes T33	5586445
+T34	Mixed 3069 3074	Idaho
+#12	AnnotatorNotes T34	5596512
+T35	Literal_Expression 3127 3131	farm
+T36	Literal 3136 3149	Klamath Falls
+#13	AnnotatorNotes T36	5735238
+T37	Literal 3151 3157	Oregon
+#14	AnnotatorNotes T37	5744337
+T38	Non_Lit_Expression 3161 3168	brewery
+T39	Non_Lit_Expression 3203 3210	partner
+T40	Literal_Modifier 3227 3234	Calgary
+A15	Modifier_Type T40 Noun
+#15	AnnotatorNotes T40	5913490
+T41	Literal_Expression 3281 3286	sites
+T42	Non_Lit_Expression 3429 3436	economy
+T43	Literal_Modifier 3527 3531	B.C.
+A17	Modifier_Type T43 Noun
+#16	AnnotatorNotes T43	5909050
+T44	Mixed 3540 3549	Valemount
+#17	AnnotatorNotes T44	6173031
+T45	Literal_Expression 3603 3607	park
+T46	Literal_Expression 3710 3714	town
+T47	Literal_Expression 3765 3772	brewery
+T48	Literal_Expression 3781 3791	greenhouse
+T49	Mixed 3855 3863	American
+A18	Modifier_Type T49 Adjective
+#18	AnnotatorNotes T49	6252001
+T50	Literal 3967 3980	Klamath Falls
+#19	AnnotatorNotes T50	5735238
+T51	Non_Lit_Expression 3982 3987	users
+T52	Literal 4026 4031	Boise
+#20	AnnotatorNotes T52	5586445
+T53	Non_Lit_Expression 4149 4158	residents
+T54	Literal_Expression 4422 4426	town
+T55	Non_Lit_Expression 4500 4508	industry
+T56	Literal_Expression 4561 4570	oilfields
+T57	Non_Lit_Expression 483 487	plan
+T59	Literal_Expression 1216 1222	system
+T60	Non_Lit_Expression 1845 1852	project
+T61	Non_Lit_Expression 3036 3042	market
+T62	Embedded_Non_Lit 4782 4788	Canada
+#21	AnnotatorNotes T62	6251999
+T63	Embedded_Non_Lit 871 892	University of Alberta
+#22	AnnotatorNotes T63	5883102
+T64	Embedded_Non_Lit 906 912	Canada
+#23	AnnotatorNotes T64	6251999
+A7	Non_Locational T57
+A2	Non_Locational T16
+T58	Non_Toponym 871 892	University of Alberta
+A11	Modifier_Type T63 Noun
+T65	Non_Toponym 899 912	DeSmog Canada
+A1	Modifier_Type T64 Noun
+A3	Modifier_Type T20 Noun
+A13	Modifier_Type T2 Noun
+A8	Non_Locational T24
+A6	Non_Locational T26
+A9	Non_Locational T27
+A10	Non_Locational T39
+A12	Non_Locational T51
+A14	Non_Locational T53
+T66	Non_Toponym 4775 4788	DeSmog Canada
+A5	Modifier_Type T62 Noun

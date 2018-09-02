@@ -1,0 +1,54 @@
+T1	Mixed 990 1011	Bains and Grants Town
+#1	AnnotatorNotes T1	3571824
+T2	Non_Literal_Modifier 141 161	BAIN and Grants Town
+#2	AnnotatorNotes T2	3571824
+T3	Non_Literal_Modifier 567 588	Bains and Grants Town
+A1	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	3571824
+T4	Literal_Modifier 1757 1778	Bains and Grants Town
+#4	AnnotatorNotes T4	3571824
+A2	Modifier_Type T4 Noun
+T5	Literal 1413 1434	Bains and Grants Town
+#5	AnnotatorNotes T5	3571824
+T6	Embedded_Literal 336 357	Bains and Grants Town
+#6	AnnotatorNotes T6	3571824
+A3	Modifier_Type T2 Noun
+T7	Non_Lit_Expression 289 298	residents
+T8	Non_Lit_Expression 501 511	Parliament
+T9	Literal_Expression 1249 1255	school
+T10	Literal_Expression 1918 1924	office
+T11	Non_Lit_Expression 1937 1947	applicants
+T12	Non_Lit_Expression 763 772	community
+T13	Literal_Expression 862 866	area
+T14	Non_Lit_Expression 1215 1224	education
+T15	Non_Lit_Expression 1705 1717	scholarships
+T16	Coercion 1795 1805	Cyber Tech
+#7	AnnotatorNotes T16	25.065727, -77.335934
+T17	Non_Lit_Expression 1740 1749	residents
+T18	Non_Lit_Expression 192 203	partnership
+A5	Non_Locational T18
+A4	Non_Locational T7
+A7	Non_Locational T12
+T19	Non_Toponym 219 244	Cyber Tech Career College
+T20	Non_Toponym 1795 1805	Cyber Tech
+T21	Embedded_Non_Lit 219 244	Cyber Tech Career College
+A10	Modifier_Type T21 Noun
+#8	AnnotatorNotes T21	25.065188, -77.335491
+T22	Non_Toponym 434 459	Cyber Tech Career College
+T23	Embedded_Non_Lit 434 459	Cyber Tech Career College
+A11	Modifier_Type T23 Noun
+#9	AnnotatorNotes T23	25.065188, -77.335491
+T24	Non_Toponym 336 404	Bains and Grants Town Centre for Academic Development and Enrichment
+A12	Modifier_Type T6 Noun
+A6	Non_Locational T11
+T25	Non_Lit_Expression 2155 2162	service
+A13	Non_Locational T25
+A8	Non_Locational T14
+A9	Non_Locational T15
+T26	Literal_Expression 322 328	launch
+T27	Non_Lit_Expression 678 687	residents
+A14	Non_Locational T27
+T28	Non_Lit_Expression 1152 1158	degree
+A15	Non_Locational T28
+T29	Literal_Expression 1351 1356	grade
+A16	Non_Locational T29

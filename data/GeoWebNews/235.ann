@@ -1,0 +1,68 @@
+T1	Mixed 221 233	Kuala Lumpur
+#1	AnnotatorNotes T1	1735161
+T2	Non_Literal_Modifier 235 244	Malaysian
+A1	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	1733045
+T3	Demonym 2447 2453	Malays
+T4	Demonym 3199 3205	Malays
+T5	Embedded_Non_Lit 482 490	Malaysia
+#3	AnnotatorNotes T5	1733045
+T6	Non_Lit_Expression 316 321	party
+T7	Non_Lit_Expression 374 384	opposition
+T8	Non_Lit_Expression 622 631	Elections
+T9	Non_Lit_Expression 712 722	Parliament
+T10	Non_Lit_Expression 881 885	vote
+T11	Literal_Modifier 916 920	Asia
+#4	AnnotatorNotes T11	6255147
+T12	Non_Lit_Expression 1322 1327	order
+T13	Non_Lit_Expression 1461 1466	world
+T14	Non_Lit_Expression 1496 1499	law
+T15	Non_Lit_Expression 1813 1821	alliance
+T16	Literal_Expression 2045 2051	office
+T17	Metonymic 2312 2319	Britain
+#5	AnnotatorNotes T17	2635167
+T18	Mixed 2506 2508	US
+#6	AnnotatorNotes T18	6252001
+T19	Literal 2888 2890	US
+#7	AnnotatorNotes T19	6252001
+T20	Embedded_Non_Lit 2685 2687	US
+#8	AnnotatorNotes T20	6252001
+T21	Literal_Expression 2624 2628	fund
+T22	Non_Lit_Expression 2936 2943	critics
+T23	Non_Lit_Expression 3031 3039	Analysts
+T24	Literal_Expression 2459 2466	bedrock
+T25	Non_Lit_Expression 2982 2987	media
+T26	Non_Lit_Expression 1964 1973	registrar
+T27	Non_Lit_Expression 1213 1218	party
+A24	Modifier_Type T1 Noun
+A2	Non_Locational T7
+T28	Non_Toponym 460 490	Parti Pribumi Bersatu Malaysia
+A10	Modifier_Type T5 Noun
+A9	Non_Locational T6
+A11	Non_Locational T9
+A12	Non_Locational T10
+A7	Modifier_Type T11 Noun
+T29	Non_Lit_Expression 1141 1150	documents
+A13	Non_Locational T29
+A17	Non_Locational T27
+A14	Non_Locational T12
+T30	Non_Lit_Expression 1424 1434	activities
+A15	Non_Locational T14
+T31	Non_Lit_Expression 1558 1567	elections
+T32	Non_Lit_Expression 1587 1596	opponents
+A23	Non_Locational T32
+T33	Non_Lit_Expression 1625 1635	conference
+A16	Non_Locational T15
+A22	Non_Locational T26
+T34	Non_Lit_Expression 2009 2015	regime
+A25	Non_Locational T34
+T35	Non_Lit_Expression 2092 2099	scandal
+A26	Non_Locational T35
+A3	Non_Locational T21
+T36	Non_Toponym 2685 2706	US Justice Department
+A4	Modifier_Type T20 Noun
+A8	Non_Locational T22
+A18	Non_Locational T25
+A19	Non_Locational T23
+T37	Literal_Expression 3098 3108	opposition
+A20	Non_Locational T37

@@ -1,0 +1,29 @@
+T1	Literal 389 395	Osogbo
+#1	AnnotatorNotes T1	2325590
+T2	Demonym 928 937	Nigerians
+T3	Demonym 532 541	Nigerians
+T4	Literal_Expression 278 283	state
+T5	Embedded_Non_Lit 165 175	Osun State
+#2	AnnotatorNotes T5	2597365
+T6	Embedded_Non_Lit 1127 1131	Osun
+#3	AnnotatorNotes T6	2597365
+T7	Non_Lit_Expression 233 241	firearms
+T8	Literal_Expression 407 414	capital
+T9	Non_Lit_Expression 571 577	police
+T10	Literal_Expression 691 700	criminals
+T11	Non_Lit_Expression 753 760	pistols
+T12	Literal_Expression 1036 1043	station
+T13	Non_Lit_Expression 374 385	journalists
+T14	Non_Lit_Expression 472 481	directive
+T15	Non_Lit_Expression 646 652	police
+T16	Non_Lit_Expression 1229 1237	firearms
+T17	Non_Toponym 165 190	Osun State Police Command
+A11	Modifier_Type T5 Noun
+A5	Non_Locational T7
+A8	Non_Locational T13
+A9	Non_Locational T14
+A3	Non_Locational T10
+A4	Non_Locational T11
+T18	Non_Toponym 1127 1146	Osun Police Command
+A1	Modifier_Type T6 Noun
+A2	Non_Locational T16

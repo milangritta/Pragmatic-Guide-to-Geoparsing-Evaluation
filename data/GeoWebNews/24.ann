@@ -1,0 +1,28 @@
+T1	Literal_Expression 388 392	town
+T2	Literal 476 481	Abuja
+#1	AnnotatorNotes T2	2352778
+T3	Demonym 1226 1235	Nigerians
+T4	Non_Lit_Expression 443 452	statement
+T5	Non_Lit_Expression 643 647	view
+T6	Non_Lit_Expression 763 772	president
+T7	Non_Lit_Expression 827 832	world
+T8	Non_Lit_Expression 911 918	leaders
+T9	Non_Lit_Expression 1247 1252	world
+T10	Literal_Expression 1290 1295	party
+T11	Literal_Expression 1585 1591	favour
+T12	Non_Lit_Expression 1635 1644	president
+T13	Non_Lit_Expression 1759 1768	president
+T14	Non_Lit_Expression 2010 2017	leaders
+T15	Non_Lit_Expression 2100 2110	presidency
+T16	Non_Lit_Expression 2238 2243	excos
+A3	Non_Locational T4
+A4	Non_Locational T5
+A5	Non_Locational T6
+A6	Non_Locational T8
+A1	Non_Locational T10
+A2	Non_Locational T11
+A7	Non_Locational T12
+A8	Non_Locational T13
+A9	Non_Locational T14
+A10	Non_Locational T15
+A11	Non_Locational T16

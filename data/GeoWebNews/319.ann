@@ -1,0 +1,43 @@
+T1	Literal_Modifier 205 210	Derry
+A1	Modifier_Type T1 Noun
+T2	Literal 213 233	Altnagelvin Hospital
+#1	AnnotatorNotes T1	2643736
+#2	AnnotatorNotes T2	54.986415, -7.291856
+T3	Literal 163 190	Health and Wellbeing Campus
+#3	AnnotatorNotes T3	54.986415, -7.291856
+T4	Literal 266 282	Northern Ireland
+#4	AnnotatorNotes T4	2641364
+T5	Non_Lit_Expression 361 366	Actor
+T6	Literal 520 544	Macmillan Support Centre
+#5	AnnotatorNotes T6	54.986415, -7.291856
+T7	Coercion 574 591	Agnes Jones House
+#6	AnnotatorNotes T7	54.986415, -7.291856
+T8	Non_Lit_Expression 1540 1547	support
+T9	Literal 712 720	Republic
+#7	AnnotatorNotes T9	2963597
+T10	Literal 767 790	Northwest Cancer Centre
+#8	AnnotatorNotes T10	54.986415, -7.291856
+T11	Literal_Modifier 725 739	Northern Trust
+A4	Modifier_Type T11 Noun
+#9	AnnotatorNotes T11	54.890467, -7.882604
+T12	Coercion 670 683	Western Trust
+#10	AnnotatorNotes T12	54.848586, -7.084168
+T13	Literal_Expression 481 487	Campus
+T14	Literal_Expression 1172 1181	somewhere
+T15	Non_Lit_Expression 1258 1267	questions
+T16	Literal_Expression 1438 1444	Campus
+T17	Literal_Expression 1493 1498	place
+T18	Non_Lit_Expression 353 358	Trust
+T19	Literal_Expression 467 474	opening
+T20	Non_Lit_Expression 972 980	exercise
+T21	Non_Lit_Expression 1352 1359	support
+A8	Non_Locational T18
+A2	Non_Locational T5
+T22	Non_Toponym 574 591	Agnes Jones House
+T23	Non_Toponym 670 683	Western Trust
+T24	Non_Lit_Expression 870 881	counselling
+A9	Non_Locational T24
+A6	Non_Locational T20
+A5	Non_Locational T15
+A7	Non_Locational T21
+A3	Non_Locational T8

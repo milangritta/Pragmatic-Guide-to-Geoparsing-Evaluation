@@ -1,0 +1,66 @@
+T1	Metonymic 160 167	Georgia
+#1	AnnotatorNotes T1	614540
+T2	Metonymic 375 382	Georgia
+#2	AnnotatorNotes T2	614540
+T3	Literal 591 598	Georgia
+#3	AnnotatorNotes T3	614540
+T4	Literal 1382 1389	Georgia
+#4	AnnotatorNotes T4	614540
+T5	Non_Literal_Modifier 1799 1807	Georgian
+A1	Modifier_Type T5 Adjective
+#5	AnnotatorNotes T5	614540
+T6	Embedded_Non_Lit 513 521	Georgian
+#6	AnnotatorNotes T6	614540
+T7	Metonymic 546 556	Azerbaijan
+#7	AnnotatorNotes T7	587116
+T8	Non_Literal_Modifier 1257 1267	Azerbaijan
+A3	Modifier_Type T8 Noun
+#8	AnnotatorNotes T8	587116
+T9	Literal 1716 1726	Azerbaijan
+#9	AnnotatorNotes T9	587116
+T10	Mixed 1486 1496	Azerbaijan
+#10	AnnotatorNotes T10	587116
+T11	Non_Literal_Modifier 1305 1316	Azerbaijani
+A5	Modifier_Type T11 Adjective
+#11	AnnotatorNotes T11	587116
+T12	Metonymic 347 357	Azerbaijan
+#12	AnnotatorNotes T12	587116
+T13	Non_Literal_Modifier 288 299	Azerbaijani
+A7	Modifier_Type T13 Adjective
+#13	AnnotatorNotes T13	587116
+T14	Literal_Expression 204 211	section
+T15	Literal_Expression 219 225	border
+T16	Non_Lit_Expression 251 263	organization
+T17	Metonymic 329 345	Nagorno-Karabakh
+#14	AnnotatorNotes T17	409432
+T18	Literal_Expression 578 587	territory
+T19	Literal_Expression 783 789	border
+T20	Literal_Expression 799 807	villages
+T21	Literal_Expression 931 935	area
+T22	Non_Lit_Expression 1063 1068	state
+T23	Literal_Expression 1287 1291	area
+T24	Literal 1366 1373	Armenia
+#15	AnnotatorNotes T24	174982
+T25	Non_Lit_Expression 1352 1360	soldiers
+T26	Non_Literal_Modifier 1414 1422	Armenian
+A12	Modifier_Type T26 Adjective
+#16	AnnotatorNotes T26	174982
+T27	Mixed 1442 1467	Nagorno-Karabakh Republic
+#17	AnnotatorNotes T27	409432
+T28	Non_Lit_Expression 1502 1510	conflict
+T29	Literal_Expression 1630 1634	area
+T30	Literal_Expression 1704 1710	border
+T31	Non_Lit_Expression 619 624	chief
+T32	Literal_Expression 768 775	section
+T33	Non_Lit_Expression 1127 1136	shepherds
+T34	Non_Lit_Expression 1196 1201	grass
+A9	Non_Locational T16
+T35	Non_Lit_Expression 406 413	experts
+A8	Non_Locational T35
+A14	Non_Locational T31
+T36	Non_Toponym 513 532	Georgian Parliament
+A17	Modifier_Type T6 Adjective
+A10	Non_Locational T33
+A4	Non_Locational T25
+T37	Non_Lit_Expression 1595 1604	programme
+A6	Non_Locational T37

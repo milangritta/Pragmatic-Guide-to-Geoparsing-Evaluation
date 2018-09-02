@@ -1,0 +1,195 @@
+T1	Embedded_Non_Lit 266 272	Russia
+#1	AnnotatorNotes T1	2017370
+T2	Non_Literal_Modifier 502 509	Russian
+A1	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	2017370
+T3	Metonymic 595 601	Russia
+#3	AnnotatorNotes T3	2017370
+T4	Non_Literal_Modifier 781 788	Russian
+A3	Modifier_Type T4 Adjective
+#4	AnnotatorNotes T4	2017370
+T5	Non_Literal_Modifier 1120 1127	Russian
+A5	Modifier_Type T5 Adjective
+#5	AnnotatorNotes T5	2017370
+T6	Metonymic 1362 1368	Russia
+#6	AnnotatorNotes T6	2017370
+T7	Metonymic 2321 2327	Russia
+#7	AnnotatorNotes T7	2017370
+T8	Metonymic 1702 1708	Russia
+#8	AnnotatorNotes T8	2017370
+T9	Non_Literal_Modifier 2079 2086	Russian
+A7	Modifier_Type T9 Adjective
+#9	AnnotatorNotes T9	2017370
+T10	Metonymic 3091 3097	Russia
+#10	AnnotatorNotes T10	2017370
+T11	Mixed 3654 3661	Russian
+A9	Modifier_Type T11 Adjective
+#11	AnnotatorNotes T11	2017370
+T12	Metonymic 3378 3384	Russia
+#12	AnnotatorNotes T12	2017370
+T13	Metonymic 4116 4122	Russia
+#13	AnnotatorNotes T13	2017370
+T14	Metonymic 3926 3932	Russia
+#14	AnnotatorNotes T14	2017370
+T15	Non_Literal_Modifier 5177 5195	Russian Federation
+A11	Modifier_Type T15 Noun
+#15	AnnotatorNotes T15	2017370
+T16	Metonymic 1185 1189	U.S.
+#16	AnnotatorNotes T16	6252001
+T17	Metonymic 2027 2031	U.S.
+#17	AnnotatorNotes T17	6252001
+T18	Non_Literal_Modifier 2619 2623	U.S.
+A13	Modifier_Type T18 Noun
+#18	AnnotatorNotes T18	6252001
+T19	Non_Literal_Modifier 2854 2858	U.S.
+A15	Modifier_Type T19 Noun
+#19	AnnotatorNotes T19	6252001
+T20	Metonymic 679 683	U.S.
+#20	AnnotatorNotes T20	6252001
+T21	Mixed 2644 2652	European
+A17	Modifier_Type T21 Adjective
+#21	AnnotatorNotes T21	6255148
+T22	Metonymic 2597 2603	Europe
+#22	AnnotatorNotes T22	6255148
+T23	Metonymic 1884 1890	Europe
+#23	AnnotatorNotes T23	6255148
+T24	Mixed 745 753	European
+A18	Modifier_Type T24 Adjective
+#24	AnnotatorNotes T24	6255148
+T25	Metonymic 2061 2067	Europe
+#25	AnnotatorNotes T25	6255148
+T26	Mixed 3662 3670	European
+A20	Modifier_Type T26 Adjective
+#26	AnnotatorNotes T26	6255148
+T27	Metonymic 316 320	West
+#27	AnnotatorNotes T27	9408659
+T28	Metonymic 1377 1381	West
+#28	AnnotatorNotes T28	9408659
+T29	Non_Literal_Modifier 425 432	Western
+A23	Modifier_Type T29 Adjective
+#29	AnnotatorNotes T29	9408659
+T30	Mixed 4175 4182	Western
+A24	Modifier_Type T30 Adjective
+#30	AnnotatorNotes T30	9408659
+T31	Literal_Expression 4535 4542	borders
+T32	Mixed 4442 4449	Western
+A26	Modifier_Type T32 Adjective
+#31	AnnotatorNotes T32	9408659
+T33	Literal_Expression 388 393	world
+T34	Metonymic 562 575	Great Britain
+#32	AnnotatorNotes T34	2635167
+T35	Metonymic 1249 1262	Great Britain
+#33	AnnotatorNotes T35	2635167
+T36	Non_Lit_Expression 1057 1066	countries
+T37	Metonymic 711 718	Ukraine
+#34	AnnotatorNotes T37	690791
+T38	Non_Lit_Expression 845 851	people
+T39	Non_Lit_Expression 1311 1322	beneficiary
+T40	Mixed 1420 1427	Austria
+#35	AnnotatorNotes T40	2782113
+T41	Non_Literal_Modifier 5006 5013	Austria
+A30	Modifier_Type T41 Noun
+#36	AnnotatorNotes T41	2782113
+T42	Non_Literal_Modifier 4913 4919	Austro
+A32	Modifier_Type T42 Adjective
+#37	AnnotatorNotes T42	2782113
+T43	Mixed 1429 1437	Slovakia
+#38	AnnotatorNotes T43	3057568
+T44	Mixed 1439 1445	Cyprus
+#39	AnnotatorNotes T44	146669
+T45	Mixed 1450 1456	Greece
+#40	AnnotatorNotes T45	390903
+T46	Metonymic 1544 1549	Italy
+#41	AnnotatorNotes T46	3175395
+T47	Metonymic 1597 1602	Italy
+#42	AnnotatorNotes T47	3175395
+T48	Mixed 2685 2690	Italy
+#43	AnnotatorNotes T48	3175395
+T49	Non_Lit_Expression 1652 1661	countries
+T50	Metonymic 1814 1818	Rome
+#44	AnnotatorNotes T50	3169070
+T51	Metonymic 2036 2043	Britain
+#45	AnnotatorNotes T51	2635167
+T52	Metonymic 2208 2214	Moscow
+#46	AnnotatorNotes T52	524901
+T53	Metonymic 3870 3876	Moscow
+#47	AnnotatorNotes T53	524901
+T54	Metonymic 4394 4400	Moscow
+#48	AnnotatorNotes T54	524901
+T55	Metonymic 2244 2254	Washington
+#49	AnnotatorNotes T55	4140963
+T56	Metonymic 2282 2292	Washington
+#50	AnnotatorNotes T56	4140963
+T57	Mixed 2665 2671	France
+#51	AnnotatorNotes T57	3017382
+T58	Mixed 2673 2680	Germany
+#52	AnnotatorNotes T58	2921044
+T59	Metonymic 3760 3767	Germany
+#53	AnnotatorNotes T59	2921044
+T60	Metonymic 3937 3949	Nazi Germany
+#54	AnnotatorNotes T60	2921044
+T61	Non_Lit_Expression 2909 2917	conflict
+T62	Metonymic 3073 3077	Iran
+#55	AnnotatorNotes T62	130758
+T63	Literal_Expression 3113 3120	markets
+T64	Mixed 3202 3214	Soviet Union
+#56	AnnotatorNotes T64	2017370
+T65	Non_Literal_Modifier 3463 3470	British
+A36	Modifier_Type T65 Adjective
+#57	AnnotatorNotes T65	2635167
+T66	Non_Literal_Modifier 3475 3483	American
+A38	Modifier_Type T66 Adjective
+#58	AnnotatorNotes T66	6252001
+T67	Non_Lit_Expression 3615 3620	state
+T68	Literal_Expression 3828 3838	atmosphere
+T69	Mixed 3967 3974	British
+A40	Modifier_Type T69 Adjective
+#59	AnnotatorNotes T69	2635167
+T70	Non_Lit_Expression 4322 4327	power
+T71	Literal_Expression 4509 4519	contingent
+T72	Literal_Expression 4693 4699	events
+T73	Non_Literal_Modifier 4845 4852	Bosnian
+#60	AnnotatorNotes T73	3277605
+T74	Non_Literal_Modifier 4853 4857	Serb
+#61	AnnotatorNotes T74	6290252
+T75	Literal 4938 4960	Bosnia and Herzegovina
+#62	AnnotatorNotes T75	3277605
+T76	Non_Literal_Modifier 4920 4929	Hungarian
+A47	Modifier_Type T76 Adjective
+#63	AnnotatorNotes T76	719819
+T77	Non_Lit_Expression 1223 1232	diplomats
+T78	Non_Lit_Expression 1520 1527	picture
+T79	Literal_Expression 1935 1939	case
+T80	Non_Lit_Expression 2133 2137	move
+T81	Non_Lit_Expression 2975 2980	plane
+T82	Literal_Expression 3256 3263	economy
+T83	Literal_Expression 3341 3345	area
+T84	Non_Lit_Expression 4050 4057	project
+T85	Non_Lit_Expression 4604 4611	threats
+T86	Non_Toponym 266 290	Russia in Global Affairs
+A21	Modifier_Type T1 Noun
+T87	Embedded_Non_Lit 206 212	Valdai
+A25	Modifier_Type T87 Noun
+#64	AnnotatorNotes T87	477301
+T88	Non_Toponym 206 228	Valdai Discussion Club
+A2	Non_Locational T38
+T89	Non_Lit_Expression 546 556	solidarity
+A22	Non_Locational T89
+T90	Non_Lit_Expression 884 891	gesture
+A4	Non_Locational T90
+A6	Non_Locational T77
+A27	Non_Locational T39
+A10	Non_Locational T78
+T91	Literal_Expression 1763 1766	war
+A8	Non_Locational T80
+T92	Literal_Expression 2455 2458	war
+T93	Non_Lit_Expression 2991 3000	sanctions
+A14	Non_Locational T93
+A16	Non_Locational T84
+A19	Non_Locational T70
+A28	Non_Locational T85
+A29	Modifier_Type T73 Adjective
+A34	Modifier_Type T74 Adjective
+T94	Non_Literal_Modifier 4870 4881	Yugoslavist
+A35	Modifier_Type T94 Adjective
+#65	AnnotatorNotes T94	7500737

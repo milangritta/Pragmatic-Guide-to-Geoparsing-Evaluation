@@ -1,0 +1,112 @@
+T1	Mixed 164 175	CAMP MURRAY
+#1	AnnotatorNotes T1	5788939
+T2	Mixed 177 182	Wash.
+#2	AnnotatorNotes T2	5815135
+T3	Mixed 544 554	Washington
+A1	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	5815135
+T4	Literal 730 740	Washington
+#4	AnnotatorNotes T4	5815135
+T5	Literal 3519 3529	Washington
+#5	AnnotatorNotes T5	5815135
+T6	Literal 793 809	Washington, D.C.
+#6	AnnotatorNotes T6	4138106
+T7	Literal 751 757	Saipan
+#7	AnnotatorNotes T7	7828758
+T8	Literal 2475 2481	Saipan
+#8	AnnotatorNotes T8	7828758
+T9	Literal 759 763	Guam
+#9	AnnotatorNotes T9	4043988
+T10	Literal 2336 2340	Guam
+#10	AnnotatorNotes T10	4043988
+T11	Literal 765 771	Alaska
+#11	AnnotatorNotes T11	5879092
+T12	Literal 773 779	Hawaii
+#12	AnnotatorNotes T12	5855797
+T13	Literal 2325 2331	Hawaii
+#13	AnnotatorNotes T13	5855797
+T14	Literal 781 788	Florida
+#14	AnnotatorNotes T14	4155751
+T15	Literal 2342 2351	Louisiana
+#15	AnnotatorNotes T15	4331987
+T16	Literal 2353 2359	Nevada
+#16	AnnotatorNotes T16	5509151
+T17	Non_Lit_Expression 265 269	Team
+T18	Literal_Expression 341 349	calendar
+T19	Literal_Expression 520 529	community
+T20	Literal_Expression 678 683	world
+T21	Non_Lit_Expression 885 889	team
+T22	Non_Lit_Expression 995 1005	responders
+T23	Non_Lit_Expression 1128 1134	forces
+T24	Literal_Expression 1155 1159	site
+T25	Literal_Expression 1317 1325	military
+T26	Non_Lit_Expression 1511 1518	members
+T27	Literal_Expression 1629 1634	field
+T28	Non_Lit_Expression 1716 1722	people
+T29	Literal_Expression 1810 1816	sector
+T30	Embedded_Non_Lit 1980 1987	Seattle
+#17	AnnotatorNotes T30	5809844
+T31	Literal_Expression 2175 2185	directions
+T32	Embedded_Non_Lit 2703 2710	Georgia
+#18	AnnotatorNotes T32	4197000
+T33	Literal_Expression 2856 2863	country
+T34	Literal 2260 2271	Minneapolis
+#19	AnnotatorNotes T34	5037649
+T35	Coercion 2243 2256	Super Bowl 52
+#20	AnnotatorNotes T35	44.973584, -93.257654
+T36	Literal_Expression 2392 2396	home
+T37	Literal 2496 2504	Thailand
+#21	AnnotatorNotes T37	1605651
+T38	Literal_Expression 2658 2663	world
+T39	Non_Lit_Expression 2669 2673	team
+T40	Literal_Expression 3003 3007	home
+T41	Non_Lit_Expression 3095 3100	craze
+T42	Non_Lit_Expression 3237 3241	drug
+T43	Literal_Expression 3473 3480	evening
+T44	Non_Lit_Expression 3553 3559	police
+T45	Literal_Expression 3642 3647	state
+T46	Literal_Expression 3738 3743	field
+T47	Non_Lit_Expression 3720 3730	responders
+T48	Literal_Expression 3810 3814	area
+T49	Non_Lit_Expression 3877 3888	authorities
+T50	Literal_Expression 3953 3959	events
+T51	Non_Lit_Expression 4135 4143	missions
+T52	Non_Lit_Expression 2918 2931	relationships
+T53	Literal_Expression 3064 3070	battle
+T54	Non_Lit_Expression 3287 3293	heroin
+T55	Non_Lit_Expression 355 359	bags
+T56	Embedded_Non_Lit 2013 2020	Seattle
+#22	AnnotatorNotes T56	5809844
+A13	Modifier_Type T1 Noun
+A14	Modifier_Type T2 Noun
+A2	Non_Locational T17
+T57	Non_Lit_Expression 316 324	suitcase
+A21	Non_Locational T57
+A3	Non_Locational T18
+A26	Non_Locational T55
+A4	Non_Locational T21
+A5	Non_Locational T22
+A7	Non_Locational T25
+A6	Non_Locational T23
+T58	Literal_Expression 1167 1175	incident
+A8	Non_Locational T26
+A9	Non_Locational T28
+T59	Non_Toponym 1980 2003	Seattle Fire and Police
+A27	Modifier_Type T30 Noun
+T60	Non_Toponym 2013 2029	Seattle Seahawks
+A12	Modifier_Type T56 Noun
+T61	Literal_Expression 2114 2128	investigations
+T62	Non_Toponym 2243 2256	Super Bowl 52
+A15	Non_Locational T39
+T63	Non_Toponym 2703 2725	Georgia National Guard
+A11	Modifier_Type T32 Noun
+A24	Non_Locational T52
+A16	Non_Locational T41
+T64	Non_Lit_Expression 3151 3161	medication
+A28	Non_Locational T64
+A17	Non_Locational T42
+A25	Non_Locational T54
+A18	Non_Locational T43
+A19	Non_Locational T44
+A20	Non_Locational T47
+A10	Non_Locational T49

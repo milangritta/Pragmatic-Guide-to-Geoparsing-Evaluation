@@ -1,0 +1,104 @@
+T1	Mixed 179 189	WASHINGTON
+#1	AnnotatorNotes T1	4140963
+T2	Literal 666 676	Washington
+#2	AnnotatorNotes T2	4140963
+T3	Literal 2465 2475	Washington
+#3	AnnotatorNotes T3	4140963
+T4	Literal 431 444	United States
+#4	AnnotatorNotes T4	6252001
+T5	Literal 483 487	U.S.
+#5	AnnotatorNotes T5	6252001
+T6	Non_Literal_Modifier 1283 1287	U.S.
+A1	Modifier_Type T6 Noun
+#6	AnnotatorNotes T6	6252001
+T7	Metonymic 2059 2063	U.S.
+#7	AnnotatorNotes T7	6252001
+T8	Metonymic 1951 1955	U.S.
+#8	AnnotatorNotes T8	6252001
+T9	Mixed 3097 3101	U.S.
+#9	AnnotatorNotes T9	6252001
+T10	Non_Literal_Modifier 1434 1438	U.S.
+A3	Modifier_Type T10 Noun
+#10	AnnotatorNotes T10	6252001
+T11	Non_Literal_Modifier 1656 1660	U.S.
+A5	Modifier_Type T11 Noun
+#11	AnnotatorNotes T11	6252001
+T12	Metonymic 2834 2838	U.S.
+#12	AnnotatorNotes T12	6252001
+T13	Literal 2655 2662	Houston
+#13	AnnotatorNotes T13	4699066
+T14	Literal 2695 2707	Saudi Arabia
+#14	AnnotatorNotes T14	102358
+T15	Metonymic 292 304	Saudi Arabia
+#15	AnnotatorNotes T15	102358
+T16	Non_Literal_Modifier 341 346	Saudi
+A7	Modifier_Type T16 Adjective
+#16	AnnotatorNotes T16	102358
+T17	Demonym 1576 1582	Saudis
+T18	Demonym 1997 2003	Saudis
+T19	Metonymic 2888 2900	Saudi Arabia
+#17	AnnotatorNotes T19	102358
+T20	Mixed 2402 2414	Saudi Arabia
+#18	AnnotatorNotes T20	102358
+T21	Demonym 2086 2092	Saudis
+T22	Demonym 1815 1820	Saudi
+#19	AnnotatorNotes T22	102358
+T23	Literal 2114 2119	Yemen
+#20	AnnotatorNotes T23	69543
+T24	Literal 1847 1852	Yemen
+#21	AnnotatorNotes T24	69543
+T25	Metonymic 2245 2258	United States
+#22	AnnotatorNotes T25	6252001
+T26	Literal 2444 2448	West
+#23	AnnotatorNotes T26	9408659
+T27	Literal 2490 2496	Boston
+#24	AnnotatorNotes T27	4930956
+T28	Literal 2477 2485	New York
+#25	AnnotatorNotes T28	5128581
+T29	Literal 2733 2739	Riyadh
+#26	AnnotatorNotes T29	108410
+T30	Literal_Expression 3361 3370	artillery
+T31	Literal_Expression 2792 2796	trip
+T32	Non_Lit_Expression 2629 2633	stop
+T33	Literal 2542 2552	West Coast
+#27	AnnotatorNotes T33	7267651
+T34	Non_Lit_Expression 2508 2514	prince
+T35	Non_Lit_Expression 2143 2152	coalition
+T36	Coercion 1718 1726	Congress
+#28	AnnotatorNotes T36	4140827
+T37	Non_Literal_Modifier 1381 1394	United States
+#29	AnnotatorNotes T37	6252001
+T38	Non_Lit_Expression 584 591	kingdom
+T39	Non_Lit_Expression 207 221	administration
+T40	Non_Lit_Expression 942 946	sale
+T41	Non_Lit_Expression 1130 1139	lawmakers
+T42	Literal 1517 1528	Middle East
+#30	AnnotatorNotes T42	6269133
+T43	Non_Lit_Expression 3246 3251	sales
+T44	Non_Lit_Expression 507 521	administration
+T45	Non_Lit_Expression 2603 2610	leaders
+A25	Modifier_Type T9 Noun
+A26	Modifier_Type T1 Noun
+A21	Non_Locational T39
+A8	Non_Locational T44
+A20	Non_Locational T38
+T46	Non_Lit_Expression 0 5	TITLE
+A23	Non_Locational T46
+T47	Non_Lit_Expression 689 693	deal
+A27	Non_Locational T47
+T48	Non_Lit_Expression 818 822	tank
+A28	Non_Locational T48
+T49	Non_Lit_Expression 1011 1020	lawmakers
+A29	Non_Locational T49
+A22	Non_Locational T41
+A2	Modifier_Type T37 Noun
+T50	Non_Toponym 1718 1726	Congress
+T51	Non_Lit_Expression 1897 1905	concerns
+A4	Non_Locational T51
+A6	Non_Locational T35
+T52	Non_Lit_Expression 2350 2356	throne
+A9	Non_Locational T52
+A10	Non_Locational T34
+A11	Non_Locational T45
+T53	Literal_Expression 2762 2766	stop
+A12	Non_Locational T30

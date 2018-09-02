@@ -1,0 +1,30 @@
+T1	Literal 255 266	Mississauga
+#1	AnnotatorNotes T1	6075357
+T2	Literal 496 516	Eglinton Avenue West
+#2	AnnotatorNotes T2	43.648539, -79.606475
+T3	Literal 521 534	Dubonet Drive
+#3	AnnotatorNotes T3	43.547402, -79.723600
+T4	Literal_Expression 1065 1070	scene
+T5	Literal_Expression 488 492	area
+T6	Literal_Expression 1008 1012	area
+T7	Literal_Expression 374 382	premises
+T8	Literal_Expression 613 617	home
+T10	Non_Lit_Expression 213 221	suspects
+T11	Non_Lit_Expression 384 397	Investigators
+T12	Non_Lit_Expression 808 815	suspect
+T13	Non_Lit_Expression 1201 1207	police
+T9	Non_Lit_Expression 360 366	camera
+T15	Non_Lit_Expression 420 428	officers
+T14	Non_Lit_Expression 635 638	man
+T16	Language 666 673	Spanish
+T17	Language 948 955	English
+T18	Embedded_Literal 170 174	Peel
+#6	AnnotatorNotes T18	6100475
+T19	Non_Toponym 170 190	Peel Regional Police
+A4	Modifier_Type T18 Noun
+A1	Non_Locational T10
+A5	Non_Locational T9
+A3	Non_Locational T12
+A7	Non_Locational T14
+A2	Non_Locational T11
+A6	Non_Locational T15

@@ -1,0 +1,56 @@
+T1	Mixed 143 156	OKLAHOMA CITY
+#1	AnnotatorNotes T1	4544349
+T2	Literal 1899 1912	Oklahoma City
+#2	AnnotatorNotes T2	4544349
+T3	Non_Literal_Modifier 1044 1052	Oklahoma
+#3	AnnotatorNotes T3	4544379
+T4	Non_Literal_Modifier 1421 1429	Oklahoma
+A1	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	4544379
+T5	Non_Literal_Modifier 310 318	Oklahoma
+A3	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	4544379
+T6	Literal 1154 1162	Oklahoma
+#6	AnnotatorNotes T6	4544379
+T7	Non_Literal_Modifier 938 946	Oklahoma
+A5	Modifier_Type T7 Noun
+#7	AnnotatorNotes T7	4544379
+T8	Non_Literal_Modifier 679 687	Oklahoma
+A7	Modifier_Type T8 Noun
+#8	AnnotatorNotes T8	4544379
+T9	Literal 1914 1919	Tulsa
+#9	AnnotatorNotes T9	4553433
+T10	Literal 275 279	U.S.
+#10	AnnotatorNotes T10	6252001
+T11	Non_Lit_Expression 223 230	funding
+T12	Coercion 420 427	Capitol
+#11	AnnotatorNotes T12	4544370
+T13	Non_Lit_Expression 724 731	walkout
+T14	Literal 816 829	West Virginia
+#12	AnnotatorNotes T14	4826850
+T15	Literal 916 924	Kentucky
+#13	AnnotatorNotes T15	6254925
+T16	Literal 929 936	Arizona
+#14	AnnotatorNotes T16	5551752
+A10	Modifier_Type T3 Noun
+T17	Literal 1345 1358	West Virginia
+#15	AnnotatorNotes T17	4826850
+T18	Literal 1362 1370	Kentucky
+#16	AnnotatorNotes T18	6254925
+T19	Literal 1374 1381	Arizona
+#17	AnnotatorNotes T19	5551752
+T20	Literal_Expression 1409 1419	classrooms
+T21	Coercion 1572 1579	Capitol
+#18	AnnotatorNotes T21	4544370
+T22	Literal_Expression 1740 1744	work
+T23	Literal_Expression 1766 1777	communities
+T24	Literal_Expression 1861 1870	districts
+T25	Literal_Expression 1938 1949	communities
+T26	Non_Lit_Expression 384 392	teachers
+A11	Modifier_Type T1 Noun
+A8	Non_Locational T11
+A4	Non_Locational T26
+T27	Non_Toponym 420 427	Capitol
+T28	Literal_Expression 1225 1233	protests
+T29	Non_Toponym 1572 1579	Capitol
+T30	Literal_Expression 1830 1837	schools

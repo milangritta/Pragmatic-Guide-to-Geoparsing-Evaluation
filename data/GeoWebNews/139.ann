@@ -1,0 +1,108 @@
+T1	Metonymic 4697 4702	Dubai
+#1	AnnotatorNotes T1	292223
+T2	Mixed 2515 2520	Dubai
+#2	AnnotatorNotes T2	292223
+T3	Metonymic 4649 4652	UAE
+#3	AnnotatorNotes T3	290557
+T4	Literal_Expression 256 261	globe
+T5	Literal_Expression 233 239	makers
+T6	Literal_Expression 493 499	region
+T7	Non_Lit_Expression 784 794	exhibitors
+T8	Literal_Expression 808 817	countries
+T9	Non_Lit_Expression 883 889	demand
+T10	Non_Lit_Expression 969 982	professionals
+T11	Non_Lit_Expression 1057 1064	experts
+T12	Non_Lit_Expression 1333 1338	world
+T13	Literal_Expression 1430 1437	sectors
+T14	Literal_Modifier 2531 2542	Middle East
+#4	AnnotatorNotes T14	6269133
+T15	Literal_Modifier 2547 2553	Africa
+#5	AnnotatorNotes T15	6255146
+T16	Non_Lit_Expression 1532 1539	experts
+T17	Literal 1954 1965	Middle East
+#6	AnnotatorNotes T17	6269133
+T18	Literal 2122 2133	Middle East
+#7	AnnotatorNotes T18	6269133
+T19	Literal 3198 3209	Middle East
+#8	AnnotatorNotes T19	6269133
+T20	Literal 3214 3220	Africa
+#9	AnnotatorNotes T20	6255146
+T21	Literal 3188 3192	Asia
+#10	AnnotatorNotes T21	6255147
+T22	Literal_Expression 3909 3914	globe
+T23	Non_Lit_Expression 3455 3461	sector
+T24	Non_Lit_Expression 3096 3102	region
+T25	Non_Lit_Expression 2956 2962	public
+T26	Non_Lit_Expression 3628 3638	industries
+T27	Non_Lit_Expression 3794 3798	city
+T28	Literal_Expression 4199 4204	world
+T29	Literal_Expression 4099 4105	sphere
+T30	Literal_Expression 4228 4234	region
+T31	Non_Lit_Expression 4663 4669	region
+T32	Literal_Expression 5247 5253	region
+T33	Non_Lit_Expression 5222 5235	organisations
+T34	Non_Lit_Expression 4762 4766	city
+T36	Non_Lit_Expression 1600 1608	networks
+T37	Non_Lit_Expression 1625 1637	achievements
+T38	Non_Lit_Expression 1995 2009	cybercriminals
+T39	Literal_Expression 2105 2114	countries
+T40	Literal_Expression 2196 2202	region
+T42	Non_Lit_Expression 1202 1209	agendas
+T43	Non_Lit_Expression 2168 2175	attacks
+T44	Non_Lit_Expression 2494 2498	song
+T45	Non_Lit_Expression 2803 2809	agenda
+T46	Literal_Expression 2857 2863	region
+T47	Non_Lit_Expression 2828 2841	cybersecurity
+T48	Non_Lit_Expression 3142 3145	era
+T49	Literal_Expression 3321 3325	show
+T50	Non_Lit_Expression 3736 3748	extravaganza
+T51	Literal_Expression 4260 4266	planet
+T35	Non_Lit_Expression 565 571	trends
+A6	Modifier_Type T15 Noun
+A7	Modifier_Type T14 Noun
+A1	Non_Locational T5
+T41	Non_Toponym 131 167	Gulf Information Security Conference
+T52	Embedded_Literal 131 135	Gulf
+A8	Modifier_Type T52 Noun
+#11	AnnotatorNotes T52	235616
+T53	Non_Toponym 368 404	Gulf Information Security Conference
+T54	Embedded_Literal 368 372	Gulf
+A9	Modifier_Type T54 Noun
+#12	AnnotatorNotes T54	235616
+A10	Non_Locational T35
+T56	Non_Toponym 1294 1312	Smart Dubai Office
+T57	Embedded_Non_Lit 1294 1312	Smart Dubai Office
+A12	Modifier_Type T57 Noun
+#13	AnnotatorNotes T57	292223
+T58	Non_Toponym 4912 4944	Dubai Electronic Security Center
+T59	Embedded_Non_Lit 4912 4944	Dubai Electronic Security Center
+A14	Modifier_Type T59 Noun
+#14	AnnotatorNotes T59	292223
+T60	Non_Toponym 4946 4958	Dubai Police
+T61	Embedded_Non_Lit 4946 4951	Dubai
+A16	Modifier_Type T61 Noun
+#15	AnnotatorNotes T61	292223
+T62	Non_Toponym 4960 4971	Smart Dubai
+T63	Embedded_Non_Lit 4966 4971	Dubai
+A19	Modifier_Type T63 Noun
+#16	AnnotatorNotes T63	292223
+A15	Non_Locational T33
+T64	Literal 671 695	Dubai World Trade Centre
+#17	AnnotatorNotes T64	9886891
+A2	Non_Locational T7
+A3	Non_Locational T9
+A20	Non_Locational T42
+A5	Non_Locational T11
+A4	Non_Locational T10
+A11	Non_Locational T16
+A17	Non_Locational T37
+A18	Non_Locational T38
+A21	Non_Locational T44
+A22	Non_Locational T45
+A23	Non_Locational T47
+A13	Non_Locational T25
+A24	Non_Locational T48
+T55	Non_Toponym 5017 5030	CSA Singapore
+T65	Embedded_Non_Lit 5021 5030	Singapore
+A25	Modifier_Type T65 Noun
+#18	AnnotatorNotes T65	1880252

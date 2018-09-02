@@ -1,0 +1,140 @@
+T1	Mixed 170 176	Europe
+#1	AnnotatorNotes T1	6255148
+T2	Literal 475 481	Europe
+#2	AnnotatorNotes T2	6255148
+T3	Mixed 514 520	Europe
+#3	AnnotatorNotes T3	6255148
+T4	Literal_Modifier 832 838	Europe
+#4	AnnotatorNotes T4	6255148
+T5	Literal 1174 1180	Europe
+#5	AnnotatorNotes T5	6255148
+T6	Literal 2063 2069	Europe
+#6	AnnotatorNotes T6	6255148
+T7	Mixed 2615 2621	Europe
+#7	AnnotatorNotes T7	6255148
+T8	Literal 2920 2926	Europe
+#8	AnnotatorNotes T8	6255148
+T9	Literal 5644 5650	Europe
+#9	AnnotatorNotes T9	6255148
+T10	Metonymic 4112 4118	Europe
+#10	AnnotatorNotes T10	6255148
+T11	Mixed 3627 3633	Europe
+#11	AnnotatorNotes T11	6255148
+T12	Literal 3185 3191	Europe
+#12	AnnotatorNotes T12	6255148
+T13	Literal 3085 3091	Europe
+#13	AnnotatorNotes T13	6255148
+T14	Literal 590 598	Brussels
+#14	AnnotatorNotes T14	2800866
+T15	Mixed 5350 5358	Brussels
+#15	AnnotatorNotes T15	2800866
+T16	Literal 600 607	Belgium
+#16	AnnotatorNotes T16	2802361
+T17	Coercion 1616 1618	EU
+#17	AnnotatorNotes T17	6255148
+T18	Literal_Expression 3215 3220	world
+T20	Literal 4067 4073	Cyprus
+#19	AnnotatorNotes T20	146669
+T21	Literal 4075 4081	Greece
+#20	AnnotatorNotes T21	390903
+T22	Literal 4082 4087	Italy
+#21	AnnotatorNotes T22	3175395
+T23	Literal 4091 4096	Spain
+#22	AnnotatorNotes T23	2510769
+T24	Coercion 4701 4703	EU
+#23	AnnotatorNotes T24	6255148
+T26	Literal_Expression 1790 1798	airports
+A2	Modifier_Type T1 Noun
+A4	Modifier_Type T3 Noun
+T25	Literal_Modifier 1066 1074	European
+A5	Modifier_Type T25 Adjective
+#24	AnnotatorNotes T25	6255148
+T28	Non_Lit_Expression 945 953	airlines
+T29	Literal_Modifier 1106 1114	European
+A8	Modifier_Type T29 Adjective
+#25	AnnotatorNotes T29	6255148
+T31	Non_Literal_Modifier 1435 1443	European
+A9	Modifier_Type T31 Adjective
+#26	AnnotatorNotes T31	6255148
+A11	Modifier_Type T7 Noun
+T32	Literal_Expression 796 804	aviation
+T33	Non_Lit_Expression 5575 5585	passengers
+T34	Literal_Expression 498 504	sector
+T35	Non_Lit_Expression 1002 1012	Commission
+T36	Non_Lit_Expression 1656 1664	airports
+T37	Non_Lit_Expression 1944 1952	airspace
+T38	Literal_Expression 2669 2677	aviation
+T39	Non_Lit_Expression 2978 2984	market
+T40	Literal_Expression 3737 3745	industry
+T41	Non_Lit_Expression 3837 3847	passengers
+T42	Non_Lit_Expression 3971 3975	jobs
+T43	Non_Lit_Expression 5253 5259	states
+T27	Non_Lit_Expression 5118 5126	policies
+T30	Non_Lit_Expression 4856 4866	regulation
+T44	Non_Lit_Expression 4813 4821	airports
+T45	Non_Lit_Expression 4638 4643	chain
+T46	Non_Lit_Expression 3519 3527	airlines
+T47	Non_Lit_Expression 3850 3858	Aviation
+A13	Modifier_Type T4 Noun
+T48	Embedded_Non_Lit 213 219	France
+#27	AnnotatorNotes T48	3017382
+T19	Embedded_Non_Lit 2092 2100	European
+#18	AnnotatorNotes T19	6255148
+T49	Embedded_Non_Lit 2857 2865	European
+#28	AnnotatorNotes T49	6255148
+T50	Non_Toponym 209 223	Air France KLM
+A6	Modifier_Type T48 Noun
+A7	Non_Locational T28
+A10	Non_Locational T35
+T51	Non_Toponym 1616 1618	EU
+T52	Non_Toponym 2085 2104	Single European Sky
+A1	Modifier_Type T19 Noun
+T53	Non_Toponym 2857 2883	European Aviation Strategy
+A3	Modifier_Type T49 Noun
+A12	Non_Locational T39
+A16	Non_Locational T46
+A17	Modifier_Type T11 Noun
+A18	Non_Locational T41
+A19	Non_Locational T42
+A14	Non_Locational T45
+T54	Non_Toponym 4701 4703	EU
+A20	Non_Locational T30
+A21	Non_Locational T27
+A22	Modifier_Type T15 Noun
+A15	Non_Locational T33
+T55	Non_Toponym 2445 2459	Air France KLM
+T56	Embedded_Non_Lit 2449 2455	France
+A23	Modifier_Type T56 Noun
+#29	AnnotatorNotes T56	3017382
+T57	Non_Toponym 413 433	EU Aviation Strategy
+T59	Non_Toponym 696 716	EU Aviation Strategy
+T60	Non_Toponym 1311 1322	EU Aviation
+T61	Non_Literal_Modifier 3240 3242	EU
+T62	Non_Literal_Modifier 4384 4386	EU
+T63	Non_Literal_Modifier 4154 4156	EU
+T64	Non_Literal_Modifier 4840 4842	EU
+T65	Non_Literal_Modifier 5102 5104	EU
+T66	Non_Literal_Modifier 5243 5245	EU
+T67	Embedded_Non_Lit 413 415	EU
+A24	Modifier_Type T67 Noun
+#30	AnnotatorNotes T67	6255148
+T68	Non_Literal_Modifier 632 634	EU
+T58	Embedded_Non_Lit 1311 1313	EU
+A25	Modifier_Type T58 Noun
+#31	AnnotatorNotes T58	6255148
+T69	Embedded_Non_Lit 696 698	EU
+A26	Modifier_Type T69 Noun
+#32	AnnotatorNotes T69	6255148
+A27	Modifier_Type T61 Noun
+#33	AnnotatorNotes T61	6255148
+A28	Modifier_Type T63 Noun
+#34	AnnotatorNotes T63	6255148
+A29	Modifier_Type T62 Noun
+#35	AnnotatorNotes T62	6255148
+A30	Modifier_Type T65 Noun
+#36	AnnotatorNotes T65	6255148
+A31	Modifier_Type T66 Noun
+#37	AnnotatorNotes T66	6255148
+A32	Modifier_Type T64 Noun
+#38	AnnotatorNotes T64	6255148
+#39	AnnotatorNotes T68	6255148

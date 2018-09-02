@@ -1,0 +1,62 @@
+T1	Metonymic 209 220	Connecticut
+T2	Literal 328 336	Columbus
+T3	Literal 338 342	Ohio
+T4	Mixed 390 398	COLUMBUS
+T5	Mixed 400 404	Ohio
+T6	Metonymic 738 748	Louisville
+T7	Metonymic 1934 1944	Louisville
+T8	Metonymic 3073 3083	Louisville
+T9	Mixed 3180 3194	North Carolina
+T10	Literal_Expression 2151 2156	HOUSE
+T11	Metonymic 4064 4074	Louisville
+#1	AnnotatorNotes T1	4831725
+#2	AnnotatorNotes T2	4509177
+#3	AnnotatorNotes T4	4509177
+#4	AnnotatorNotes T3	5165418
+#5	AnnotatorNotes T5	5165418
+#6	AnnotatorNotes T6	4311747
+#7	AnnotatorNotes T7	4311747
+#8	AnnotatorNotes T8	4311747
+#9	AnnotatorNotes T11	4311747
+#10	AnnotatorNotes T9	4482348
+T13	Literal_Expression 1786 1790	room
+T15	Literal_Expression 577 585	overtime
+T20	Homonym 1301 1306	Irish
+T22	Non_Literal_Modifier 1893 1901	American
+A7	Modifier_Type T22 Adjective
+#12	AnnotatorNotes T22	6252001
+T26	Homonym 3698 3703	Irish
+T12	Literal_Expression 289 299	tournament
+T14	Non_Lit_Expression 3503 3509	player
+T16	Literal_Expression 987 993	corner
+T17	Non_Lit_Expression 1446 1451	years
+T18	Non_Lit_Expression 2719 2723	life
+T19	Literal_Expression 3263 3270	history
+T21	Literal_Expression 3927 3931	game
+T23	Non_Toponym 1727 1744	Mississippi State
+#14	AnnotatorNotes T23	4436296
+T24	Non_Toponym 587 604	Mississippi State
+T25	Non_Toponym 3935 3952	Mississippi State
+T27	Non_Toponym 4021 4038	Mississippi State
+T28	Non_Toponym 2935 2952	Mississippi State
+A15	Modifier_Type T4 Noun
+A16	Modifier_Type T5 Noun
+T29	Embedded_Non_Lit 587 598	Mississippi
+#15	AnnotatorNotes T29	4436292
+A1	Non_Locational T15
+T30	Embedded_Non_Lit 1727 1738	Mississippi
+A2	Modifier_Type T30 Noun
+#11	AnnotatorNotes T30	4436292
+T31	Embedded_Non_Lit 2935 2946	Mississippi
+A4	Modifier_Type T31 Noun
+#18	AnnotatorNotes T31	4436292
+A3	Non_Locational T14
+A5	Non_Locational T21
+A6	Modifier_Type T9 Noun
+T32	Embedded_Non_Lit 3935 3946	Mississippi
+A8	Modifier_Type T32 Noun
+#13	AnnotatorNotes T32	4436292
+T33	Embedded_Non_Lit 4021 4032	Mississippi
+A9	Modifier_Type T33 Noun
+#16	AnnotatorNotes T33	4436292
+A10	Modifier_Type T29 Noun

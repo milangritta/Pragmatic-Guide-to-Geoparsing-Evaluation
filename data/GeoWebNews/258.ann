@@ -1,0 +1,84 @@
+T1	Non_Literal_Modifier 112 118	Nelson
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	6086871
+T2	Literal 850 856	Nelson
+#2	AnnotatorNotes T2	6086871
+T3	Literal_Modifier 1303 1309	Nelson
+A2	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	6086871
+T4	Literal 471 477	Nelson
+#4	AnnotatorNotes T4	6086871
+T5	Mixed 294 300	Nelson
+#5	AnnotatorNotes T5	6086871
+T6	Mixed 301 308	Creston
+#6	AnnotatorNotes T6	5932311
+T7	Literal_Expression 175 183	services
+T8	Embedded_Literal 238 240	BC
+#7	AnnotatorNotes T8	6086871
+T9	Embedded_Literal 465 467	BC
+#8	AnnotatorNotes T9	6086871
+T10	Literal_Expression 1227 1235	province
+T11	Embedded_Non_Lit 833 835	BC
+#9	AnnotatorNotes T11	5909050
+T12	Embedded_Non_Lit 657 659	BC
+#10	AnnotatorNotes T12	5909050
+T13	Embedded_Literal 1202 1204	BC
+#11	AnnotatorNotes T13	5909050
+T14	Embedded_Non_Lit 1717 1719	BC
+#12	AnnotatorNotes T14	5909050
+T15	Embedded_Non_Lit 1816 1818	BC
+#13	AnnotatorNotes T15	5909050
+T16	Embedded_Non_Lit 1879 1881	BC
+#14	AnnotatorNotes T16	5909050
+T17	Embedded_Non_Lit 1967 1969	BC
+#15	AnnotatorNotes T17	5909050
+T18	Literal_Expression 257 266	community
+T19	Non_Lit_Expression 524 534	businesses
+T20	Literal_Expression 796 804	location
+T22	Literal_Expression 971 982	communities
+T23	Literal_Expression 1038 1046	location
+T24	Literal 1259 1268	Castlegar
+#16	AnnotatorNotes T24	5918118
+T25	Non_Lit_Expression 1560 1568	licences
+T26	Literal_Expression 1578 1584	office
+T27	Literal_Expression 1627 1635	services
+T28	Literal_Expression 1140 1148	location
+T29	Literal 1153 1174	401 - 333 Victoria St
+#17	AnnotatorNotes T29	49.490844, -117.294749
+T30	Non_Lit_Expression 1409 1414	tools
+A5	Non_Locational T7
+T21	Non_Toponym 225 240	FrontCounter BC
+A3	Non_Locational T18
+A4	Modifier_Type T5 Noun
+A13	Modifier_Type T6 Noun
+T31	Non_Toponym 452 467	FrontCounter BC
+A6	Non_Locational T19
+T32	Non_Lit_Expression 559 566	support
+A14	Non_Locational T32
+T33	Non_Toponym 644 659	FrontCounter BC
+A15	Modifier_Type T12 Noun
+A7	Non_Locational T22
+T34	Non_Toponym 820 835	FrontCounter BC
+A16	Modifier_Type T11 Noun
+T35	Non_Toponym 1954 1969	FrontCounter BC
+A11	Modifier_Type T17 Noun
+T36	Embedded_Non_Lit 2091 2093	BC
+A17	Modifier_Type T36 Noun
+#18	AnnotatorNotes T36	5909050
+T37	Non_Toponym 2078 2093	FrontCounter BC
+T38	Non_Toponym 1803 1818	FrontCounter BC
+A18	Modifier_Type T15 Noun
+T39	Non_Toponym 1866 1881	FrontCounter BC
+A19	Modifier_Type T16 Noun
+T40	Non_Toponym 1702 1719	Small Business BC
+A12	Modifier_Type T14 Noun
+A20	Modifier_Type T9 Noun
+T41	Non_Toponym 1189 1204	FrontCounter BC
+A21	Modifier_Type T13 Noun
+A9	Non_Locational T30
+T42	Non_Lit_Expression 702 710	agencies
+A22	Non_Locational T42
+T43	Non_Lit_Expression 1523 1530	permits
+A23	Non_Locational T43
+A8	Non_Locational T25
+A10	Non_Locational T27

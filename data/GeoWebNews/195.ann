@@ -1,0 +1,148 @@
+T1	Non_Literal_Modifier 224 231	Mexican
+A1	Modifier_Type T1 Adjective
+#1	AnnotatorNotes T1	3996063
+T2	Literal 538 544	Mexico
+#2	AnnotatorNotes T2	3996063
+T3	Mixed 990 996	Mexico
+#3	AnnotatorNotes T3	3996063
+T4	Mixed 1577 1583	Mexico
+#4	AnnotatorNotes T4	3996063
+T5	Metonymic 1156 1162	Mexico
+#5	AnnotatorNotes T5	3996063
+T6	Non_Literal_Modifier 1736 1743	Mexican
+A3	Modifier_Type T6 Adjective
+#6	AnnotatorNotes T6	3996063
+T7	Literal 1947 1953	Mexico
+#7	AnnotatorNotes T7	3996063
+T8	Non_Literal_Modifier 2588 2595	Mexican
+A5	Modifier_Type T8 Adjective
+#8	AnnotatorNotes T8	3996063
+T9	Literal 2642 2648	Mexico
+#9	AnnotatorNotes T9	3996063
+T10	Non_Literal_Modifier 3314 3321	Mexican
+A7	Modifier_Type T10 Adjective
+#10	AnnotatorNotes T10	3996063
+T11	Demonym 2797 2805	Mexicans
+T12	Metonymic 2943 2949	Mexico
+#11	AnnotatorNotes T12	3996063
+T13	Non_Literal_Modifier 4029 4035	Mexico
+A11	Modifier_Type T13 Noun
+#12	AnnotatorNotes T13	3996063
+T14	Non_Literal_Modifier 5373 5380	Mexican
+A13	Modifier_Type T14 Adjective
+#13	AnnotatorNotes T14	3996063
+T15	Literal 6357 6363	Mexico
+#14	AnnotatorNotes T15	3996063
+T16	Non_Literal_Modifier 5894 5901	Mexican
+A15	Modifier_Type T16 Adjective
+#15	AnnotatorNotes T16	3996063
+T17	Metonymic 6471 6477	Mexico
+#16	AnnotatorNotes T17	3996063
+T18	Non_Literal_Modifier 6881 6887	Boston
+A17	Modifier_Type T18 Noun
+#17	AnnotatorNotes T18	4930956
+T19	Literal 6979 6988	St. Louis
+#18	AnnotatorNotes T19	4407074
+T20	Literal 7062 7075	New York City
+#19	AnnotatorNotes T20	5128581
+T21	Literal 7101 7107	Bogota
+#20	AnnotatorNotes T21	3688689
+T22	Literal 7109 7117	Colombia
+#21	AnnotatorNotes T22	3686110
+T23	Literal 7237 7250	Latin America
+#22	AnnotatorNotes T23	6255150
+T24	Language 7265 7275	Portuguese
+T25	Literal 1042 1055	United States
+#23	AnnotatorNotes T25	6252001
+T26	Literal 2707 2720	United States
+#24	AnnotatorNotes T26	6252001
+T27	Literal 4482 4495	United States
+#25	AnnotatorNotes T27	6252001
+T28	Metonymic 1168 1170	US
+#26	AnnotatorNotes T28	6252001
+T29	Literal_Modifier 514 516	US
+A21	Modifier_Type T29 Noun
+#27	AnnotatorNotes T29	6252001
+T30	Non_Lit_Expression 350 358	policies
+T31	Literal_Expression 2382 2391	countries
+T32	Mixed 6717 6725	American
+A23	Modifier_Type T32 Adjective
+#28	AnnotatorNotes T32	6252001
+T33	Literal_Modifier 5398 5406	American
+A25	Modifier_Type T33 Adjective
+#29	AnnotatorNotes T33	6252001
+T34	Mixed 3710 3724	Latin American
+A26	Modifier_Type T34 Adjective
+#30	AnnotatorNotes T34	6255150
+T35	Literal_Expression 377 379	ad
+T36	Literal_Expression 499 503	wall
+T37	Literal_Expression 589 594	press
+T38	Non_Lit_Expression 837 843	voters
+T39	Literal_Expression 874 878	land
+T40	Non_Lit_Expression 1080 1089	agreement
+T41	Metonymic 1176 1182	Canada
+#31	AnnotatorNotes T41	6251999
+T42	Literal_Expression 1531 1538	country
+T43	Non_Lit_Expression 1663 1669	course
+T44	Non_Lit_Expression 1853 1864	countryside
+T45	Non_Lit_Expression 2929 2941	participants
+T46	Non_Lit_Expression 3164 3173	agreement
+T47	Literal_Expression 3301 3308	country
+T48	Literal_Expression 3378 3386	families
+T49	Literal_Expression 3455 3461	abroad
+T50	Literal_Expression 3574 3582	spectrum
+T51	Metonymic 3820 3829	Argentina
+#32	AnnotatorNotes T51	3865483
+T52	Non_Lit_Expression 3984 3990	crises
+T53	Literal_Expression 4427 4431	stop
+T54	Literal 4435 4448	Ciudad Juarez
+#33	AnnotatorNotes T54	4013708
+T55	Non_Lit_Expression 4534 4538	zone
+T56	Non_Literal_Modifier 4628 4637	Colombian
+A38	Modifier_Type T56 Adjective
+#34	AnnotatorNotes T56	3686110
+T57	Non_Lit_Expression 4729 4736	reality
+T58	Literal_Expression 5019 5023	zone
+T59	Non_Lit_Expression 4930 4939	education
+T60	Literal_Modifier 5083 5091	Colombia
+A42	Modifier_Type T60 Noun
+#35	AnnotatorNotes T60	3686110
+T61	Non_Lit_Expression 5182 5187	taxes
+T62	Non_Lit_Expression 5312 5320	audience
+T63	Literal_Expression 5781 5789	treasury
+T64	Non_Lit_Expression 6030 6037	budgets
+T65	Non_Lit_Expression 6397 6404	barrier
+T66	Literal_Expression 6465 6469	wall
+T67	Literal_Expression 7155 7163	industry
+T68	Embedded_Non_Lit 6954 6975	Washington University
+#36	AnnotatorNotes T68	5815135
+A2	Non_Locational T30
+T69	Literal_Expression 443 454	development
+A22	Non_Locational T37
+T70	Literal_Expression 781 790	heartland
+A27	Non_Locational T38
+A28	Non_Locational T40
+T71	Non_Toponym 1307 1342	North American Free Trade Agreement
+T72	Embedded_Non_Lit 1307 1321	North American
+A29	Modifier_Type T72 Adjective
+#37	AnnotatorNotes T72	6255149
+T73	Non_Lit_Expression 1698 1707	investors
+A30	Non_Locational T73
+T74	Literal_Expression 2089 2094	trail
+A4	Non_Locational T45
+A6	Non_Locational T46
+A8	Non_Locational T48
+T75	Non_Lit_Expression 3910 3916	unions
+A9	Non_Locational T75
+A10	Non_Locational T59
+A12	Non_Locational T62
+T76	Non_Lit_Expression 5651 5663	independence
+A14	Non_Locational T76
+T77	Non_Toponym 5721 5735	Bank of Mexico
+T78	Embedded_Non_Lit 5721 5735	Bank of Mexico
+A31	Modifier_Type T78 Noun
+#38	AnnotatorNotes T78	3996063
+A32	Non_Locational T63
+A16	Non_Locational T64
+T79	Non_Toponym 6954 6975	Washington University
+A18	Modifier_Type T68 Noun

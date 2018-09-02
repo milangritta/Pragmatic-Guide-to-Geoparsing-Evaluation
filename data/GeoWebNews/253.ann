@@ -1,0 +1,54 @@
+T4	Embedded_Non_Lit 1340 1364	Arizona State University
+#4	AnnotatorNotes T4	5551752
+T5	Literal 4979 4991	Kuala Lumpur
+#5	AnnotatorNotes T5	1735161
+T6	Literal 4993 5001	Malaysia
+#6	AnnotatorNotes T6	1733045
+T7	Literal_Modifier 2173 2183	Washington
+A4	Modifier_Type T7 Noun
+#7	AnnotatorNotes T7	4140963
+T1	Embedded_Non_Lit 1546 1555	Cambridge
+T2	Embedded_Non_Lit 2037 2046	Cambridge
+T3	Embedded_Non_Lit 2550 2559	Cambridge
+T8	Metonymic 3852 3858	Russia
+#1	AnnotatorNotes T8	2017370
+T9	Literal_Expression 492 499	scandal
+T10	Non_Literal_Modifier 1776 1780	U.S.
+#2	AnnotatorNotes T10	6252001
+T11	Non_Lit_Expression 2018 2023	users
+T12	Non_Lit_Expression 2265 2272	company
+T13	Literal_Expression 3036 3044	internet
+T14	Literal_Expression 2962 2969	address
+T15	Literal_Expression 3136 3145	addresses
+T16	Non_Lit_Expression 3442 3449	hackers
+T17	Non_Lit_Expression 3967 3976	advocates
+T18	Literal_Expression 3598 3607	computers
+T19	Literal_Expression 1739 1749	continents
+#3	AnnotatorNotes T1	2653941
+#8	AnnotatorNotes T2	2653941
+#9	AnnotatorNotes T3	2653941
+T20	Non_Lit_Expression 225 232	members
+A14	Non_Locational T20
+A6	Non_Locational T9
+T21	Non_Toponym 1340 1364	Arizona State University
+A1	Modifier_Type T4 Noun
+T22	Literal_Expression 1431 1437	breach
+T23	Non_Toponym 1546 1565	Cambridge Analytica
+A2	Modifier_Type T1 Noun
+A13	Modifier_Type T10 Noun
+T24	Non_Lit_Expression 1848 1856	Congress
+A15	Non_Locational T24
+T25	Non_Toponym 2037 2056	Cambridge Analytica
+A3	Modifier_Type T2 Noun
+A7	Non_Locational T11
+A5	Non_Locational T12
+T26	Non_Lit_Expression 2337 2344	experts
+A12	Non_Locational T26
+T27	Non_Toponym 2550 2569	Cambridge Analytica
+A11	Modifier_Type T3 Noun
+T28	Non_Lit_Expression 2397 2404	artists
+A16	Non_Locational T28
+T29	Non_Lit_Expression 3159 3170	information
+A8	Non_Locational T29
+A9	Non_Locational T16
+A10	Non_Locational T17

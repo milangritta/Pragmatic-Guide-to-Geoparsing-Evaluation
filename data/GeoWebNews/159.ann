@@ -1,0 +1,33 @@
+T1	Non_Literal_Modifier 230 236	Owerri
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	2325330
+T2	Mixed 363 369	Obinze
+#2	AnnotatorNotes T2	2328247
+T3	Non_Lit_Expression 340 349	community
+T4	Non_Lit_Expression 625 631	youths
+T5	Non_Lit_Expression 696 702	school
+T6	Non_Literal_Modifier 912 924	Sokoto State
+#3	AnnotatorNotes T6	2322907
+T7	Non_Lit_Expression 1312 1318	school
+T8	Mixed 165 171	Owerri
+#4	AnnotatorNotes T8	2325330
+T9	Literal_Expression 301 306	fence
+T10	Literal_Expression 566 573	fencing
+T11	Non_Lit_Expression 851 857	school
+T12	Non_Lit_Expression 1271 1279	awardees
+T13	Non_Lit_Expression 1530 1538	diplomas
+A8	Modifier_Type T6 Noun
+T14	Demonym 353 361	Umuanunu
+A4	Modifier_Type T8 Noun
+A2	Non_Locational T3
+T15	Non_Toponym 196 228	Federal University of Technology
+A3	Non_Locational T4
+T16	Non_Toponym 975 1009	Niger Delta Development Commission
+T17	Embedded_Non_Lit 975 986	Niger Delta
+A5	Modifier_Type T17 Noun
+#5	AnnotatorNotes T17	2328927
+A7	Non_Locational T13
+A6	Non_Locational T12
+T18	Embedded_Non_Lit 196 228	Federal University of Technology
+A9	Modifier_Type T18 Noun
+#6	AnnotatorNotes T18	7732741

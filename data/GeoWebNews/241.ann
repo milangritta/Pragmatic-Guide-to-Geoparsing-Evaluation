@@ -1,0 +1,122 @@
+T1	Mixed 145 152	TORONTO
+#1	AnnotatorNotes T1	6167865
+T2	Non_Literal_Modifier 220 227	Toronto
+A1	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	6167865
+T3	Non_Literal_Modifier 1441 1448	Toronto
+A3	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	6167865
+T4	Non_Literal_Modifier 1622 1629	Toronto
+A5	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	6167865
+T5	Literal 2180 2187	Toronto
+#5	AnnotatorNotes T5	6167865
+T6	Literal 6125 6132	Toronto
+#6	AnnotatorNotes T6	6167865
+T7	Non_Literal_Modifier 4165 4172	Toronto
+A7	Modifier_Type T7 Noun
+#7	AnnotatorNotes T7	6167865
+T8	Non_Literal_Modifier 5386 5393	Toronto
+A9	Modifier_Type T8 Noun
+#8	AnnotatorNotes T8	6167865
+T9	Non_Literal_Modifier 5567 5574	Toronto
+A11	Modifier_Type T9 Noun
+#9	AnnotatorNotes T9	6167865
+T10	Mixed 4090 4097	TORONTO
+#10	AnnotatorNotes T10	6167865
+T11	Non_Lit_Expression 181 187	mother
+T12	Literal_Expression 366 372	ground
+T13	Literal_Expression 388 396	platform
+T14	Literal_Expression 474 483	documents
+T15	Literal_Expression 664 672	incident
+T16	Non_Lit_Expression 941 951	inspectors
+T17	Literal_Expression 1042 1050	incident
+T18	Literal_Expression 1191 1200	streetcar
+T19	Non_Lit_Expression 1244 1251	lawsuit
+T20	Non_Lit_Expression 1341 1351	inspectors
+T21	Non_Lit_Expression 1483 1491	incident
+T22	Non_Lit_Expression 1577 1582	board
+T23	Non_Lit_Expression 1703 1711	incident
+T24	Non_Lit_Expression 1777 1785	province
+T25	Literal_Expression 2246 2255	streetcar
+T26	Non_Lit_Expression 2039 2047	incident
+T27	Literal_Expression 2331 2339	platform
+T28	Literal_Expression 2352 2361	streetcar
+T29	Literal_Expression 2619 2627	position
+T30	Non_Lit_Expression 2753 2763	inspectors
+T31	Non_Lit_Expression 2907 2915	officers
+T32	Literal_Expression 3066 3070	area
+T33	Non_Lit_Expression 3129 3137	officers
+T34	Literal_Expression 3550 3556	ground
+T35	Non_Lit_Expression 3574 3580	mother
+T36	Non_Lit_Expression 3831 3837	trauma
+T37	Literal_Expression 3925 3932	lawsuit
+T38	Literal_Expression 4045 4050	court
+T39	Embedded_Non_Lit 4073 4081	Canadian
+#11	AnnotatorNotes T39	6251999
+T40	Literal_Expression 4987 4995	incident
+T41	Non_Lit_Expression 4444 4451	privacy
+T42	Literal_Expression 4468 4472	suit
+T43	Literal_Expression 5189 5196	lawsuit
+T44	Non_Lit_Expression 6149 6152	man
+T45	Non_Lit_Expression 5039 5048	bystander
+T46	Non_Lit_Expression 1305 1311	matter
+T47	Non_Lit_Expression 1897 1905	officers
+T48	Literal_Expression 2159 2168	streetcar
+T49	Non_Lit_Expression 4232 4238	victim
+T50	Non_Lit_Expression 3516 3524	shoulder
+T51	Literal_Expression 6440 6444	back
+T52	Non_Lit_Expression 5707 5711	unit
+T53	Non_Lit_Expression 5428 5436	incident
+A38	Modifier_Type T1 Noun
+A13	Non_Locational T11
+A2	Non_Locational T14
+T54	Non_Toponym 813 842	Toronto Police Services Board
+T55	Embedded_Non_Lit 813 820	Toronto
+A14	Modifier_Type T55 Noun
+#12	AnnotatorNotes T55	6167865
+T56	Non_Toponym 848 874	Toronto Transit Commission
+T57	Embedded_Non_Lit 848 855	Toronto
+A39	Modifier_Type T57 Noun
+#13	AnnotatorNotes T57	6167865
+A15	Non_Locational T16
+A16	Non_Locational T18
+A17	Non_Locational T20
+A4	Non_Locational T22
+A6	Non_Locational T47
+T58	Non_Lit_Expression 2003 2010	conduct
+A18	Non_Locational T58
+A19	Non_Locational T48
+A20	Non_Locational T28
+A31	Non_Locational T29
+A21	Non_Locational T30
+A22	Non_Locational T31
+A23	Non_Locational T33
+A34	Non_Locational T50
+A24	Non_Locational T35
+A25	Non_Locational T36
+T59	Non_Toponym 4069 4087	The Canadian Press
+A27	Modifier_Type T39 Adjective
+A35	Modifier_Type T10 Noun
+A8	Non_Locational T49
+T60	Literal_Expression 4311 4317	ground
+A28	Non_Locational T41
+T61	Non_Lit_Expression 4597 4601	harm
+A32	Non_Locational T61
+T62	Non_Toponym 4758 4787	Toronto Police Services Board
+T63	Embedded_Non_Lit 4758 4765	Toronto
+A36	Modifier_Type T63 Noun
+#14	AnnotatorNotes T63	6167865
+T64	Non_Toponym 4793 4819	Toronto Transit Commission
+T65	Embedded_Non_Lit 4793 4800	Toronto
+A37	Modifier_Type T65 Noun
+#15	AnnotatorNotes T65	6167865
+A30	Non_Locational T45
+T66	Non_Lit_Expression 5286 5296	inspectors
+A40	Non_Locational T66
+T67	Literal_Expression 5648 5656	incident
+A10	Non_Locational T52
+T68	Literal_Expression 5984 5992	incident
+A12	Non_Locational T44
+T69	Literal_Expression 6276 6284	platform
+A26	Non_Locational T51

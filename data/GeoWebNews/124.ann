@@ -1,0 +1,18 @@
+T1	Literal 301 319	Assiniboine Avenue
+#1	AnnotatorNotes T1	49.882596, -97.148046
+T3	Literal_Expression 387 392	suite
+T4	Literal 588 600	River Avenue
+#3	AnnotatorNotes T4	49.880368, -97.142750
+T5	Literal_Expression 436 441	suite
+T2	Literal_Expression 649 654	floor
+T6	Literal_Expression 678 683	suite
+T7	Literal_Expression 579 584	block
+T10	Non_Lit_Expression 689 694	crews
+T8	Non_Lit_Expression 722 727	fires
+T11	Non_Lit_Expression 410 414	fire
+T12	Non_Lit_Expression 219 224	fires
+A1	Non_Locational T10
+T9	Non_Toponym 155 186	Winnipeg Fire Paramedic Service
+T13	Embedded_Literal 155 163	Winnipeg
+A2	Modifier_Type T13 Noun
+#2	AnnotatorNotes T13	6183235

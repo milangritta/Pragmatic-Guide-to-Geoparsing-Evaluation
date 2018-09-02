@@ -1,0 +1,143 @@
+T1	Mixed 915 923	Zimbabwe
+#1	AnnotatorNotes T1	878675
+T2	Non_Literal_Modifier 647 657	Zimbabwean
+A2	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	878675
+T3	Embedded_Non_Lit 371 379	Zimbabwe
+#3	AnnotatorNotes T3	878675
+T4	Embedded_Non_Lit 3648 3656	Zimbabwe
+#4	AnnotatorNotes T4	878675
+T5	Embedded_Non_Lit 1418 1426	Zimbabwe
+#5	AnnotatorNotes T5	878675
+T6	Non_Literal_Modifier 1243 1251	Zimbabwe
+A4	Modifier_Type T6 Noun
+#6	AnnotatorNotes T6	878675
+T7	Embedded_Non_Lit 3801 3809	Zimbabwe
+#7	AnnotatorNotes T7	878675
+T8	Embedded_Non_Lit 3752 3760	Zimbabwe
+#8	AnnotatorNotes T8	878675
+T9	Embedded_Non_Lit 4226 4234	Zimbabwe
+#9	AnnotatorNotes T9	878675
+T10	Literal 4618 4626	Zimbabwe
+#10	AnnotatorNotes T10	878675
+T11	Metonymic 3666 3674	Zimbabwe
+#11	AnnotatorNotes T11	878675
+T12	Literal 279 285	London
+#12	AnnotatorNotes T12	2643743
+T13	Literal 4153 4159	London
+#13	AnnotatorNotes T13	2643743
+T14	Metonymic 1009 1015	London
+#14	AnnotatorNotes T14	2643743
+T15	Metonymic 1164 1170	London
+#15	AnnotatorNotes T15	2643743
+T16	Literal 1696 1702	London
+#16	AnnotatorNotes T16	2643743
+T17	Literal 4436 4442	Harare
+#17	AnnotatorNotes T17	890299
+T18	Literal 290 296	Harare
+#18	AnnotatorNotes T18	890299
+T19	Metonymic 998 1004	Harare
+#19	AnnotatorNotes T19	890299
+T20	Non_Literal_Modifier 324 326	UK
+A6	Modifier_Type T20 Noun
+#20	AnnotatorNotes T20	2635167
+T21	Mixed 1091 1093	UK
+A8	Modifier_Type T21 Noun
+#21	AnnotatorNotes T21	2635167
+T22	Literal 674 676	UK
+#22	AnnotatorNotes T22	2635167
+T23	Literal 4451 4453	UK
+#23	AnnotatorNotes T23	2635167
+T24	Literal 4611 4613	UK
+#24	AnnotatorNotes T24	2635167
+T25	Embedded_Non_Lit 206 213	British
+A9	Modifier_Type T25 Adjective
+#25	AnnotatorNotes T25	2635167
+T26	Mixed 872 879	Britain
+#26	AnnotatorNotes T26	2635167
+T27	Mixed 1338 1345	British
+A11	Modifier_Type T27 Adjective
+#27	AnnotatorNotes T27	2635167
+T28	Embedded_Non_Lit 1830 1837	British
+#28	AnnotatorNotes T28	2635167
+T29	Non_Lit_Expression 4206 4215	caretaker
+T30	Non_Lit_Expression 4550 4558	airlines
+T31	Literal_Expression 3514 3521	flights
+T32	Literal_Expression 263 270	flights
+T33	Non_Lit_Expression 463 468	route
+T34	Literal_Expression 708 712	home
+T35	Literal_Expression 733 741	families
+T36	Non_Lit_Expression 797 804	traffic
+T37	Non_Literal_Modifier 1027 1035	Siberian
+A15	Modifier_Type T37 Adjective
+#29	AnnotatorNotes T37	2016590
+T38	Non_Lit_Expression 1061 1071	millennium
+T39	Non_Lit_Expression 1138 1144	revolt
+T40	Non_Lit_Expression 1314 1320	graces
+T41	Non_Lit_Expression 1454 1458	task
+T42	Literal_Expression 1520 1525	route
+T43	Non_Lit_Expression 1581 1589	aircraft
+T44	Literal_Expression 1667 1677	conference
+T45	Literal_Expression 1758 1767	countries
+T46	Non_Lit_Expression 1788 1796	minister
+T47	Non_Lit_Expression 1988 1998	travellers
+T48	Non_Lit_Expression 2089 2094	model
+T49	Literal_Expression 2490 2495	route
+T50	Non_Lit_Expression 2580 2590	passengers
+T51	Literal_Expression 2858 2869	connections
+T52	Non_Lit_Expression 2900 2909	relations
+T53	Literal_Expression 3036 3042	travel
+T54	Non_Lit_Expression 3150 3157	chicken
+T55	Non_Lit_Expression 3257 3261	eggs
+T56	Literal_Expression 3327 3332	route
+T57	Non_Lit_Expression 3839 3846	persons
+T58	Non_Lit_Expression 3884 3894	government
+T59	Non_Lit_Expression 3978 3981	CEO
+T60	Literal_Expression 4366 4372	office
+T61	Non_Lit_Expression 3612 3616	boss
+T62	Non_Lit_Expression 3370 3380	passengers
+T63	Non_Lit_Expression 2926 2935	countries
+T64	Literal_Expression 2243 2250	flights
+T65	Non_Lit_Expression 2323 2330	reasons
+T66	Non_Lit_Expression 2203 2213	travellers
+T67	Non_Toponym 206 221	British Airways
+T68	Non_Toponym 371 396	Zimbabwe Tourism Authorit
+A7	Modifier_Type T3 Noun
+A3	Non_Locational T35
+A10	Modifier_Type T26 Noun
+A1	Modifier_Type T1 Noun
+A14	Non_Locational T38
+A5	Non_Locational T40
+T69	Non_Toponym 1414 1426	Air Zimbabwe
+A16	Modifier_Type T5 Noun
+A17	Non_Locational T41
+A18	Non_Locational T43
+T70	Non_Toponym 1830 1845	British Airways
+A19	Modifier_Type T28 Adjective
+A20	Non_Locational T46
+T71	Literal_Expression 1929 1940	projections
+A21	Non_Locational T71
+A22	Non_Locational T47
+A23	Non_Locational T48
+A34	Non_Locational T66
+A33	Non_Locational T65
+A24	Non_Locational T50
+A25	Non_Locational T52
+A26	Non_Locational T54
+A27	Non_Locational T55
+T72	Literal_Expression 3295 3301	flight
+A32	Non_Locational T62
+A31	Non_Locational T61
+T73	Non_Toponym 3644 3656	Air Zimbabwe
+A35	Modifier_Type T4 Noun
+T74	Non_Toponym 3748 3760	Air Zimbabwe
+A38	Modifier_Type T8 Noun
+T75	Non_Toponym 3797 3809	Air Zimbabwe
+A36	Modifier_Type T7 Noun
+A28	Non_Locational T57
+A29	Non_Locational T58
+A30	Non_Locational T59
+A12	Non_Locational T29
+T76	Non_Toponym 4222 4234	Air Zimbabwe
+A37	Modifier_Type T9 Noun
+A13	Non_Locational T30

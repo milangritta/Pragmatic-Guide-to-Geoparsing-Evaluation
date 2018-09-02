@@ -1,0 +1,34 @@
+T1	Non_Lit_Expression 623 632	shipments
+T2	Non_Lit_Expression 281 291	statistics
+T3	Literal 1213 1219	Europe
+#1	AnnotatorNotes T3	6255148
+T4	Non_Lit_Expression 479 488	inverters
+T5	Non_Lit_Expression 810 818	analysts
+T6	Mixed 1058 1063	China
+#2	AnnotatorNotes T6	1814991
+T7	Non_Literal_Modifier 2352 2359	Chinese
+A5	Modifier_Type T7 Adjective
+#3	AnnotatorNotes T7	1814991
+T8	Mixed 1065 1070	India
+#4	AnnotatorNotes T8	1269750
+T9	Non_Literal_Modifier 2371 2377	Indian
+A7	Modifier_Type T9 Adjective
+#5	AnnotatorNotes T9	1269750
+T10	Mixed 1075 1088	Latin America
+#6	AnnotatorNotes T10	6255150
+T11	Mixed 1305 1311	Turkey
+#7	AnnotatorNotes T11	298795
+T12	Non_Lit_Expression 1703 1710	vendors
+T13	Non_Lit_Expression 1907 1916	shipments
+T14	Non_Lit_Expression 2221 2229	products
+T15	Non_Lit_Expression 996 1005	forecasts
+T16	Literal_Expression 1371 1384	installations
+T17	Non_Lit_Expression 2098 2104	editor
+T18	Literal_Expression 2297 2306	landscape
+A2	Non_Locational T4
+A1	Non_Locational T1
+A3	Non_Locational T5
+A4	Non_Locational T12
+A9	Non_Locational T13
+A11	Non_Locational T17
+A10	Non_Locational T14

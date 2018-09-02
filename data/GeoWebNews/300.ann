@@ -1,0 +1,17 @@
+T1	Metonymic 211 219	Broadway
+#1	AnnotatorNotes T1	5110219
+T2	Metonymic 628 636	Broadway
+#2	AnnotatorNotes T2	5110219
+T3	Non_Lit_Expression 184 192	migraine
+T4	Non_Lit_Expression 586 590	book
+T5	Non_Lit_Expression 676 683	disease
+T6	Non_Lit_Expression 425 429	mask
+T7	Non_Lit_Expression 544 547	son
+T8	Non_Lit_Expression 278 287	diagnosis
+A5	Non_Locational T3
+A1	Non_Locational T8
+A2	Non_Locational T6
+A8	Non_Locational T7
+A6	Non_Locational T4
+T9	Homonym 644 652	Hamilton
+A3	Non_Locational T5

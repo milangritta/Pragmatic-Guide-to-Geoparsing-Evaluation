@@ -1,0 +1,26 @@
+T1	Literal 401 408	Dundalk
+#1	AnnotatorNotes T1	2964540
+T2	Non_Literal_Modifier 371 379	Japanese
+A1	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	1861060
+T3	Coercion 718 743	Cloverhill District Court
+#3	AnnotatorNotes T3	53.342751, -6.384760
+T4	Literal 853 876	Central Mental Hospital
+#4	AnnotatorNotes T4	53.300459, -6.242315
+T5	Literal 880 887	Dundrum
+#5	AnnotatorNotes T5	2964532
+T6	Literal_Expression 514 521	custody
+T7	Literal_Expression 701 708	hearing
+T8	Non_Lit_Expression 1067 1073	office
+T9	Coercion 253 278	Cloverhill District Court
+#6	AnnotatorNotes T9	53.342751, -6.384760
+T10	Non_Lit_Expression 322 330	identity
+T11	Literal_Expression 647 655	hearings
+T12	Non_Lit_Expression 749 758	defendant
+T13	Non_Lit_Expression 990 994	file
+T14	Non_Toponym 253 278	Cloverhill District Court
+A4	Non_Locational T10
+A2	Non_Locational T6
+T15	Non_Toponym 718 743	Cloverhill District Court
+A3	Non_Locational T12
+A5	Non_Locational T13

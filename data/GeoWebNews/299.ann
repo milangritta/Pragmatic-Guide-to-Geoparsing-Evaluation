@@ -1,0 +1,44 @@
+T1	Literal 1931 1936	India
+#1	AnnotatorNotes T1	1269750
+T2	Non_Literal_Modifier 1167 1173	Indian
+#2	AnnotatorNotes T2	1269750
+T3	Mixed 1037 1042	India
+A1	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	1269750
+T4	Literal 666 671	India
+#4	AnnotatorNotes T4	1269750
+T5	Non_Literal_Modifier 195 200	India
+A2	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	1269750
+T6	Embedded_Non_Lit 286 291	India
+#6	AnnotatorNotes T6	1269750
+T7	Mixed 452 457	India
+A3	Modifier_Type T7 Noun
+#7	AnnotatorNotes T7	1269750
+T8	Literal 1422 1428	Mumbai
+#8	AnnotatorNotes T8	1275339
+T9	Non_Lit_Expression 255 259	deal
+T10	Non_Lit_Expression 329 333	team
+T11	Non_Lit_Expression 374 380	wealth
+T12	Non_Lit_Expression 429 433	sale
+T13	Non_Lit_Expression 534 541	bidders
+T14	Non_Lit_Expression 747 753	rights
+T15	Non_Lit_Expression 958 962	deal
+T16	Literal_Expression 1198 1208	tournament
+T17	Non_Lit_Expression 1330 1340	production
+T18	Non_Lit_Expression 1449 1456	figures
+T19	Non_Lit_Expression 1823 1832	companies
+T20	Literal_Expression 1677 1684	auction
+T21	Non_Lit_Expression 1804 1807	bid
+A4	Non_Locational T9
+T22	Non_Toponym 281 291	Star India
+A11	Modifier_Type T6 Noun
+A5	Non_Locational T10
+A6	Non_Locational T11
+A7	Non_Locational T13
+A8	Non_Locational T14
+A12	Non_Locational T15
+A13	Modifier_Type T2 Adjective
+A14	Non_Locational T17
+A9	Non_Locational T18
+A10	Non_Locational T21

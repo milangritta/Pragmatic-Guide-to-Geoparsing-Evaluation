@@ -1,0 +1,44 @@
+T1	Literal 2749 2758	Indonesia
+#1	AnnotatorNotes T1	1643084
+T2	Literal 2772 2778	Turkey
+#2	AnnotatorNotes T2	298795
+T3	Literal_Modifier 421 430	Abu Dhabi
+A1	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	292968
+T4	Literal_Expression 882 893	territories
+T5	Mixed 1229 1234	China
+#4	AnnotatorNotes T5	1814991
+T6	Mixed 2394 2399	China
+#5	AnnotatorNotes T6	1814991
+T7	Literal 2599 2604	China
+#6	AnnotatorNotes T7	1814991
+T8	Mixed 2383 2389	Brazil
+#7	AnnotatorNotes T8	3469034
+T9	Literal 2616 2621	India
+#8	AnnotatorNotes T9	1269750
+T10	Literal 2636 2644	Thailand
+#9	AnnotatorNotes T10	1605651
+T11	Mixed 2493 2497	Asia
+#10	AnnotatorNotes T11	6255147
+T12	Mixed 1560 1564	Asia
+#11	AnnotatorNotes T12	6255147
+T13	Mixed 1659 1665	Europe
+#12	AnnotatorNotes T13	6255148
+T14	Literal_Expression 1524 1533	countries
+T15	Mixed 1715 1728	North America
+A3	Modifier_Type T15 Noun
+#13	AnnotatorNotes T15	7729890
+T16	Non_Lit_Expression 1392 1401	countries
+T17	Literal_Expression 1788 1798	transition
+T18	Literal_Expression 2059 2065	sector
+T19	Non_Lit_Expression 1016 1027	electricity
+A2	Non_Locational T19
+T20	Literal_Expression 1080 1084	wind
+T21	Non_Lit_Expression 2248 2258	renewables
+A4	Non_Locational T21
+T22	Non_Lit_Expression 1937 1948	environment
+A5	Non_Locational T22
+T23	Non_Toponym 1490 1504	European Union
+T24	Embedded_Non_Lit 1490 1504	European Union
+A6	Modifier_Type T24 Adjective
+#14	AnnotatorNotes T24	6255148

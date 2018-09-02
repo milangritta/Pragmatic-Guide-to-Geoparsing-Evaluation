@@ -1,0 +1,86 @@
+T1	Embedded_Non_Lit 186 210	European Investment Bank
+#1	AnnotatorNotes T1	6255148
+T2	Embedded_Non_Lit 1529 1548	European Commission
+#2	AnnotatorNotes T2	6255148
+T3	Embedded_Non_Lit 1690 1714	European Investment Bank
+#3	AnnotatorNotes T3	6255148
+T4	Mixed 567 575	European
+A1	Modifier_Type T4 Adjective
+#4	AnnotatorNotes T4	6255148
+T5	Embedded_Non_Lit 511 530	European Commission
+#5	AnnotatorNotes T5	6255148
+T6	Embedded_Non_Lit 365 373	European
+#6	AnnotatorNotes T6	6255148
+T7	Mixed 1745 1751	Europe
+#7	AnnotatorNotes T7	6255148
+T8	Mixed 459 465	Europe
+#8	AnnotatorNotes T8	6255148
+T9	Non_Literal_Modifier 2208 2216	European
+A2	Modifier_Type T9 Adjective
+#9	AnnotatorNotes T9	6255148
+T10	Literal 2809 2815	Europe
+#10	AnnotatorNotes T10	6255148
+T11	Embedded_Non_Lit 2459 2478	European Commission
+#11	AnnotatorNotes T11	6255148
+T12	Literal 1208 1223	Northern Europe
+#12	AnnotatorNotes T12	7729883
+T13	Literal 322 329	Finland
+#13	AnnotatorNotes T13	660013
+T14	Literal 1064 1071	Finland
+#14	AnnotatorNotes T14	660013
+T15	Literal 1057 1062	Espoo
+#15	AnnotatorNotes T15	660158
+T16	Non_Lit_Expression 285 292	company
+T17	Non_Lit_Expression 335 339	loan
+T18	Non_Lit_Expression 605 614	financing
+T19	Non_Lit_Expression 643 651	research
+T20	Literal_Expression 739 748	treatment
+T21	Literal_Expression 812 819	project
+T22	Non_Lit_Expression 851 863	technologies
+T23	Literal_Expression 887 895	industry
+T24	Literal_Expression 966 974	industry
+T25	Literal_Expression 1039 1045	centre
+T26	Literal_Expression 1098 1102	jobs
+T27	Literal_Expression 1260 1269	resources
+T28	Non_Lit_Expression 1792 1802	commitment
+T29	Literal_Expression 1832 1839	economy
+T30	Non_Lit_Expression 2012 2020	products
+T31	Literal_Expression 2330 2337	economy
+T32	Non_Lit_Expression 2422 2430	priority
+T33	Literal_Expression 2606 2614	projects
+T34	Non_Lit_Expression 1665 1669	loan
+T35	Non_Toponym 186 210	European Investment Bank
+A17	Modifier_Type T1 Adjective
+A3	Non_Locational T16
+A4	Non_Locational T17
+T36	Non_Toponym 365 404	European Fund for Strategic Investments
+A12	Modifier_Type T6 Adjective
+T37	Non_Toponym 511 530	European Commission
+A13	Modifier_Type T5 Adjective
+A5	Non_Locational T18
+A6	Non_Locational T22
+T38	Literal_Expression 934 943	treatment
+T39	Non_Lit_Expression 1369 1378	programme
+A18	Non_Locational T39
+T40	Non_Toponym 1529 1548	European Commission
+A14	Modifier_Type T2 Adjective
+T41	Non_Toponym 1690 1714	European Investment Bank
+A16	Modifier_Type T3 Adjective
+A11	Non_Locational T34
+A7	Non_Locational T28
+A8	Non_Locational T30
+T42	Literal_Expression 2147 2157	industries
+A9	Non_Locational T32
+T43	Non_Toponym 2459 2478	European Commission
+A10	Modifier_Type T11 Adjective
+T44	Literal_Expression 2546 2553	economy
+T45	Literal_Expression 2703 2711	projects
+T46	Non_Literal_Modifier 1935 1937	EU
+A15	Modifier_Type T46 Noun
+#16	AnnotatorNotes T46	6255148
+T47	Non_Literal_Modifier 2412 2414	EU
+A19	Modifier_Type T47 Noun
+#17	AnnotatorNotes T47	6255148
+T48	Non_Literal_Modifier 1774 1776	EU
+A20	Modifier_Type T48 Noun
+#18	AnnotatorNotes T48	6255148

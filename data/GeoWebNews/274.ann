@@ -1,0 +1,34 @@
+T1	Literal 788 801	Thames Valley
+#1	AnnotatorNotes T1	7116407
+T2	Literal 822 831	Berkshire
+#2	AnnotatorNotes T2	2655856
+T3	Literal_Expression 1205 1209	life
+T4	Literal 1134 1141	America
+#3	AnnotatorNotes T4	6255149
+T5	Literal_Expression 1045 1057	appointments
+T6	Literal_Expression 696 708	appointments
+T7	Non_Literal_Modifier 1411 1413	UK
+A1	Modifier_Type T7 Noun
+#4	AnnotatorNotes T7	2635167
+T8	Non_Lit_Expression 653 659	people
+T9	Non_Lit_Expression 1531 1541	Applicants
+T10	Non_Lit_Expression 1310 1317	support
+T11	Non_Lit_Expression 1516 1519	car
+T12	Non_Lit_Expression 259 266	drivers
+T13	Literal_Expression 957 969	appointments
+T14	Literal_Expression 359 371	appointments
+T15	Literal_Expression 1709 1713	area
+T16	Non_Lit_Expression 1383 1391	attitude
+T17	Non_Lit_Expression 627 634	service
+T18	Non_Lit_Expression 1259 1264	phone
+A7	Non_Locational T12
+A10	Non_Locational T17
+A3	Non_Locational T8
+T19	Non_Lit_Expression 899 907	patients
+A11	Non_Locational T19
+A9	Non_Locational T18
+A5	Non_Locational T10
+A8	Non_Locational T16
+T20	Non_Lit_Expression 1462 1468	points
+A2	Non_Locational T11
+A4	Non_Locational T9

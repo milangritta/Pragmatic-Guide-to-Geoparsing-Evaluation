@@ -1,0 +1,44 @@
+T1	Non_Literal_Modifier 156 165	Hampshire
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	2647554
+T2	Literal 682 691	Hampshire
+#2	AnnotatorNotes T2	2647554
+T3	Literal 593 600	Andover
+#3	AnnotatorNotes T3	2657324
+T4	Literal 578 586	Thruxton
+#4	AnnotatorNotes T4	8260361
+T5	Literal 801 813	Brands Hatch
+#5	AnnotatorNotes T5	6618982
+T6	Literal 1801 1812	Silverstone
+#6	AnnotatorNotes T6	7627299
+T7	Literal_Expression 2078 2086	circuits
+T8	Literal_Expression 2103 2110	country
+T9	Non_Lit_Expression 252 258	season
+T10	Non_Lit_Expression 540 544	race
+T11	Literal_Expression 343 348	wheel
+T12	Non_Lit_Expression 427 431	team
+T13	Non_Lit_Expression 1118 1126	campaign
+T14	Non_Lit_Expression 1886 1891	races
+T15	Non_Lit_Expression 2398 2405	drivers
+T16	Embedded_Literal 232 239	British
+#7	AnnotatorNotes T16	2635167
+T17	Embedded_Non_Lit 306 317	West Surrey
+#8	AnnotatorNotes T17	2636512
+T18	Embedded_Non_Lit 2591 2602	West Surrey
+#9	AnnotatorNotes T18	2636512
+T19	Non_Toponym 232 251	British Touring Car
+A2	Modifier_Type T16 Noun
+T20	Non_Toponym 306 324	West Surrey Racing
+A3	Modifier_Type T17 Noun
+A4	Non_Locational T11
+A5	Non_Locational T12
+T21	Literal_Expression 651 656	races
+A6	Non_Locational T13
+T22	Literal_Expression 1432 1438	season
+T23	Non_Literal_Modifier 1924 1932	Eversley
+A9	Modifier_Type T23 Noun
+#10	AnnotatorNotes T23	6950979
+T24	Literal_Expression 2144 2149	event
+A8	Non_Locational T15
+T25	Non_Toponym 2591 2609	West Surrey Racing
+A7	Modifier_Type T18 Noun

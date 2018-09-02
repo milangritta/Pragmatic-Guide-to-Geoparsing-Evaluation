@@ -1,0 +1,61 @@
+T1	Literal 122 127	China
+#1	AnnotatorNotes T1	1814991
+T2	Mixed 358 363	China
+#2	AnnotatorNotes T2	1814991
+T3	Mixed 420 425	China
+#3	AnnotatorNotes T3	1814991
+T4	Mixed 2222 2227	China
+#4	AnnotatorNotes T4	1814991
+T5	Literal_Expression 463 468	world
+T6	Literal_Expression 2278 2283	world
+T7	Non_Lit_Expression 406 418	sociologists
+T8	Non_Literal_Modifier 2087 2094	Chinese
+A4	Modifier_Type T8 Adjective
+#5	AnnotatorNotes T8	1814991
+T9	Non_Literal_Modifier 791 798	Chinese
+A6	Modifier_Type T9 Adjective
+#6	AnnotatorNotes T9	1814991
+T10	Literal_Modifier 511 518	Chinese
+A8	Modifier_Type T10 Adjective
+#7	AnnotatorNotes T10	1814991
+T11	Non_Literal_Modifier 732 739	Chinese
+A10	Modifier_Type T11 Adjective
+#8	AnnotatorNotes T11	1814991
+T12	Demonym 1045 1052	Chinese
+T13	Language 1612 1619	Chinese
+T14	Literal 471 478	Beijing
+#11	AnnotatorNotes T14	1816670
+T15	Non_Lit_Expression 228 236	Business
+T16	Non_Lit_Expression 292 296	move
+T17	Literal_Expression 1829 1834	sites
+T18	Non_Lit_Expression 2376 2382	groups
+T19	Non_Lit_Expression 325 331	appeal
+T20	Literal_Expression 706 715	catalogue
+T21	Non_Lit_Expression 1236 1242	seller
+T22	Non_Lit_Expression 935 941	bodies
+T23	Non_Lit_Expression 1845 1851	people
+T24	Literal_Expression 2060 2067	country
+T25	Literal_Expression 1564 1571	regions
+T26	Non_Lit_Expression 612 621	retailers
+T27	Non_Lit_Expression 1002 1012	bestseller
+T28	Non_Lit_Expression 1389 1400	authorities
+T29	Non_Lit_Expression 1527 1536	languages
+T30	Non_Lit_Expression 1748 1753	sales
+T31	Non_Lit_Expression 1804 1815	competition
+T32	Non_Lit_Expression 1936 1946	government
+T33	Non_Lit_Expression 2151 2164	denominations
+A1	Non_Locational T16
+A2	Non_Locational T19
+A9	Modifier_Type T2 Noun
+A3	Non_Locational T7
+A16	Non_Locational T20
+A7	Non_Locational T22
+A11	Non_Locational T27
+A12	Non_Locational T21
+A13	Non_Locational T28
+A17	Non_Locational T29
+A14	Non_Locational T31
+A15	Non_Locational T23
+A19	Non_Locational T32
+A5	Non_Locational T33
+A18	Non_Locational T18

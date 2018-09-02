@@ -1,0 +1,47 @@
+T1	Demonym 917 928	Venezuelans
+T2	Literal 628 634	Geneva
+#1	AnnotatorNotes T2	2660646
+T3	Literal 942 948	Brazil
+#2	AnnotatorNotes T3	3469034
+T4	Non_Literal_Modifier 683 692	Brazilian
+A3	Modifier_Type T4 Adjective
+#3	AnnotatorNotes T4	3469034
+T5	Literal 1223 1229	Brazil
+#4	AnnotatorNotes T5	3469034
+T6	Mixed 414 420	Brazil
+#5	AnnotatorNotes T6	3469034
+T7	Literal 326 332	Brazil
+#6	AnnotatorNotes T7	3469034
+T8	Mixed 295 301	Brazil
+#7	AnnotatorNotes T8	3469034
+T9	Demonym 1060 1071	Venezuelans
+T10	Demonym 1191 1202	Venezuelans
+T11	Demonym 783 794	Venezuelans
+T12	Mixed 422 431	Venezuela
+#8	AnnotatorNotes T12	3625428
+T13	Non_Literal_Modifier 336 346	Venezuelan
+A11	Modifier_Type T13 Adjective
+#9	AnnotatorNotes T13	3625428
+T14	Literal 1331 1338	Roraima
+#10	AnnotatorNotes T14	3662560
+T15	Literal 1357 1366	Boa Vista
+#11	AnnotatorNotes T15	3664980
+T16	Literal_Expression 590 598	briefing
+T17	Literal 606 624	Palais des Nations
+#12	AnnotatorNotes T17	11777735
+T18	Non_Lit_Expression 748 756	response
+T19	Literal_Expression 811 816	north
+T20	Literal_Expression 824 831	country
+T21	Non_Lit_Expression 892 901	estimates
+T22	Literal_Expression 1003 1012	situation
+T23	Non_Lit_Expression 1108 1115	shelter
+T24	Non_Lit_Expression 1162 1172	protection
+T25	Literal_Expression 1378 1385	capital
+T26	Literal_Expression 1433 1444	health care
+T27	Literal_Expression 228 233	Forum
+A16	Modifier_Type T8 Noun
+A12	Modifier_Type T6 Noun
+A17	Modifier_Type T12 Noun
+A4	Non_Locational T18
+A9	Non_Locational T21
+A1	Non_Locational T24

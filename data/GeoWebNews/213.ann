@@ -1,0 +1,74 @@
+T1	Literal 262 275	United States
+#1	AnnotatorNotes T1	6252001
+T2	Literal_Modifier 473 475	US
+A1	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	6252001
+T3	Literal 1389 1402	United States
+#3	AnnotatorNotes T3	6252001
+T4	Literal_Expression 566 573	history
+T5	Literal_Modifier 748 756	Atlantic
+#4	AnnotatorNotes T5	3373405
+T6	Literal 1537 1545	Atlantic
+#5	AnnotatorNotes T6	3373405
+T7	Literal 1762 1770	Atlantic
+#6	AnnotatorNotes T7	3373405
+T8	Literal 1875 1883	Atlantic
+#7	AnnotatorNotes T8	3411923
+T9	Literal 3186 3194	Atlantic
+#8	AnnotatorNotes T9	3373405
+T10	Literal 2913 2921	Atlantic
+#9	AnnotatorNotes T10	3373405
+T11	Literal 1852 1860	Atlantic
+#10	AnnotatorNotes T11	3373405
+T12	Literal 2216 2224	Atlantic
+#11	AnnotatorNotes T12	3373405
+T13	Literal 2730 2737	Pacific
+#12	AnnotatorNotes T13	2363254
+T14	Literal 2785 2798	Pacific Ocean
+#13	AnnotatorNotes T14	2363254
+T15	Literal_Modifier 3064 3071	Pacific
+A3	Modifier_Type T15 Noun
+#14	AnnotatorNotes T15	2363254
+T16	Embedded_Non_Lit 3681 3695	Colorado State
+#15	AnnotatorNotes T16	5417618
+T17	Coercion 3256 3270	Colorado State
+#16	AnnotatorNotes T17	5417618
+T18	Embedded_Non_Lit 3542 3556	Colorado State
+#17	AnnotatorNotes T18	5417618
+T19	Non_Lit_Expression 360 366	storms
+T20	Non_Lit_Expression 909 917	forecast
+T21	Literal_Expression 1811 1819	portions
+T22	Literal_Expression 2840 2847	climate
+A2	Modifier_Type T5 Noun
+T23	Embedded_Non_Lit 687 712	Colorado State University
+#18	AnnotatorNotes T23	5417618
+T24	Embedded_Non_Lit 851 876	Colorado State University
+#19	AnnotatorNotes T24	5417618
+T25	Coercion 1597 1622	Colorado State University
+#20	AnnotatorNotes T25	5575878
+A5	Modifier_Type T18 Noun
+T26	Non_Lit_Expression 637 646	residents
+T27	Literal_Expression 189 196	drought
+T28	Literal_Expression 379 386	drought
+T29	Literal_Expression 518 524	storms
+T30	Literal_Expression 589 595	season
+T31	Non_Toponym 687 712	Colorado State University
+A6	Modifier_Type T23 Noun
+T32	Literal_Expression 817 823	season
+T33	Non_Toponym 851 876	Colorado State University
+A7	Modifier_Type T24 Noun
+T34	Literal_Expression 997 1003	storms
+T35	Literal_Expression 1043 1053	hurricanes
+T36	Non_Lit_Expression 1203 1211	forecast
+T37	Non_Toponym 1597 1622	Colorado State University
+T38	Literal_Expression 1641 1647	warmth
+T39	Non_Lit_Expression 2160 2169	forecasts
+T40	Literal_Expression 2380 2388	activity
+T41	Literal_Expression 2616 2627	development
+T42	Literal_Expression 3116 3126	conditions
+T43	Non_Toponym 3256 3270	Colorado State
+T44	Non_Toponym 3542 3556	Colorado State
+T45	Non_Toponym 3681 3695	Colorado State
+A4	Modifier_Type T16 Noun
+T46	Literal_Expression 3792 3802	conditions
+T47	Literal_Expression 3897 3904	outlook

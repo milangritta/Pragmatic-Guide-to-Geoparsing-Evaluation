@@ -1,0 +1,55 @@
+T1	Metonymic 133 146	United States
+#1	AnnotatorNotes T1	6252001
+T2	Non_Literal_Modifier 323 325	US
+A1	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	6252001
+T3	Metonymic 862 864	US
+#3	AnnotatorNotes T3	6252001
+T4	Non_Literal_Modifier 437 439	US
+A4	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	6252001
+T5	Literal_Modifier 614 616	US
+A6	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	6252001
+T6	Metonymic 1389 1391	US
+#6	AnnotatorNotes T6	6252001
+T7	Embedded_Non_Lit 1050 1052	US
+#7	AnnotatorNotes T7	6252001
+T8	Literal 357 363	Riyadh
+#8	AnnotatorNotes T8	108410
+T9	Metonymic 187 199	Saudi Arabia
+#9	AnnotatorNotes T9	102358
+T10	Non_Literal_Modifier 512 524	Saudi Arabia
+A7	Modifier_Type T10 Noun
+#10	AnnotatorNotes T10	102358
+T11	Metonymic 705 717	Saudi Arabia
+#11	AnnotatorNotes T11	102358
+T12	Metonymic 1237 1249	Saudi Arabia
+#12	AnnotatorNotes T12	102358
+T13	Metonymic 693 703	Washington
+#13	AnnotatorNotes T13	4140963
+T14	Metonymic 883 888	Qatar
+#14	AnnotatorNotes T14	289688
+T15	Literal 877 881	Gulf
+#15	AnnotatorNotes T15	235616
+T16	Metonymic 1444 1451	Germany
+#16	AnnotatorNotes T16	2921044
+T17	Literal_Expression 291 296	world
+T18	Non_Lit_Expression 401 408	kingdom
+T19	Literal_Modifier 785 790	Yemen
+#17	AnnotatorNotes T19	69543
+T20	Non_Literal_Modifier 764 768	Arab
+A8	Modifier_Type T20 Adjective
+#18	AnnotatorNotes T20	6957698
+T21	Non_Literal_Modifier 926 933	Lebanon
+A10	Modifier_Type T21 Noun
+#19	AnnotatorNotes T21	272103
+T22	Literal 1170 1181	Middle East
+#20	AnnotatorNotes T22	6269133
+T23	Non_Lit_Expression 229 236	systems
+T24	Non_Lit_Expression 1201 1210	statement
+A12	Non_Locational T23
+A2	Modifier_Type T19 Noun
+T25	Non_Toponym 1050 1069	US State Department
+A3	Modifier_Type T7 Noun
+A5	Non_Locational T24

@@ -1,0 +1,52 @@
+T1	Mixed 264 274	WASHINGTON
+#1	AnnotatorNotes T1	4140963
+T2	Non_Literal_Modifier 327 331	U.S.
+A1	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	6252001
+T3	Metonymic 694 707	United States
+#3	AnnotatorNotes T3	6252001
+T4	Metonymic 1154 1158	U.S.
+#4	AnnotatorNotes T4	6252001
+T5	Non_Literal_Modifier 903 907	U.S.
+A3	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	6252001
+T6	Mixed 964 968	U.S.
+A5	Modifier_Type T6 Noun
+#6	AnnotatorNotes T6	6252001
+T7	Non_Literal_Modifier 608 612	U.S.
+A7	Modifier_Type T7 Noun
+#7	AnnotatorNotes T7	6252001
+T8	Metonymic 1251 1255	U.S.
+#8	AnnotatorNotes T8	6252001
+T9	Literal 341 346	Syria
+#9	AnnotatorNotes T9	163843
+T10	Literal 1018 1023	Syria
+#10	AnnotatorNotes T10	163843
+T11	Literal 633 638	Syria
+#11	AnnotatorNotes T11	163843
+T12	Literal 1191 1196	Syria
+#12	AnnotatorNotes T12	163843
+T13	Literal 1301 1306	Syria
+#13	AnnotatorNotes T13	163843
+T14	Literal 1292 1296	Iraq
+#14	AnnotatorNotes T14	99237
+T15	Non_Lit_Expression 381 391	withdrawal
+T16	Non_Lit_Expression 492 499	country
+T17	Non_Lit_Expression 818 826	advisers
+T18	Metonymic 1205 1211	Israel
+#15	AnnotatorNotes T18	294640
+T19	Non_Literal_Modifier 1213 1217	Arab
+A11	Modifier_Type T19 Adjective
+#16	AnnotatorNotes T19	6957698
+T20	Non_Lit_Expression 1323 1332	president
+T21	Non_Lit_Expression 1405 1410	aides
+A6	Modifier_Type T1 Noun
+A2	Non_Locational T15
+A8	Non_Locational T17
+T22	Non_Lit_Expression 854 860	troops
+A9	Non_Locational T22
+A4	Non_Locational T20
+A10	Non_Locational T21
+T23	Literal_Expression 1608 1615	meeting
+T24	Non_Lit_Expression 1667 1676	anonymity
+A12	Non_Locational T24

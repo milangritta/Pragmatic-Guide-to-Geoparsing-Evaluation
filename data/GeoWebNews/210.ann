@@ -1,0 +1,42 @@
+T1	Literal_Expression 282 294	headquarters
+T2	Literal 323 332	Maiduguri
+#1	AnnotatorNotes T2	8659860
+T3	Literal 333 344	Borno State
+#2	AnnotatorNotes T3	2346794
+T4	Non_Lit_Expression 890 900	ammunition
+T5	Non_Lit_Expression 1048 1055	country
+T6	Literal_Expression 1116 1123	country
+T7	Demonym 1316 1325	Nigerians
+T8	Demonym 1575 1584	Nigerians
+T9	Non_Lit_Expression 2323 2330	country
+T10	Literal_Expression 2742 2751	democracy
+T11	Non_Lit_Expression 3375 3386	engineering
+T12	Non_Lit_Expression 2395 2405	government
+T13	Non_Lit_Expression 3048 3055	service
+T14	Embedded_Non_Lit 253 261	Nigerian
+#3	AnnotatorNotes T14	2328926
+T15	Embedded_Non_Lit 585 593	Nigerian
+#4	AnnotatorNotes T15	2328926
+T16	Embedded_Non_Lit 567 575	Nigerian
+#5	AnnotatorNotes T16	2328926
+T17	Non_Toponym 253 274	Nigerian Armed Forces
+A12	Modifier_Type T14 Adjective
+T18	Non_Toponym 567 580	Nigerian Army
+A6	Modifier_Type T16 Adjective
+T19	Non_Toponym 585 603	Nigerian Air Force
+A11	Modifier_Type T15 Adjective
+A1	Non_Locational T4
+T20	Literal_Expression 1260 1266	forces
+A13	Non_Locational T20
+T21	Non_Lit_Expression 1732 1736	arms
+A2	Non_Locational T21
+T22	Non_Lit_Expression 2252 2266	responsibility
+A3	Non_Locational T22
+A4	Non_Locational T12
+A5	Non_Locational T10
+T23	Non_Lit_Expression 2889 2897	security
+A7	Non_Locational T23
+A9	Non_Locational T13
+T24	Non_Lit_Expression 3114 3123	relations
+A10	Non_Locational T24
+A8	Non_Locational T11

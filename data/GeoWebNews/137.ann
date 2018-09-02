@@ -1,0 +1,8 @@
+T1	Mixed 153 164	LOS ANGELES
+#1	AnnotatorNotes T1	5368361
+T6	Non_Lit_Expression 254 258	star
+T2	Homonym 310 317	Chicago
+T3	Homonym 658 665	Chicago
+A1	Modifier_Type T1 Noun
+A2	Non_Locational T6
+T4	Homonym 300 305	North

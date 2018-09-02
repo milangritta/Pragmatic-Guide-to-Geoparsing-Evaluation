@@ -1,0 +1,39 @@
+T1	Non_Lit_Expression 303 310	Muslims
+T2	Non_Lit_Expression 378 382	city
+T3	Literal 527 537	New Jersey
+#1	AnnotatorNotes T3	5101760
+T4	Literal 775 785	New Jersey
+#2	AnnotatorNotes T4	5101760
+T5	Non_Lit_Expression 428 432	city
+T6	Non_Lit_Expression 718 727	community
+T7	Literal 767 773	Newark
+#3	AnnotatorNotes T7	5101798
+T8	Literal 986 992	Newark
+#4	AnnotatorNotes T8	5101798
+T9	Literal_Modifier 994 998	U.S.
+A3	Modifier_Type T9 Noun
+#5	AnnotatorNotes T9	6252001
+T10	Non_Lit_Expression 863 869	groups
+T11	Literal_Expression 892 899	mosques
+T12	Non_Lit_Expression 1132 1136	deal
+T13	Non_Lit_Expression 1039 1046	parties
+T14	Non_Lit_Expression 1335 1340	court
+T15	Literal 1532 1545	New York City
+#6	AnnotatorNotes T15	5128581
+T16	Non_Lit_Expression 1562 1568	tactic
+T17	Literal_Expression 597 601	case
+T18	Non_Lit_Expression 1383 1391	decision
+T19	Non_Lit_Expression 1433 1439	judges
+T20	Literal_Expression 1479 1484	suits
+T21	Literal_Expression 202 214	surveillance
+A1	Non_Locational T1
+A2	Non_Locational T6
+A5	Non_Locational T10
+T22	Literal_Expression 928 935	attacks
+A4	Non_Locational T13
+A6	Non_Locational T12
+T23	Non_Lit_Expression 1211 1220	terrorism
+A7	Non_Locational T23
+A8	Non_Locational T18
+A10	Non_Locational T19
+A9	Non_Locational T16

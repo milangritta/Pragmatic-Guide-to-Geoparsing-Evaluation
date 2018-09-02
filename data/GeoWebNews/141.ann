@@ -1,0 +1,29 @@
+T1	Non_Lit_Expression 339 348	President
+T2	Literal 467 472	Enugu
+#1	AnnotatorNotes T2	2343279
+T3	Non_Lit_Expression 515 525	Government
+T4	Non_Lit_Expression 587 591	life
+T5	Literal_Expression 681 688	country
+T6	Non_Lit_Expression 802 809	Senator
+T7	Non_Lit_Expression 843 851	accusers
+T8	Literal_Expression 1036 1040	area
+T9	Non_Lit_Expression 1491 1496	party
+T10	Non_Lit_Expression 1300 1317	president-general
+T11	Literal_Expression 1509 1519	government
+T12	Non_Lit_Expression 1572 1580	officers
+T13	Non_Literal_Modifier 1736 1747	Enugu State
+#2	AnnotatorNotes T13	2565344
+T14	Non_Lit_Expression 1871 1876	party
+T15	Literal_Expression 2020 2027	country
+T16	Demonym 2177 2186	Nigerians
+A14	Modifier_Type T13 Noun
+A1	Non_Locational T1
+A2	Non_Locational T3
+A3	Non_Locational T4
+A4	Non_Locational T6
+A5	Non_Locational T7
+A6	Non_Locational T10
+A7	Non_Locational T9
+A8	Non_Locational T11
+A9	Non_Locational T12
+A10	Non_Locational T14

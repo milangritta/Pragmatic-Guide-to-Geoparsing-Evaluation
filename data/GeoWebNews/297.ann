@@ -1,0 +1,234 @@
+T1	Metonymic 235 240	China
+#1	AnnotatorNotes T1	1814991
+T2	Non_Literal_Modifier 765 772	Chinese
+A1	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	1814991
+T3	Metonymic 821 826	China
+#3	AnnotatorNotes T3	1814991
+T4	Metonymic 886 891	China
+#4	AnnotatorNotes T4	1814991
+T5	Non_Literal_Modifier 377 384	Chinese
+A3	Modifier_Type T5 Adjective
+#5	AnnotatorNotes T5	1814991
+T6	Metonymic 1362 1367	China
+#6	AnnotatorNotes T6	1814991
+T7	Literal 2216 2221	China
+#7	AnnotatorNotes T7	1814991
+T8	Metonymic 2227 2232	China
+#8	AnnotatorNotes T8	1814991
+T9	Literal 2411 2416	China
+#9	AnnotatorNotes T9	1814991
+T10	Metonymic 1894 1899	China
+#10	AnnotatorNotes T10	1814991
+T11	Literal 2753 2758	China
+#11	AnnotatorNotes T11	1814991
+T12	Metonymic 3802 3807	China
+#12	AnnotatorNotes T12	1814991
+T13	Metonymic 3108 3113	China
+#13	AnnotatorNotes T13	1814991
+T14	Non_Literal_Modifier 2342 2349	Chinese
+A7	Modifier_Type T14 Adjective
+#14	AnnotatorNotes T14	1814991
+T15	Metonymic 3193 3198	China
+#15	AnnotatorNotes T15	1814991
+T16	Non_Literal_Modifier 5767 5774	Chinese
+A10	Modifier_Type T16 Adjective
+#16	AnnotatorNotes T16	1814991
+T17	Metonymic 4601 4606	China
+#17	AnnotatorNotes T17	1814991
+T18	Metonymic 4208 4213	China
+#18	AnnotatorNotes T18	1814991
+T19	Non_Literal_Modifier 3547 3552	China
+A13	Modifier_Type T19 Noun
+#19	AnnotatorNotes T19	1814991
+T20	Non_Literal_Modifier 3646 3653	Chinese
+A15	Modifier_Type T20 Adjective
+#20	AnnotatorNotes T20	1814991
+T21	Metonymic 4302 4307	China
+#21	AnnotatorNotes T21	1814991
+T22	Literal 4886 4891	China
+#22	AnnotatorNotes T22	1814991
+T23	Metonymic 5603 5608	China
+#23	AnnotatorNotes T23	1814991
+T24	Literal_Modifier 5201 5206	China
+A17	Modifier_Type T24 Noun
+#24	AnnotatorNotes T24	1814991
+T25	Mixed 5469 5474	China
+A18	Modifier_Type T25 Noun
+#25	AnnotatorNotes T25	1814991
+T26	Metonymic 3927 3932	China
+#26	AnnotatorNotes T26	1814991
+T27	Non_Literal_Modifier 3860 3865	China
+A20	Modifier_Type T27 Noun
+#27	AnnotatorNotes T27	1814991
+T28	Mixed 217 227	WASHINGTON
+#28	AnnotatorNotes T28	4140963
+T29	Metonymic 1949 1959	Washington
+#29	AnnotatorNotes T29	4140963
+T30	Non_Literal_Modifier 1598 1611	United States
+#30	AnnotatorNotes T30	6252001
+T31	Metonymic 270 273	U.S
+#31	AnnotatorNotes T31	6252001
+T32	Non_Literal_Modifier 711 715	U.S.
+A22	Modifier_Type T32 Noun
+#32	AnnotatorNotes T32	6252001
+T33	Non_Literal_Modifier 512 516	U.S.
+A24	Modifier_Type T33 Noun
+#33	AnnotatorNotes T33	6252001
+T34	Metonymic 986 990	U.S.
+#34	AnnotatorNotes T34	6252001
+T35	Metonymic 1353 1357	U.S.
+#35	AnnotatorNotes T35	6252001
+T36	Non_Literal_Modifier 2760 2764	U.S.
+A26	Modifier_Type T36 Noun
+#36	AnnotatorNotes T36	6252001
+T37	Non_Literal_Modifier 3057 3061	U.S.
+A28	Modifier_Type T37 Noun
+#37	AnnotatorNotes T37	6252001
+T38	Non_Literal_Modifier 2643 2647	U.S.
+A30	Modifier_Type T38 Noun
+#38	AnnotatorNotes T38	6252001
+T39	Metonymic 4292 4296	U.S.
+#39	AnnotatorNotes T39	6252001
+T40	Non_Literal_Modifier 3778 3782	U.S.
+#40	AnnotatorNotes T40	6252001
+T41	Non_Literal_Modifier 2396 2400	U.S.
+A33	Modifier_Type T41 Noun
+#41	AnnotatorNotes T41	6252001
+T42	Metonymic 2130 2134	U.S.
+#42	AnnotatorNotes T42	6252001
+T43	Non_Lit_Expression 414 421	dispute
+T44	Literal_Expression 434 439	world
+T45	Non_Lit_Expression 482 486	move
+T46	Metonymic 590 597	Beijing
+#43	AnnotatorNotes T46	1816670
+T47	Literal 785 792	Beijing
+#44	AnnotatorNotes T47	1816670
+T48	Metonymic 1423 1430	Beijing
+#45	AnnotatorNotes T48	1816670
+T49	Metonymic 1264 1271	Beijing
+#46	AnnotatorNotes T49	1816670
+T50	Literal_Modifier 5319 5326	Beijing
+A38	Modifier_Type T50 Noun
+#47	AnnotatorNotes T50	1816670
+T51	Metonymic 5000 5007	Beijing
+#48	AnnotatorNotes T51	1816670
+T52	Literal 5988 5995	Beijing
+#49	AnnotatorNotes T52	1816670
+T53	Metonymic 2585 2592	Beijing
+#50	AnnotatorNotes T53	1816670
+T54	Non_Literal_Modifier 636 644	American
+A40	Modifier_Type T54 Adjective
+#51	AnnotatorNotes T54	6252001
+T55	Literal_Modifier 3963 3971	American
+A42	Modifier_Type T55 Adjective
+#52	AnnotatorNotes T55	6252001
+T56	Mixed 3287 3295	American
+A43	Modifier_Type T56 Adjective
+#53	AnnotatorNotes T56	6252001
+T57	Literal_Modifier 1990 1998	American
+A44	Modifier_Type T57 Adjective
+#54	AnnotatorNotes T57	6252001
+T58	Literal_Modifier 2025 2033	American
+A45	Modifier_Type T58 Adjective
+#55	AnnotatorNotes T58	6252001
+T59	Non_Literal_Modifier 2495 2503	American
+A46	Modifier_Type T59 Adjective
+#56	AnnotatorNotes T59	6252001
+T60	Literal_Modifier 4015 4023	American
+A48	Modifier_Type T60 Adjective
+#57	AnnotatorNotes T60	6252001
+T61	Non_Lit_Expression 565 572	tariffs
+T62	Non_Lit_Expression 684 692	aircraft
+T63	Non_Lit_Expression 739 746	tariffs
+T64	Non_Lit_Expression 848 851	war
+T65	Non_Lit_Expression 1028 1036	ministry
+T66	Literal_Expression 1139 1145	battle
+T67	Literal_Expression 1183 1190	markets
+T68	Non_Lit_Expression 1291 1298	tactics
+T69	Non_Lit_Expression 1392 1400	solution
+T70	Non_Lit_Expression 1485 1492	threats
+T71	Literal_Expression 1530 1537	markets
+T72	Non_Lit_Expression 1739 1747	products
+T73	Non_Lit_Expression 1795 1804	secretary
+T74	Non_Lit_Expression 1808 1819	agriculture
+T75	Non_Lit_Expression 1856 1863	farmers
+T76	Non_Lit_Expression 2082 2090	decision
+T77	Non_Lit_Expression 2178 2184	duties
+T78	Non_Lit_Expression 2278 2286	products
+T79	Non_Lit_Expression 2329 2336	tariffs
+T80	Non_Lit_Expression 2374 2382	soybeans
+T81	Non_Lit_Expression 2729 2736	imports
+T82	Non_Lit_Expression 2889 2899	economists
+T83	Non_Lit_Expression 2970 2974	rift
+T84	Non_Lit_Expression 3048 3055	markets
+T85	Literal_Expression 3368 3381	circumstances
+T86	Non_Lit_Expression 3440 3446	action
+T87	Non_Lit_Expression 3629 3638	interests
+T88	Literal_Expression 3714 3719	clash
+T89	Non_Lit_Expression 3905 3914	ambitions
+T90	Literal_Expression 4102 4111	interview
+T91	Literal_Expression 4332 4337	world
+T92	Non_Lit_Expression 4498 4505	actions
+T93	Non_Lit_Expression 4668 4672	plan
+T94	Non_Lit_Expression 4701 4709	strategy
+T95	Embedded_Literal 4863 4881	Cornell University
+#58	AnnotatorNotes T95	5113752
+T96	Literal_Expression 4964 4976	negotiations
+T97	Literal_Expression 5050 5057	country
+T98	Literal_Expression 5267 5275	projects
+T99	Literal_Expression 5396 5409	manufacturing
+T100	Non_Lit_Expression 5536 5542	critic
+T101	Non_Lit_Expression 5900 5907	process
+T102	Non_Lit_Expression 1066 1074	proposal
+T103	Non_Lit_Expression 4561 4569	rhetoric
+T104	Non_Lit_Expression 4801 4812	negotiation
+A79	Modifier_Type T28 Noun
+A4	Non_Locational T43
+A35	Non_Locational T45
+A25	Non_Locational T61
+A36	Non_Locational T62
+A23	Non_Locational T63
+A2	Non_Locational T65
+A41	Non_Locational T102
+A37	Non_Locational T68
+A49	Non_Locational T69
+A50	Non_Locational T70
+A51	Modifier_Type T30 Noun
+T105	Non_Lit_Expression 1680 1687	tariffs
+A52	Non_Locational T105
+A53	Non_Locational T72
+A54	Non_Locational T73
+A55	Non_Locational T75
+A5	Non_Locational T76
+A56	Non_Locational T77
+A57	Non_Locational T78
+A58	Non_Locational T79
+A8	Non_Locational T80
+A31	Non_Locational T81
+T106	Non_Lit_Expression 2803 2809	threat
+A27	Non_Locational T106
+A34	Non_Locational T82
+A47	Non_Locational T83
+T107	Non_Lit_Expression 3238 3246	measures
+A6	Non_Locational T107
+A9	Non_Locational T86
+A14	Non_Locational T87
+A16	Non_Locational T88
+A29	Modifier_Type T40 Noun
+A32	Non_Locational T89
+T108	Non_Lit_Expression 4051 4058	adviser
+A19	Non_Locational T108
+T109	Non_Lit_Expression 4383 4391	backbone
+A12	Non_Locational T109
+A21	Non_Locational T92
+A59	Non_Locational T103
+A60	Non_Locational T93
+A61	Non_Locational T94
+A62	Non_Locational T104
+T110	Non_Toponym 4863 4881	Cornell University
+A63	Modifier_Type T95 Noun
+T111	Non_Lit_Expression 4935 4944	countries
+A64	Non_Locational T111
+A39	Non_Locational T100
+A11	Non_Locational T101

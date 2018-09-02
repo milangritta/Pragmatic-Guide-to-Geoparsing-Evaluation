@@ -1,0 +1,56 @@
+T1	Non_Literal_Modifier 152 158	Nenagh
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	2962304
+T2	Literal 1262 1268	Nenagh
+#2	AnnotatorNotes T2	2962304
+T3	Literal 1629 1635	Nenagh
+#3	AnnotatorNotes T3	2962304
+T4	Literal_Modifier 301 307	Nenagh
+A3	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	2962304
+T5	Literal_Modifier 568 593	Nenagh Municipal District
+A4	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	2962304
+T6	Embedded_Non_Lit 654 664	Nenagh MDC
+#6	AnnotatorNotes T6	2962304
+T7	Embedded_Non_Lit 1032 1042	Nenagh MDC
+#7	AnnotatorNotes T7	2962304
+T8	Non_Lit_Expression 443 453	households
+T9	Literal_Expression 771 781	properties
+T10	Literal 1288 1295	Ballina
+#8	AnnotatorNotes T10	2966778
+T11	Literal 1303 1310	Newport
+#9	AnnotatorNotes T11	2962256
+T12	Literal 1318 1330	Cloughjordan
+#10	AnnotatorNotes T12	2965413
+T13	Literal 1359 1366	Portroe
+#11	AnnotatorNotes T13	2962012
+T14	Literal 1378 1387	Toomevara
+#12	AnnotatorNotes T14	2961157
+T15	Mixed 1389 1398	Ardcroney
+#13	AnnotatorNotes T15	2966928
+T16	Literal_Expression 1671 1675	land
+T17	Literal_Expression 1703 1711	barracks
+T18	Literal_Expression 1906 1910	site
+T19	Literal_Expression 2044 2048	area
+T20	Non_Lit_Expression 2208 2212	loan
+T21	Non_Lit_Expression 902 909	council
+T22	Embedded_Non_Lit 2195 2202	Ireland
+#14	AnnotatorNotes T22	2963597
+T23	Embedded_Non_Lit 227 251	Tipperary County Council
+#15	AnnotatorNotes T23	2961192
+T24	Non_Lit_Expression 1437 1444	council
+T25	Non_Toponym 227 251	Tipperary County Council
+A2	Modifier_Type T23 Noun
+T26	Literal_Expression 217 223	houses
+T27	Non_Toponym 654 664	Nenagh MDC
+A6	Modifier_Type T6 Noun
+T28	Non_Toponym 1032 1042	Nenagh MDC
+A7	Modifier_Type T7 Noun
+T29	Non_Lit_Expression 1651 1658	council
+A8	Non_Locational T29
+T30	Literal_Expression 1930 1934	site
+T31	Literal_Expression 2023 2032	landbanks
+T32	Non_Toponym 2186 2202	Building Ireland
+A5	Modifier_Type T22 Noun
+A9	Non_Locational T20

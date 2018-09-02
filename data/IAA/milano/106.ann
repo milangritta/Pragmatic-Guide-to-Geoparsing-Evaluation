@@ -1,0 +1,18 @@
+T1	Mixed 134 140	Muscat
+#1	AnnotatorNotes T1	287286
+T2	Literal_Expression 642 647	venue
+T3	Literal 872 879	Salalah
+#2	AnnotatorNotes T3	286621
+T6	Non_Literal_Modifier 719 724	Omani
+A2	Modifier_Type T6 Adjective
+#3	AnnotatorNotes T6	286963
+T4	Literal_Expression 662 670	ceremony
+T5	Embedded_Literal 151 157	Muscat
+#4	AnnotatorNotes T5	287286
+T8	Embedded_Non_Lit 776 780	Oman
+#6	AnnotatorNotes T8	286963
+A1	Modifier_Type T1 Noun
+A5	Modifier_Type T5 Noun
+T7	Non_Toponym 142 185	The 10th Muscat International Film Festival
+A3	Modifier_Type T8 Noun
+T9	Non_Toponym 776 793	Oman Film Society

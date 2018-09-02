@@ -1,0 +1,72 @@
+T1	Mixed 227 233	BEIRUT
+#1	AnnotatorNotes T1	276781
+T2	Metonymic 274 280	Turkey
+#2	AnnotatorNotes T2	298795
+T3	Literal 316 321	Syria
+#3	AnnotatorNotes T3	163843
+T5	Literal_Expression 295 299	city
+T6	Metonymic 427 433	Turkey
+#4	AnnotatorNotes T6	298795
+T7	Metonymic 561 567	Turkey
+#5	AnnotatorNotes T7	298795
+T8	Literal 443 451	Qamishli
+#6	AnnotatorNotes T8	173378
+T9	Literal_Expression 462 467	towns
+T12	Literal 634 639	Afrin
+#7	AnnotatorNotes T12	174184
+T13	Literal_Expression 667 675	frontier
+T14	Literal 839 844	Afrin
+#8	AnnotatorNotes T14	174184
+T15	Literal_Modifier 850 857	Britain
+#9	AnnotatorNotes T15	2635167
+T16	Literal 1035 1040	Afrin
+#10	AnnotatorNotes T16	174184	
+T11	Literal_Modifier 615 622	Kurdish
+T10	Literal_Modifier 478 484	Syrian
+T18	Literal_Modifier 485 492	Turkish
+T19	Literal_Modifier 353 359	Syrian
+T20	Literal_Modifier 360 367	Kurdish
+#11	AnnotatorNotes T18	298795
+#12	AnnotatorNotes T19	163843
+#13	AnnotatorNotes T10	163843
+#14	AnnotatorNotes T11	126585
+#15	AnnotatorNotes T20	126585
+T22	Non_Literal_Modifier 243 250	Kurdish
+A1	Modifier_Type T22 Adjective
+#16	AnnotatorNotes T22	126585
+T23	Non_Literal_Modifier 942 949	Kurdish
+A3	Modifier_Type T23 Adjective
+#17	AnnotatorNotes T23	126585
+A5	Modifier_Type T11 Adjective
+A6	Modifier_Type T20 Adjective
+T17	Non_Literal_Modifier 967 974	Turkish
+A7	Modifier_Type T17 Adjective
+#18	AnnotatorNotes T17	298795
+T21	Non_Literal_Modifier 789 796	Turkish
+A9	Modifier_Type T21 Adjective
+#19	AnnotatorNotes T21	298795
+A11	Modifier_Type T18 Adjective
+A12	Modifier_Type T10 Adjective
+T4	Non_Literal_Modifier 982 988	Syrian
+A13	Modifier_Type T4 Adjective
+#20	AnnotatorNotes T4	163843
+A15	Modifier_Type T19 Adjective
+A16	Modifier_Type T15 Noun
+T25	Non_Literal_Modifier 325 332	Turkish
+A18	Modifier_Type T25 Adjective
+#21	AnnotatorNotes T25	298795
+T26	Non_Literal_Modifier 579 585	Syrian
+A20	Modifier_Type T26 Adjective
+#22	AnnotatorNotes T26	163843
+T24	Non_Lit_Expression 724 730	forces
+T28	Non_Lit_Expression 911 916	group
+T27	Literal_Expression 1024 1031	clashes
+T29	Non_Lit_Expression 549 557	campaign
+T30	Embedded_Non_Lit 864 870	Syrian
+#23	AnnotatorNotes T30	163843
+T31	Non_Toponym 864 910	Syrian Observatory for Human Rights Monitoring
+A25	Modifier_Type T30 Adjective
+A23	Non_Locational T28
+A17	Non_Locational T24
+A24	Non_Locational T29
+A2	Modifier_Type T1 Noun

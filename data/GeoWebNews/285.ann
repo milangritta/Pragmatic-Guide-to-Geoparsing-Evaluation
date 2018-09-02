@@ -1,0 +1,57 @@
+T1	Literal_Expression 252 258	school
+T2	Non_Literal_Modifier 571 584	South Florida
+A1	Modifier_Type T2 Noun
+#1	AnnotatorNotes T2	4155751
+T3	Coercion 501 532	Kendale Lakes Elementary School
+#2	AnnotatorNotes T3	4160707
+T4	Literal 546 556	Miami-Dade
+#3	AnnotatorNotes T4	4164238
+T5	Literal 431 448	Miami-Dade County
+#4	AnnotatorNotes T5	4164238
+T6	Non_Literal_Modifier 1033 1043	Miami-Dade
+A2	Modifier_Type T6 Noun
+#5	AnnotatorNotes T6	4164238
+T7	Embedded_Non_Lit 1074 1079	Miami
+#6	AnnotatorNotes T7	4164138
+T8	Non_Lit_Expression 1584 1592	backpack
+T9	Literal_Expression 1659 1663	jail
+T10	Non_Lit_Expression 192 198	Father
+T11	Non_Lit_Expression 316 319	gun
+T12	Non_Lit_Expression 617 623	police
+T13	Non_Lit_Expression 673 676	bag
+T14	Literal_Expression 724 730	school
+T15	Literal_Expression 986 992	school
+T16	Non_Lit_Expression 794 800	police
+T17	Non_Lit_Expression 1382 1389	firearm
+T18	Non_Lit_Expression 855 858	son
+T19	Literal_Expression 1244 1247	car
+T20	Non_Lit_Expression 1481 1486	child
+T21	Non_Lit_Expression 225 228	gun
+T22	Non_Lit_Expression 294 301	mistake
+T23	Literal_Expression 421 427	school
+T24	Literal_Expression 888 894	office
+T25	Non_Lit_Expression 898 904	parent
+T26	Non_Lit_Expression 962 971	waistband
+T27	Literal_Expression 1131 1137	school
+T28	Literal_Expression 1284 1288	jail
+T29	Literal_Expression 1343 1351	property
+T30	Non_Lit_Expression 1427 1430	gun
+T31	Non_Lit_Expression 1520 1528	backpack
+A4	Non_Locational T10
+A11	Non_Locational T21
+A12	Non_Locational T22
+A5	Non_Locational T11
+T32	Non_Toponym 501 532	Kendale Lakes Elementary School
+A6	Non_Locational T13
+T33	Literal_Expression 820 826	school
+A8	Non_Locational T18
+A13	Non_Locational T25
+A14	Non_Locational T26
+T34	Non_Toponym 1074 1086	Miami Herald
+A15	Modifier_Type T7 Noun
+A9	Non_Locational T19
+A7	Non_Locational T17
+A16	Non_Locational T30
+A10	Non_Locational T20
+A17	Non_Locational T31
+A3	Non_Locational T8

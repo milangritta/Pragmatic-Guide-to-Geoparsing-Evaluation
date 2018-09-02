@@ -1,0 +1,24 @@
+T1	Non_Literal_Modifier 374 382	Japanese
+A1	Modifier_Type T1 Adjective
+#1	AnnotatorNotes T1	1861060
+T2	Non_Literal_Modifier 1291 1299	Japanese
+A3	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	1861060
+T3	Non_Lit_Expression 312 316	girl
+T4	Literal_Expression 246 251	world
+T5	Literal_Expression 672 682	restaurant
+T6	Non_Lit_Expression 818 830	competitions
+T7	Literal_Expression 1815 1820	world
+T8	Literal 2628 2632	Asia
+#3	AnnotatorNotes T8	6255147
+T9	Non_Literal_Modifier 2647 2653	Korean
+A7	Modifier_Type T9 Adjective
+#4	AnnotatorNotes T9	1835841
+T10	Non_Lit_Expression 1516 1522	selfie
+T11	Non_Lit_Expression 1661 1665	girl
+T12	Non_Lit_Expression 1955 1964	amusement
+A5	Non_Locational T3
+T13	Non_Lit_Expression 613 625	entertainers
+A2	Non_Locational T13
+A4	Non_Locational T11
+A6	Non_Locational T12

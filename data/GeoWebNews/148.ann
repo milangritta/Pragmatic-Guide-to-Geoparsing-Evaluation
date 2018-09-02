@@ -1,0 +1,90 @@
+T1	Literal 239 248	Amsterdam
+#1	AnnotatorNotes T1	2759794
+T2	Literal 350 359	Amsterdam
+#2	AnnotatorNotes T2	2759794
+T3	Literal_Modifier 798 807	Amsterdam
+#3	AnnotatorNotes T3	2759794
+T4	Literal 1143 1152	Amsterdam
+#4	AnnotatorNotes T4	2759794
+T5	Literal_Modifier 987 996	Amsterdam
+A1	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	2759794
+T6	Literal 1812 1821	Amsterdam
+#6	AnnotatorNotes T6	2759794
+T7	Literal_Modifier 1535 1544	Amsterdam
+A2	Modifier_Type T7 Noun
+#7	AnnotatorNotes T7	2759794
+T8	Literal 2993 3002	Amsterdam
+#8	AnnotatorNotes T8	2759794
+T9	Literal 3201 3210	Amsterdam
+#9	AnnotatorNotes T9	2759794
+T10	Literal 339 345	London
+#10	AnnotatorNotes T10	2643743
+T11	Literal_Modifier 808 814	London
+A3	Modifier_Type T11 Noun
+#11	AnnotatorNotes T11	2643743
+A4	Modifier_Type T3 Noun
+T12	Literal 969 975	London
+#12	AnnotatorNotes T12	2643743
+T13	Literal 1046 1052	London
+#13	AnnotatorNotes T13	2643743
+T14	Literal 1801 1807	London
+#14	AnnotatorNotes T14	2643743
+T15	Literal 3191 3197	London
+#15	AnnotatorNotes T15	2643743
+T16	Literal 869 877	Brussels
+#16	AnnotatorNotes T16	2800866
+T17	Literal 3006 3012	Berlin
+#17	AnnotatorNotes T17	2950159
+T18	Literal 1389 1397	Schiphol
+#18	AnnotatorNotes T18	6296680
+T19	Mixed 1639 1647	Schiphol
+#19	AnnotatorNotes T19	6296680
+T20	Literal 1039 1044	Paris
+#20	AnnotatorNotes T20	2988507
+T21	Literal 1930 1935	Paris
+#21	AnnotatorNotes T21	2988507
+T22	Literal 3031 3040	Hilversum
+#22	AnnotatorNotes T22	2754064
+T23	Literal 3045 3051	Almelo
+#23	AnnotatorNotes T23	2759887
+T24	Literal_Modifier 464 472	European
+A5	Modifier_Type T24 Adjective
+#24	AnnotatorNotes T24	6255148
+T25	Literal_Expression 588 596	airports
+T26	Literal_Expression 1403 1411	airports
+T27	Literal 1723 1731	Lelystad
+#25	AnnotatorNotes T27	2751738
+T28	Literal_Expression 2048 2054	cities
+T29	Literal_Expression 2170 2178	capitals
+T30	Non_Lit_Expression 2267 2273	future
+T31	Non_Lit_Expression 2852 2861	countries
+T32	Literal_Expression 2908 2917	territory
+T33	Non_Lit_Expression 511 519	services
+T34	Literal_Expression 533 544	city-centre
+T35	Literal_Expression 826 830	trip
+T36	Literal_Expression 1067 1078	destination
+T37	Non_Lit_Expression 1299 1304	plane
+T38	Literal_Expression 1522 1527	place
+T39	Non_Lit_Expression 1579 1589	passengers
+T40	Non_Lit_Expression 1971 1978	journey
+T41	Non_Lit_Expression 2279 2284	train
+T42	Non_Lit_Expression 2455 2463	Airlines
+T43	Non_Lit_Expression 2556 2563	flights
+T44	Literal_Expression 2767 2776	continent
+T45	Non_Lit_Expression 3075 3079	Rail
+A7	Non_Locational T33
+T46	Literal_Expression 548 559	city-centre
+T47	Non_Toponym 1159 1169	Dutch Rail
+T48	Embedded_Non_Lit 1159 1164	Dutch
+A9	Modifier_Type T48 Noun
+#26	AnnotatorNotes T48	2750405
+A8	Non_Locational T37
+A10	Non_Locational T39
+A6	Non_Locational T30
+A11	Non_Locational T41
+A12	Non_Locational T42
+T49	Non_Toponym 2688 2727	European Rail Traffic Management System
+T50	Embedded_Non_Lit 2688 2696	European
+A13	Modifier_Type T50 Noun
+#27	AnnotatorNotes T50	6255148

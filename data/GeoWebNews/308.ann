@@ -1,0 +1,66 @@
+T1	Non_Literal_Modifier 517 527	Kazakhstan
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	1522867
+T2	Literal 2324 2334	Kazakhstan
+#2	AnnotatorNotes T2	1522867
+T3	Non_Literal_Modifier 2802 2812	Kazakhstan
+A3	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	1522867
+T4	Mixed 1834 1844	Kazakhstan
+#4	AnnotatorNotes T4	1522867
+T5	Non_Literal_Modifier 2817 2820	UAE
+A5	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	290557
+T6	Literal 2793 2796	UAE
+#6	AnnotatorNotes T6	290557
+T7	Non_Literal_Modifier 2421 2428	Chinese
+A7	Modifier_Type T7 Adjective
+#7	AnnotatorNotes T7	1814991
+T8	Literal 2463 2469	Astana
+#8	AnnotatorNotes T8	1526273
+T9	Literal 2474 2480	Almaty
+#9	AnnotatorNotes T9	1526384
+T10	Literal_Expression 2228 2235	country
+T11	Demonym 2574 2581	Indians
+T12	Literal_Expression 297 304	capital
+T13	Literal_Expression 573 581	briefing
+T14	Non_Lit_Expression 2641 2651	agreements
+T15	Literal_Expression 3119 3126	climate
+T16	Non_Lit_Expression 200 211	investments
+T17	Non_Lit_Expression 2971 2980	countries
+T18	Literal_Expression 2759 2764	visit
+T19	Literal_Expression 1960 1968	projects
+T20	Literal_Expression 2045 2057	construction
+T21	Non_Lit_Expression 1366 1377	investments
+T22	Literal_Expression 1229 1233	goal
+T23	Literal_Expression 703 711	industry
+T24	Literal_Expression 758 766	industry
+T25	Literal_Expression 977 989	construction
+A2	Non_Locational T16
+A11	Non_Locational T22
+A13	Non_Locational T21
+T26	Embedded_Non_Lit 1573 1579	KAZAKH
+A14	Modifier_Type T26 Adjective
+T27	Non_Toponym 1573 1586	KAZAKH INVEST
+#10	AnnotatorNotes T26	1522867
+T28	Non_Literal_Modifier 1672 1674	US
+A15	Modifier_Type T28 Noun
+#11	AnnotatorNotes T28	6252001
+T29	Non_Literal_Modifier 1786 1788	US
+A16	Modifier_Type T29 Noun
+#12	AnnotatorNotes T29	6252001
+T30	Non_Literal_Modifier 1874 1876	US
+A17	Modifier_Type T30 Noun
+#13	AnnotatorNotes T30	6252001
+T31	Non_Literal_Modifier 2115 2117	US
+A18	Modifier_Type T31 Noun
+#14	AnnotatorNotes T31	6252001
+T32	Non_Literal_Modifier 2024 2026	US
+A19	Modifier_Type T32 Noun
+#15	AnnotatorNotes T32	6252001
+T33	Non_Lit_Expression 1758 1771	participation
+A20	Non_Locational T33
+A21	Modifier_Type T4 Noun
+A8	Non_Locational T14
+T34	Non_Lit_Expression 3066 3077	initiatives
+A4	Non_Locational T34

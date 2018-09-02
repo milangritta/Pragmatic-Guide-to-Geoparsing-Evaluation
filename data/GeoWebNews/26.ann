@@ -1,0 +1,26 @@
+T1	Literal 210 214	Ohio
+#1	AnnotatorNotes T1	5165418
+T2	Literal_Expression 305 312	economy
+T3	Literal 395 401	Poland
+#2	AnnotatorNotes T3	5167196
+T4	Literal_Expression 449 454	store
+T5	Literal_Expression 580 589	community
+T6	Literal_Expression 686 695	community
+T8	Literal 337 343	Valley
+#3	AnnotatorNotes T8	39.813231, -83.054829
+T9	Literal 736 742	Valley
+#4	AnnotatorNotes T9	39.813231, -83.054829
+T10	Non_Lit_Expression 841 850	community
+T11	Literal_Expression 493 498	chain
+T12	Non_Lit_Expression 656 663	vendors
+T13	Non_Lit_Expression 268 274	people
+T14	Non_Lit_Expression 367 372	owner
+A1	Non_Locational T14
+A5	Non_Locational T13
+T7	Non_Lit_Expression 423 429	dollar
+A6	Non_Locational T7
+T15	Non_Lit_Expression 633 638	bills
+A3	Non_Locational T15
+A4	Non_Locational T12
+A7	Non_Locational T6
+A2	Non_Locational T10

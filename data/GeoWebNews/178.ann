@@ -1,0 +1,38 @@
+T1	Coercion 238 253	Birmingham City
+#1	AnnotatorNotes T1	52.475373, -1.869036
+T2	Non_Lit_Expression 358 364	battle
+T3	Metonymic 433 444	Southampton
+#2	AnnotatorNotes T3	2637487
+T4	Metonymic 1233 1243	Birmingham
+#3	AnnotatorNotes T4	3333125
+T5	Metonymic 1426 1436	Birmingham
+#4	AnnotatorNotes T5	3333125
+T6	Non_Lit_Expression 629 636	matches
+T7	Non_Lit_Expression 454 459	goals
+T8	Non_Lit_Expression 1500 1507	striker
+T9	Non_Lit_Expression 1615 1621	appeal
+T10	Non_Lit_Expression 1540 1544	side
+T11	Literal_Expression 1770 1779	situation
+T12	Literal_Expression 1814 1819	fight
+T13	Embedded_Non_Lit 1989 2004	Birmingham City
+#5	AnnotatorNotes T13	3333125
+T14	Embedded_Non_Lit 735 750	Birmingham City
+#6	AnnotatorNotes T14	3333125
+T15	Non_Toponym 181 194	Burton Albion
+T16	Embedded_Non_Lit 181 187	Burton
+A7	Modifier_Type T16 Noun
+#7	AnnotatorNotes T16	2654200
+T17	Literal 588 594	Burton
+#8	AnnotatorNotes T17	2654200
+A4	Non_Locational T7
+T18	Non_Toponym 238 253	Birmingham City
+T19	Non_Toponym 735 750	Birmingham City
+A3	Modifier_Type T14 Noun
+T20	Non_Toponym 1403 1419	Bolton Wanderers
+T21	Embedded_Non_Lit 1403 1409	Bolton
+A2	Modifier_Type T21 Noun
+#9	AnnotatorNotes T21	2655237
+A5	Non_Locational T8
+A6	Non_Locational T9
+T22	Non_Toponym 1989 2004	Birmingham City
+A1	Modifier_Type T13 Noun

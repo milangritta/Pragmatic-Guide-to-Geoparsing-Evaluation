@@ -1,0 +1,22 @@
+T1	Metonymic 103 107	Iran
+T3	Literal_Expression 378 387	countries
+T4	Metonymic 535 539	Iran
+T5	Literal_Expression 596 605	countries
+T6	Metonymic 652 656	Iran
+T7	Literal 744 748	Iran
+T8	Literal_Expression 695 702	regions
+T9	Literal_Expression 883 889	region
+T10	Literal 932 936	Iran
+T11	Metonymic 1151 1155	Iran
+T12	Literal_Expression 1188 1195	regions
+#1	AnnotatorNotes T1	130758
+#2	AnnotatorNotes T4	130758
+#3	AnnotatorNotes T6	130758
+#4	AnnotatorNotes T11	130758
+#5	AnnotatorNotes T10	130758
+#6	AnnotatorNotes T7	130758
+T2	Metonymic 345 361	Islamic Republic
+#7	AnnotatorNotes T2	130758
+T15	Non_Literal_Modifier 313 317	Iran
+A1	Modifier_Type T15 Noun
+#8	AnnotatorNotes T15	130758

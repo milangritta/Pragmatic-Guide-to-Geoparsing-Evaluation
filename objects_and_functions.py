@@ -14,7 +14,7 @@ from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
 import xml.etree.ElementTree as ET
-ANNOT_SOURCE_DIR = u"/Users/milangritta/Downloads/BRAT/data/milano/"
+ANNOT_SOURCE_DIR = u"data/GeoWebNews/"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/milangritta/Downloads/GeoWebNews-0dca974782b0.json"
 
 
@@ -50,19 +50,19 @@ class Annotation:
     geonames_id = None
 
 
-def text_to_ann():
+def text_to_ann(directory=ANNOT_SOURCE_DIR):
     """
 
     :return:
     """
     annotations = {}
-    files = [f for f in listdir(ANNOT_SOURCE_DIR) if isfile(ANNOT_SOURCE_DIR + f)]
+    files = [f for f in listdir(directory) if isfile(directory + f)]
     for f in files:
         if f.endswith(".txt") or f.startswith("."):
             continue
         ann = {}
         annotations[str(f.replace(".ann", ""))] = ann
-        f = codecs.open(ANNOT_SOURCE_DIR + f, encoding="utf-8")
+        f = codecs.open(directory + f, encoding="utf-8")
         for line in f:
             line = line.strip().split("\t")
             if line[0].startswith("T"):  # token
@@ -224,7 +224,7 @@ def strip_sentence(s, is_augmented, is_annotated, keep_tags):
 #     text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
 #     metadata = text.next()
 #     text = text.read()
-#     google = google_NER(text, nlp)
+#     google = google_NER(text, nlp)            ---USE BRAT FILES AND BRAT UTILS---
 #     for sentence in nlp(text).sents:
 #         for word in sentence:
 #             spacy_label = u"Entity" if word.ent_type_ in [u"LOC", u"FAC", u"NORP", u"GPE"] else u"0"
@@ -239,3 +239,5 @@ def strip_sentence(s, is_augmented, is_annotated, keep_tags):
 #         spacy_o.write("\n")
 #         google_o.write("\n")
 # transform_tags(file_name="data/raw.txt", output="data/raw_bmes.txt")
+
+# print(metrics.flat_classification_report(y_test, y_pred, labels=sorted_labels, digits=3))

@@ -1,0 +1,64 @@
+T1	Literal_Modifier 205 212	America
+T2	Literal 252 263	New Orleans
+T3	Literal 283 291	New York
+T4	Literal 539 550	South Korea
+T5	Literal 554 561	America
+T6	Metonymic 1032 1040	Broadway
+T7	Literal 1448 1461	New York City
+T8	Literal_Expression 1470 1474	city
+T9	Literal_Expression 1535 1540	world
+T10	Literal 1854 1865	New Orleans
+T11	Literal_Expression 2296 2303	kitchen
+T12	Literal 2925 2932	America
+T13	Literal_Expression 3215 3220	world
+T14	Literal 3583 3587	Iran
+T15	Literal_Expression 2993 2999	school
+#1	AnnotatorNotes T2	4335045
+#2	AnnotatorNotes T1	6252001
+#3	AnnotatorNotes T3	5128581
+#4	AnnotatorNotes T7	5128581
+#5	AnnotatorNotes T10	4335045
+#6	AnnotatorNotes T5	6252001
+#7	AnnotatorNotes T4	1835841
+#8	AnnotatorNotes T12	6252001
+#9	AnnotatorNotes T14	130758
+#10	AnnotatorNotes T6	40.929827, -73.897015
+A1	Modifier_Type T1 Noun
+T16	Non_Literal_Modifier 622 628	Korean
+A2	Modifier_Type T16 Adjective
+#11	AnnotatorNotes T16	1835841
+T17	Literal_Expression 939 946	rooftop
+T18	Literal_Expression 956 965	apartment
+T20	Non_Lit_Expression 1763 1772	character
+T22	Literal_Expression 2072 2077	couch
+T23	Literal_Expression 2169 2175	places
+T25	Literal_Expression 3124 3129	table
+T26	Non_Lit_Expression 3354 3358	food
+T27	Literal_Expression 3575 3579	shah
+T19	Non_Lit_Expression 2902 2905	mom
+T21	Non_Lit_Expression 2107 2112	story
+T24	Non_Lit_Expression 1511 1516	chefs
+T28	Literal_Expression 1424 1428	life
+T29	Non_Lit_Expression 1196 1202	friend
+T30	Non_Lit_Expression 782 788	script
+T31	Non_Lit_Expression 1161 1166	chefs
+T32	Coercion 242 248	August
+#12	AnnotatorNotes T32	29.949971, -90.066764
+T33	Coercion 267 279	Le Bernardin
+#13	AnnotatorNotes T33	40.761554, -73.981726
+T34	Non_Toponym 242 248	August
+T35	Non_Toponym 267 279	Le Bernardin
+A9	Non_Locational T30
+A13	Non_Locational T31
+A12	Non_Locational T29
+A10	Non_Locational T24
+A4	Non_Locational T20
+A5	Non_Locational T22
+A3	Non_Locational T19
+A6	Non_Locational T25
+A7	Non_Locational T26
+A8	Non_Locational T27
+T36	Non_Toponym 2409 2438	Culinary Institute of America
+T37	Embedded_Non_Lit 2431 2438	America
+A11	Modifier_Type T37 Noun
+#14	AnnotatorNotes T37	6252001

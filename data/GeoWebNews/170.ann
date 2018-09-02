@@ -1,0 +1,43 @@
+T1	Mixed 172 180	NEW YORK
+#1	AnnotatorNotes T1	5128581
+T2	Non_Lit_Expression 214 221	reports
+T3	Literal 1995 2005	California
+#2	AnnotatorNotes T3	5332921
+T4	Literal 1983 1993	Sacramento
+#3	AnnotatorNotes T4	5389489
+T5	Literal_Modifier 395 408	Crown Heights
+#4	AnnotatorNotes T5	5114252
+T6	Literal 425 433	Brooklyn
+#5	AnnotatorNotes T6	5110302
+T7	Literal_Expression 1175 1179	area
+T8	Literal_Expression 1338 1343	crowd
+T9	Literal_Expression 1532 1544	neighborhood
+T10	Non_Lit_Expression 1629 1633	hand
+T11	Non_Lit_Expression 706 711	calls
+T12	Literal_Expression 1049 1057	hospital
+T13	Literal_Expression 1750 1762	neighborhood
+T14	Non_Lit_Expression 2252 2259	autopsy
+T15	Non_Lit_Expression 1964 1967	man
+T16	Non_Lit_Expression 2122 2128	report
+T17	Non_Lit_Expression 801 809	officers
+T18	Literal_Expression 1246 1258	intersection
+T19	Non_Lit_Expression 2058 2064	reform
+T20	Non_Lit_Expression 2196 2199	gun
+T21	Non_Lit_Expression 2472 2478	Police
+T22	Literal_Expression 517 523	street
+T23	Non_Lit_Expression 753 759	stance
+T24	Non_Lit_Expression 1094 1102	officers
+T25	Non_Lit_Expression 1484 1493	character
+A15	Modifier_Type T5 Noun
+A5	Modifier_Type T1 Noun
+A1	Non_Locational T2
+A4	Non_Locational T11
+A11	Non_Locational T23
+A8	Non_Locational T17
+A12	Non_Locational T24
+A2	Non_Locational T25
+A3	Non_Locational T10
+A6	Non_Locational T15
+A9	Non_Locational T19
+A7	Non_Locational T16
+A10	Non_Locational T20

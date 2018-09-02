@@ -1,0 +1,48 @@
+T1	Literal 279 286	Britain
+#1	AnnotatorNotes T1	2635167
+T2	Non_Literal_Modifier 530 537	British
+A1	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	2635167
+T3	Literal 2172 2179	England
+#3	AnnotatorNotes T3	6269131
+T4	Literal_Modifier 460 467	English
+A3	Modifier_Type T4 Adjective
+#4	AnnotatorNotes T4	6269131
+T5	Metonymic 563 569	Russia
+#5	AnnotatorNotes T5	2017370
+T6	Literal 1540 1546	Russia
+#6	AnnotatorNotes T6	2017370
+T7	Literal 2211 2217	Russia
+#7	AnnotatorNotes T7	2017370
+T8	Non_Literal_Modifier 1448 1455	Russian
+A4	Modifier_Type T8 Adjective
+#8	AnnotatorNotes T8	2017370
+T9	Non_Literal_Modifier 316 323	Russian
+A6	Modifier_Type T9 Adjective
+#9	AnnotatorNotes T9	2017370
+T10	Non_Literal_Modifier 2029 2036	Russian
+A8	Modifier_Type T10 Adjective
+#10	AnnotatorNotes T10	2017370
+T11	Literal 476 485	Salisbury
+#11	AnnotatorNotes T11	2638664
+T12	Metonymic 580 586	Moscow
+#12	AnnotatorNotes T12	524894
+T13	Literal_Expression 514 520	attack
+T14	Literal_Expression 1254 1262	hospital
+T15	Non_Literal_Modifier 838 844	London
+A11	Modifier_Type T15 Noun
+#13	AnnotatorNotes T15	2643743
+T16	Non_Lit_Expression 1912 1918	health
+T17	Non_Lit_Expression 1077 1082	staff
+T18	Literal_Expression 1421 1425	unit
+T19	Literal_Expression 1626 1634	hospital
+T20	Literal_Expression 2017 2025	hospital
+T21	Literal_Expression 438 443	bench
+T22	Non_Lit_Expression 895 902	episode
+T23	Non_Lit_Expression 1223 1232	condition
+T24	Non_Lit_Expression 1567 1573	father
+A2	Non_Locational T22
+A7	Non_Locational T17
+A10	Non_Locational T23
+A5	Non_Locational T24
+A12	Non_Locational T16

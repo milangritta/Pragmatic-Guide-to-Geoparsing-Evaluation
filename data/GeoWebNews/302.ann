@@ -1,0 +1,39 @@
+T1	Mixed 186 195	PARANAQUE
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	1694781
+T2	Literal 1191 1205	Parañaque City
+#2	AnnotatorNotes T2	1694782
+T3	Non_Lit_Expression 247 259	imprisonment
+T4	Literal_Expression 304 308	case
+T5	Literal_Expression 364 371	concert
+T6	Embedded_Non_Lit 438 467	aranaque Regional Trial Court
+#3	AnnotatorNotes T6	1694782
+T7	Literal_Expression 1266 1270	unit
+T8	Literal 1382 1400	New Bilibid Prison
+#4	AnnotatorNotes T8	1697784
+T9	Literal 1410 1420	Muntinlupa
+#5	AnnotatorNotes T9	1699076
+T10	Literal_Expression 1478 1486	facility
+T11	Non_Lit_Expression 1355 1363	convicts
+T12	Literal_Expression 1303 1313	laboratory
+T13	Non_Lit_Expression 1076 1084	accounts
+T14	Non_Lit_Expression 1015 1023	convicts
+T15	Non_Lit_Expression 869 876	damages
+T16	Non_Lit_Expression 551 556	doubt
+T17	Non_Lit_Expression 584 589	drugs
+T18	Coercion 597 620	Close Up Forever Summer
+#6	AnnotatorNotes T18	7669419
+T19	Literal 655 670	SM Mall of Asia
+#7	AnnotatorNotes T19	7669419
+T20	Demonym 779 787	American
+T21	Non_Lit_Expression 400 408	decision
+T22	Literal_Expression 644 647	lot
+A10	Non_Locational T21
+T24	Non_Toponym 437 467	Paranaque Regional Trial Court
+A12	Modifier_Type T6 Noun
+A5	Non_Locational T16
+A6	Non_Locational T17
+T25	Non_Toponym 597 620	Close Up Forever Summer
+A4	Non_Locational T14
+A3	Non_Locational T13
+A2	Non_Locational T11

@@ -1,0 +1,59 @@
+T1	Literal_Modifier 158 169	South Korea
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	1835841
+T2	Metonymic 961 972	South Korea
+#2	AnnotatorNotes T2	1835841
+T3	Literal 1124 1135	South Korea
+#3	AnnotatorNotes T3	1835841
+T4	Literal_Modifier 1467 1478	South Korea
+A2	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	1835841
+T5	Non_Literal_Modifier 1391 1403	South Korean
+A3	Modifier_Type T5 Adjective
+#5	AnnotatorNotes T5	1835841
+T6	Literal_Expression 219 226	country
+T7	Embedded_Non_Lit 287 292	Korea
+#6	AnnotatorNotes T7	1835841
+T8	Literal 356 361	Seoul
+#7	AnnotatorNotes T8	1835848
+T9	Literal_Modifier 842 847	Seoul
+A5	Modifier_Type T9 Noun
+#8	AnnotatorNotes T9	1835848
+T10	Metonymic 1539 1544	Seoul
+#9	AnnotatorNotes T10	1835848
+T11	Metonymic 1514 1521	Beijing
+#10	AnnotatorNotes T11	1816670
+T12	Literal 387 392	Suwon
+#11	AnnotatorNotes T12	1835553
+T13	Literal 397 404	Incheon
+#12	AnnotatorNotes T13	1843564
+T14	Literal_Expression 194 203	pollution
+T15	Non_Lit_Expression 433 439	alerts
+T16	Literal_Expression 487 491	area
+T17	Literal_Expression 534 539	games
+T18	Literal_Expression 555 564	pollution
+T19	Literal_Expression 674 680	season
+T20	Non_Lit_Expression 725 730	rules
+T21	Literal_Expression 784 789	level
+T22	Literal_Expression 1334 1341	meeting
+T23	Non_Literal_Modifier 1351 1358	Chinese
+A9	Modifier_Type T23 Adjective
+#13	AnnotatorNotes T23	1814991
+T24	Mixed 1431 1436	China
+#14	AnnotatorNotes T24	1814991
+T25	Mixed 1292 1297	China
+A11	Modifier_Type T25 Noun
+#15	AnnotatorNotes T25	1814991
+T26	Literal_Expression 940 944	game
+T27	Literal_Expression 1195 1204	pollution
+T28	Non_Lit_Expression 1210 1217	experts
+T29	Literal_Expression 1244 1251	country
+T30	Non_Lit_Expression 1570 1577	quality
+T31	Literal_Expression 635 640	games
+T32	Literal 850 864	Jamsil Stadium
+#16	AnnotatorNotes T32	37.512307, 127.072320
+T33	Non_Toponym 287 314	Korea Baseball Organization
+A13	Modifier_Type T7 Noun
+A8	Non_Locational T20
+A12	Non_Locational T28
+A4	Modifier_Type T24 Noun

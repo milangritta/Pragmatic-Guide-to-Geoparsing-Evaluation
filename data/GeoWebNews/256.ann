@@ -1,0 +1,37 @@
+T1	Literal_Modifier 270 276	Severn
+#1	AnnotatorNotes T1	4369190
+A1	Modifier_Type T1 Noun
+T2	Mixed 235 241	SEVERN
+#2	AnnotatorNotes T2	4369190
+T3	Mixed 243 246	Md.
+#3	AnnotatorNotes T3	4361885
+T4	Literal_Modifier 278 281	Md.
+A3	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	4361885
+T5	Embedded_Non_Lit 1079 1087	Maryland
+#5	AnnotatorNotes T5	4361885
+T6	Embedded_Non_Lit 410 418	Maryland
+#6	AnnotatorNotes T6	4361885
+T7	Literal_Expression 372 378	locker
+T8	Literal_Expression 447 453	locker
+T9	Literal_Expression 1001 1008	bedroom
+T10	Literal_Expression 1028 1032	home
+T11	Non_Lit_Expression 609 613	girl
+T12	Non_Lit_Expression 912 919	victims
+T13	Non_Lit_Expression 961 969	assaults
+T14	Non_Lit_Expression 1199 1203	rape
+T15	Non_Lit_Expression 1223 1230	offense
+T16	Non_Lit_Expression 1338 1343	abuse
+A7	Modifier_Type T2 Noun
+A8	Modifier_Type T3 Noun
+T17	Non_Toponym 410 431	Maryland State Police
+A2	Modifier_Type T6 Noun
+A4	Non_Locational T11
+T18	Non_Lit_Expression 684 695	Authorities
+A5	Non_Locational T18
+A6	Non_Locational T12
+T19	Non_Toponym 1079 1100	Maryland State Police
+A9	Modifier_Type T5 Noun
+A10	Non_Locational T15
+A11	Non_Locational T16
+A12	Non_Locational T14

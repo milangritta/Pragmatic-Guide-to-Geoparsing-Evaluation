@@ -1,0 +1,38 @@
+T1	Literal_Expression 259 265	School
+T2	Literal_Expression 345 352	schools
+T3	Literal_Expression 373 379	island
+T4	Non_Lit_Expression 423 432	programme
+T5	Literal 523 565	Pointe Sable Environmental Protection Area
+#1	AnnotatorNotes T5	3576473
+T6	Literal_Modifier 650 662	Saint Lucian
+A3	Modifier_Type T6 Adjective
+#2	AnnotatorNotes T6	3576468
+T7	Embedded_Non_Lit 1556 1567	Saint Lucia
+#3	AnnotatorNotes T7	3576468
+T8	Embedded_Non_Lit 945 956	Saint Lucia
+#4	AnnotatorNotes T8	3576468
+T9	Non_Lit_Expression 567 575	Students
+T10	Literal_Expression 707 713	waters
+T11	Non_Lit_Expression 862 869	species
+T12	Non_Lit_Expression 1065 1073	interest
+T13	Non_Lit_Expression 1270 1276	videos
+T14	Literal_Expression 1524 1530	school
+T15	Non_Lit_Expression 1743 1750	species
+T16	Non_Lit_Expression 2021 2028	schools
+T17	Non_Lit_Expression 1914 1922	partners
+T18	Literal_Expression 229 236	session
+A1	Non_Locational T9
+T19	Non_Lit_Expression 765 772	turtles
+A4	Non_Locational T19
+T20	Non_Toponym 945 971	Saint Lucia National Trust
+A5	Modifier_Type T8 Noun
+T21	Non_Lit_Expression 1018 1027	materials
+A6	Non_Locational T21
+A7	Non_Locational T12
+A8	Non_Locational T13
+T22	Non_Lit_Expression 1333 1342	curiosity
+A9	Non_Locational T22
+T23	Literal_Expression 1396 1403	session
+T24	Non_Toponym 1556 1582	Saint Lucia National Trust
+A2	Modifier_Type T7 Noun
+A10	Non_Locational T17

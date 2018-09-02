@@ -1,0 +1,15 @@
+T1	Literal_Modifier 386 396	Birmingham
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	4049979
+T2	Literal_Expression 273 279	market
+T3	Non_Lit_Expression 310 320	Organizers
+T4	Coercion 1080 1094	Sloss Furnaces
+#2	AnnotatorNotes T4	7304666
+T5	Literal_Expression 1509 1514	tents
+T6	Literal_Expression 1590 1595	areas
+T7	Literal_Expression 1679 1686	parking
+T8	Non_Lit_Expression 606 613	website
+A2	Non_Locational T3
+T9	Non_Toponym 1080 1094	Sloss Furnaces
+T10	Literal 1105 1114	St. North
+#3	AnnotatorNotes T10	33.519206, -86.793637

@@ -1,0 +1,14 @@
+T1	Non_Literal_Modifier 155 159	Cork
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	2965140
+T2	Non_Literal_Modifier 231 235	Cork
+A3	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	2965140
+T3	Literal_Modifier 747 751	Cork
+A5	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	2965140
+T4	Literal 516 523	Holland
+#4	AnnotatorNotes T4	2750405
+T5	Non_Lit_Expression 351 359	Minister
+T6	Non_Lit_Expression 733 743	conference
+A2	Non_Locational T5

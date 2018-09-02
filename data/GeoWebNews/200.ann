@@ -1,0 +1,32 @@
+T1	Mixed 355 365	PLEASANTON
+#1	AnnotatorNotes T1	5383777
+T2	Mixed 367 373	Calif.
+#2	AnnotatorNotes T2	5332921
+T3	Mixed 589 597	Peruvian
+#3	AnnotatorNotes T3	3932488
+A1	Modifier_Type T3 Adjective
+T4	Literal 1015 1019	Peru
+#4	AnnotatorNotes T4	3932488
+T5	Non_Literal_Modifier 1846 1854	Peruvian
+A3	Modifier_Type T5 Adjective
+#5	AnnotatorNotes T5	3932488
+T6	Literal 1175 1179	Peru
+#6	AnnotatorNotes T6	3932488
+T7	Literal 1244 1257	South America
+#7	AnnotatorNotes T7	6255150
+T8	Literal_Expression 1698 1708	technology
+T9	Non_Lit_Expression 801 807	claims
+T10	Literal_Expression 1601 1607	market
+A2	Modifier_Type T1 Noun
+A4	Modifier_Type T2 Noun
+T11	Non_Lit_Expression 559 567	alliance
+A7	Non_Locational T11
+T12	Non_Lit_Expression 461 472	partnership
+A8	Non_Locational T12
+A6	Non_Locational T9
+T13	Non_Lit_Expression 1496 1504	industry
+A5	Non_Locational T8
+T14	Non_Lit_Expression 1791 1799	products
+A9	Non_Locational T14
+T15	Non_Lit_Expression 2400 2407	produce
+A10	Non_Locational T15

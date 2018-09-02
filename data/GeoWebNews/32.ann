@@ -1,0 +1,61 @@
+T1	Mixed 346 355	IMMOKALEE
+#1	AnnotatorNotes T1	4159553
+T2	Mixed 1281 1290	Immokalee
+#2	AnnotatorNotes T2	4159553
+T3	Literal_Modifier 1662 1671	Immokalee
+A1	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	4159553
+T4	Literal_Modifier 487 496	Immokalee
+A2	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	4159553
+T5	Mixed 437 451	Collier County
+A3	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	4151550
+T6	Literal_Expression 418 423	event
+T7	Mixed 1781 1795	Collier County
+#6	AnnotatorNotes T7	4151550
+T8	Embedded_Non_Lit 1845 1849	U.S.
+#7	AnnotatorNotes T8	6252001
+T9	Embedded_Non_Lit 1483 1487	U.S.
+#8	AnnotatorNotes T9	6252001
+T10	Literal 904 911	Florida
+#9	AnnotatorNotes T10	4155751
+T11	Non_Literal_Modifier 276 283	FLORIDA
+#10	AnnotatorNotes T11	4155751
+T12	Embedded_Literal 317 326	Immokalee
+A5	Modifier_Type T12 Noun
+#11	AnnotatorNotes T12	4159553
+T13	Non_Literal_Modifier 187 200	United States
+#12	AnnotatorNotes T13	6252001
+T14	Non_Lit_Expression 1651 1658	remarks
+T15	Non_Lit_Expression 728 736	awardees
+T16	Non_Lit_Expression 228 239	Congressman
+T17	Non_Lit_Expression 863 868	money
+T18	Literal_Expression 1003 1011	networks
+T19	Literal_Expression 934 941	project
+T20	Literal_Expression 1106 1114	shelters
+T21	Non_Lit_Expression 1127 1136	community
+T22	Non_Lit_Expression 1261 1266	grant
+T23	Non_Lit_Expression 1382 1389	leaders
+T24	Non_Lit_Expression 1545 1551	Photos
+T25	Non_Lit_Expression 1771 1775	team
+A14	Modifier_Type T7 Noun
+A16	Modifier_Type T13 Noun
+A8	Non_Locational T16
+A19	Modifier_Type T11 Noun
+A20	Modifier_Type T1 Noun
+T26	Non_Toponym 317 344	Immokalee TIGER Grant Event
+A4	Non_Locational T15
+A7	Non_Locational T17
+T27	Literal_Expression 1065 1073	lighting
+A9	Non_Locational T21
+A10	Non_Locational T22
+A11	Modifier_Type T2 Noun
+A12	Non_Locational T23
+A17	Modifier_Type T9 Noun
+A21	Non_Locational T24
+A6	Non_Locational T14
+A13	Non_Locational T25
+T28	Non_Toponym 1845 1878	U.S. Department of Transportation
+A15	Modifier_Type T8 Noun
+T29	Non_Toponym 1483 1516	U.S. Department of Transportation

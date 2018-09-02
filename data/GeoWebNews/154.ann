@@ -1,0 +1,61 @@
+T1	Mixed 109 121	CALAMBA CITY
+#1	AnnotatorNotes T1	1720685
+T2	Non_Literal_Modifier 123 129	Laguna
+A1	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	1708026
+T3	Non_Lit_Expression 332 342	government
+T4	Literal_Expression 520 529	barangays
+T5	Literal_Expression 539 547	colleges
+T6	Non_Lit_Expression 633 645	partnerships
+T7	Non_Lit_Expression 866 873	support
+T8	Non_Lit_Expression 1087 1094	program
+T9	Literal_Expression 1245 1249	hall
+T10	Coercion 1292 1341	University of Perpetual Help Dalta System Calamba
+#3	AnnotatorNotes T10	14.215992, 121.135368
+T11	Literal 1352 1374	Barangay Paciano Rizal
+#4	AnnotatorNotes T11	7405766
+T12	Literal_Expression 1445 1449	city
+T13	Non_Lit_Expression 1564 1576	stakeholders
+T14	Literal_Expression 1651 1655	city
+T15	Non_Lit_Expression 1636 1643	council
+T16	Literal_Expression 2358 2362	city
+T17	Literal_Expression 2292 2300	agencies
+T18	Literal_Expression 2809 2816	country
+T19	Literal_Expression 2849 2859	grassroots
+T20	Non_Lit_Expression 2922 2930	trainers
+T21	Non_Lit_Expression 3106 3114	athletes
+T23	Coercion 3561 3589	University of Perpetual Help
+#5	AnnotatorNotes T23	14.215992, 121.135368
+T24	Non_Lit_Expression 205 212	program
+T25	Non_Lit_Expression 474 483	officials
+T26	Non_Lit_Expression 1801 1810	employees
+T27	Non_Literal_Modifier 2001 2007	Laguna
+A16	Modifier_Type T27 Noun
+#6	AnnotatorNotes T27	1708026
+T29	Non_Lit_Expression 2410 2418	athletes
+T30	Literal_Expression 1496 1500	city
+A10	Modifier_Type T1 Noun
+A2	Non_Locational T24
+T31	Non_Toponym 1292 1341	University of Perpetual Help Dalta System Calamba
+T32	Non_Toponym 3561 3589	University of Perpetual Help
+T22	Literal 3407 3416	City Hall
+#7	AnnotatorNotes T22	14.193747, 121.159529
+T33	Non_Toponym 220 248	Philippine Sports Commission
+T34	Embedded_Non_Lit 220 230	Philippine
+A7	Modifier_Type T34 Noun
+#8	AnnotatorNotes T34	1694008
+T35	Non_Toponym 268 295	Philippine Sports Institute
+T36	Embedded_Non_Lit 268 278	Philippine
+A13	Modifier_Type T36 Noun
+#9	AnnotatorNotes T36	1694008
+A3	Non_Locational T3
+A14	Non_Locational T25
+A4	Non_Locational T6
+A5	Non_Locational T7
+A6	Non_Locational T8
+A8	Non_Locational T13
+A15	Non_Locational T26
+A9	Non_Locational T17
+A17	Non_Locational T29
+A11	Non_Locational T20
+A12	Non_Locational T21

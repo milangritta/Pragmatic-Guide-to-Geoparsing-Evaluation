@@ -1,0 +1,94 @@
+T1	Literal 502 512	Charleston
+#1	AnnotatorNotes T1	4801859
+T2	Literal 3181 3209	Dulles International Airport
+T3	Literal 3253 3264	Gainesville
+T4	Literal 3266 3269	Va.
+T6	Literal_Expression 3287 3297	townhouses
+T8	Literal 3153 3164	Centreville
+T11	Literal_Modifier 3083 3107	Vienna/Fairfax-GMU Metro
+T12	Literal 3018 3035	Old Town Manassas
+T13	Coercion 2808 2820	Turtle Point
+T14	Coercion 2880 2887	Wegmans
+T18	Coercion 2568 2577	Stonewall
+T19	Coercion 2615 2631	Virginia Gateway
+T22	Coercion 2672 2696	Haymarket Village Center
+T24	Literal 2156 2169	Lake Manassas
+#2	AnnotatorNotes T24	4768296
+#5	AnnotatorNotes T18	38.785307, -77.649939
+#6	AnnotatorNotes T19	38.794745, -77.606841
+#7	AnnotatorNotes T22	38.817901, -77.644125
+#11	AnnotatorNotes T14	38.784234, -77.653357
+#12	AnnotatorNotes T13	38.780932, -77.651761
+#13	AnnotatorNotes T12	38.750035, -77.472854
+#14	AnnotatorNotes T11	4791172
+#15	AnnotatorNotes T8	4751839
+#16	AnnotatorNotes T2	4792325
+#17	AnnotatorNotes T4	6254928
+#18	AnnotatorNotes T3	4760363
+T23	Literal_Expression 2289 2293	lake
+T25	Literal_Expression 3401 3411	townhouses
+T26	Non_Lit_Expression 421 430	community
+T28	Literal_Expression 2393 2399	courts
+T29	Literal_Expression 2446 2452	trails
+T30	Literal_Expression 2422 2432	playground
+T31	Literal_Expression 2369 2378	clubhouse
+T32	Literal_Expression 2414 2420	fields
+T33	Literal_Expression 731 737	garage
+T34	Literal_Expression 752 760	clubroom
+T35	Literal_Expression 865 869	yard
+T36	Literal_Expression 841 848	terrace
+T45	Literal_Expression 2191 2200	reservoir
+T49	Literal_Expression 1704 1709	house
+T50	Literal_Expression 619 625	design
+T51	Literal_Expression 1893 1899	island
+T52	Literal_Expression 3493 3497	door
+T53	Literal_Expression 1786 1793	kitchen
+T54	Literal_Expression 2236 2241	homes
+T55	Non_Lit_Expression 2349 2358	Residents
+T58	Literal_Expression 3510 3515	entry
+T60	Literal_Expression 2040 2048	bathroom
+T37	Non_Lit_Expression 456 461	style
+T39	Literal_Expression 632 642	residences
+T41	Literal_Expression 1839 1844	rooms
+T27	Literal_Expression 2095 2104	amenities
+A5	Modifier_Type T11 Noun
+T5	Literal_Expression 3448 3456	driveway
+T48	Literal_Expression 1601 1606	porch
+T56	Literal_Expression 1977 1982	floor
+T7	Coercion 2454 2482	Robert Trent Jones Golf Club
+#3	AnnotatorNotes T7	38.775619, -77.639461
+T9	Coercion 2513 2532	Stonewall Golf Club
+#4	AnnotatorNotes T9	38.785307, -77.649939
+T10	Coercion 2734 2753	Buckland Elementary
+#8	AnnotatorNotes T10	38.798149, -77.635840
+T15	Coercion 2755 2782	Ronald Wilson Reagan Middle
+#9	AnnotatorNotes T15	38.845789, -77.662327
+T16	Coercion 2784 2796	Patriot High
+#10	AnnotatorNotes T16	38.726101, -77.579969
+T17	Homonym 1424 1434	Somerville
+T20	Homonym 1410 1419	Granville
+T21	Homonym 1401 1408	Norbury
+T38	Homonym 1392 1399	Jamison
+T40	Homonym 1767 1774	Norbury
+T42	Homonym 2054 2061	Norbury
+T43	Homonym 1639 1646	Jamison
+A1	Non_Locational T37
+A2	Non_Locational T50
+#19	AnnotatorNotes T38	5195246
+#20	AnnotatorNotes T43	5195246
+#21	AnnotatorNotes T21	7292282
+#22	AnnotatorNotes T40	7292282
+#23	AnnotatorNotes T42	7292282
+#24	AnnotatorNotes T20	4468623
+#25	AnnotatorNotes T17	4951257
+A3	Non_Locational T55
+T44	Non_Toponym 2454 2482	Robert Trent Jones Golf Club
+T46	Non_Toponym 2513 2532	Stonewall Golf Club
+T47	Non_Toponym 2568 2577	Stonewall
+T57	Non_Toponym 2615 2631	Virginia Gateway
+T59	Non_Toponym 2672 2696	Haymarket Village Center
+T61	Non_Toponym 2734 2753	Buckland Elementary
+T62	Non_Toponym 2755 2782	Ronald Wilson Reagan Middle
+T63	Non_Toponym 2784 2796	Patriot High
+T64	Non_Toponym 2880 2887	Wegmans
+T65	Non_Toponym 2808 2820	Turtle Point

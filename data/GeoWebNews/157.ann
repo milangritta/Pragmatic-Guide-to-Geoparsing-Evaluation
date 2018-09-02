@@ -1,0 +1,43 @@
+T1	Literal 189 193	A120
+#1	AnnotatorNotes T1	51.8763,  0.6738
+T2	Non_Lit_Expression 367 373	police
+T3	Literal_Expression 385 389	road
+T4	Non_Lit_Expression 431 434	man
+T5	Literal 523 542	Colchester Hospital
+#2	AnnotatorNotes T5	6289260
+T6	Literal 637 647	Coggeshall
+#3	AnnotatorNotes T6	2652640
+T7	Literal 652 661	Marks Tey
+#4	AnnotatorNotes T7	2643012
+T8	Literal 843 847	A120
+#5	AnnotatorNotes T8	51.8763,  0.6738
+T9	Literal 1131 1158	Colchester General Hospital
+#6	AnnotatorNotes T9	6289260
+T10	Literal_Expression 1074 1079	scene
+T11	Non_Lit_Expression 895 899	crew
+T12	Literal 851 861	Coggeshall
+#7	AnnotatorNotes T12	2652640
+T13	Literal_Expression 796 805	collision
+T14	Literal_Expression 1015 1020	scene
+T15	Non_Lit_Expression 204 209	lorry
+T16	Non_Lit_Expression 500 505	crash
+T17	Literal_Expression 607 617	congestion
+T18	Non_Lit_Expression 816 823	cyclist
+T19	Non_Lit_Expression 1036 1039	man
+T20	Embedded_Non_Lit 685 700	East of England
+#8	AnnotatorNotes T20	11591954
+T21	Embedded_Non_Lit 978 983	Essex
+#9	AnnotatorNotes T21	2649889
+T22	Embedded_Non_Lit 988 993	Herts
+#10	AnnotatorNotes T22	2647043
+A1	Non_Locational T15
+A2	Non_Locational T4
+T23	Literal_Expression 565 569	road
+T24	Non_Toponym 685 718	East of England Ambulance Service
+A4	Modifier_Type T20 Noun
+A5	Non_Locational T18
+A3	Non_Locational T11
+T25	Non_Toponym 978 1007	Essex and Herts Air Ambulance
+A6	Modifier_Type T21 Noun
+A8	Modifier_Type T22 Noun
+A7	Non_Locational T19

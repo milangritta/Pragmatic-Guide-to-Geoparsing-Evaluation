@@ -1,0 +1,50 @@
+T1	Literal 1503 1513	Copenhagen
+#1	AnnotatorNotes T1	2618425
+T2	Literal 1515 1522	Hamburg
+#2	AnnotatorNotes T2	2911298
+T3	Literal 1535 1543	Mannheim
+#3	AnnotatorNotes T3	2873891
+T4	Literal 1524 1530	Brasoc
+T5	Literal 1635 1641	Sweden
+#4	AnnotatorNotes T5	2661886
+T6	Literal 311 317	Sweden
+#5	AnnotatorNotes T6	2661886
+T7	Non_Literal_Modifier 198 205	Italian
+A1	Modifier_Type T7 Adjective
+#6	AnnotatorNotes T7	3175395
+T8	Non_Literal_Modifier 1727 1734	Italian
+A3	Modifier_Type T8 Adjective
+#7	AnnotatorNotes T8	3175395
+T9	Literal_Expression 2065 2070	store
+T10	Literal_Modifier 259 267	European
+A5	Modifier_Type T10 Adjective
+#8	AnnotatorNotes T10	6255148
+T11	Non_Lit_Expression 411 416	props
+T12	Literal 456 466	Gothenburg
+#9	AnnotatorNotes T12	2711537
+T13	Literal_Expression 519 524	hotel
+T14	Literal_Expression 561 565	port
+T15	Literal_Expression 634 637	van
+T16	Non_Lit_Expression 675 683	contents
+T17	Non_Lit_Expression 762 769	guitars
+T18	Non_Lit_Expression 857 864	console
+T19	Non_Lit_Expression 905 915	estimation
+T20	Non_Lit_Expression 1022 1027	group
+T21	Non_Lit_Expression 1465 1469	band
+T22	Literal_Expression 1596 1601	theft
+T23	Non_Lit_Expression 1767 1778	electronics
+T24	Non_Lit_Expression 1078 1087	musicians
+T25	Non_Lit_Expression 1172 1179	guitars
+A2	Non_Locational T11
+A6	Non_Locational T15
+A7	Non_Locational T16
+A8	Non_Locational T17
+A9	Non_Locational T18
+A10	Non_Locational T19
+A11	Non_Locational T20
+A12	Non_Locational T24
+A15	Non_Locational T25
+A13	Non_Locational T21
+T26	Non_Lit_Expression 1649 1658	endorsers
+A16	Non_Locational T26
+A4	Non_Locational T23

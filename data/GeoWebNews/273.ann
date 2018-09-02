@@ -1,0 +1,18 @@
+T1	Literal_Expression 184 188	poll
+T2	Embedded_Non_Lit 379 385	Polish
+#1	AnnotatorNotes T2	798544
+T3	Non_Lit_Expression 492 499	parties
+T4	Literal_Expression 867 873	Portal
+T5	Non_Lit_Expression 1127 1132	users
+T6	Non_Lit_Expression 576 586	coalitions
+T7	Literal_Expression 625 633	election
+T8	Non_Lit_Expression 905 914	copyright
+A6	Non_Locational T1
+T9	Non_Toponym 379 400	Polish People's Party
+A5	Modifier_Type T2 Adjective
+A1	Non_Locational T3
+A3	Non_Locational T6
+T10	Non_Lit_Expression 721 727	survey
+A7	Non_Locational T10
+A4	Non_Locational T8
+A2	Non_Locational T5

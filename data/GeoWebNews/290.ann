@@ -1,0 +1,38 @@
+T1	Non_Literal_Modifier 295 308	New Brunswick
+#1	AnnotatorNotes T1	6087430
+T2	Literal 402 406	N.B.
+#2	AnnotatorNotes T2	6087430
+T3	Literal 386 400	Estey's Bridge
+#3	AnnotatorNotes T3	46.078762, -66.721889
+T4	Coercion 349 362	Wilson's Farm
+#4	AnnotatorNotes T4	46.035575, -66.725687
+T5	Literal 369 382	Kingsley Road
+#5	AnnotatorNotes T5	46.035575, -66.725687
+T6	Literal_Modifier 267 278	Fredericton
+A1	Modifier_Type T6 Noun
+#6	AnnotatorNotes T6	5957776
+T7	Non_Literal_Modifier 825 833	Havanese
+A2	Modifier_Type T7 Adjective
+#7	AnnotatorNotes T7	3553478
+T8	Non_Literal_Modifier 834 841	Maltese
+A4	Modifier_Type T8 Adjective
+#8	AnnotatorNotes T8	2562770
+T9	Non_Lit_Expression 173 179	Police
+T10	Non_Lit_Expression 223 230	puppies
+T11	Literal_Expression 255 259	farm
+T12	Non_Lit_Expression 328 332	dogs
+T13	Literal_Expression 459 463	barn
+T14	Literal_Expression 545 552	kennels
+T15	Non_Lit_Expression 515 522	animals
+T16	Non_Lit_Expression 1063 1067	dogs
+T17	Non_Lit_Expression 751 754	dog
+T18	Non_Lit_Expression 978 982	male
+A13	Non_Locational T9
+A6	Non_Locational T10
+A12	Modifier_Type T1 Noun
+A7	Non_Locational T12
+T19	Non_Toponym 349 362	Wilson's Farm
+A8	Non_Locational T15
+A10	Non_Locational T17
+A3	Non_Locational T18
+A5	Non_Locational T16

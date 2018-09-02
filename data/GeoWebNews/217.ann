@@ -1,0 +1,23 @@
+T1	Non_Literal_Modifier 177 185	Nigerian
+A1	Modifier_Type T1 Adjective
+#1	AnnotatorNotes T1	2328926
+T2	Non_Lit_Expression 347 353	launch
+T3	Coercion 432 445	Terra Kulture
+#2	AnnotatorNotes T3	6.425021, 3.426811
+T4	Literal 449 454	Lagos
+#3	AnnotatorNotes T4	2332459
+T5	Non_Lit_Expression 407 412	abuse
+T6	Non_Lit_Expression 1987 1996	producers
+T7	Literal_Expression 1657 1668	restaurants
+T8	Non_Lit_Expression 948 956	director
+T9	Literal_Expression 716 725	auditions
+T10	Non_Lit_Expression 875 879	work
+T11	Non_Lit_Expression 319 326	newsmen
+T12	Non_Lit_Expression 540 547	favours
+A2	Non_Locational T11
+A3	Non_Locational T5
+T13	Non_Toponym 432 445	Terra Kulture
+A6	Non_Locational T12
+A5	Non_Locational T8
+A4	Non_Locational T6
+T14	Literal_Expression 1503 1511	audition

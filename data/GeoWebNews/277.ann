@@ -1,0 +1,134 @@
+T1	Literal_Expression 254 261	session
+T2	Metonymic 384 392	Slovenia
+#1	AnnotatorNotes T2	3190538
+T3	Metonymic 496 504	Slovenia
+#2	AnnotatorNotes T3	3190538
+T4	Metonymic 1076 1084	Slovenia
+#3	AnnotatorNotes T4	3190538
+T5	Metonymic 1601 1609	Slovenia
+#4	AnnotatorNotes T5	3190538
+T6	Metonymic 1451 1459	Slovenia
+#5	AnnotatorNotes T6	3190538
+T7	Metonymic 2164 2172	Slovenia
+#6	AnnotatorNotes T7	3190538
+T8	Metonymic 2092 2100	Slovenia
+#7	AnnotatorNotes T8	3190538
+T9	Mixed 2246 2254	Slovenia
+#8	AnnotatorNotes T9	3190538
+T10	Metonymic 2422 2430	Slovenia
+#9	AnnotatorNotes T10	3190538
+T11	Metonymic 2889 2897	Slovenia
+#10	AnnotatorNotes T11	3190538
+T12	Metonymic 2617 2625	Slovenia
+#11	AnnotatorNotes T12	3190538
+T13	Non_Literal_Modifier 3148 3156	Slovenia
+A3	Modifier_Type T13 Noun
+#12	AnnotatorNotes T13	3190538
+T14	Metonymic 1781 1789	Slovenia
+#13	AnnotatorNotes T14	3190538
+T15	Non_Literal_Modifier 2804 2812	Slovenia
+A5	Modifier_Type T15 Noun
+#14	AnnotatorNotes T15	3190538
+T16	Metonymic 636 649	Great Britain
+#15	AnnotatorNotes T16	2635167
+T17	Metonymic 551 564	Great Britain
+#16	AnnotatorNotes T17	2635167
+T18	Literal 3173 3179	Russia
+#17	AnnotatorNotes T18	2017370
+T19	Metonymic 829 835	Russia
+#18	AnnotatorNotes T19	2017370
+T20	Metonymic 540 546	Russia
+#19	AnnotatorNotes T20	2017370
+T21	Metonymic 2323 2329	Russia
+#20	AnnotatorNotes T21	2017370
+T22	Literal 2564 2570	Russia
+#21	AnnotatorNotes T22	2017370
+T23	Non_Literal_Modifier 3700 3707	Russian
+A7	Modifier_Type T23 Adjective
+#22	AnnotatorNotes T23	2017370
+T24	Literal 2829 2835	Russia
+#23	AnnotatorNotes T24	2017370
+T25	Literal 3450 3456	Moscow
+#24	AnnotatorNotes T25	524894
+T26	Literal 1575 1581	Moscow
+#25	AnnotatorNotes T26	524894
+T27	Literal 1110 1114	Iraq
+#26	AnnotatorNotes T27	99237
+T28	Embedded_Non_Lit 2492 2506	European Union
+#27	AnnotatorNotes T28	6255148
+T29	Non_Lit_Expression 417 423	affair
+T30	Literal_Expression 523 529	favour
+T31	Literal_Expression 593 601	incident
+T32	Non_Lit_Expression 671 679	services
+T33	Literal_Expression 720 729	countries
+T34	Literal_Expression 871 877	attack
+T35	Literal_Expression 958 964	debate
+T36	Literal_Expression 1033 1042	situation
+T37	Non_Lit_Expression 1181 1188	weapons
+T38	Non_Lit_Expression 1251 1258	leaders
+T39	Non_Lit_Expression 1312 1323	declaration
+T40	Non_Lit_Expression 1502 1512	solidarity
+T41	Non_Lit_Expression 1666 1675	committee
+T42	Metonymic 1714 1722	Bulgaria
+#28	AnnotatorNotes T42	732800
+T43	Metonymic 1724 1734	Luxembourg
+#29	AnnotatorNotes T43	2960313
+T44	Metonymic 1736 1741	Malta
+#30	AnnotatorNotes T44	2562770
+T45	Metonymic 1743 1751	Portugal
+#31	AnnotatorNotes T45	2264397
+T46	Metonymic 1756 1764	Slovakia
+#32	AnnotatorNotes T46	3057568
+T47	Non_Lit_Expression 1881 1889	decision
+T48	Coercion 2281 2283	EU
+#33	AnnotatorNotes T48	6695072
+T49	Non_Lit_Expression 2403 2413	resentment
+T50	Non_Lit_Expression 2550 2560	ambassador
+T51	Non_Lit_Expression 2987 2993	allies
+T52	Literal_Expression 3098 3102	area
+T53	Literal_Expression 3212 3219	session
+T54	Literal_Expression 3251 3257	debate
+T55	Literal_Expression 3323 3336	consultations
+T56	Non_Lit_Expression 3504 3513	committee
+A9	Non_Locational T29
+A1	Non_Locational T30
+A10	Non_Locational T32
+T57	Non_Lit_Expression 785 796	conclusions
+A22	Non_Locational T57
+A11	Non_Locational T37
+A12	Non_Locational T38
+A13	Non_Locational T39
+A14	Non_Locational T40
+A15	Non_Locational T41
+A16	Non_Locational T47
+T58	Non_Lit_Expression 1977 1981	goal
+A23	Non_Locational T58
+T59	Non_Toponym 2492 2506	European Union
+A21	Modifier_Type T28 Adjective
+A17	Non_Locational T49
+A18	Non_Locational T50
+T60	Non_Lit_Expression 2655 2664	interests
+A2	Non_Locational T60
+T61	Non_Lit_Expression 3568 3577	committee
+A6	Non_Locational T61
+A8	Non_Locational T56
+A20	Non_Locational T55
+T62	Non_Lit_Expression 3024 3031	mistake
+A4	Non_Locational T62
+A19	Non_Locational T51
+T63	Non_Toponym 2281 2283	EU
+T64	Non_Literal_Modifier 1248 1250	EU
+A24	Modifier_Type T64 Noun
+#34	AnnotatorNotes T64	6255148
+T65	Non_Literal_Modifier 1931 1933	EU
+A25	Modifier_Type T65 Noun
+#35	AnnotatorNotes T65	6255148
+T66	Non_Literal_Modifier 2690 2692	EU
+A26	Modifier_Type T66 Noun
+#36	AnnotatorNotes T66	6255148
+T67	Non_Literal_Modifier 1526 1528	EU
+A27	Modifier_Type T67 Noun
+#37	AnnotatorNotes T67	6255148
+T68	Non_Literal_Modifier 1817 1819	EU
+A28	Modifier_Type T68 Noun
+#38	AnnotatorNotes T68	6255148

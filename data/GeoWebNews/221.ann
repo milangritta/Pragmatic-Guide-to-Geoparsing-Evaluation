@@ -1,0 +1,29 @@
+T1	Non_Lit_Expression 270 278	nuptials
+T2	Literal_Expression 295 301	corner
+T3	Literal 1604 1618	Windsor Castle
+#1	AnnotatorNotes T3	6287215
+T4	Literal 1582 1600	St George’s Chapel
+#2	AnnotatorNotes T4	51.483719, -0.606994
+T5	Non_Lit_Expression 1341 1347	couple
+T6	Literal_Expression 692 697	store
+T7	Non_Lit_Expression 457 461	cake
+T8	Non_Literal_Modifier 901 909	Sicilian
+A4	Modifier_Type T8 Adjective
+#3	AnnotatorNotes T8	2523118
+T9	Literal_Expression 239 244	pitch
+T10	Non_Lit_Expression 352 359	version
+T11	Literal_Expression 490 495	store
+T12	Non_Lit_Expression 1084 1093	customers
+T13	Homonym 321 328	Iceland
+#4	AnnotatorNotes T13	2629691
+T14	Homonym 379 386	Iceland
+#5	AnnotatorNotes T14	2629691
+T15	Homonym 1056 1063	Iceland
+#6	AnnotatorNotes T15	2629691
+T16	Homonym 804 811	Iceland
+#7	AnnotatorNotes T16	2629691
+A1	Non_Locational T1
+A6	Non_Locational T10
+A3	Non_Locational T7
+A5	Non_Locational T12
+A2	Non_Locational T5

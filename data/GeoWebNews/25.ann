@@ -1,0 +1,64 @@
+T1	Mixed 120 126	Moscow
+#1	AnnotatorNotes T1	524901
+T2	Metonymic 279 285	Moscow
+#2	AnnotatorNotes T2	524901
+T3	Non_Literal_Modifier 134 141	Russian
+A2	Modifier_Type T3 Adjective
+#3	AnnotatorNotes T3	2017370
+T4	Metonymic 649 655	Russia
+#4	AnnotatorNotes T4	2017370
+T5	Metonymic 1154 1160	Russia
+#5	AnnotatorNotes T5	2017370
+T6	Metonymic 382 388	Russia
+#6	AnnotatorNotes T6	2017370
+T7	Literal 237 251	Eastern Ghouta
+#7	AnnotatorNotes T7	173866
+T8	Literal 572 586	Eastern Ghouta
+#8	AnnotatorNotes T8	173866
+T9	Mixed 1101 1107	Ghouta
+#9	AnnotatorNotes T9	173866
+T10	Literal 996 1010	Eastern Ghouta
+#10	AnnotatorNotes T10	173866
+T11	Literal 353 358	Syria
+#11	AnnotatorNotes T11	163843
+T12	Literal 1259 1264	Syria
+#12	AnnotatorNotes T12	163843
+T13	Literal 1356 1361	Syria
+#13	AnnotatorNotes T13	163843
+T14	Non_Literal_Modifier 627 633	Syrian
+A4	Modifier_Type T14 Adjective
+#14	AnnotatorNotes T14	163843
+T15	Non_Literal_Modifier 415 421	Syrian
+A6	Modifier_Type T15 Adjective
+#15	AnnotatorNotes T15	163843
+T16	Embedded_Non_Lit 437 443	Syrian
+#16	AnnotatorNotes T16	163843
+T17	Literal_Modifier 305 307	US
+A8	Modifier_Type T17 Noun
+#17	AnnotatorNotes T17	6252001
+T18	Metonymic 1341 1343	US
+#18	AnnotatorNotes T18	6252001
+T19	Non_Literal_Modifier 1226 1228	US
+A10	Modifier_Type T19 Noun
+#19	AnnotatorNotes T19	6252001
+T20	Metonymic 1183 1185	US
+#20	AnnotatorNotes T20	6252001
+T21	Non_Lit_Expression 535 545	terrorists
+T22	Literal_Modifier 1310 1317	al-Tanf
+A13	Modifier_Type T22 Noun
+#21	AnnotatorNotes T22	11614781
+T23	Literal_Expression 813 817	path
+T24	Non_Lit_Expression 925 938	organizations
+T25	Non_Lit_Expression 694 703	civilians
+T26	Non_Lit_Expression 201 210	operation
+T27	Non_Lit_Expression 727 734	mongers
+T28	Literal_Expression 559 568	corridors
+A19	Modifier_Type T1 Noun
+A12	Non_Locational T21
+T29	Non_Toponym 437 461	Syrian Arab Red Crescent
+A1	Modifier_Type T16 Adjective
+A3	Non_Locational T25
+A5	Non_Locational T27
+A7	Non_Locational T24
+T30	Non_Lit_Expression 962 965	aid
+A9	Non_Locational T30

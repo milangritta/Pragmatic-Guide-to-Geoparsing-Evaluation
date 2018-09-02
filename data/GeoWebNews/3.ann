@@ -1,0 +1,36 @@
+T1	Mixed 164 175	SPRINGFIELD
+#1	AnnotatorNotes T1	4250542
+T2	Non_Literal_Modifier 335 346	Springfield
+A1	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	4250542
+T3	Mixed 177 181	Ill.
+#3	AnnotatorNotes T3	4896861
+T4	Non_Literal_Modifier 878 886	Illinois
+A2	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	4896861
+T5	Literal_Modifier 1016 1024	Illinois
+A4	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	4896861
+T6	Embedded_Non_Lit 503 511	Illinois
+#6	AnnotatorNotes T6	4896861
+T7	Literal 704 725	Illinois State Armory
+#7	AnnotatorNotes T7	39.800128, -89.653965
+T8	Literal_Modifier 285 309	Illinois Capitol Complex
+#8	AnnotatorNotes T8	4235185
+A5	Modifier_Type T8 Noun
+T9	Literal_Expression 645 652	complex
+T10	Non_Lit_Expression 220 227	results
+T11	Non_Lit_Expression 269 277	bacteria
+T12	Non_Lit_Expression 451 458	disease
+T13	Literal_Expression 548 555	complex
+T14	Non_Lit_Expression 810 819	pneumonia
+T15	Literal_Expression 947 954	hearing
+T16	Literal_Expression 994 1002	outbreak
+A9	Modifier_Type T1 Noun
+A10	Modifier_Type T3 Noun
+A11	Non_Locational T10
+A6	Non_Locational T11
+T17	Non_Toponym 503 539	Illinois Department of Public Health
+A12	Modifier_Type T6 Noun
+A7	Non_Locational T12
+A3	Non_Locational T14

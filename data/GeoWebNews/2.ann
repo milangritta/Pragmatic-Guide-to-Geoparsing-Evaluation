@@ -1,0 +1,60 @@
+T1	Literal_Modifier 395 402	Britain
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	2635167
+T2	Literal 329 331	UK
+#2	AnnotatorNotes T2	2635167
+T3	Non_Literal_Modifier 1581 1583	UK
+A2	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	2635167
+T4	Literal 1773 1775	UK
+#4	AnnotatorNotes T4	2635167
+T5	Metonymic 929 931	UK
+#5	AnnotatorNotes T5	2635167
+T6	Literal_Modifier 1377 1384	British
+A4	Modifier_Type T6 Adjective
+#6	AnnotatorNotes T6	2635167
+T7	Literal 536 543	Britain
+#7	AnnotatorNotes T7	2635167
+T8	Non_Literal_Modifier 1020 1022	UK
+A5	Modifier_Type T8 Noun
+#8	AnnotatorNotes T8	2635167
+T9	Non_Literal_Modifier 1206 1208	UK
+A7	Modifier_Type T9 Noun
+#9	AnnotatorNotes T9	2635167
+T10	Non_Literal_Modifier 1238 1243	Japan
+#10	AnnotatorNotes T10	1861060
+A9	Modifier_Type T10 Noun
+T11	Non_Literal_Modifier 1457 1465	Japanese
+A11	Modifier_Type T11 Adjective
+#11	AnnotatorNotes T11	1861060
+T12	Non_Literal_Modifier 1568 1576	Japanese
+A13	Modifier_Type T12 Adjective
+#12	AnnotatorNotes T12	1861060
+T13	Metonymic 654 659	Japan
+#13	AnnotatorNotes T13	1861060
+T14	Non_Literal_Modifier 282 290	Japanese
+A15	Modifier_Type T14 Adjective
+#14	AnnotatorNotes T14	1861060
+T15	Non_Literal_Modifier 1063 1071	Japanese
+A17	Modifier_Type T15 Adjective
+#15	AnnotatorNotes T15	1861060
+T16	Non_Literal_Modifier 1706 1714	Japanese
+A19	Modifier_Type T16 Adjective
+#16	AnnotatorNotes T16	1861060
+T17	Non_Literal_Modifier 1122 1127	Japan
+A21	Modifier_Type T17 Noun
+#17	AnnotatorNotes T17	1861060
+T18	Literal_Expression 316 321	sites
+T19	Literal_Expression 589 596	country
+T20	Coercion 886 907	British Embassy Tokyo
+#18	AnnotatorNotes T20	35.686843, 139.744320
+T21	Non_Lit_Expression 235 247	announcement
+A16	Non_Locational T21
+T22	Non_Lit_Expression 472 478	cattle
+A22	Non_Locational T22
+T23	Non_Lit_Expression 557 566	infection
+T24	Non_Toponym 886 907	British Embassy Tokyo
+T25	Non_Toponym 978 993	British Embassy
+T26	Embedded_Non_Lit 978 993	British Embassy
+A23	Modifier_Type T26 Adjective
+#19	AnnotatorNotes T26	2635167

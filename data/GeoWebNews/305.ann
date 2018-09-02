@@ -1,0 +1,58 @@
+T1	Literal 653 672	South Ossett Church
+#1	AnnotatorNotes T1	53.673484, -1.570948
+T2	Literal 374 383	Blackpool
+#2	AnnotatorNotes T2	2655459
+T3	Literal 728 742	Great Yarmouth
+#3	AnnotatorNotes T3	2647984
+T4	Literal 807 815	Dewsbury
+#4	AnnotatorNotes T4	2651286
+T5	Literal 434 442	Dewsbury
+#5	AnnotatorNotes T5	2651286
+T6	Literal 596 604	Dewsbury
+#6	AnnotatorNotes T6	2651286
+T7	Literal 1507 1515	Portugal
+#7	AnnotatorNotes T7	2264397
+T8	Literal 922 933	Middlestown
+#8	AnnotatorNotes T8	2642603
+T9	Literal_Modifier 1102 1112	Middletown
+A1	Modifier_Type T9 Noun
+#9	AnnotatorNotes T9	2642603
+T10	Literal 1192 1203	Earlsheaton
+#10	AnnotatorNotes T10	53.690604, -1.620817
+T11	Literal 970 977	Overton
+#11	AnnotatorNotes T11	7294409
+T12	Literal 891 900	Thornhill
+#12	AnnotatorNotes T12	2635982
+T13	Non_Lit_Expression 1310 1320	grandchild
+T14	Non_Lit_Expression 1623 1631	marriage
+T15	Literal_Expression 1480 1483	sun
+T16	Literal_Expression 1418 1425	theatre
+T17	Coercion 1079 1098	SB Smith Electrical
+#13	AnnotatorNotes T17	52.706314, -3.034150
+T18	Literal 1115 1123	New Road
+#14	AnnotatorNotes T18	52.706314, -3.034150
+T19	Literal_Expression 958 966	bungalow
+T20	Coercion 578 585	Pioneer
+#15	AnnotatorNotes T20	53.690030, -1.630811
+T21	Non_Lit_Expression 612 616	pair
+T22	Literal_Expression 796 803	cottage
+T23	Non_Lit_Expression 141 152	electrician
+T24	Literal_Expression 363 370	holiday
+T25	Non_Lit_Expression 403 411	families
+T26	Non_Lit_Expression 249 260	anniversary
+T27	Literal_Expression 715 724	honeymoon
+T28	Literal_Expression 332 337	coach
+T29	Literal_Expression 756 760	home
+T30	Non_Lit_Expression 1580 1584	meal
+A5	Non_Locational T23
+T31	Non_Lit_Expression 210 216	couple
+A10	Non_Locational T31
+A7	Non_Locational T26
+A8	Non_Locational T28
+A6	Non_Locational T25
+T32	Non_Toponym 578 585	Pioneer
+A4	Non_Locational T21
+T33	Non_Toponym 1079 1098	SB Smith Electrical
+A2	Non_Locational T13
+A9	Non_Locational T30
+A3	Non_Locational T14

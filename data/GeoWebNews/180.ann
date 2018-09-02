@@ -1,0 +1,71 @@
+T1	Non_Literal_Modifier 143 153	Salvadoran
+A1	Modifier_Type T1 Adjective
+#1	AnnotatorNotes T1	3585968
+T2	Non_Literal_Modifier 742 752	Salvadoran
+A3	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	3585968
+T3	Non_Literal_Modifier 304 320	Central American
+A5	Modifier_Type T3 Adjective
+#3	AnnotatorNotes T3	7729892
+T4	Non_Literal_Modifier 571 587	Central American
+A7	Modifier_Type T4 Adjective
+#4	AnnotatorNotes T4	7729892
+T5	Non_Literal_Modifier 903 919	Central American
+A9	Modifier_Type T5 Adjective
+#5	AnnotatorNotes T5	7729892
+T6	Non_Literal_Modifier 1170 1186	Central American
+A11	Modifier_Type T6 Adjective
+#6	AnnotatorNotes T6	7729892
+T7	Literal 1657 1668	Mexico City
+#7	AnnotatorNotes T7	3530597
+T8	Non_Literal_Modifier 1449 1453	U.S.
+A13	Modifier_Type T8 Noun
+#8	AnnotatorNotes T8	6252001
+T9	Non_Literal_Modifier 863 871	American
+A15	Modifier_Type T9 Adjective
+#9	AnnotatorNotes T9	6252001
+T10	Non_Literal_Modifier 264 272	American
+A17	Modifier_Type T10 Adjective
+#10	AnnotatorNotes T10	6252001
+T11	Literal 1039 1045	Mexico
+#11	AnnotatorNotes T11	3996063
+T12	Non_Literal_Modifier 1077 1084	Mexican
+A19	Modifier_Type T12 Adjective
+#12	AnnotatorNotes T12	3996063
+T13	Literal 440 446	Mexico
+#13	AnnotatorNotes T13	3996063
+T14	Non_Literal_Modifier 1794 1800	Mexico
+#14	AnnotatorNotes T14	3996063
+T15	Literal 1412 1418	Mexico
+#15	AnnotatorNotes T15	3996063
+T16	Non_Literal_Modifier 478 485	Mexican
+A21	Modifier_Type T16 Adjective
+#16	AnnotatorNotes T16	3996063
+T17	Literal 426 438	Oaxaca State
+#17	AnnotatorNotes T17	3522509
+T18	Literal 1025 1037	Oaxaca State
+#18	AnnotatorNotes T18	3522509
+T19	Literal 1010 1023	Matias Romero
+#19	AnnotatorNotes T19	3523450
+T20	Literal 411 424	Matias Romero
+#20	AnnotatorNotes T20	3523450
+T21	Literal_Expression 1875 1881	Border
+T22	Non_Lit_Expression 208 213	shirt
+T23	Literal_Expression 293 297	club
+T24	Non_Lit_Expression 539 544	visas
+T25	Non_Lit_Expression 789 796	picture
+T26	Literal_Expression 1395 1399	camp
+T27	Non_Lit_Expression 1340 1348	Migrants
+T28	Literal_Expression 1495 1499	camp
+T29	Literal_Expression 1545 1549	city
+T30	Literal 1553 1559	Puebla
+#21	AnnotatorNotes T30	3521081
+T31	Non_Lit_Expression 1610 1619	symposium
+T32	Literal_Expression 1928 1934	border
+T33	Literal_Expression 892 896	club
+T34	Non_Lit_Expression 977 984	caravan
+A29	Modifier_Type T14 Noun
+A2	Non_Locational T22
+A6	Non_Locational T24
+A4	Non_Locational T34
+A8	Non_Locational T27

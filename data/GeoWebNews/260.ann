@@ -1,0 +1,36 @@
+T1	Mixed 258 264	HELENA
+#1	AnnotatorNotes T1	5656882
+T2	Mixed 266 271	Mont.
+#2	AnnotatorNotes T2	5667009
+T3	Metonymic 279 286	Montana
+#3	AnnotatorNotes T3	5667009
+T4	Metonymic 873 880	Montana
+#4	AnnotatorNotes T4	5667009
+T5	Embedded_Non_Lit 432 439	Montana
+#5	AnnotatorNotes T5	5667009
+T6	Literal 390 420	Crossroads Correctional Center
+#6	AnnotatorNotes T6	9677410
+T7	Literal 424 430	Shelby
+#7	AnnotatorNotes T7	5677433
+T8	Non_Lit_Expression 985 990	state
+T9	Literal 557 566	Nashville
+#8	AnnotatorNotes T9	4644585
+T10	Literal 568 577	Tennessee
+#9	AnnotatorNotes T10	4662168
+T11	Literal_Expression 865 871	prison
+T12	Non_Lit_Expression 1053 1062	spokesman
+T13	Non_Lit_Expression 735 743	contract
+T14	Literal_Expression 1130 1136	ground
+T15	Literal_Expression 322 334	negotiations
+A5	Modifier_Type T1 Noun
+A6	Modifier_Type T2 Noun
+T16	Non_Toponym 432 465	Montana Department of Corrections
+A4	Modifier_Type T5 Noun
+T17	Non_Lit_Expression 699 709	provisions
+A7	Non_Locational T17
+A3	Non_Locational T13
+T18	Non_Lit_Expression 951 959	prisoner
+A8	Non_Locational T18
+T19	Non_Lit_Expression 1036 1041	offer
+A1	Non_Locational T19
+A2	Non_Locational T12

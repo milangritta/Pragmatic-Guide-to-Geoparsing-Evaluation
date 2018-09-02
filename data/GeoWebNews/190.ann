@@ -1,0 +1,56 @@
+T1	Literal 473 479	London
+#1	AnnotatorNotes T1	2643743
+T2	Metonymic 2183 2189	London
+#2	AnnotatorNotes T2	2643743
+T3	Non_Literal_Modifier 1518 1524	London
+A2	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	2643743
+T4	Mixed 531 537	London
+#4	AnnotatorNotes T4	2643743
+T5	Literal 1437 1443	London
+#5	AnnotatorNotes T5	2643743
+T6	Mixed 246 252	London
+#6	AnnotatorNotes T6	2643743
+T7	Mixed 333 339	London
+#7	AnnotatorNotes T7	2643743
+T8	Metonymic 916 922	London
+#8	AnnotatorNotes T8	2643743
+T9	Demonym 666 675	Londoners
+T10	Mixed 392 400	New York
+#9	AnnotatorNotes T10	5128581
+T11	Mixed 285 293	New York
+#10	AnnotatorNotes T11	5128581
+T12	Mixed 571 579	New York
+#11	AnnotatorNotes T12	5128581
+T13	Literal 1291 1298	England
+#12	AnnotatorNotes T13	6269131
+T14	Literal 1303 1308	Wales
+#13	AnnotatorNotes T14	2634895
+T15	Literal_Expression 518 522	pond
+T16	Literal_Expression 1065 1072	markets
+T17	Literal_Expression 1084 1091	capital
+T18	Literal_Expression 1259 1263	beat
+T19	Non_Lit_Expression 1468 1474	police
+T20	Non_Lit_Expression 1582 1587	mayor
+T21	Non_Lit_Expression 1832 1839	service
+T22	Literal_Expression 2060 2065	scene
+T23	Mixed 2126 2133	Britain
+#14	AnnotatorNotes T23	2635167
+A9	Modifier_Type T4 Noun
+A10	Modifier_Type T23 Noun
+A11	Modifier_Type T7 Noun
+A12	Modifier_Type T12 Noun
+T24	Non_Lit_Expression 185 190	press
+T25	Literal_Expression 417 421	city
+T26	Non_Lit_Expression 760 766	decade
+T27	Non_Lit_Expression 851 858	victims
+T28	Non_Lit_Expression 1185 1190	media
+T29	Literal_Expression 1490 1496	ground
+T30	Non_Lit_Expression 1868 1874	police
+A6	Non_Locational T24
+A4	Non_Locational T27
+T31	Literal_Expression 961 970	homicides
+A5	Non_Locational T28
+A3	Non_Locational T20
+T32	Literal_Expression 1749 1754	crime
+A7	Non_Locational T21

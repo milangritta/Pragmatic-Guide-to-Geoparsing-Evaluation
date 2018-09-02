@@ -1,0 +1,17 @@
+T1	Non_Literal_Modifier 335 339	U.S.
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	6252001
+T2	Literal 774 784	Washington
+#2	AnnotatorNotes T2	4140963
+T3	Non_Lit_Expression 229 234	users
+T4	Non_Lit_Expression 385 392	network
+T5	Non_Lit_Expression 522 527	users
+T6	Coercion 813 821	Congress
+#3	AnnotatorNotes T6	4140827
+T7	Embedded_Non_Lit 272 281	Cambridge
+#4	AnnotatorNotes T7	2653941
+A3	Non_Locational T3
+T8	Non_Toponym 272 291	Cambridge Analytica
+A6	Modifier_Type T7 Noun
+A2	Non_Locational T5
+T9	Non_Toponym 813 821	Congress

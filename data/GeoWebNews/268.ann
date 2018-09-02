@@ -1,0 +1,67 @@
+T1	Mixed 204 215	LOS ANGELES
+#1	AnnotatorNotes T1	5368361
+T2	Non_Lit_Expression 315 318	car
+T3	Non_Lit_Expression 276 281	glass
+T4	Literal_Expression 469 472	car
+T5	Literal 476 489	Beverly Hills
+#2	AnnotatorNotes T5	5328041
+T6	Non_Literal_Modifier 529 542	Beverly Hills
+#3	AnnotatorNotes T6	5328041
+T7	Non_Literal_Modifier 1299 1312	Beverly Hills
+#4	AnnotatorNotes T7	5328041
+T8	Non_Lit_Expression 593 598	child
+T9	Literal_Expression 735 742	vehicle
+T10	Literal_Expression 762 768	attack
+T11	Literal_Expression 838 841	car
+T12	Non_Lit_Expression 898 906	attacker
+T13	Non_Lit_Expression 1071 1080	vandalism
+T14	Coercion 1153 1171	Airport Courthouse
+#5	AnnotatorNotes T14	33.928218, -118.371353
+T15	Non_Lit_Expression 1203 1212	statement
+T16	Literal 1397 1413	N. Bedford Drive
+#6	AnnotatorNotes T16	34.072903, -118.411910
+T17	Non_Lit_Expression 1471 1478	suspect
+T18	Non_Lit_Expression 1669 1675	driver
+T19	Literal_Expression 1707 1715	driveway
+T20	Literal_Expression 1917 1921	curb
+T21	Literal_Expression 1954 1961	vehicle
+T22	Literal_Expression 2044 2048	seat
+T23	Literal_Expression 2098 2108	windshield
+T24	Non_Lit_Expression 2184 2189	child
+T25	Non_Lit_Expression 2335 2344	statement
+T26	Non_Lit_Expression 2415 2424	paparazzi
+T27	Non_Lit_Expression 2402 2411	behaviour
+T28	Literal_Expression 2502 2506	area
+T29	Literal_Expression 2525 2533	incident
+T30	Embedded_Non_Lit 2635 2645	California
+#7	AnnotatorNotes T30	5332921
+A19	Modifier_Type T1 Noun
+A2	Non_Locational T3
+A1	Non_Locational T2
+A3	Non_Locational T4
+A20	Modifier_Type T6 Noun
+A4	Non_Locational T8
+T31	Literal_Expression 630 634	seat
+A21	Non_Locational T31
+A5	Non_Locational T9
+A6	Non_Locational T11
+A7	Non_Locational T12
+T32	Non_Lit_Expression 913 920	suspect
+A22	Non_Locational T32
+T33	Non_Toponym 1153 1171	Airport Courthouse
+A8	Non_Locational T15
+A23	Modifier_Type T7 Noun
+T34	Non_Lit_Expression 1415 1421	Police
+A24	Non_Locational T34
+A9	Non_Locational T17
+A10	Non_Locational T18
+T35	Non_Lit_Expression 1862 1868	driver
+A25	Non_Locational T35
+A11	Non_Locational T22
+A12	Non_Locational T23
+A13	Non_Locational T24
+A14	Non_Locational T25
+A15	Non_Locational T27
+A16	Non_Locational T26
+T36	Non_Toponym 2635 2664	California Penal Code Section
+A17	Modifier_Type T30 Noun

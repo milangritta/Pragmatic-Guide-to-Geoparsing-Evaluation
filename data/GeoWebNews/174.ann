@@ -1,0 +1,22 @@
+T1	Mixed 174 185	MEXICO CITY
+#1	AnnotatorNotes T1	3530597
+T2	Non_Literal_Modifier 191 197	Mexico
+#2	AnnotatorNotes T2	3996063
+T3	Metonymic 480 486	Mexico
+#3	AnnotatorNotes T3	3996063
+T4	Metonymic 785 791	Mexico
+#4	AnnotatorNotes T4	3996063
+T5	Non_Literal_Modifier 336 340	U.S.
+A3	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	6252001
+T6	Metonymic 668 672	U.S.
+#6	AnnotatorNotes T6	6252001
+T7	Non_Lit_Expression 618 627	newspaper
+T8	Non_Lit_Expression 284 295	immigration
+T9	Literal_Expression 414 420	border
+T10	Literal_Expression 852 858	border
+T11	Non_Lit_Expression 587 591	move
+A1	Modifier_Type T2 Noun
+A2	Modifier_Type T1 Noun
+A4	Non_Locational T11
+A5	Non_Locational T7

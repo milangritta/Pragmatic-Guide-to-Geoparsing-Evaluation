@@ -1,0 +1,179 @@
+T3	Literal_Expression 289 296	mansion
+T4	Literal_Expression 423 429	parcel
+T5	Literal 631 648	Mississippi River
+T6	Literal_Modifier 579 593	French Quarter
+#1	AnnotatorNotes T6	7303238
+T7	Literal_Expression 676 683	squares
+T8	Literal_Expression 790 802	neighborhood
+T9	Literal_Expression 822 826	city
+T10	Mixed 839 855	Faubourg Marigny
+T11	Literal_Expression 1093 1099	blocks
+T13	Literal_Expression 1232 1244	intersection
+T14	Literal_Expression 1208 1214	blocks
+T15	Literal_Expression 1384 1391	streets
+T16	Literal 1451 1464	Rue d’Enghein
+T17	Literal_Expression 1470 1476	street
+T18	Literal 1494 1503	Lafayette
+T19	Literal 1513 1523	Almonaster
+T20	Literal 1551 1559	Franklin
+T21	Literal_Expression 1566 1572	avenue
+T22	Literal 1603 1621	Marigny Plantation
+T24	Literal 1726 1738	Press Street
+T25	Literal_Expression 1744 1748	area
+T26	Literal 1755 1763	Franklin
+T27	Mixed 1797 1813	Faubourg D’Aunoy
+T29	Literal_Modifier 1923 1931	Chartres
+T30	Literal_Expression 1991 2001	restaurant
+T31	Literal_Expression 2103 2110	complex
+T32	Literal 2158 2170	Royal Street
+T33	Literal 2112 2124	Royal Street
+T34	Literal 2181 2195	Rue Casa Calvo
+T35	Mixed 2215 2231	Faubourg Marigny
+T36	Literal 2464 2476	Royal Street
+T37	Coercion 2259 2269	2231 Royal
+T39	Literal_Modifier 2564 2572	Dauphine
+T41	Literal 2584 2597	Desire Street
+T42	Literal 2613 2620	Bywater
+T43	Literal_Expression 2708 2715	edifice
+T45	Literal 2731 2745	Elysian Fields
+T46	Non_Toponym 2779 2839	New Orleans Railways and Light Company Claiborne Power House
+T47	Literal 1965 1981	Methodist church
+T48	Literal_Expression 1898 1906	building
+T49	Literal_Expression 2903 2907	land
+T51	Literal_Expression 3107 3113	parcel
+T52	Literal_Expression 3075 3080	levee
+T54	Literal 3198 3211	Marigny Canal
+T55	Literal_Expression 3250 3254	grid
+T56	Literal 3380 3397	Washington Square
+T57	Literal_Expression 3374 3378	park
+T58	Literal 3419 3433	Champs-Élysées
+T59	Literal_Expression 3331 3337	avenue
+T61	Literal 3445 3459	Elysian Fields
+T63	Literal 3579 3591	Appalachians
+T64	Literal 3660 3672	Royal Street
+T65	Literal 3676 3693	Washington Square
+T67	Literal_Expression 3734 3739	block
+T68	Mixed 3752 3772	Holy Redeemer Church
+T70	Literal 3867 3892	Third Presbyterian Church	
+T72	Literal 3968 3984	Frenchmen Street
+T73	Literal 3992 4008	Carnegie Library
+T74	Literal_Expression 4084 4090	church
+T75	Literal_Expression 4107 4114	library	
+T76	Literal_Expression 4155 4158	lot
+T77	Mixed 4178 4193	Christopher Inn
+T79	Literal_Expression 4420 4430	apartments
+T81	Literal_Expression 4515 4527	neighborhood
+T82	Literal_Expression 318 328	substation
+T89	Literal_Expression 1642 1650	faubourg
+T91	Literal_Expression 2013 2019	street
+T93	Literal_Modifier 2435 2449	Elysian Fields
+T96	Literal_Expression 2674 2687	neighborhoods
+#2	AnnotatorNotes T20	30.004434, -90.050244
+#3	AnnotatorNotes T19	30.004434, -90.050244
+#4	AnnotatorNotes T18	30.004434, -90.050244
+#5	AnnotatorNotes T16	30.004434, -90.050244
+#6	AnnotatorNotes T5	29.955631, -90.057837
+#7	AnnotatorNotes T10	4324193
+#8	AnnotatorNotes T22	30.004434, -90.050244
+#9	AnnotatorNotes T24	29.967005, -90.047503
+#10	AnnotatorNotes T26	30.004434, -90.050244
+#11	AnnotatorNotes T27	30.004434, -90.050244
+T66	Literal_Modifier 1932 1940	Franklin
+#12	AnnotatorNotes T66	29.963829, -90.051710
+#13	AnnotatorNotes T29	29.963829, -90.051710
+#14	AnnotatorNotes T47	29.963829, -90.051710
+#15	AnnotatorNotes T33	29.964389, -90.049534
+#16	AnnotatorNotes T32	29.964389, -90.049534
+#17	AnnotatorNotes T34	29.964389, -90.049534
+#18	AnnotatorNotes T35	4324193
+#19	AnnotatorNotes T37	29.964757, -90.055539
+#20	AnnotatorNotes T93	29.997946, -90.051305
+#21	AnnotatorNotes T36	29.964389, -90.049534
+#24	AnnotatorNotes T41	29.972603, -90.038380
+#25	AnnotatorNotes T42	29.972603, -90.038380
+#26	AnnotatorNotes T45	29.997946, -90.051305
+#27	AnnotatorNotes T46	29.972334, -90.040541
+#28	AnnotatorNotes T54	29.965481, -90.087027
+#29	AnnotatorNotes T56	4345516
+#30	AnnotatorNotes T58	29.964898, -90.056721
+#31	AnnotatorNotes T61	29.964898, -90.056721
+#32	AnnotatorNotes T63	5178401
+#33	AnnotatorNotes T64	29.964389, -90.049534
+#34	AnnotatorNotes T65	4345516
+#35	AnnotatorNotes T68	4320064
+#36	AnnotatorNotes T70	4343454
+#37	AnnotatorNotes T72	29.985984, -90.059179
+#38	AnnotatorNotes T73	29.985984, -90.059179
+#39	AnnotatorNotes T77	29.964181, -90.057344
+#41	AnnotatorNotes T81	29.978405, -90.086260
+T38	Literal_Modifier 2552 2559	Bourbon
+#22	AnnotatorNotes T39	29.972603, -90.038380
+#23	AnnotatorNotes T38	29.972603, -90.038380
+T1	Literal_Expression 181 185	area
+T50	Literal_Expression 210 220	plantation
+T83	Literal_Expression 521 525	plat
+T28	Non_Literal_Modifier 474 480	French
+A3	Modifier_Type T28 Adjective
+#42	AnnotatorNotes T28	3017382
+A5	Modifier_Type T6 Noun
+T86	Non_Literal_Modifier 1012 1018	German
+A8	Modifier_Type T86 Adjective
+#43	AnnotatorNotes T86	2921044
+T87	Non_Literal_Modifier 1020 1025	Irish
+A10	Modifier_Type T87 Adjective
+#44	AnnotatorNotes T87	2963597
+T88	Literal_Expression 1286 1291	mills
+T92	Literal_Expression 1300 1305	plant
+T94	Literal_Expression 1322 1329	stables
+T95	Literal_Expression 1350 1357	factory
+T97	Literal_Expression 1374 1378	barn
+A12	Modifier_Type T66 Noun
+A13	Modifier_Type T29 Noun
+A14	Modifier_Type T93 Noun
+A15	Modifier_Type T38 Noun
+A16	Modifier_Type T39 Noun
+T44	Non_Literal_Modifier 2959 2965	French
+A19	Modifier_Type T44 Adjective
+#45	AnnotatorNotes T44	3017382
+T53	Literal_Expression 3050 3055	canal
+T102	Literal_Expression 2652 2658	system
+T104	Non_Lit_Expression 4387 4399	historicists
+T71	Non_Lit_Expression 4477 4485	citizens
+T84	Non_Lit_Expression 1046 1057	populations
+T85	Literal_Expression 2293 2302	townhouse
+T98	Literal_Expression 3832 3839	edifice
+T40	Non_Lit_Expression 899 908	community
+T99	Non_Lit_Expression 2867 2873	family
+T100	Non_Lit_Expression 4300 4311	congregants
+T101	Non_Lit_Expression 4244 4250	agency
+T103	Literal_Expression 1866 1874	neighbor
+T62	Demonym 990 1007	African Americans
+T12	Non_Lit_Expression 1188 1197	residents
+T23	Literal_Expression 2402 2412	structures
+T60	Literal_Expression 2341 2349	basement
+T69	Non_Toponym 360 378	Louisiana Purchase
+T2	Literal_Expression 3634 3638	line
+T78	Literal_Expression 4317 4325	building
+T80	Non_Lit_Expression 3003 3009	lumber
+T90	Embedded_Literal 360 369	Louisiana
+#40	AnnotatorNotes T90	4331987
+A2	Modifier_Type T90 Noun
+T105	Non_Toponym 2259 2269	2231 Royal
+T106	Coercion 2779 2839	New Orleans Railways and Light Company Claiborne Power House
+T107	Non_Toponym 3509 3531	Pontchartrain Railroad
+T108	Coercion 3509 3531	Pontchartrain Railroad
+#46	AnnotatorNotes T108	29.95, -90.08
+A1	Non_Locational T84
+A4	Non_Locational T12
+A7	Non_Locational T103
+A9	Non_Locational T99
+A11	Non_Locational T80
+A21	Non_Locational T104
+A17	Non_Locational T101
+A18	Non_Locational T100
+A20	Non_Locational T71
+A22	Modifier_Type T77 Noun
+A23	Modifier_Type T35 Noun
+A25	Modifier_Type T27 Noun
+A26	Modifier_Type T10 Noun
+A6	Modifier_Type T68 Noun

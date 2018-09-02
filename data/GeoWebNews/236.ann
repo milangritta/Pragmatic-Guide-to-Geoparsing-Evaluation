@@ -1,0 +1,46 @@
+T1	Mixed 379 390	LOS ANGELES
+#1	AnnotatorNotes T1	5368361
+T2	Literal_Modifier 600 611	Los Angeles
+A1	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	5368361
+T3	Literal 3544 3555	Los Angeles
+#3	AnnotatorNotes T3	5368361
+T4	Non_Lit_Expression 721 729	investor
+T5	Non_Lit_Expression 830 839	customers
+T6	Non_Lit_Expression 892 899	brokers
+T7	Literal 3557 3562	Miami
+#4	AnnotatorNotes T7	4164138
+T8	Non_Literal_Modifier 2543 2553	California
+A6	Modifier_Type T8 Noun
+#5	AnnotatorNotes T8	5332921
+T9	Literal 3564 3579	West Palm Beach
+#6	AnnotatorNotes T9	4177887
+T10	Non_Lit_Expression 2682 2689	brokers
+T11	Non_Lit_Expression 2791 2798	brokers
+T12	Literal 3581 3589	New York
+#7	AnnotatorNotes T12	5128581
+T13	Literal 3595 3602	Detroit
+#8	AnnotatorNotes T13	4990729
+T14	Non_Lit_Expression 3287 3293	lawyer
+T15	Non_Lit_Expression 2254 2261	brokers
+T16	Non_Lit_Expression 1716 1725	customers
+T18	Non_Lit_Expression 1031 1039	investor
+T19	Non_Lit_Expression 1333 1341	investor
+A16	Modifier_Type T1 Noun
+A2	Non_Locational T4
+A3	Non_Locational T5
+A4	Non_Locational T6
+T20	Non_Lit_Expression 945 951	losses
+A5	Non_Locational T20
+T21	Literal_Expression 975 979	case
+A14	Non_Locational T18
+A15	Non_Locational T19
+T22	Non_Lit_Expression 1433 1443	regulators
+A17	Non_Locational T22
+T23	Non_Lit_Expression 1677 1687	complaints
+A18	Non_Locational T23
+A12	Non_Locational T16
+A11	Non_Locational T15
+A7	Non_Locational T10
+A8	Non_Locational T11
+A9	Non_Locational T14

@@ -1,0 +1,62 @@
+T1	Metonymic 878 885	Reading
+#1	AnnotatorNotes T1	2639577
+T2	Metonymic 784 794	Sunderland
+#2	AnnotatorNotes T2	2636531
+T3	Metonymic 826 832	Fulham
+#3	AnnotatorNotes T3	2648997
+T4	Literal 627 639	KCOM Stadium
+#4	AnnotatorNotes T4	53.746499, -0.367965
+T5	Literal_Expression 275 279	game
+T6	Non_Lit_Expression 498 505	formula
+T7	Literal_Expression 699 703	back
+T8	Literal 846 860	Craven Cottage
+#5	AnnotatorNotes T8	6288545
+T9	Embedded_Non_Lit 1003 1015	Norwich City
+#6	AnnotatorNotes T9	2641181
+T10	Metonymic 2023 2030	Norwich
+#7	AnnotatorNotes T10	2641181
+T11	Literal 1073 1087	East Yorkshire
+#8	AnnotatorNotes T11	2650345
+T12	Non_Lit_Expression 986 993	fashion
+T13	Literal_Expression 2103 2108	shell
+T14	Non_Lit_Expression 2241 2247	spirit
+T15	Non_Lit_Expression 1189 1193	form
+T16	Non_Lit_Expression 1413 1420	website
+T17	Non_Lit_Expression 1521 1529	injuries
+T18	Non_Lit_Expression 1753 1761	identity
+T19	Non_Lit_Expression 2176 2182	belief
+T20	Non_Lit_Expression 235 246	consistency
+T21	Literal_Expression 329 337	midtable
+T22	Non_Lit_Expression 349 359	relegation
+T23	Literal_Expression 417 423	season
+T24	Non_Lit_Expression 563 568	games
+T25	Non_Lit_Expression 666 675	formation
+T26	Non_Lit_Expression 757 761	side
+T27	Non_Lit_Expression 908 914	season
+T28	Non_Lit_Expression 1105 1115	confidence
+T29	Non_Lit_Expression 1307 1318	opportunity
+A9	Non_Locational T20
+A19	Non_Locational T5
+A10	Non_Locational T21
+A11	Non_Locational T22
+A1	Non_Locational T6
+A12	Non_Locational T24
+A13	Non_Locational T25
+A14	Non_Locational T26
+A20	Non_Locational T27
+A2	Non_Locational T12
+T31	Non_Toponym 1003 1015	Norwich City
+A18	Modifier_Type T9 Noun
+A15	Non_Locational T28
+A5	Non_Locational T15
+A16	Non_Locational T29
+A21	Non_Locational T16
+A6	Non_Locational T17
+T32	Non_Lit_Expression 1576 1580	game
+A22	Non_Locational T32
+A7	Non_Locational T18
+T33	Non_Lit_Expression 1887 1894	choices
+A23	Non_Locational T33
+A3	Non_Locational T13
+A8	Non_Locational T19
+A4	Non_Locational T14

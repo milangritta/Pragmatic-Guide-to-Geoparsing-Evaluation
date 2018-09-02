@@ -1,0 +1,29 @@
+T1	Literal_Expression 215 219	path
+T2	Literal 223 233	West Wales
+#1	AnnotatorNotes T2	7302124
+T3	Literal 293 301	New Quay
+#2	AnnotatorNotes T3	2641588
+T4	Literal 303 313	Ceredigion
+#3	AnnotatorNotes T4	2653814
+T5	Non_Lit_Expression 478 483	woman
+T6	Non_Lit_Expression 610 616	bodies
+T7	Literal 709 717	St Athan
+#4	AnnotatorNotes T7	2638854
+T8	Literal 744 752	New Quay
+#5	AnnotatorNotes T8	2641588
+T9	Literal 1017 1025	New Quay
+#6	AnnotatorNotes T9	2641588
+T10	Literal 757 763	Gwbert
+#7	AnnotatorNotes T10	2635582
+T11	Literal_Expression 1124 1127	day
+T12	Literal_Expression 1209 1213	time
+T13	Non_Lit_Expression 693 703	helicopter
+T14	Coercion 785 798	New Quay RNLI
+#8	AnnotatorNotes T14	52.213502, -4.357330
+T15	Non_Lit_Expression 337 343	Police
+A6	Non_Locational T15
+A1	Non_Locational T5
+A2	Non_Locational T6
+A5	Non_Locational T13
+T16	Non_Toponym 785 798	New Quay RNLI
+T17	Literal_Expression 1007 1011	path

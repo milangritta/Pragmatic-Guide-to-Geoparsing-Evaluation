@@ -1,0 +1,43 @@
+T1	Literal 2045 2052	Jamaica
+#1	AnnotatorNotes T1	3489940
+T2	Non_Literal_Modifier 1206 1214	Jamaican
+A1	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	3489940
+T3	Non_Literal_Modifier 678 686	Jamaican
+A3	Modifier_Type T3 Adjective
+#3	AnnotatorNotes T3	3489940
+T4	Embedded_Non_Lit 465 472	Jamaica
+#4	AnnotatorNotes T4	3489940
+T5	Embedded_Non_Lit 993 1000	Jamaica
+#5	AnnotatorNotes T5	3489940
+T6	Embedded_Non_Lit 1904 1911	Jamaica
+#6	AnnotatorNotes T6	3489940
+T7	Embedded_Non_Lit 307 314	Jamaica
+#7	AnnotatorNotes T7	3489940
+T8	Embedded_Non_Lit 835 842	Jamaica
+#8	AnnotatorNotes T8	3489940
+T9	Non_Lit_Expression 1987 1994	mission
+T10	Non_Lit_Expression 2034 2041	problem
+T11	Non_Lit_Expression 1303 1309	cancer
+T12	Literal_Expression 1609 1615	cervix
+T13	Embedded_Non_Lit 149 156	Jamaica
+#9	AnnotatorNotes T13	3489940
+T14	Non_Lit_Expression 580 586	cancer
+T15	Non_Lit_Expression 1751 1762	non-members
+T16	Non_Toponym 149 171	Jamaica Cancer Society
+A7	Modifier_Type T13 Noun
+T17	Non_Toponym 307 329	Jamaica Cancer Society
+A8	Modifier_Type T7 Noun
+T18	Literal_Expression 363 373	activities
+T19	Non_Toponym 465 487	Jamaica Cancer Society
+A5	Modifier_Type T4 Noun
+A9	Non_Locational T14
+T20	Non_Toponym 835 857	Jamaica Cancer Society
+A4	Modifier_Type T8 Noun
+T21	Non_Toponym 993 1015	Jamaica Cancer Society
+A6	Modifier_Type T5 Noun
+A2	Non_Locational T11
+A10	Non_Locational T15
+T22	Non_Toponym 1905 1926	amaica Cancer Society
+A11	Modifier_Type T6 Noun
+A12	Non_Locational T9

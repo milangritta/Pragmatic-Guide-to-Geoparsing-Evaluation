@@ -1,0 +1,71 @@
+T1	Literal_Expression 1107 1113	clinic
+T2	Mixed 1142 1162	Karl Bremer Hospital
+#1	AnnotatorNotes T2	-33.891578, 18.607474
+T3	Literal_Modifier 347 352	Delft
+A1	Modifier_Type T3 Noun
+#2	AnnotatorNotes T3	11205081
+T4	Literal 1564 1569	Delft
+#3	AnnotatorNotes T4	11205081
+T5	Literal 1541 1552	Khayelitsha
+#4	AnnotatorNotes T5	3365957
+T6	Literal 1753 1764	Khayelitsha
+#5	AnnotatorNotes T6	3365957
+T7	Literal_Expression 501 506	court
+T8	Literal 3552 3561	Cape Town
+#6	AnnotatorNotes T8	3369157
+T9	Literal 3435 3444	Cape Town
+#7	AnnotatorNotes T9	3369157
+T10	Literal 3466 3478	Eastern Cape
+#8	AnnotatorNotes T10	1085593
+T11	Literal 3770 3782	Eastern Cape
+#9	AnnotatorNotes T11	1085593
+T12	Embedded_Non_Lit 2681 2693	Western Cape
+#10	AnnotatorNotes T12	1085599
+T13	Non_Literal_Modifier 3009 3021	Western Cape
+A4	Modifier_Type T13 Noun
+#11	AnnotatorNotes T13	1085599
+T15	Non_Lit_Expression 1166 1172	doctor
+T16	Literal_Expression 1717 1725	facility
+T17	Non_Lit_Expression 1844 1850	worker
+T18	Literal_Expression 1933 1939	school
+T19	Literal_Expression 1991 1995	home
+T20	Literal_Expression 2071 2077	school
+T21	Literal_Expression 2559 2567	premises
+T22	Literal_Expression 2614 2620	centre
+T23	Non_Lit_Expression 2869 2879	caregivers
+T24	Non_Lit_Expression 3605 3610	child
+T25	Literal_Expression 3814 3821	funeral
+T26	Non_Lit_Expression 529 536	officer
+T27	Literal_Expression 917 927	underparts
+T28	Non_Lit_Expression 1063 1072	neighbour
+T29	Non_Lit_Expression 1308 1316	daughter
+T30	Non_Lit_Expression 1812 1817	child
+T31	Literal_Expression 2626 2632	centre
+T32	Literal_Expression 2801 2806	court
+T33	Non_Lit_Expression 3146 3152	victim
+T34	Non_Lit_Expression 3197 3203	doctor
+T35	Non_Lit_Expression 4069 4075	people
+A3	Non_Locational T26
+T36	Literal_Expression 622 626	case
+T37	Non_Lit_Expression 726 734	daughter
+A11	Non_Locational T37
+A12	Non_Locational T27
+T38	Literal_Expression 961 969	facility
+A7	Non_Locational T15
+A13	Non_Locational T29
+T39	Non_Lit_Expression 1695 1700	child
+A14	Non_Locational T39
+A15	Non_Locational T30
+A8	Non_Locational T17
+T40	Literal_Expression 2516 2524	incident
+T41	Non_Toponym 2681 2698	Western Cape SAPS
+A2	Modifier_Type T12 Noun
+A9	Non_Locational T23
+A5	Non_Locational T33
+A16	Non_Locational T34
+T42	Non_Lit_Expression 3309 3315	police
+A17	Non_Locational T42
+A10	Non_Locational T24
+A6	Non_Locational T35
+T14	Non_Lit_Expression 4043 4048	child
+A18	Non_Locational T14

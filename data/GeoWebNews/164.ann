@@ -1,0 +1,19 @@
+T1	Non_Literal_Modifier 704 710	German
+#1	AnnotatorNotes T1	2921044
+A1	Modifier_Type T1 Adjective
+T2	Literal_Modifier 1198 1204	Berlin
+#2	AnnotatorNotes T2	2950159
+T3	Non_Lit_Expression 899 909	directives
+T4	Literal_Expression 1007 1015	business
+T5	Non_Lit_Expression 1475 1480	field
+A6	Modifier_Type T2 Noun
+T6	Non_Lit_Expression 139 144	tanks
+T7	Literal_Expression 296 301	pipes
+T8	Non_Lit_Expression 614 621	results
+A4	Non_Locational T8
+A2	Non_Locational T3
+T9	Non_Lit_Expression 1274 1282	provider
+A3	Non_Locational T9
+T10	Non_Lit_Expression 1384 1393	designers
+A7	Non_Locational T10
+A5	Non_Locational T5

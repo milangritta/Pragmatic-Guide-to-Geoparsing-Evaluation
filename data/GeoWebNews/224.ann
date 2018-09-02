@@ -1,0 +1,25 @@
+T1	Literal_Expression 1099 1104	court
+T2	Literal_Expression 249 254	court
+T3	Literal_Expression 205 212	custody
+T4	Literal_Expression 335 339	dock
+T5	Coercion 343 369	Belfast Magistrate’s Court
+#1	AnnotatorNotes T5	54.598055, -5.923481
+T6	Literal_Modifier 497 505	Shankill
+A1	Modifier_Type T6 Noun
+#2	AnnotatorNotes T6	2638139
+T7	Literal_Expression 441 445	city
+T8	Literal 529 545	Ainsworth Parade
+#3	AnnotatorNotes T8	54.606021, -5.961756
+T9	Non_Lit_Expression 562 565	man
+T10	Non_Lit_Expression 899 904	court
+T11	Literal_Expression 1033 1040	custody
+T12	Non_Lit_Expression 955 962	charges
+T13	Literal_Expression 290 300	burglaries
+T14	Non_Toponym 343 369	Belfast Magistrate’s Court
+A2	Non_Locational T9
+T15	Literal_Expression 671 677	thefts
+T16	Non_Lit_Expression 801 807	weapon
+A3	Non_Locational T16
+T17	Literal 839 856	McCandless Street
+A4	Non_Locational T12
+#4	AnnotatorNotes T17	54.609658, -5.951474

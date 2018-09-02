@@ -1,0 +1,40 @@
+T1	Non_Lit_Expression 346 352	crimes
+T2	Literal_Expression 451 461	synagogues
+T3	Literal 1094 1103	Yuba City
+#1	AnnotatorNotes T3	11788967
+T4	Non_Lit_Expression 663 667	home
+T5	Literal_Expression 831 835	home
+T6	Literal_Expression 899 902	bed
+T7	Literal_Expression 948 952	head
+T8	Literal_Expression 1014 1019	house
+T9	Literal_Expression 1274 1278	town
+T10	Literal_Expression 1228 1232	home
+T11	Non_Lit_Expression 1425 1431	groups
+T12	Non_Lit_Expression 1557 1563	church
+T13	Literal_Expression 1699 1703	home
+T14	Non_Lit_Expression 1812 1821	community
+T15	Literal_Modifier 1829 1839	Sacramento
+#2	AnnotatorNotes T15	5389489
+A6	Modifier_Type T15 Noun
+T16	Literal_Expression 1900 1910	synagogues
+T17	Literal_Expression 1934 1940	clinic
+T18	Non_Lit_Expression 1994 2000	attack
+T19	Non_Lit_Expression 2154 2160	arsons
+T20	Non_Lit_Expression 2545 2550	court
+T21	Literal_Expression 586 589	bed
+T22	Literal_Expression 977 985	break-in
+T23	Non_Lit_Expression 1199 1203	card
+T24	Literal_Expression 2318 2329	segregation
+T25	Non_Lit_Expression 2383 2393	confession
+T26	Non_Lit_Expression 2564 2572	document
+A1	Non_Locational T7
+A2	Non_Locational T23
+T27	Literal_Expression 1317 1330	investigation
+A3	Non_Locational T11
+A4	Non_Locational T14
+T28	Literal_Expression 1885 1892	attacks
+T29	Literal_Expression 2265 2270	guard
+A5	Non_Locational T29
+A7	Non_Locational T25
+A8	Non_Locational T26
+T30	Literal_Expression 2735 2741	arsons

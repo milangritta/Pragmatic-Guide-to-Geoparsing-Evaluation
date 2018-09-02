@@ -1,0 +1,27 @@
+T1	Mixed 179 186	KOLKATA
+#1	AnnotatorNotes T1	1275004
+T2	Literal 549 556	Kolkata
+#2	AnnotatorNotes T2	1275004
+T3	Mixed 188 193	India
+#3	AnnotatorNotes T3	1269750
+T4	Non_Literal_Modifier 196 202	Indian
+A1	Modifier_Type T4 Adjective
+#4	AnnotatorNotes T4	1269750
+T5	Literal_Expression 287 294	freezer
+T6	Non_Lit_Expression 355 363	payments
+T7	Non_Lit_Expression 445 451	mother
+T8	Literal_Expression 515 519	raid
+T9	Non_Lit_Expression 765 771	police
+T10	Literal_Expression 927 932	house
+T11	Literal_Expression 529 533	home
+T12	Non_Lit_Expression 700 707	pension
+T13	Literal_Expression 852 856	life
+A9	Modifier_Type T1 Noun
+A2	Non_Locational T5
+A3	Non_Locational T6
+A4	Non_Locational T7
+A5	Non_Locational T12
+A6	Non_Locational T9
+A7	Non_Locational T13
+T14	Non_Lit_Expression 977 983	health
+A8	Non_Locational T14

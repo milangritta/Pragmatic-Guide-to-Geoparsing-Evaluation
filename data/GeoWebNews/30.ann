@@ -1,0 +1,62 @@
+T1	Literal_Expression 191 195	pool
+T2	Literal_Expression 231 236	swing
+T3	Non_Lit_Expression 277 283	banana
+T4	Literal 301 312	Miami Beach
+#1	AnnotatorNotes T4	4164143
+T5	Literal 389 400	Miami Beach
+#2	AnnotatorNotes T5	4164143
+T6	Coercion 337 356	Museum of Ice Cream
+#3	AnnotatorNotes T6	25.808552, -80.123911
+T7	Literal 371 385	Collins Avenue
+#4	AnnotatorNotes T7	25.808552, -80.123911
+T8	Literal 489 495	Tacoma
+#5	AnnotatorNotes T8	5812944
+T9	Literal 497 507	Washington
+#6	AnnotatorNotes T9	5815135
+T10	Coercion 464 485	Celebrity Cake Studio
+#7	AnnotatorNotes T10	47.238235, -122.429773
+T12	Literal_Expression 930 937	hotline
+T13	Literal_Expression 1064 1069	party
+T14	Coercion 1175 1186	Whole Foods
+#9	AnnotatorNotes T14	36.808954, -119.805469
+T15	Coercion 1318 1329	Whole Foods
+#10	AnnotatorNotes T15	36.808954, -119.805469
+T16	Literal 1361 1367	Fresno
+#11	AnnotatorNotes T16	5350937
+T17	Literal 1218 1224	Fresno
+#12	AnnotatorNotes T17	5350937
+T18	Literal 1226 1232	Calif.
+#13	AnnotatorNotes T18	5332921
+T19	Non_Lit_Expression 1396 1402	turkey
+T20	Embedded_Non_Lit 1457 1462	Boise
+#14	AnnotatorNotes T20	5586445
+T21	Non_Lit_Expression 1165 1171	turkey
+T22	Literal_Expression 634 641	dinners
+T23	Literal_Expression 670 675	party
+T24	Non_Lit_Expression 778 783	cooks
+T25	Non_Lit_Expression 819 826	hotline
+T26	Non_Lit_Expression 1143 1147	tips
+T27	Non_Lit_Expression 1279 1284	class
+T28	Non_Lit_Expression 1413 1418	fryer
+T29	Literal_Expression 291 297	museum
+T30	Non_Lit_Expression 707 713	recipe
+T31	Literal_Expression 986 991	party
+A1	Non_Locational T2
+A2	Non_Locational T3
+T32	Non_Toponym 337 356	Museum of Ice Cream
+T33	Non_Toponym 464 485	Celebrity Cake Studio
+A9	Non_Locational T30
+A3	Non_Locational T24
+A6	Non_Locational T12
+A10	Non_Locational T25
+T11	Literal 1088 1107	Pitman Family Farms
+#8	AnnotatorNotes T11	36.283052, -119.642083
+A7	Non_Locational T26
+A5	Non_Locational T21
+T34	Non_Toponym 1175 1186	Whole Foods
+A11	Non_Locational T27
+T35	Non_Toponym 1318 1329	Whole Foods
+A4	Non_Locational T19
+A8	Non_Locational T28
+T36	Non_Toponym 1453 1478	The Boise Fire Department
+A12	Modifier_Type T20 Noun

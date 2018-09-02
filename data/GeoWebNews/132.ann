@@ -1,0 +1,45 @@
+T2	Literal 264 272	Slovakia
+#1	AnnotatorNotes T2	3057568
+T3	Literal 408 416	Slovakia
+#2	AnnotatorNotes T3	3057568
+T4	Non_Literal_Modifier 1124 1130	Slovak
+A2	Modifier_Type T4 Adjective
+#3	AnnotatorNotes T4	3057568
+T5	Non_Literal_Modifier 1216 1222	Slovak
+A4	Modifier_Type T5 Adjective
+#4	AnnotatorNotes T5	3057568
+T6	Non_Literal_Modifier 168 175	British
+A6	Modifier_Type T6 Adjective
+#5	AnnotatorNotes T6	2635167
+T8	Literal 310 316	Žilina
+#6	AnnotatorNotes T8	3056508
+T9	Literal 318 323	Nitra
+#7	AnnotatorNotes T9	3058531
+T10	Literal 325 331	Prešov
+#8	AnnotatorNotes T10	723819
+T11	Literal 336 342	Košice
+#9	AnnotatorNotes T11	724443
+T12	Literal 479 489	Bratislava
+#10	AnnotatorNotes T12	3060972
+T13	Coercion 461 475	Kamenné Square
+#11	AnnotatorNotes T13	48.144997, 17.113117
+T15	Non_Literal_Modifier 620 627	British
+A10	Modifier_Type T15 Adjective
+#12	AnnotatorNotes T15	2635167
+T16	Literal 670 681	Hotel Kyjev
+#13	AnnotatorNotes T16	6498635
+T17	Literal_Expression 746 754	vicinity
+T19	Literal_Expression 908 913	store
+T20	Non_Literal_Modifier 1020 1028	American
+A13	Modifier_Type T20 Adjective
+#14	AnnotatorNotes T20	6252001
+T21	Literal_Expression 1087 1092	hotel
+T22	Non_Lit_Expression 236 242	stores
+T23	Literal_Expression 398 404	estate
+T24	Literal_Expression 1245 1250	inbox
+T1	Non_Lit_Expression 549 555	buyers
+T7	Literal_Expression 732 738	estate
+T14	Language 449 456	English
+A1	Non_Locational T1
+T18	Non_Toponym 461 475	Kamenné Square
+T25	Literal_Expression 832 837	store

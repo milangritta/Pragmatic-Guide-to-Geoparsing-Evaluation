@@ -1,0 +1,130 @@
+T1	Non_Lit_Expression 274 281	project
+T2	Non_Lit_Expression 348 357	proposals
+T3	Non_Lit_Expression 466 475	education
+T4	Non_Literal_Modifier 517 525	European
+A4	Modifier_Type T4 Adjective
+#1	AnnotatorNotes T4	6255148
+T5	Non_Lit_Expression 563 568	goals
+T6	Non_Lit_Expression 834 840	people
+T7	Non_Lit_Expression 1398 1406	learners
+T8	Non_Literal_Modifier 2310 2318	European
+A9	Modifier_Type T8 Adjective
+#2	AnnotatorNotes T8	6255148
+T9	Non_Literal_Modifier 3252 3260	European
+A11	Modifier_Type T9 Adjective
+#3	AnnotatorNotes T9	6255148
+T10	Mixed 3532 3538	Europe
+#4	AnnotatorNotes T10	6255148
+T11	Mixed 5015 5022	Ireland
+#5	AnnotatorNotes T11	2963597
+T12	Mixed 5060 5074	United Kingdom
+#6	AnnotatorNotes T12	2635167
+T13	Literal 5397 5403	Europe
+#7	AnnotatorNotes T13	6255148
+T14	Literal 5544 5546	UK
+#8	AnnotatorNotes T14	2635167
+T15	Non_Literal_Modifier 5294 5302	European
+A13	Modifier_Type T15 Adjective
+#9	AnnotatorNotes T15	6255148
+T16	Non_Literal_Modifier 3713 3721	European
+A15	Modifier_Type T16 Adjective
+#10	AnnotatorNotes T16	6255148
+T17	Non_Literal_Modifier 4576 4584	European
+A17	Modifier_Type T17 Adjective
+#11	AnnotatorNotes T17	6255148
+T18	Non_Literal_Modifier 2574 2582	European
+A19	Modifier_Type T18 Adjective
+#12	AnnotatorNotes T18	6255148
+T20	Non_Lit_Expression 731 739	identity
+T21	Non_Lit_Expression 1245 1253	speakers
+T22	Non_Lit_Expression 3554 3562	learners
+T23	Non_Lit_Expression 4415 4423	learners
+T24	Non_Lit_Expression 5526 5534	speakers
+T25	Literal_Expression 5685 5690	world
+T26	Non_Lit_Expression 1708 1714	people
+T27	Literal_Expression 1743 1750	schools
+T28	Coercion 5125 5127	EU
+#13	AnnotatorNotes T28	6255148
+T29	Non_Lit_Expression 484 491	project
+T30	Non_Lit_Expression 2097 2105	language
+T31	Literal_Expression 2507 2514	systems
+T32	Non_Lit_Expression 2608 2612	user
+T33	Non_Lit_Expression 3466 3474	citizens
+T34	Non_Lit_Expression 3974 3980	others
+T36	Non_Lit_Expression 4759 4765	people
+T37	Demonym 1654 1663	Europeans
+T38	Demonym 2682 2691	Europeans
+T39	Language 3755 3762	English
+T40	Demonym 4484 4493	Europeans
+T41	Language 4633 4640	English
+T42	Demonym 4677 4686	Europeans
+T43	Language 4807 4814	English
+T44	Language 4944 4951	English
+T45	Language 5110 5117	English
+T46	Language 5195 5201	French
+T47	Language 5336 5343	English
+T48	Language 5453 5460	English
+T49	Language 5583 5590	English
+T50	Demonym 5644 5653	Europeans
+T51	Embedded_Non_Lit 252 271	European Commission
+#14	AnnotatorNotes T51	6255148
+T52	Embedded_Literal 298 306	European
+#15	AnnotatorNotes T52	6255148
+T53	Embedded_Non_Lit 1094 1111	Council of Europe
+#17	AnnotatorNotes T53	6255148
+A63	Modifier_Type T52 Adjective
+T19	Coercion 5228 5230	EU
+#19	AnnotatorNotes T19	6255148
+T54	Non_Lit_Expression 3453 3461	ambition
+T55	Non_Lit_Expression 4658 4664	mantra
+A1	Non_Locational T1
+T56	Non_Toponym 252 271	European Commission
+A67	Modifier_Type T51 Noun
+T57	Non_Toponym 298 321	European Education Area
+A2	Non_Locational T2
+A3	Non_Locational T3
+A27	Non_Locational T29
+A5	Non_Locational T5
+A6	Non_Locational T20
+A7	Non_Locational T6
+T58	Non_Toponym 955 969	European Union
+T59	Embedded_Non_Lit 955 969	European Union
+A21	Modifier_Type T59 Noun
+#21	AnnotatorNotes T59	6255148
+T60	Non_Toponym 1094 1111	Council of Europe
+A68	Modifier_Type T53 Noun
+T61	Non_Toponym 1114 1166	Common European Framework of Reference for Languages
+T62	Embedded_Non_Lit 1121 1129	European
+A69	Modifier_Type T62 Noun
+#22	AnnotatorNotes T62	6255148
+A22	Non_Locational T21
+A8	Non_Locational T7
+A26	Non_Locational T26
+A28	Non_Locational T30
+A10	Non_Locational T31
+A20	Non_Locational T32
+A12	Non_Locational T54
+A29	Non_Locational T33
+A23	Non_Locational T22
+A16	Non_Locational T34
+A24	Non_Locational T23
+A18	Non_Locational T55
+A30	Non_Locational T36
+T35	Non_Toponym 5125 5127	EU
+T63	Non_Toponym 5228 5230	EU
+A14	Non_Locational T24
+T64	Non_Literal_Modifier 1461 1463	EU
+A25	Modifier_Type T64 Noun
+#16	AnnotatorNotes T64	6255148
+T65	Mixed 1536 1538	EU
+A31	Modifier_Type T65 Noun
+#18	AnnotatorNotes T65	6255148
+T66	Non_Literal_Modifier 3450 3452	EU
+A32	Modifier_Type T66 Noun
+#20	AnnotatorNotes T66	6255148
+T67	Non_Literal_Modifier 4976 4978	EU
+A33	Modifier_Type T67 Noun
+#23	AnnotatorNotes T67	6255148
+T68	Non_Literal_Modifier 4655 4657	EU
+A34	Modifier_Type T68 Noun
+#24	AnnotatorNotes T68	6255148

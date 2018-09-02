@@ -1,0 +1,43 @@
+T1	Mixed 179 205	MetroHealth Medical Center
+#1	AnnotatorNotes T1	5150564
+T2	Literal 565 591	MetroHealth Medical Center
+#2	AnnotatorNotes T2	5150564
+T3	Non_Literal_Modifier 1500 1515	Cuyahoga County
+A1	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	5151606
+T4	Non_Literal_Modifier 938 953	Cuyahoga County
+A3	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	5151606
+T5	Mixed 324 339	Cuyahoga County
+#5	AnnotatorNotes T5	5151606
+T6	Non_Lit_Expression 296 300	levy
+T7	Non_Lit_Expression 880 884	levy
+T8	Non_Lit_Expression 1023 1036	controversies
+T9	Non_Lit_Expression 2099 2107	comments
+T10	Literal_Expression 2155 2163	comments
+T11	Non_Lit_Expression 2042 2050	thoughts
+T12	Non_Lit_Expression 1722 1732	Editorials
+T13	Literal_Expression 1675 1682	primary
+T14	Literal_Expression 1539 1545	county
+T15	Literal_Expression 1214 1218	home
+T16	Non_Lit_Expression 1399 1405	murder
+T17	Non_Lit_Expression 1087 1093	county
+T18	Non_Lit_Expression 523 527	care
+T19	Literal_Expression 555 561	county
+T20	Non_Lit_Expression 814 819	taxes
+T21	Non_Lit_Expression 1640 1647	support
+A5	Non_Locational T6
+A10	Non_Locational T18
+A13	Modifier_Type T5 Noun
+A14	Modifier_Type T1 Noun
+T22	Non_Lit_Expression 386 394	children
+A15	Non_Locational T22
+A11	Non_Locational T20
+A4	Non_Locational T8
+A2	Non_Locational T21
+A9	Non_Locational T12
+T23	Non_Lit_Expression 2004 2009	topic
+A12	Non_Locational T23
+A8	Non_Locational T11
+A6	Non_Locational T9
+A7	Non_Locational T10

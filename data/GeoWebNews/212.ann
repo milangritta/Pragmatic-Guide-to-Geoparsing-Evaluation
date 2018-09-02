@@ -1,0 +1,32 @@
+T1	Mixed 214 222	WINNIPEG
+#1	AnnotatorNotes T1	6183235
+T2	Non_Literal_Modifier 225 233	Manitoba
+A1	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	6065171
+T3	Demonym 689 699	Manitobans
+T4	Non_Literal_Modifier 1484 1492	Manitoba
+A5	Modifier_Type T4 Noun
+#3	AnnotatorNotes T4	6065171
+T5	Embedded_Non_Lit 904 933	Manitoba Chambers of Commerce
+#4	AnnotatorNotes T5	6065171
+T6	Demonym 2166 2176	Manitobans
+T7	Non_Lit_Expression 298 306	province
+T8	Non_Lit_Expression 561 566	party
+T9	Non_Lit_Expression 1294 1303	companies
+T10	Non_Lit_Expression 1867 1877	government
+T11	Literal_Expression 1684 1688	door
+T12	Non_Lit_Expression 429 434	fuels
+T13	Non_Lit_Expression 1648 1656	revenues
+A7	Modifier_Type T1 Noun
+A2	Non_Locational T12
+A8	Non_Locational T8
+T14	Non_Toponym 904 933	Manitoba Chambers of Commerce
+A3	Modifier_Type T5 Noun
+T15	Non_Lit_Expression 981 989	gasoline
+A4	Non_Locational T15
+A11	Non_Locational T9
+A6	Non_Locational T13
+T16	Non_Lit_Expression 1750 1755	rules
+A12	Non_Locational T16
+A13	Non_Locational T10
+T17	Literal_Expression 2011 2016	court

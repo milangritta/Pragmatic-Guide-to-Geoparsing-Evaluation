@@ -1,0 +1,76 @@
+T1	Mixed 334 340	DURBAN
+#1	AnnotatorNotes T1	1007311
+T2	Literal_Modifier 1760 1766	Durban
+A1	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	1007311
+T3	Literal_Modifier 416 422	Durban
+A2	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	1007311
+T4	Mixed 342 354	South Africa
+#4	AnnotatorNotes T4	1007311
+T5	Non_Literal_Modifier 363 375	South Africa
+A3	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	1007311
+T6	Non_Literal_Modifier 3264 3276	South Africa
+A5	Modifier_Type T6 Noun
+#6	AnnotatorNotes T6	1007311
+T7	Non_Lit_Expression 464 471	charges
+T8	Literal_Expression 988 997	courtroom
+T9	Literal_Expression 613 617	land
+T10	Non_Lit_Expression 665 675	leadership
+T11	Literal_Expression 806 811	court
+T12	Non_Lit_Expression 746 752	people
+T13	Non_Lit_Expression 871 877	colors
+T14	Non_Lit_Expression 952 962	supporters
+T15	Non_Lit_Expression 1186 1190	deal
+T16	Literal_Expression 1321 1326	court
+T17	Literal_Expression 1377 1384	hearing
+T18	Literal_Expression 1412 1423	proceedings
+T19	Literal_Expression 1485 1494	continent
+T20	Non_Lit_Expression 1558 1561	law
+T21	Non_Lit_Expression 1604 1614	parliament
+T22	Literal_Expression 1704 1709	court
+T23	Non_Lit_Expression 1877 1886	maneuvers
+T24	Non_Lit_Expression 2032 2042	reputation
+T25	Non_Lit_Expression 2104 2114	presidency
+T26	Non_Literal_Modifier 2335 2341	French
+A17	Modifier_Type T26 Adjective
+#7	AnnotatorNotes T26	3017382
+T27	Non_Lit_Expression 2488 2497	wrangling
+T28	Non_Lit_Expression 2545 2552	options
+T29	Coercion 2798 2822	Witwatersrand University
+#8	AnnotatorNotes T29	9199767
+T30	Literal_Expression 2871 2876	trial
+T31	Non_Lit_Expression 2991 2999	advocate
+T32	Non_Lit_Expression 3110 3119	gangsters
+T33	Literal_Expression 3435 3440	fight
+T34	Non_Lit_Expression 3563 3566	law
+T35	Literal_Expression 3694 3699	court
+T36	Non_Lit_Expression 3781 3788	country
+A24	Modifier_Type T1 Noun
+A25	Modifier_Type T4 Noun
+A4	Non_Locational T7
+A7	Non_Locational T10
+T37	Non_Toponym 690 715	African National Congress
+T38	Embedded_Non_Lit 690 715	African National Congress
+A8	Modifier_Type T38 Adjective
+#9	AnnotatorNotes T38	6255146
+A9	Non_Locational T12
+A10	Non_Locational T13
+A11	Non_Locational T14
+T39	Non_Lit_Expression 1123 1135	racketeering
+A26	Non_Locational T39
+A27	Non_Locational T15
+A12	Non_Locational T20
+A13	Non_Locational T21
+A14	Non_Locational T23
+T40	Non_Lit_Expression 1917 1921	team
+A28	Non_Locational T40
+A15	Non_Locational T24
+A16	Non_Locational T25
+A18	Non_Locational T27
+A19	Non_Locational T28
+T41	Non_Toponym 2798 2822	Witwatersrand University
+A20	Non_Locational T31
+A21	Non_Locational T32
+A6	Non_Locational T34

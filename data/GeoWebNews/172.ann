@@ -1,0 +1,44 @@
+T1	Mixed 219 227	NEW YORK
+T2	Literal_Modifier 259 272	New York City
+A1	Modifier_Type T2 Noun
+T3	Non_Literal_Modifier 453 461	Brooklyn
+A3	Modifier_Type T3 Noun
+T4	Literal_Modifier 802 815	Crown Heights
+A5	Modifier_Type T4 Noun
+T5	Literal 832 840	Brooklyn
+T6	Literal_Modifier 1417 1430	Crown Heights
+A6	Modifier_Type T6 Noun
+T7	Literal 1447 1455	Brooklyn
+T8	Non_Lit_Expression 1532 1540	shooting
+T9	Literal_Expression 1781 1787	street
+T10	Non_Lit_Expression 1889 1897	officers
+#1	AnnotatorNotes T1	5128581
+#2	AnnotatorNotes T2	5128581
+#3	AnnotatorNotes T3	5110302
+#4	AnnotatorNotes T5	5110302
+#5	AnnotatorNotes T7	5110302
+#6	AnnotatorNotes T4	5114252
+#7	AnnotatorNotes T6	5114252
+T11	Non_Lit_Expression 326 330	pipe
+T12	Non_Lit_Expression 442 447	death
+T13	Non_Lit_Expression 1328 1335	firearm
+A7	Modifier_Type T1 Noun
+A2	Non_Locational T11
+T14	Non_Literal_Modifier 358 366	New York
+A11	Modifier_Type T14 Noun
+#8	AnnotatorNotes T14	5128581
+A9	Non_Locational T12
+T15	Non_Toponym 846 860	New York Times
+T16	Embedded_Non_Lit 846 854	New York
+A4	Modifier_Type T16 Noun
+#9	AnnotatorNotes T16	5128581
+T17	Non_Toponym 1165 1191	New York Police Department
+T18	Embedded_Non_Lit 1165 1173	New York
+A12	Modifier_Type T18 Noun
+#10	AnnotatorNotes T18	5128581
+A10	Non_Locational T13
+T19	Non_Toponym 1462 1476	New York Times
+T20	Embedded_Non_Lit 1462 1470	New York
+A13	Modifier_Type T20 Noun
+#11	AnnotatorNotes T20	5128581
+A8	Non_Locational T10

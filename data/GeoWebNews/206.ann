@@ -1,0 +1,71 @@
+T1	Mixed 165 172	Red Oak
+#1	AnnotatorNotes T1	4872593
+T2	Literal 299 306	Red Oak
+#2	AnnotatorNotes T2	4872593
+T3	Literal 476 483	Red Oak
+#3	AnnotatorNotes T3	4872593
+T4	Literal 448 472	2700 North Fourth Street
+#4	AnnotatorNotes T4	41.019808, -95.227941
+T5	Coercion 403 435	Montgomery County History Center
+#5	AnnotatorNotes T5	41.019808, -95.227941
+T6	Mixed 221 225	Iowa
+A1	Modifier_Type T6 Noun
+#6	AnnotatorNotes T6	4862182
+T7	Mixed 1227 1231	Iowa
+A3	Modifier_Type T7 Noun
+#7	AnnotatorNotes T7	4862182
+T8	Metonymic 755 759	Iowa
+#8	AnnotatorNotes T8	4862182
+T9	Demonym 599 604	Iowan
+T10	Demonym 1075 1080	Iowan
+T11	Non_Literal_Modifier 2104 2108	Iowa
+A9	Modifier_Type T11 Noun
+#9	AnnotatorNotes T11	4862182
+T12	Non_Literal_Modifier 1258 1262	U.S.
+A11	Modifier_Type T12 Noun
+#10	AnnotatorNotes T12	6252001
+T13	Non_Literal_Modifier 325 342	Montgomery County
+A13	Modifier_Type T13 Noun
+#11	AnnotatorNotes T13	4867788
+T14	Literal 705 713	Clarinda
+#12	AnnotatorNotes T14	4851762
+T15	Non_Lit_Expression 846 852	growth
+T16	Literal_Expression 1001 1008	bridges
+T17	Literal_Expression 1030 1037	systems
+T18	Non_Lit_Expression 1174 1181	economy
+T19	Non_Literal_Modifier 1291 1298	Chicago
+A17	Modifier_Type T19 Noun
+#13	AnnotatorNotes T19	4887398
+T20	Non_Lit_Expression 1353 1360	country
+T21	Literal 1496 1503	America
+#14	AnnotatorNotes T21	6252001
+T22	Literal_Expression 1839 1844	areas
+T23	Literal_Modifier 1964 1974	Des Moines
+#15	AnnotatorNotes T23	4853828
+A19	Modifier_Type T23 Noun
+T24	Non_Lit_Expression 2143 2147	seat
+T25	Non_Literal_Modifier 2643 2660	Montgomery County
+A21	Modifier_Type T25 Noun
+#16	AnnotatorNotes T25	4867788
+T26	Non_Lit_Expression 2715 2723	audience
+T27	Non_Lit_Expression 652 660	activist
+T28	Literal_Expression 696 701	forum
+T29	Non_Lit_Expression 886 900	infrastructure
+T30	Non_Lit_Expression 1101 1110	broadband
+T31	Non_Lit_Expression 1926 1933	company
+T32	Non_Lit_Expression 2082 2089	program
+A4	Modifier_Type T1 Noun
+T33	Non_Toponym 403 435	Montgomery County History Center
+A5	Non_Locational T27
+A6	Non_Locational T15
+A2	Non_Locational T30
+T34	Non_Lit_Expression 1446 1457	communities
+A7	Non_Locational T31
+A8	Non_Locational T32
+T35	Non_Lit_Expression 2371 2377	famers
+A10	Non_Locational T35
+T36	Non_Toponym 2483 2493	Iowa House
+T37	Embedded_Non_Lit 2483 2493	Iowa House
+A12	Modifier_Type T37 Noun
+#17	AnnotatorNotes T37	4862182
+A14	Non_Locational T26

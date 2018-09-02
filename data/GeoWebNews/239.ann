@@ -1,0 +1,141 @@
+T1	Literal_Modifier 6429 6436	Mexican
+A1	Modifier_Type T1 Adjective
+#1	AnnotatorNotes T1	3996063
+T2	Literal 5317 5323	Mexico
+#2	AnnotatorNotes T2	3996063
+T3	Mixed 258 268	WASHINGTON
+#3	AnnotatorNotes T3	4140963
+T4	Non_Literal_Modifier 340 347	Russian
+A2	Modifier_Type T4 Adjective
+#4	AnnotatorNotes T4	2017370
+T5	Non_Literal_Modifier 3305 3312	Russian
+A4	Modifier_Type T5 Adjective
+#5	AnnotatorNotes T5	2017370
+T6	Literal_Expression 521 525	room
+T7	Non_Lit_Expression 492 499	adviser
+T8	Literal_Expression 708 712	view
+T9	Non_Lit_Expression 761 766	staff
+T10	Non_Lit_Expression 899 911	restrictions
+T11	Non_Lit_Expression 1026 1032	allies
+T12	Literal_Expression 1265 1271	office
+T13	Non_Lit_Expression 1147 1152	aides
+T14	Non_Lit_Expression 1521 1530	president
+T15	Literal_Expression 1550 1553	gut
+T16	Coercion 2049 2058	West Wing
+T17	Non_Lit_Expression 2263 2271	advisers
+T18	Non_Lit_Expression 2689 2694	staff
+T19	Literal_Expression 2888 2892	side
+T20	Non_Lit_Expression 3068 3075	leaders
+T21	Coercion 3609 3620	Oval Office
+#6	AnnotatorNotes T21	9675434
+T22	Literal_Modifier 3709 3716	Florida
+A16	Modifier_Type T22 Noun
+#7	AnnotatorNotes T22	4155751
+T23	Literal_Expression 3777 3782	state
+T24	Non_Lit_Expression 4032 4041	president
+T25	Non_Lit_Expression 4250 4255	staff
+T26	Coercion 4359 4370	White House
+#8	AnnotatorNotes T26	9675434
+T27	Coercion 4492 4501	West Wing
+#9	AnnotatorNotes T27	9675434
+T28	Coercion 680 689	West Wing
+#10	AnnotatorNotes T28	9675434
+T29	Coercion 3211 3222	White House
+#11	AnnotatorNotes T29	9675434
+T30	Non_Lit_Expression 6553 6559	person
+T31	Non_Lit_Expression 6202 6210	staffers
+T32	Non_Lit_Expression 5430 5435	staff
+T33	Literal 5456 5466	California
+#12	AnnotatorNotes T33	5332921
+T34	Non_Lit_Expression 5634 5645	predecessor
+T35	Non_Lit_Expression 5876 5880	role
+T36	Non_Lit_Expression 775 783	guidance
+T37	Non_Lit_Expression 963 967	post
+T38	Non_Lit_Expression 1442 1447	staff
+T39	Non_Lit_Expression 1765 1769	aide
+T40	Non_Lit_Expression 1795 1804	confidant
+T41	Non_Lit_Expression 2090 2094	aide
+T42	Non_Lit_Expression 2429 2434	chaos
+T43	Literal 2796 2807	Trump Tower
+#13	AnnotatorNotes T43	6342812
+T44	Coercion 2761 2772	White House
+#14	AnnotatorNotes T44	9675434
+T45	Non_Lit_Expression 4208 4216	advisers
+T46	Non_Lit_Expression 4698 4707	president
+T47	Literal_Modifier 4801 4812	Trump Tower
+A34	Modifier_Type T47 Noun
+#15	AnnotatorNotes T47	6342812
+T48	Non_Lit_Expression 4974 4979	staff
+T49	Non_Lit_Expression 5135 5141	allies
+T50	Literal_Modifier 5300 5304	U.S.
+A37	Modifier_Type T50 Noun
+#16	AnnotatorNotes T50	6252001
+T51	Literal_Expression 5395 5401	public
+T52	Non_Lit_Expression 5865 5870	staff
+T53	Non_Lit_Expression 6500 6510	confidants
+#17	AnnotatorNotes T16	9675434
+A40	Modifier_Type T3 Noun
+A3	Non_Locational T7
+T54	Non_Toponym 680 689	West Wing
+A6	Non_Locational T9
+A7	Non_Locational T36
+A8	Non_Locational T10
+A9	Non_Locational T11
+A10	Non_Locational T13
+T55	Non_Lit_Expression 1181 1194	announcements
+A25	Non_Locational T55
+T56	Non_Lit_Expression 1405 1409	idea
+A26	Non_Locational T56
+A27	Non_Locational T38
+A11	Non_Locational T14
+A12	Non_Locational T15
+A28	Non_Locational T39
+A29	Non_Locational T40
+T57	Non_Lit_Expression 1987 2000	conversations
+A41	Non_Locational T57
+T58	Non_Toponym 2049 2058	West Wing
+A30	Non_Locational T41
+A13	Non_Locational T17
+T59	Non_Lit_Expression 2381 2390	influence
+A42	Non_Locational T59
+A43	Non_Locational T42
+A14	Non_Locational T18
+T60	Non_Toponym 2761 2772	White House
+T61	Non_Lit_Expression 3037 3042	calls
+A44	Non_Locational T61
+A15	Non_Locational T20
+T62	Non_Toponym 3211 3222	White House
+T63	Non_Lit_Expression 3271 3277	advice
+A19	Non_Locational T63
+T64	Non_Toponym 3609 3620	Oval Office
+T65	Non_Lit_Expression 3517 3528	commentator
+A5	Non_Locational T65
+T66	Non_Lit_Expression 3754 3758	plan
+A45	Non_Locational T66
+A17	Non_Locational T24
+A32	Non_Locational T45
+A18	Non_Locational T25
+T67	Non_Toponym 4359 4370	White House
+T68	Non_Toponym 4492 4501	West Wing
+A33	Non_Locational T46
+T69	Non_Lit_Expression 4788 4796	campaign
+A46	Non_Locational T69
+A35	Non_Locational T48
+A36	Non_Locational T49
+T70	Non_Lit_Expression 5234 5240	policy
+A47	Non_Locational T70
+T71	Non_Lit_Expression 5381 5390	interview
+A48	Non_Locational T71
+A31	Non_Locational T51
+A22	Non_Locational T32
+A23	Non_Locational T34
+A38	Non_Locational T52
+A24	Non_Locational T35
+T72	Non_Lit_Expression 5898 5906	scrutiny
+A49	Non_Locational T72
+T73	Non_Lit_Expression 6030 6035	abuse
+A50	Non_Locational T73
+T74	Literal_Expression 6065 6071	events
+A21	Non_Locational T31
+A39	Non_Locational T53
+A20	Non_Locational T30

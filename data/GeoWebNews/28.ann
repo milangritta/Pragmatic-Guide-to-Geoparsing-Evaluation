@@ -1,0 +1,40 @@
+T1	Demonym 1375 1391	African American
+T2	Literal 773 786	United States
+#1	AnnotatorNotes T2	6252001
+T3	Literal 948 959	Los Angeles
+#2	AnnotatorNotes T3	5368361
+T4	Literal 788 794	Canada
+#3	AnnotatorNotes T4	6251999
+T5	Literal 796 805	Australia
+#4	AnnotatorNotes T5	2077456
+T6	Literal 807 814	Germany
+#5	AnnotatorNotes T6	2921044
+T7	Literal 816 825	Singapore
+#6	AnnotatorNotes T7	1880252
+T8	Literal 830 837	Uruguay
+#7	AnnotatorNotes T8	3439705
+T9	Literal 926 944	The Colony Theatre
+#8	AnnotatorNotes T9	34.185402, -118.312534
+T10	Literal_Expression 1003 1008	party
+T11	Literal_Expression 1021 1030	reception
+T12	Literal_Expression 1057 1065	ceremony
+T13	Non_Lit_Expression 684 690	device
+T14	Non_Lit_Expression 220 228	nominees
+T15	Non_Lit_Expression 500 506	comedy
+T16	Literal_Expression 537 543	scenes
+T17	Non_Lit_Expression 391 402	nominations
+T18	Literal_Expression 1038 1042	walk
+T19	Non_Lit_Expression 743 749	series
+T20	Non_Lit_Expression 1121 1134	Entertainment
+T21	Non_Lit_Expression 881 888	winners
+T22	Literal_Expression 766 771	globe
+T23	Non_Lit_Expression 184 188	cast
+T24	Literal_Expression 903 911	ceremony
+A10	Non_Locational T23
+A4	Non_Locational T14
+A1	Non_Locational T17
+A2	Non_Locational T15
+A3	Non_Locational T13
+A5	Non_Locational T19
+A6	Non_Locational T21
+A7	Non_Locational T20

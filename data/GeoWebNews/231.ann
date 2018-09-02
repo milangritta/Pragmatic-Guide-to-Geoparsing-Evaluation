@@ -1,0 +1,36 @@
+T1	Literal 271 273	UK
+#1	AnnotatorNotes T1	2635167
+T2	Literal 713 715	UK
+#2	AnnotatorNotes T2	2635167
+T3	Non_Literal_Modifier 465 474	Cambridge
+#3	AnnotatorNotes T3	2653941
+A1	Modifier_Type T3 Noun
+T4	Non_Lit_Expression 279 285	scheme
+T5	Literal_Expression 346 351	shops
+T6	Literal_Expression 582 586	feed
+T7	Non_Lit_Expression 741 749	rankings
+T8	Non_Lit_Expression 1072 1080	category
+T9	Literal_Expression 1166 1176	inspection
+T10	Non_Lit_Expression 1223 1227	food
+T11	Literal_Expression 1337 1346	buildings
+T12	Non_Lit_Expression 1406 1416	facilities
+T13	Non_Lit_Expression 1426 1434	business
+T14	Literal_Expression 2016 2024	websites
+T15	Literal_Expression 2095 2103	business
+T16	Non_Lit_Expression 2218 2224	health
+T17	Non_Lit_Expression 867 874	Officer
+T18	Non_Lit_Expression 1790 1798	business
+A3	Non_Locational T4
+T19	Literal_Expression 317 328	restaurants
+A2	Non_Locational T6
+A4	Non_Locational T7
+A5	Non_Locational T17
+T20	Non_Lit_Expression 1001 1007	rating
+A9	Non_Locational T20
+A6	Non_Locational T8
+A7	Non_Locational T10
+A8	Non_Locational T13
+T21	Literal_Expression 1559 1565	future
+A10	Non_Locational T21
+A11	Non_Locational T18
+A12	Non_Locational T16

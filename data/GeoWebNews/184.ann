@@ -1,0 +1,9 @@
+T1	Non_Lit_Expression 1614 1622	features
+T2	Non_Lit_Expression 1737 1744	company
+T3	Non_Lit_Expression 1009 1014	users
+T4	Literal_Expression 494 499	cloud
+T5	Literal_Expression 623 630	storage
+T6	Non_Lit_Expression 674 679	teams
+A4	Non_Locational T6
+A3	Non_Locational T3
+A1	Non_Locational T2

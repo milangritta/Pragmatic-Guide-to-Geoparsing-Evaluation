@@ -1,0 +1,93 @@
+T1	Embedded_Literal 2755 2767	Brands Hatch
+#1	AnnotatorNotes T1	6618982
+T2	Embedded_Literal 3094 3106	Brands Hatch
+#2	AnnotatorNotes T2	6618982
+T3	Literal 222 234	Brands Hatch
+#3	AnnotatorNotes T3	6618982
+T4	Literal 2774 2778	Kent
+#4	AnnotatorNotes T4	3333158
+T5	Literal 3111 3115	Kent
+#5	AnnotatorNotes T5	3333158
+T6	Literal_Modifier 1981 1985	Kent
+A1	Modifier_Type T6 Noun
+#6	AnnotatorNotes T6	3333158
+T7	Literal 2809 2823	Leicestershire
+#7	AnnotatorNotes T7	2644667
+T8	Literal 2793 2807	Donington Park
+#8	AnnotatorNotes T8	6695003
+T9	Literal 2836 2844	Thruxton
+#9	AnnotatorNotes T9	2635908
+T10	Literal 2846 2855	Hampshire
+#10	AnnotatorNotes T10	2647554
+T11	Literal 2881 2889	Cheshire
+#11	AnnotatorNotes T11	7290537
+T12	Literal 2868 2879	Oulton Park
+#12	AnnotatorNotes T12	2640826
+T13	Literal 2903 2908	Croft
+#13	AnnotatorNotes T13	7292068
+T14	Literal 2910 2919	Yorkshire
+#14	AnnotatorNotes T14	11591951
+T15	Literal 2933 2943	Snetterton
+#15	AnnotatorNotes T15	7301855
+T16	Literal 2128 2138	Snetterton
+#16	AnnotatorNotes T16	7301855
+T17	Literal 2945 2952	Norfolk
+#17	AnnotatorNotes T17	2641455
+T18	Literal 2968 2978	Rockingham
+#18	AnnotatorNotes T18	7299049
+T19	Literal 2980 2996	Northamptonshire
+#19	AnnotatorNotes T19	2641429
+T20	Literal 3059 3075	Northamptonshire
+#20	AnnotatorNotes T20	2641429
+T21	Literal 3046 3057	Silverstone
+#21	AnnotatorNotes T21	7627299
+T22	Literal 3012 3021	Knockhill
+#22	AnnotatorNotes T22	56.131414, -3.509247
+T23	Literal 3023 3027	Fife
+#23	AnnotatorNotes T23	2649469
+T24	Embedded_Literal 166 173	British
+#24	AnnotatorNotes T24	2635167
+T25	Coercion 358 375	Paddock Hill Bend
+#25	AnnotatorNotes T25	6618982
+T26	Literal_Modifier 2492 2494	UK
+#26	AnnotatorNotes T26	2635167
+A2	Modifier_Type T26 Noun
+T27	Non_Lit_Expression 300 305	title
+T28	Non_Lit_Expression 251 259	champion
+T29	Literal_Expression 483 489	season
+T30	Literal_Expression 2589 2593	race
+T31	Non_Lit_Expression 2447 2454	backing
+T32	Non_Lit_Expression 951 954	win
+T33	Non_Lit_Expression 722 728	driver
+T34	Non_Lit_Expression 1433 1438	horse
+T35	Literal_Expression 1040 1053	manufacturers
+T36	Non_Lit_Expression 1134 1138	trio
+T37	Literal_Expression 1293 1298	races
+T38	Non_Lit_Expression 1884 1889	squad
+T39	Non_Lit_Expression 2330 2335	badge
+T40	Literal_Expression 2053 2057	pack
+T41	Literal_Expression 1747 1750	Cup
+T42	Non_Lit_Expression 1640 1645	racer
+T43	Literal_Expression 911 917	season
+T44	Non_Toponym 166 198	British Touring Car Championship
+A14	Modifier_Type T24 Noun
+A4	Non_Locational T28
+A3	Non_Locational T27
+T45	Non_Toponym 358 375	Paddock Hill Bend
+T46	Literal_Expression 613 619	season
+A7	Non_Locational T33
+A6	Non_Locational T32
+A9	Non_Locational T36
+A15	Non_Locational T35
+T47	Non_Lit_Expression 1101 1109	champion
+A16	Non_Locational T47
+A8	Non_Locational T34
+A13	Non_Locational T42
+A10	Non_Locational T38
+A12	Non_Locational T40
+A11	Non_Locational T39
+A5	Non_Locational T31
+T48	Non_Toponym 2755 2772	Brands Hatch Indy
+A17	Modifier_Type T1 Noun
+T49	Non_Toponym 3094 3109	Brands Hatch GP
+A18	Modifier_Type T2 Noun

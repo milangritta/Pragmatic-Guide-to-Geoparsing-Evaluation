@@ -1,0 +1,105 @@
+T1	Non_Lit_Expression 192 197	group
+T2	Literal_Expression 232 241	buildings
+T3	Literal 512 519	Ireland
+#1	AnnotatorNotes T3	2963597
+T4	Non_Literal_Modifier 590 597	Ireland
+A2	Modifier_Type T4 Noun
+#2	AnnotatorNotes T4	2963597
+T5	Non_Lit_Expression 424 434	initiative
+T6	Literal_Expression 525 532	project
+T7	Literal_Expression 789 795	county
+T8	Literal_Expression 1280 1286	county
+T9	Literal_Expression 2471 2477	campus
+T10	Mixed 1819 1824	Cavan
+#3	AnnotatorNotes T10	2965534
+T11	Literal_Expression 1854 1863	buildings
+T12	Non_Lit_Expression 1885 1896	communities
+T13	Coercion 1509 1524	Cavan Institute
+#4	AnnotatorNotes T13	53.999796, -7.359383
+T14	Coercion 1526 1540	Aughadreena NS
+#5	AnnotatorNotes T14	53.935049, -7.219736
+T15	Coercion 1542 1567	Courthouse Ballyjamesduff
+#6	AnnotatorNotes T15	53.864166, -7.205798
+T16	Coercion 1569 1587	Percy French Hotel
+#7	AnnotatorNotes T16	53.864019, -7.205249
+T17	Coercion 1605 1618	Ramor Theatre
+#8	AnnotatorNotes T17	53.833945, -7.080542
+T18	Coercion 1630 1658	Crossdoney Presbyterian Hall
+#9	AnnotatorNotes T18	53.955866, -7.440877
+T19	Coercion 1660 1686	Ballinagh Community Centre
+#10	AnnotatorNotes T19	53.929920, -7.409627
+T20	Coercion 1688 1703	Cavan Town Hall
+#11	AnnotatorNotes T20	53.991139, -7.362020
+T21	Literal_Expression 1730 1735	homes
+T22	Literal_Expression 1350 1354	home
+T23	Non_Lit_Expression 3431 3437	sector
+T24	Non_Lit_Expression 705 720	representatives
+T25	Non_Lit_Expression 910 915	group
+T26	Literal_Expression 988 998	businesses
+T27	Non_Lit_Expression 1306 1315	attendees
+T28	Non_Lit_Expression 1944 1952	students
+T29	Non_Lit_Expression 2350 2361	partnership
+T30	Literal_Expression 2619 2625	sector
+T31	Literal_Expression 2637 2643	county
+T32	Literal_Expression 2743 2749	spaces
+T33	Non_Lit_Expression 3220 3226	bodies
+T34	Literal_Expression 3108 3116	business
+T35	Non_Lit_Expression 2755 2760	group
+T36	Literal_Expression 2169 2177	building
+T37	Non_Lit_Expression 2210 2216	report
+T38	Embedded_Non_Lit 458 465	Ireland
+#12	AnnotatorNotes T38	2963597
+A1	Non_Locational T1
+A4	Non_Locational T5
+T39	Non_Toponym 452 465	Local Ireland
+A18	Modifier_Type T38 Noun
+A3	Non_Locational T24
+A5	Non_Locational T25
+A8	Non_Locational T26
+T40	Non_Lit_Expression 1139 1151	technologies
+A9	Non_Locational T40
+A10	Non_Locational T27
+T41	Non_Toponym 1509 1524	Cavan Institute
+T42	Non_Toponym 1526 1540	Aughadreena NS
+T43	Non_Toponym 1542 1567	Courthouse Ballyjamesduff
+T44	Non_Toponym 1569 1587	Percy French Hotel
+T45	Literal 1589 1603	Ballyjamesduff
+#13	AnnotatorNotes T45	2966550
+T46	Non_Toponym 1605 1618	Ramor Theatre
+T47	Literal 1620 1628	Virginia
+#14	AnnotatorNotes T47	2961006
+T48	Non_Toponym 1630 1658	Crossdoney Presbyterian Hall
+T49	Non_Toponym 1660 1686	Ballinagh Community Centre
+T50	Non_Toponym 1688 1703	Cavan Town Hall
+A6	Non_Locational T12
+A11	Non_Locational T28
+T51	Non_Toponym 1958 1973	Cavan Institute
+T52	Coercion 1958 1973	Cavan Institute
+#15	AnnotatorNotes T52	54.000326, -7.357722
+A16	Non_Locational T37
+A12	Non_Locational T29
+T53	Non_Lit_Expression 2441 2448	project
+T54	Non_Toponym 2496 2526	Cavan Sustainable Energy Group
+T55	Embedded_Non_Lit 2496 2501	Cavan
+A17	Modifier_Type T55 Noun
+#16	AnnotatorNotes T55	2965534
+A15	Non_Locational T35
+T56	Non_Lit_Expression 2923 2933	initiative
+A19	Non_Locational T56
+T57	Non_Toponym 2939 2969	Cavan Sustainable Energy Group
+T58	Embedded_Non_Lit 2939 2944	Cavan
+A20	Modifier_Type T58 Noun
+#17	AnnotatorNotes T58	2965534
+T59	Non_Toponym 3020 3040	Cavan County Council
+T60	Embedded_Non_Lit 3020 3040	Cavan County Council
+A21	Modifier_Type T60 Noun
+#18	AnnotatorNotes T60	53.993305, -7.361504
+T61	Non_Toponym 3042 3057	Cavan Institute
+T62	Embedded_Non_Lit 3042 3057	Cavan Institute
+#19	AnnotatorNotes T62	54.000326, -7.357722
+A22	Modifier_Type T62 Noun
+A14	Non_Locational T34
+T63	Non_Lit_Expression 3170 3177	contact
+A23	Non_Locational T63
+A13	Non_Locational T33
+A7	Non_Locational T23

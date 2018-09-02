@@ -1,0 +1,21 @@
+T1	Embedded_Non_Lit 658 667	Cambridge
+#1	AnnotatorNotes T1	2653941
+T2	Embedded_Non_Lit 282 291	Cambridge
+#2	AnnotatorNotes T2	2653941
+T3	Literal_Expression 1185 1193	platform
+T5	Non_Lit_Expression 879 887	security
+T6	Non_Lit_Expression 328 339	advertisers
+T7	Literal_Expression 1057 1067	operations
+T8	Literal_Expression 794 803	interview
+T10	Non_Lit_Expression 545 558	conversations
+T4	Non_Toponym 282 301	Cambridge Analytica
+A1	Modifier_Type T2 Noun
+A3	Non_Locational T6
+A4	Non_Locational T10
+T9	Non_Toponym 658 677	Cambridge Analytica
+A5	Modifier_Type T1 Noun
+T11	Non_Lit_Expression 729 740	advertisers
+A6	Non_Locational T11
+A2	Non_Locational T5
+T12	Non_Lit_Expression 1415 1419	data
+A7	Non_Locational T12

@@ -1,0 +1,14 @@
+T1	Literal_Expression 289 294	place
+T2	Non_Lit_Expression 316 321	angel
+T3	Non_Literal_Modifier 1401 1406	Irish
+A2	Modifier_Type T3 Adjective
+#1	AnnotatorNotes T3	2963597
+T4	Literal_Expression 4321 4332	compartment
+T5	Non_Lit_Expression 2444 2453	comedians
+T6	Literal_Expression 445 449	area
+A1	Non_Locational T2
+T7	Non_Lit_Expression 1738 1743	actor
+A3	Non_Locational T7
+A4	Non_Locational T5
+T8	Non_Lit_Expression 2656 2661	child
+A5	Non_Locational T8

@@ -1,0 +1,42 @@
+T1	Non_Lit_Expression 161 168	measles
+T2	Literal_Expression 206 210	camp
+T3	Literal 222 229	Abagana
+#1	AnnotatorNotes T3	2353122
+T4	Literal 247 254	Makurdi
+#2	AnnotatorNotes T4	2331140
+T5	Literal 258 269	Benue state
+#3	AnnotatorNotes T5	2347266
+T6	Non_Literal_Modifier 355 366	Benue State
+A2	Modifier_Type T6 Noun
+#4	AnnotatorNotes T6	2347266
+T7	Non_Lit_Expression 442 449	newsmen
+T8	Literal_Expression 516 525	hospitals
+T9	Literal_Modifier 529 536	Makurdi
+A5	Modifier_Type T9 Noun
+#5	AnnotatorNotes T9	2331140
+T10	Non_Lit_Expression 647 650	day
+T11	Literal_Modifier 754 761	Torkula
+A7	Modifier_Type T11 Noun
+#6	AnnotatorNotes T11	7.988829, 8.752326
+T12	Literal_Expression 807 812	state
+T13	Literal_Expression 933 937	camp
+T14	Literal 773 799	Guma Local Government Area
+#7	AnnotatorNotes T14	7729904
+T15	Literal 1210 1218	Guma LGA
+#8	AnnotatorNotes T15	7729904
+T16	Literal_Expression 1441 1448	housing
+T17	Literal_Modifier 1191 1198	Umemger
+A8	Modifier_Type T17 Noun
+#9	AnnotatorNotes T17	N/A
+T18	Non_Lit_Expression 575 583	ministry
+T19	Literal_Expression 746 750	home
+T20	Non_Lit_Expression 885 894	treatment
+T21	Non_Lit_Expression 1058 1062	team
+T22	Non_Lit_Expression 1109 1117	siblings
+T23	Literal_Expression 457 465	outbreak
+A1	Non_Locational T1
+A3	Non_Locational T7
+A4	Non_Locational T18
+A6	Non_Locational T20
+A9	Non_Locational T21
+A10	Non_Locational T22

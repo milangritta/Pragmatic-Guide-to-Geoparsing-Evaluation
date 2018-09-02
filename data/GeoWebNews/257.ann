@@ -1,0 +1,44 @@
+T1	Mixed 193 197	Baku
+#1	AnnotatorNotes T1	587084
+T2	Literal 286 290	Baku
+#2	AnnotatorNotes T2	587084
+T3	Mixed 199 209	Azerbaijan
+#3	AnnotatorNotes T3	587116
+T4	Mixed 299 309	Azerbaijan
+A1	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	587116
+T5	Literal_Modifier 580 591	Azerbaijani
+A2	Modifier_Type T5 Adjective
+#5	AnnotatorNotes T5	587116
+T6	Metonymic 1132 1142	Azerbaijan
+#6	AnnotatorNotes T6	587116
+T7	Literal 1738 1748	Azerbaijan
+#7	AnnotatorNotes T7	587116
+T8	Metonymic 2526 2536	Azerbaijan
+#8	AnnotatorNotes T8	587116
+T9	Mixed 2236 2246	Azerbaijan
+#9	AnnotatorNotes T9	587116
+T10	Literal_Expression 1460 1466	prison
+T11	Non_Lit_Expression 683 690	station
+T12	Non_Lit_Expression 845 856	authorities
+T13	Literal_Expression 1069 1075	abroad
+T15	Non_Lit_Expression 1212 1219	critics
+T16	Non_Lit_Expression 1294 1298	case
+T17	Non_Lit_Expression 1570 1575	court
+T18	Literal_Expression 2824 2829	world
+T19	Non_Lit_Expression 2593 2600	country
+T20	Non_Lit_Expression 2642 2648	moment
+T21	Non_Lit_Expression 2349 2353	term
+T22	Non_Lit_Expression 1904 1911	station
+T23	Non_Lit_Expression 1711 1719	bloggers
+T24	Non_Lit_Expression 2755 2759	gift
+T14	Literal_Expression 185 191	prison
+T25	Non_Lit_Expression 632 638	family
+A5	Non_Locational T25
+A3	Non_Locational T12
+A4	Non_Locational T15
+A8	Non_Locational T16
+A6	Non_Locational T23
+T26	Non_Lit_Expression 2022 2033	publication
+A9	Non_Locational T26
+A7	Non_Locational T24

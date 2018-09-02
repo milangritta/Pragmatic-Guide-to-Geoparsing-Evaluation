@@ -1,0 +1,22 @@
+T1	Literal 376 381	China
+#1	AnnotatorNotes T1	1814991
+T2	Metonymic 225 230	China
+#2	AnnotatorNotes T2	1814991
+T3	Metonymic 235 241	Brazil
+#3	AnnotatorNotes T3	3469034
+T4	Literal 554 560	Brazil
+#4	AnnotatorNotes T4	3469034
+T5	Non_Lit_Expression 298 307	solutions
+T6	Literal_Expression 365 371	market
+T7	Non_Lit_Expression 444 448	food
+T8	Non_Lit_Expression 1702 1710	products
+T9	Literal_Expression 897 902	soils
+T10	Literal_Expression 1023 1030	deserts
+T11	Literal_Expression 989 993	soil
+T12	Literal_Expression 1319 1330	environment
+T13	Non_Lit_Expression 1565 1575	management
+T14	Non_Lit_Expression 317 326	countries
+A1	Non_Locational T5
+A2	Non_Locational T7
+A4	Non_Locational T13
+A3	Non_Locational T8

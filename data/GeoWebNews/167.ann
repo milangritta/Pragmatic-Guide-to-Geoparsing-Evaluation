@@ -1,0 +1,57 @@
+T1	Literal 278 291	Beverly Hills
+#1	AnnotatorNotes T1	5328041
+T2	Literal 541 554	Beverly Hills
+#2	AnnotatorNotes T2	5328041
+T3	Literal 556 566	California
+#3	AnnotatorNotes T3	5332921
+T4	Literal_Expression 405 408	car
+T5	Literal_Expression 432 438	window
+T6	Literal_Expression 517 521	seat
+T7	Literal_Expression 534 537	car
+T8	Literal_Expression 630 633	car
+T9	Literal_Expression 785 795	windshield
+T10	Non_Lit_Expression 918 924	outlet
+T11	Non_Lit_Expression 955 960	child
+T12	Literal_Expression 991 998	vehicle
+T13	Non_Lit_Expression 1018 1025	suspect
+T14	Literal_Expression 1077 1080	arm
+T15	Literal_Expression 1136 1142	attack
+T16	Non_Lit_Expression 1197 1203	person
+T17	Literal_Expression 1248 1252	area
+T18	Literal 1319 1330	Los Angeles
+#4	AnnotatorNotes T18	5368361
+T19	Literal_Expression 1470 1475	court
+T20	Non_Lit_Expression 1703 1709	friend
+T21	Literal_Expression 1717 1725	sidewalk
+T22	Literal_Expression 1733 1736	car
+T23	Non_Lit_Expression 1785 1793	children
+T24	Literal_Expression 1951 1954	car
+T25	Non_Lit_Expression 2029 2035	attack
+T26	Non_Lit_Expression 248 251	man
+T27	Literal_Expression 452 458	attack
+T28	Literal_Expression 618 622	back
+T29	Literal_Expression 718 721	boy
+T30	Literal_Expression 836 841	child
+T31	Non_Lit_Expression 1596 1601	model
+T32	Non_Lit_Expression 1542 1546	baby
+T33	Embedded_Non_Lit 844 857	Beverly Hills
+#5	AnnotatorNotes T33	5328041
+A9	Non_Locational T26
+A10	Non_Locational T4
+A11	Non_Locational T8
+A13	Non_Locational T29
+A12	Non_Locational T30
+T34	Non_Toponym 844 875	Beverly Hills Police Department
+A17	Modifier_Type T33 Noun
+A1	Non_Locational T10
+A2	Non_Locational T11
+A3	Non_Locational T12
+A4	Non_Locational T13
+A5	Non_Locational T14
+A6	Non_Locational T16
+A15	Non_Locational T32
+A14	Non_Locational T31
+A7	Non_Locational T20
+A16	Non_Locational T22
+A8	Non_Locational T23
+A18	Non_Locational T24

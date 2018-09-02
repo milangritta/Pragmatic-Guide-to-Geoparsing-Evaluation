@@ -1,0 +1,19 @@
+T1	Mixed 289 291	US
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	6252001
+T2	Non_Literal_Modifier 753 755	US
+A3	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	6252001
+T3	Literal 407 415	Michigan
+#3	AnnotatorNotes T3	5001836
+T4	Non_Lit_Expression 968 974	office
+T5	Non_Lit_Expression 867 876	statement
+T6	Non_Lit_Expression 662 669	licence
+T7	Non_Lit_Expression 548 556	gymnasts
+T8	Literal_Expression 476 482	prison
+T9	Non_Lit_Expression 431 437	doctor
+A2	Non_Locational T7
+A5	Non_Locational T6
+A4	Non_Locational T5
+T10	Non_Lit_Expression 955 962	message
+A6	Non_Locational T10

@@ -1,0 +1,56 @@
+T1	Literal_Modifier 451 457	Mexico
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	3996063
+T2	Metonymic 589 595	Oregon
+#2	AnnotatorNotes T2	5744337
+T3	Literal_Modifier 679 685	Mexico
+A2	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	3996063
+T4	Literal_Expression 808 814	border
+T5	Literal 1074 1080	Mexico
+#4	AnnotatorNotes T5	3996063
+T6	Mixed 1036 1046	New Mexico
+#5	AnnotatorNotes T6	5481136
+T7	Mixed 1023 1030	Arizona
+#6	AnnotatorNotes T7	5551752
+T8	Mixed 1016 1021	Texas
+#7	AnnotatorNotes T8	4736286
+T9	Non_Literal_Modifier 1122 1132	California
+A8	Modifier_Type T9 Noun
+#8	AnnotatorNotes T9	5332921
+T10	Embedded_Non_Lit 738 744	Oregon
+T11	Non_Literal_Modifier 1698 1702	U.S.
+A12	Modifier_Type T11 Noun
+#9	AnnotatorNotes T11	6252001
+T12	Literal_Expression 1601 1607	border
+T13	Non_Lit_Expression 1205 1211	troops
+T14	Non_Lit_Expression 2021 2029	hearings
+T15	Non_Lit_Expression 1350 1357	request
+T16	Non_Lit_Expression 495 505	immigrants
+T17	Non_Lit_Expression 604 610	troops
+T19	Non_Lit_Expression 980 986	states
+T20	Non_Lit_Expression 1321 1327	effort
+T21	Literal_Expression 1867 1876	detention
+A3	Modifier_Type T6 Noun
+A4	Modifier_Type T7 Noun
+A5	Modifier_Type T8 Noun
+#10	AnnotatorNotes T10	5744337
+T22	Embedded_Non_Lit 652 658	Oregon
+#11	AnnotatorNotes T22	5744337
+A11	Non_Locational T16
+A13	Non_Locational T17
+T23	Non_Toponym 652 664	Oregon Guard
+A7	Modifier_Type T22 Noun
+T18	Non_Toponym 738 752	Oregon’s Guard
+A10	Modifier_Type T10 Noun
+T24	Non_Lit_Expression 836 848	proclamation
+A15	Non_Locational T24
+A9	Non_Locational T13
+A14	Non_Locational T20
+A16	Non_Locational T15
+T25	Non_Toponym 1444 1469	California National Guard
+T26	Embedded_Non_Lit 1444 1454	California
+A17	Modifier_Type T26 Noun
+#12	AnnotatorNotes T26	5332921
+T27	Non_Lit_Expression 1638 1641	law
+A18	Non_Locational T27

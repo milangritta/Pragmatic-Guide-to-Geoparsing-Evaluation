@@ -1,0 +1,50 @@
+T1	Mixed 139 148	ST. LOUIS
+#1	AnnotatorNotes T1	4407066
+T2	Embedded_Non_Lit 151 160	St. Louis
+#2	AnnotatorNotes T2	4407066
+T3	Embedded_Non_Lit 702 711	St. Louis
+#3	AnnotatorNotes T3	4407066
+T4	Literal 397 406	St. Louis
+#4	AnnotatorNotes T4	4407066
+T5	Literal_Modifier 866 881	St. Louis Hills
+A3	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	4407066
+T6	Literal 1124 1129	Lemay
+#6	AnnotatorNotes T6	4394905
+T7	Literal_Expression 541 546	heads
+T8	Literal_Expression 1435 1438	bed
+T9	Non_Lit_Expression 210 216	people
+T10	Literal_Expression 316 326	restaurant
+T11	Coercion 827 839	Salt + Smoke
+#7	AnnotatorNotes T11	38.656076, -90.305145
+T12	Literal_Expression 935 941	smoker
+T13	Literal 1131 1139	Missouri
+#8	AnnotatorNotes T13	4398678
+T14	Non_Lit_Expression 1191 1199	suspects
+T15	Non_Lit_Expression 191 196	squad
+T16	Non_Lit_Expression 977 987	Detectives
+T17	Literal_Expression 1087 1091	home
+T18	Non_Lit_Expression 1388 1395	arrests
+T19	Non_Lit_Expression 1548 1556	suspects
+T20	Literal 844 858	Hampton Avenue
+#9	AnnotatorNotes T20	38.598927, -90.292476
+T21	Literal 1099 1120	500 block of Jeffords
+#10	AnnotatorNotes T21	38.532543, -90.286071
+T22	Non_Lit_Expression 1596 1602	thefts
+A1	Modifier_Type T1 Noun
+T23	Non_Toponym 151 167	St. Louis Police
+A10	Modifier_Type T2 Noun
+A7	Non_Locational T15
+A5	Non_Locational T9
+A4	Non_Locational T7
+T24	Non_Toponym 702 718	St. Louis Police
+A11	Modifier_Type T3 Noun
+A2	Non_Locational T12
+T25	Non_Toponym 827 839	Salt + Smoke
+A8	Non_Locational T16
+T26	Non_Lit_Expression 1075 1080	woman
+A12	Non_Locational T26
+A6	Non_Locational T14
+T27	Non_Lit_Expression 1506 1514	barbecue
+A13	Non_Locational T27
+A9	Non_Locational T19

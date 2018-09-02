@@ -1,0 +1,24 @@
+T1	Mixed 181 188	RALEIGH
+#1	AnnotatorNotes T1	4487042
+T2	Literal_Modifier 333 340	Raleigh
+#2	AnnotatorNotes T2	4487042
+T3	Non_Literal_Modifier 371 385	North Carolina
+#3	AnnotatorNotes T3	4482348
+T4	Non_Literal_Modifier 250 264	North Carolina
+#4	AnnotatorNotes T4	4482348
+T5	Non_Lit_Expression 208 214	report
+T6	Literal_Expression 304 308	work
+T7	Non_Lit_Expression 458 462	year
+T8	Non_Lit_Expression 539 547	teachers
+T9	Literal_Expression 693 698	class
+T10	Non_Lit_Expression 857 865	teachers
+T11	Mixed 190 194	N.C.
+#5	AnnotatorNotes T11	4482348
+A11	Modifier_Type T2 Noun
+A2	Modifier_Type T3 Noun
+A4	Modifier_Type T4 Noun
+A6	Modifier_Type T1 Noun
+A9	Modifier_Type T11 Noun
+A5	Non_Locational T5
+A1	Non_Locational T8
+A3	Non_Locational T10

@@ -1,0 +1,56 @@
+T1	Literal_Expression 1510 1518	incident
+T2	Literal 232 239	Anfield
+#1	AnnotatorNotes T2	6288575
+T3	Non_Lit_Expression 189 195	attack
+T4	Mixed 333 335	UK
+#2	AnnotatorNotes T4	2635167
+T5	Non_Lit_Expression 1562 1573	individuals
+T6	Non_Literal_Modifier 979 987	European
+A2	Modifier_Type T6 Adjective
+#3	AnnotatorNotes T6	6255148
+T7	Literal 878 889	Switzerland
+#4	AnnotatorNotes T7	2658434
+T8	Literal 455 462	Anfield
+#5	AnnotatorNotes T8	6288575
+T9	Metonymic 1027 1036	Liverpool
+#6	AnnotatorNotes T9	2644210
+T10	Metonymic 1318 1327	Liverpool
+#7	AnnotatorNotes T10	2644210
+T11	Metonymic 728 737	Liverpool
+#8	AnnotatorNotes T11	2644210
+T12	Metonymic 924 933	Liverpool
+#9	AnnotatorNotes T12	2644210
+T13	Literal_Expression 1096 1102	ground
+T14	Non_Lit_Expression 1231 1240	sanctions
+T16	Non_Lit_Expression 1610 1614	club
+T17	Non_Lit_Expression 197 201	Fans
+T18	Literal_Expression 543 546	bus
+T19	Non_Lit_Expression 1141 1145	body
+T15	Literal_Expression 1376 1379	bus
+T20	Non_Lit_Expression 1464 1471	players
+T21	Non_Lit_Expression 1646 1657	authorities
+T22	Non_Toponym 151 163	Liverpool FC
+T23	Embedded_Non_Lit 151 163	Liverpool FC
+A12	Modifier_Type T23 Noun
+#10	AnnotatorNotes T23	2644210
+T24	Non_Toponym 169 184	Manchester City
+T25	Embedded_Non_Lit 169 184	Manchester City
+A13	Modifier_Type T25 Noun
+#11	AnnotatorNotes T25	6288582
+T26	Non_Toponym 1743 1758	Manchester City
+T27	Embedded_Non_Lit 1743 1758	Manchester City
+A14	Modifier_Type T27 Noun
+#12	AnnotatorNotes T27	6288582
+A6	Non_Locational T17
+T28	Non_Lit_Expression 414 420	bottle
+A15	Non_Locational T28
+A7	Non_Locational T18
+T29	Non_Lit_Expression 636 643	vehicle
+A16	Non_Locational T29
+A3	Non_Locational T19
+A4	Non_Locational T14
+A8	Non_Locational T15
+A9	Non_Locational T20
+A1	Non_Locational T5
+A5	Non_Locational T16
+A10	Non_Locational T21

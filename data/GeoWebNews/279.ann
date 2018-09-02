@@ -1,0 +1,45 @@
+T1	Non_Literal_Modifier 178 188	South Side
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	4903363
+T2	Non_Literal_Modifier 302 309	Chicago
+A3	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	4887398
+T3	Literal 265 276	River North
+#3	AnnotatorNotes T3	41.892917, -87.633401
+T4	Literal 365 387	South Ingleside Avenue
+#4	AnnotatorNotes T4	41.760517, -87.601751
+T5	Non_Lit_Expression 215 221	murder
+T6	Non_Lit_Expression 466 473	assault
+T7	Non_Lit_Expression 488 494	weapon
+T8	Literal_Modifier 563 573	Park Ridge
+#5	AnnotatorNotes T8	42.012183, -87.842193
+A5	Modifier_Type T8 Noun
+T9	Literal 661 676	Near North Side
+#6	AnnotatorNotes T9	4903360
+T10	Literal 635 653	North State Street
+#7	AnnotatorNotes T10	41.882051, -87.627826
+T11	Literal_Expression 722 727	alley
+T12	Literal_Expression 785 790	alley
+T13	Literal_Modifier 832 839	Hubbard
+A6	Modifier_Type T13 Noun
+#8	AnnotatorNotes T13	41.890137, -87.657012
+T14	Literal_Modifier 822 827	State
+A7	Modifier_Type T14 Noun
+#9	AnnotatorNotes T14	41.881984, -87.627897
+T15	Literal 888 918	Northwestern Memorial Hospital
+#10	AnnotatorNotes T15	4904172
+T16	Literal_Expression 989 997	platform
+T17	Literal_Expression 1062 1071	stairwell
+T18	Literal 1001 1006	Grand
+#11	AnnotatorNotes T18	41.891760, -87.628148
+T19	Literal 1011 1016	State
+#12	AnnotatorNotes T19	41.891760, -87.628148
+T20	Non_Lit_Expression 1251 1257	person
+T21	Literal_Expression 609 614	alley
+T22	Non_Lit_Expression 1092 1097	women
+T23	Non_Lit_Expression 1324 1331	founder
+A4	Non_Locational T7
+T24	Literal_Expression 930 938	stabbing
+A2	Non_Locational T22
+A8	Non_Locational T20
+A9	Non_Locational T23

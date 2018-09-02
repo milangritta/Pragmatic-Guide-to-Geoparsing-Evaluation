@@ -1,0 +1,25 @@
+T1	Literal 269 301	Glenrock State Conservation Area
+#1	AnnotatorNotes T1	8154519
+T2	Literal 408 423	Glenrock Lagoon
+#2	AnnotatorNotes T2	8210173
+T3	Mixed 672 680	Glenrock
+#3	AnnotatorNotes T3	8154519
+A1	Modifier_Type T3 Noun
+T4	Literal 799 807	Glenrock
+#4	AnnotatorNotes T4	8154519
+T5	Literal 200 215	Glenrock Lagoon
+#5	AnnotatorNotes T5	8210173
+T6	Embedded_Non_Lit 143 146	NSW
+#6	AnnotatorNotes T6	2155400
+T7	Literal_Modifier 597 605	Awabakal
+#7	AnnotatorNotes T7	8149995
+A2	Modifier_Type T7 Noun
+T8	Literal_Expression 852 856	park
+T9	Literal_Expression 634 639	mines
+T10	Literal_Expression 476 480	bush
+T11	Literal_Expression 499 503	area
+T12	Demonym 525 538	Novocastrians
+T13	Non_Lit_Expression 566 576	repository
+T14	Non_Toponym 143 182	NSW National Parks and Wildlife Service
+A5	Modifier_Type T6 Noun
+T15	Literal_Expression 879 884	place

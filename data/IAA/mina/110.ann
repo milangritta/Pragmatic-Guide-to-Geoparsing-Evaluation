@@ -1,0 +1,26 @@
+T1	Literal 300 309	Oceanside
+T2	Literal 368 379	Fire Island
+T3	Literal 1062 1074	Fort Salonga
+T4	Literal_Modifier 1266 1274	Bellmore
+#1	AnnotatorNotes T3	5117703
+#2	AnnotatorNotes T4	5108707
+#3	AnnotatorNotes T1	5129603
+#4	AnnotatorNotes T2	5117146
+T6	Literal_Expression 537 543	season
+T8	Literal_Expression 729 737	pageants
+T9	Literal_Expression 772 778	school
+T5	Non_Lit_Expression 810 820	psychology
+T10	Non_Lit_Expression 350 355	ferry
+T11	Literal_Expression 520 524	boat
+T12	Literal_Expression 1314 1321	episode
+T13	Demonym 168 182	Long Islanders
+T7	Demonym 1188 1202	Long Islanders
+A11	Modifier_Type T4 Noun
+T14	Literal_Expression 891 897	career
+A2	Non_Locational T10
+A3	Non_Locational T11
+A1	Non_Locational T5
+T15	Non_Toponym 245 269	Below Deck Mediterranean
+T16	Embedded_Literal 256 269	Mediterranean
+A4	Modifier_Type T16 Noun
+#5	AnnotatorNotes T16	363196

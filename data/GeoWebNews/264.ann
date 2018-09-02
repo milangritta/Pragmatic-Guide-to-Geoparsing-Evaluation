@@ -1,0 +1,124 @@
+T1	Non_Lit_Expression 250 256	degree
+T2	Non_Lit_Expression 278 285	painter
+T3	Literal 307 318	Kasba Bonli
+#1	AnnotatorNotes T3	26.311345, 76.246723
+T4	Literal 1108 1119	Kasba Bonli
+#2	AnnotatorNotes T4	26.311345, 76.246723
+T5	Mixed 3049 3060	Kasba Bonli
+#3	AnnotatorNotes T5	26.311345, 76.246723
+T6	Literal 5603 5614	Kasba Bonli
+#4	AnnotatorNotes T6	26.311345, 76.246723
+T7	Literal 335 340	India
+#5	AnnotatorNotes T7	1269750
+T8	Demonym 2598 2605	Indians
+T9	Literal_Modifier 2807 2813	Indian
+A5	Modifier_Type T9 Noun
+#7	AnnotatorNotes T9	1269750
+T10	Literal 1527 1532	India
+#8	AnnotatorNotes T10	1269750
+T11	Embedded_Non_Lit 1704 1710	Indian
+#9	AnnotatorNotes T11	1269750
+T12	Literal_Modifier 4712 4717	India
+A6	Modifier_Type T12 Noun
+#10	AnnotatorNotes T12	1269750
+T13	Mixed 5498 5503	India
+#11	AnnotatorNotes T13	1269750
+T14	Literal_Expression 400 410	university
+T15	Non_Lit_Expression 448 451	job
+T16	Literal_Expression 553 566	opportunities
+T17	Non_Lit_Expression 644 649	shirt
+T18	Non_Lit_Expression 670 678	trousers
+T19	Literal_Expression 861 868	country
+T20	Non_Lit_Expression 981 987	threat
+T21	Non_Lit_Expression 1071 1079	analysts
+T22	Literal_Modifier 1138 1147	Rajasthan
+A11	Modifier_Type T22 Noun
+#12	AnnotatorNotes T22	1258899
+T23	Literal_Modifier 3392 3401	Rajasthan
+A12	Modifier_Type T23 Noun
+#13	AnnotatorNotes T23	1258899
+T24	Literal 3585 3594	Rajasthan
+#14	AnnotatorNotes T24	1258899
+T25	Literal 3841 3850	Rajasthan
+#15	AnnotatorNotes T25	1258899
+T26	Literal_Expression 1185 1191	fields
+T27	Literal_Expression 1272 1281	elections
+T28	Literal_Expression 1419 1423	town
+T29	Non_Lit_Expression 1332 1336	sons
+T30	Non_Lit_Expression 1742 1752	think-tank
+T31	Non_Lit_Expression 1918 1926	railways
+T32	Non_Lit_Expression 2021 2031	government
+T33	Non_Lit_Expression 2111 2122	authorities
+T34	Literal_Expression 2285 2294	interview
+T35	Literal_Expression 2505 2512	country
+T36	Non_Lit_Expression 2717 2724	country
+T37	Non_Lit_Expression 2875 2880	party
+T38	Literal 2901 2910	New Delhi
+#16	AnnotatorNotes T38	1261481
+T39	Literal_Expression 2935 2941	states
+T40	Non_Lit_Expression 3003 3010	farmers
+T41	Non_Lit_Expression 3097 3102	shops
+T42	Literal_Expression 3247 3258	agriculture
+T43	Literal_Expression 3380 3384	area
+T44	Non_Lit_Expression 3452 3460	Congress
+T45	Non_Lit_Expression 3728 3736	promises
+T46	Literal_Expression 3902 3910	election
+T47	Non_Lit_Expression 3990 3998	promises
+T48	Non_Lit_Expression 4044 4049	study
+T49	Non_Lit_Expression 4170 4178	shortage
+T50	Literal_Expression 4271 4277	market
+T51	Non_Lit_Expression 4316 4323	problem
+T52	Literal_Expression 5654 5660	market
+T53	Literal_Expression 5693 5704	motorcycles
+T54	Literal_Expression 5745 5750	crime
+T55	Non_Lit_Expression 5769 5778	officials
+T56	Literal_Expression 5871 5875	shop
+T57	Non_Lit_Expression 5979 5986	friends
+T58	Literal_Expression 6014 6020	cities
+T59	Non_Lit_Expression 6069 6078	customers
+T60	Non_Lit_Expression 5462 5468	system
+T61	Non_Lit_Expression 5326 5330	jobs
+T62	Non_Lit_Expression 4824 4831	economy
+T63	Non_Lit_Expression 4404 4414	government
+T64	Non_Lit_Expression 4459 4469	conditions
+A1	Non_Locational T1
+A2	Non_Locational T2
+T65	Non_Lit_Expression 381 389	siblings
+A28	Non_Locational T65
+T66	Non_Lit_Expression 482 492	government
+A29	Non_Locational T66
+A7	Non_Locational T17
+A8	Non_Locational T18
+A9	Non_Locational T20
+T67	Literal_Expression 1029 1037	election
+A10	Non_Locational T21
+A13	Non_Locational T29
+T68	Non_Lit_Expression 1431 1438	farmers
+A30	Non_Locational T68
+T69	Non_Toponym 1682 1718	Centre for Monitoring Indian Economy
+A31	Modifier_Type T11 Noun
+A14	Non_Locational T30
+T70	Literal_Expression 1967 1974	cabinet
+A32	Non_Locational T70
+A15	Non_Locational T32
+A16	Non_Locational T33
+T71	Non_Lit_Expression 2316 2326	government
+A33	Non_Locational T71
+T72	Literal_Expression 2351 2360	elections
+A3	Non_Locational T37
+A4	Non_Locational T40
+T73	Non_Lit_Expression 3220 3228	children
+A17	Non_Locational T73
+A18	Non_Locational T45
+A19	Non_Locational T47
+A20	Non_Locational T48
+A21	Non_Locational T51
+A27	Non_Locational T63
+T74	Literal_Expression 4810 4818	activity
+T75	Non_Lit_Expression 5087 5093	people
+A34	Non_Locational T75
+A26	Non_Locational T60
+A22	Non_Locational T53
+A23	Non_Locational T55
+A24	Non_Locational T57
+A25	Non_Locational T59

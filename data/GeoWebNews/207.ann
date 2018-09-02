@@ -1,0 +1,56 @@
+T1	Non_Lit_Expression 5099 5109	volatility
+T2	Non_Lit_Expression 5200 5208	equities
+T3	Non_Literal_Modifier 1002 1009	Chinese
+A3	Modifier_Type T3 Adjective
+#1	AnnotatorNotes T3	1814991
+T4	Literal_Expression 4096 4103	markets
+T5	Non_Lit_Expression 4910 4919	sentiment
+T6	Non_Lit_Expression 4978 4985	markets
+T7	Literal_Expression 3300 3307	economy
+T8	Non_Lit_Expression 3343 3352	inflation
+T9	Non_Lit_Expression 3375 3380	banks
+T10	Mixed 3569 3571	UK
+#2	AnnotatorNotes T10	2635167
+T11	Literal_Expression 3722 3727	world
+T12	Embedded_Non_Lit 3799 3817	US Federal Reserve
+#3	AnnotatorNotes T12	6252001
+T13	Non_Lit_Expression 4688 4695	markets
+T14	Non_Lit_Expression 634 641	Markets
+T15	Literal_Expression 1625 1632	markets
+T16	Embedded_Non_Lit 2673 2691	US Federal Reserve
+#4	AnnotatorNotes T16	6252001
+T17	Literal_Expression 2477 2480	war
+T18	Non_Lit_Expression 3230 3238	downturn
+T19	Literal_Expression 3111 3119	equities
+T20	Coercion 249 264	Bank of England
+#5	AnnotatorNotes T20	6619891
+T21	Embedded_Non_Lit 605 631	Robinson College Cambridge
+#6	AnnotatorNotes T21	2653941
+T22	Non_Toponym 249 264	Bank of England
+T23	Non_Toponym 605 631	Robinson College Cambridge
+A2	Modifier_Type T21 Noun
+T24	Non_Toponym 451 476	Aberdeen Asset Management
+T25	Embedded_Non_Lit 451 459	Aberdeen
+A5	Modifier_Type T25 Noun
+#7	AnnotatorNotes T25	2657832
+T26	Literal_Expression 783 790	markets
+T27	Literal_Expression 2104 2111	weather
+T28	Literal_Expression 2383 2390	markets
+T29	Non_Toponym 2673 2691	US Federal Reserve
+A4	Modifier_Type T16 Noun
+T30	Literal_Expression 2834 2842	juncture
+T31	Non_Toponym 3799 3817	US Federal Reserve
+A7	Modifier_Type T12 Noun
+T32	Non_Toponym 3966 3979	Bank of Japan
+T33	Embedded_Non_Lit 3966 3979	Bank of Japan
+A8	Modifier_Type T33 Noun
+#8	AnnotatorNotes T33	1861060
+T34	Non_Toponym 3988 4009	European Central Bank
+T35	Embedded_Non_Lit 3988 4009	European Central Bank
+A9	Modifier_Type T35 Noun
+#9	AnnotatorNotes T35	6255148
+T36	Non_Lit_Expression 4558 4569	bondholders
+A10	Non_Locational T36
+T37	Literal_Expression 4784 4790	sector
+A6	Non_Locational T5
+T38	Literal_Expression 5325 5338	circumstances

@@ -1,0 +1,20 @@
+T1	Literal 221 241	St. Peter's Basilica
+#1	AnnotatorNotes T1	6269268
+T2	Non_Literal_Modifier 896 900	Rome
+#2	AnnotatorNotes T2	3169070
+T3	Literal_Expression 420 428	basilica
+A1	Modifier_Type T2 Noun
+T5	Literal_Expression 729 734	faith
+T6	Non_Lit_Expression 303 308	faith
+T7	Non_Literal_Modifier 322 330	Nigerian
+T8	Non_Literal_Modifier 761 769	Nigerian
+A7	Modifier_Type T8 Adjective
+#4	AnnotatorNotes T8	2328926
+T9	Literal_Expression 494 499	scene
+T4	Non_Lit_Expression 210 217	service
+T10	Literal_Expression 407 412	aisle
+A2	Non_Locational T4
+A4	Non_Locational T6
+A3	Non_Locational T5
+A5	Modifier_Type T7 Adjective
+#3	AnnotatorNotes T7	2328926

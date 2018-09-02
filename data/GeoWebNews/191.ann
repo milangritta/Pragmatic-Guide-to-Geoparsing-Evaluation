@@ -1,0 +1,117 @@
+T1	Mixed 110 115	CAIRO
+#1	AnnotatorNotes T1	360630
+T2	Literal_Modifier 158 163	Cairo
+A1	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	360630
+T3	Literal 1167 1172	Cairo
+#3	AnnotatorNotes T3	360630
+T4	Literal 1998 2003	Cairo
+#4	AnnotatorNotes T4	360630
+T5	Literal 3758 3767	New Cairo
+#5	AnnotatorNotes T5	7799991
+T6	Literal_Expression 149 154	field
+T7	Literal 182 190	Madinaty
+#6	AnnotatorNotes T7	415625
+T8	Literal_Modifier 2029 2037	Madinaty
+A2	Modifier_Type T8 Noun
+#7	AnnotatorNotes T8	415625
+T9	Mixed 3697 3705	Madinaty
+#8	AnnotatorNotes T9	415625
+T10	Literal_Expression 438 444	blocks
+T11	Literal_Expression 416 421	roads
+T12	Coercion 360 388	British International School
+#9	AnnotatorNotes T12	30.073196, 30.948169
+T13	Coercion 280 297	Liverpool Academy
+#10	AnnotatorNotes T13	30.073196, 30.948169
+T14	Literal_Expression 345 352	grounds
+T15	Non_Lit_Expression 489 498	teammates
+T16	Literal_Expression 543 548	field
+T17	Non_Lit_Expression 583 590	coaches
+T18	Metonymic 711 720	Liverpool
+#11	AnnotatorNotes T18	2644210
+T19	Non_Lit_Expression 759 766	striker
+T20	Non_Literal_Modifier 736 744	Egyptian
+A6	Modifier_Type T20 Adjective
+#12	AnnotatorNotes T20	357994
+T21	Non_Literal_Modifier 1318 1326	Egyptian
+A8	Modifier_Type T21 Adjective
+#13	AnnotatorNotes T21	357994
+T22	Literal 1649 1654	Egypt
+#14	AnnotatorNotes T22	357994
+T23	Literal 1824 1829	Egypt
+#15	AnnotatorNotes T23	357994
+T24	Demonym 2595 2603	Egyptian
+T25	Metonymic 2791 2796	Egypt
+#16	AnnotatorNotes T25	357994
+T26	Literal 3369 3374	Egypt
+#17	AnnotatorNotes T26	357994
+T27	Literal 3052 3057	Egypt
+#18	AnnotatorNotes T27	357994
+T28	Non_Literal_Modifier 2456 2464	Egyptian
+A12	Modifier_Type T28 Adjective
+T29	Metonymic 2076 2085	Liverpool
+#19	AnnotatorNotes T29	2644210
+T30	Metonymic 2645 2654	Liverpool
+#20	AnnotatorNotes T30	2644210
+T31	Metonymic 3707 3716	Liverpool
+#21	AnnotatorNotes T31	2644210
+T32	Metonymic 4002 4011	Liverpool
+#22	AnnotatorNotes T32	2644210
+T33	Non_Literal_Modifier 3417 3426	Liverpool
+A14	Modifier_Type T33 Noun
+#23	AnnotatorNotes T33	2644210
+T34	Non_Lit_Expression 910 916	father
+T35	Non_Literal_Modifier 949 955	Danish
+A17	Modifier_Type T35 Adjective
+#24	AnnotatorNotes T35	2623032
+T36	Non_Literal_Modifier 1947 1954	British
+A19	Modifier_Type T36 Adjective
+#25	AnnotatorNotes T36	2635167
+T37	Literal 1181 1191	Nile Delta
+#26	AnnotatorNotes T37	351037
+T38	Literal_Expression 1497 1504	country
+T39	Language 2372 2379	English
+T40	Language 2476 2483	English
+T41	Language 2465 2471	Arabic
+T42	Literal 2845 2851	Russia
+#27	AnnotatorNotes T42	2017370
+T43	Literal_Expression 2103 2110	country
+T44	Literal 3956 3962	Nagrig
+#28	AnnotatorNotes T44	351396
+T45	Literal_Expression 3835 3842	capital
+T46	Literal 3748 3753	Rehab
+#29	AnnotatorNotes T46	30.065625, 31.488506
+T47	Literal_Expression 3818 3827	outskirts
+T48	Metonymic 2634 2643	Barcelona
+#30	AnnotatorNotes T48	3128760
+T49	Literal_Expression 2505 2512	academy
+T50	Literal_Expression 3916 3921	roads
+T51	Non_Lit_Expression 999 1004	sport
+T52	Non_Lit_Expression 2308 2316	children
+T53	Non_Lit_Expression 3356 3365	academies
+T54	Non_Lit_Expression 3799 3810	communities
+T55	Embedded_Non_Lit 1845 1862	Liverpool Academy
+#31	AnnotatorNotes T55	360630
+A30	Modifier_Type T1 Noun
+T56	Non_Toponym 280 297	Liverpool Academy
+T57	Non_Toponym 360 388	British International School
+A3	Non_Locational T15
+A4	Non_Locational T17
+A5	Non_Locational T19
+A7	Non_Locational T34
+A16	Non_Locational T51
+T58	Non_Toponym 1099 1121	English Premier League
+T59	Embedded_Non_Lit 1099 1106	English
+A18	Modifier_Type T59 Noun
+#32	AnnotatorNotes T59	6269131
+T60	Literal_Expression 1150 1157	village
+T61	Literal_Expression 1260 1267	academy
+T62	Non_Lit_Expression 1426 1438	nutritionist
+A9	Non_Locational T62
+T63	Non_Lit_Expression 1378 1387	equipment
+A27	Non_Locational T63
+T64	Non_Toponym 1845 1862	Liverpool Academy
+A15	Modifier_Type T55 Noun
+A20	Non_Locational T52
+T65	Non_Lit_Expression 2701 2705	club
+T66	Literal_Expression 3198 3203	world

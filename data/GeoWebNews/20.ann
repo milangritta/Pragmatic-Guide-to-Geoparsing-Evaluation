@@ -1,0 +1,86 @@
+T1	Metonymic 184 190	Russia
+#1	AnnotatorNotes T1	2017370
+T2	Metonymic 246 252	Russia
+#2	AnnotatorNotes T2	2017370
+T3	Non_Literal_Modifier 362 369	Russian
+A1	Modifier_Type T3 Adjective
+#3	AnnotatorNotes T3	2017370
+T4	Metonymic 528 534	Russia
+#4	AnnotatorNotes T4	2017370
+T5	Metonymic 1347 1353	Russia
+#5	AnnotatorNotes T5	2017370
+T6	Non_Literal_Modifier 916 923	Russian
+A3	Modifier_Type T6 Adjective
+#6	AnnotatorNotes T6	2017370
+T7	Non_Literal_Modifier 1285 1292	Russian
+A5	Modifier_Type T7 Adjective
+#7	AnnotatorNotes T7	2017370
+T8	Non_Literal_Modifier 1451 1458	Russian
+A7	Modifier_Type T8 Adjective
+#8	AnnotatorNotes T8	2017370
+T9	Literal 1190 1196	Russia
+#9	AnnotatorNotes T9	2017370
+T10	Non_Literal_Modifier 633 640	Russian
+A9	Modifier_Type T10 Adjective
+#10	AnnotatorNotes T10	2017370
+T11	Metonymic 788 794	Russia
+#11	AnnotatorNotes T11	2017370
+T12	Non_Literal_Modifier 586 593	Russian
+A11	Modifier_Type T12 Adjective
+#12	AnnotatorNotes T12	2017370
+T13	Non_Literal_Modifier 417 424	Russian
+A13	Modifier_Type T13 Adjective
+#13	AnnotatorNotes T13	2017370
+T14	Non_Literal_Modifier 467 474	Russian
+A15	Modifier_Type T14 Adjective
+#14	AnnotatorNotes T14	2017370
+T15	Metonymic 1015 1021	Russia
+#15	AnnotatorNotes T15	2017370
+T16	Non_Literal_Modifier 1317 1324	Russian
+A17	Modifier_Type T16 Adjective
+#16	AnnotatorNotes T16	2017370
+T17	Non_Literal_Modifier 268 270	US
+A18	Modifier_Type T17 Noun
+#17	AnnotatorNotes T17	6252001
+T18	Non_Literal_Modifier 1064 1066	US
+A19	Modifier_Type T18 Noun
+#18	AnnotatorNotes T18	6252001
+T19	Non_Literal_Modifier 1245 1247	US
+A20	Modifier_Type T19 Noun
+#19	AnnotatorNotes T19	6252001
+T20	Non_Literal_Modifier 1471 1473	US
+A22	Modifier_Type T20 Noun
+#20	AnnotatorNotes T20	6252001
+T21	Non_Literal_Modifier 983 985	US
+A24	Modifier_Type T21 Noun
+#21	AnnotatorNotes T21	6252001
+T22	Non_Literal_Modifier 1037 1039	US
+A26	Modifier_Type T22 Noun
+#22	AnnotatorNotes T22	6252001
+T23	Literal 284 298	St. Petersburg
+#23	AnnotatorNotes T23	536203
+T24	Literal 1080 1094	St. Petersburg
+#24	AnnotatorNotes T24	536203
+T25	Literal 1338 1345	Seattle
+#25	AnnotatorNotes T25	5809844
+T26	Literal 693 695	UK
+#26	AnnotatorNotes T26	2635167
+T27	Non_Lit_Expression 317 326	diplomats
+T28	Metonymic 1428 1435	Germany
+#27	AnnotatorNotes T28	2921044
+T29	Coercion 1537 1561	Russian Foreign Ministry
+T30	Metonymic 885 892	Germany
+#28	AnnotatorNotes T30	2921044
+T31	Literal_Expression 406 415	countries
+#29	AnnotatorNotes T29	55.746055, 37.584410
+T32	Metonymic 772 779	Britain
+#30	AnnotatorNotes T32	2635167
+T33	Non_Lit_Expression 562 571	countries
+T34	Non_Lit_Expression 833 839	attack
+T35	Non_Lit_Expression 1100 1109	consulate
+T36	Non_Lit_Expression 1407 1416	countries
+A28	Non_Locational T27
+T37	Non_Lit_Expression 701 709	decision
+A2	Non_Locational T37
+A4	Non_Locational T35
+T38	Non_Toponym 1537 1561	Russian Foreign Ministry

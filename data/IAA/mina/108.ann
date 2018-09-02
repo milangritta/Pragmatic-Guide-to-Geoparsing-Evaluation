@@ -1,0 +1,35 @@
+T1	Literal_Expression 516 521	world
+T2	Literal_Expression 587 593	places
+T3	Coercion 860 871	White House
+T4	Literal_Expression 1137 1142	world
+T5	Literal_Expression 1208 1214	places
+T6	Literal 2388 2396	Illinois
+T9	Non_Lit_Expression 1854 1860	theory
+#1	AnnotatorNotes T6	4896861
+T7	Literal_Expression 350 355	rails
+T13	Non_Lit_Expression 425 431	theory
+T8	Literal_Expression 485 492	bondage
+T10	Non_Lit_Expression 825 832	leaders
+T14	Non_Lit_Expression 1037 1046	President
+T15	Literal_Expression 1463 1468	rings
+T16	Literal_Expression 1543 1552	operation
+T17	Literal_Expression 2511 2515	life
+T18	Literal_Expression 2687 2693	theory
+T19	Non_Lit_Expression 1757 1765	theories
+#2	AnnotatorNotes T3	4140704
+A1	Non_Locational T13
+A3	Non_Locational T10
+T11	Non_Toponym 860 871	White House
+A2	Non_Locational T14
+A5	Non_Locational T15
+A6	Non_Locational T19
+A4	Non_Locational T9
+A7	Non_Locational T18
+T12	Metonymic 948 959	White House
+#3	AnnotatorNotes T12	4140704
+T20	Non_Toponym 2106 2120	New York Times
+T21	Embedded_Non_Lit 2106 2114	New York
+A8	Modifier_Type T21 Noun
+#4	AnnotatorNotes T21	5128581
+T22	Metonymic 2121 2132	White House
+#5	AnnotatorNotes T22	4140704

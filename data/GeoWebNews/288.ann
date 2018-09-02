@@ -1,0 +1,21 @@
+T1	Literal_Expression 370 377	rampage
+T2	Coercion 414 429	Barclays Center
+#1	AnnotatorNotes T2	9794879
+T3	Non_Lit_Expression 473 480	sources
+T4	Non_Lit_Expression 315 323	mischief
+T5	Literal_Expression 645 649	area
+T6	Literal_Expression 657 662	arena
+T7	Non_Lit_Expression 789 792	bus
+T8	Literal_Expression 1138 1144	events
+T9	Literal_Expression 1051 1054	bus
+T10	Non_Lit_Expression 236 243	fighter
+T11	Non_Lit_Expression 543 548	judge
+T12	Literal_Expression 980 983	bus
+A4	Non_Locational T10
+A1	Non_Locational T4
+T13	Non_Toponym 414 429	Barclays Center
+A7	Non_Locational T3
+A5	Non_Locational T11
+A2	Non_Locational T7
+A6	Non_Locational T12
+A3	Non_Locational T9

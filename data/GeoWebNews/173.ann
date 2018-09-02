@@ -1,0 +1,44 @@
+T1	Non_Literal_Modifier 217 223	Danish
+A1	Modifier_Type T1 Adjective
+T2	Literal_Expression 325 330	issue
+T3	Non_Lit_Expression 430 436	equity
+T4	Non_Lit_Expression 534 542	projects
+T5	Literal_Expression 730 735	buoys
+T6	Literal_Expression 780 784	wire
+T7	Literal_Expression 856 860	pipe
+T8	Literal_Expression 881 888	turbine
+T9	Literal_Expression 1047 1052	coast
+T10	Literal 1056 1063	Denmark
+T11	Non_Lit_Expression 1291 1296	phase
+T12	Non_Lit_Expression 1563 1569	energy
+T13	Literal 1713 1718	Wales
+T14	Non_Literal_Modifier 2019 2021	UK
+A11	Modifier_Type T14 Noun
+T15	Non_Lit_Expression 370 382	subscription
+T16	Non_Lit_Expression 474 479	media
+T17	Non_Lit_Expression 581 591	collectors
+T18	Non_Lit_Expression 969 976	version
+T19	Non_Lit_Expression 1541 1553	advancements
+#1	AnnotatorNotes T13	2634895
+#2	AnnotatorNotes T10	2623032
+#3	AnnotatorNotes T1	2623032
+#4	AnnotatorNotes T14	2635167
+A2	Non_Locational T15
+A3	Non_Locational T3
+A4	Non_Locational T16
+A5	Non_Locational T17
+A6	Non_Locational T18
+T20	Non_Toponym 1359 1397	Asian Wave and Tidal Energy Conference
+T21	Embedded_Literal 1359 1364	Asian
+A7	Modifier_Type T21 Noun
+#5	AnnotatorNotes T21	6255147
+A8	Non_Locational T19
+A9	Non_Locational T12
+T22	Non_Toponym 1572 1609	MARINE ENERGY WALES ANNUAL CONFERENCE
+T23	Embedded_Literal 1586 1591	WALES
+A10	Modifier_Type T23 Noun
+#6	AnnotatorNotes T23	2634895
+T24	Non_Toponym 1627 1668	The Marine Energy Wales Annual Conference
+T25	Embedded_Literal 1645 1650	Wales
+A12	Modifier_Type T25 Noun
+#7	AnnotatorNotes T25	2634895

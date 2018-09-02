@@ -1,0 +1,76 @@
+T1	Non_Lit_Expression 198 204	events
+T2	Non_Lit_Expression 336 346	membership
+T3	Non_Lit_Expression 411 420	marketing
+T4	Non_Lit_Expression 489 495	summer
+T5	Literal_Expression 720 726	events
+T6	Embedded_Non_Lit 2746 2759	Santa Barbara
+#1	AnnotatorNotes T6	5392952
+T7	Embedded_Non_Lit 2393 2406	Santa Barbara
+#2	AnnotatorNotes T7	5392952
+T8	Coercion 851 864	Sullivan Goss
+#3	AnnotatorNotes T8	34.423896, -119.704152
+T9	Coercion 781 790	Newcomers
+#4	AnnotatorNotes T9	34.423896, -119.704152
+T10	Literal_Expression 841 847	launch
+T11	Literal_Expression 913 918	crowd
+T12	Non_Lit_Expression 973 977	arts
+T13	Non_Lit_Expression 1056 1063	warning
+T14	Non_Lit_Expression 1100 1107	cellist
+T15	Non_Lit_Expression 1368 1371	act
+T16	Literal_Expression 1414 1418	home
+T17	Literal_Modifier 1433 1439	Goleta
+A8	Modifier_Type T17 Noun
+#5	AnnotatorNotes T17	5352963
+T18	Literal_Modifier 1453 1464	Carpinteria
+A9	Modifier_Type T18 Noun
+#6	AnnotatorNotes T18	5334423
+T19	Literal 1486 1490	Mesa
+#7	AnnotatorNotes T19	5339840
+T20	Mixed 1527 1538	Turtle Rock
+A10	Modifier_Type T20 Noun
+#8	AnnotatorNotes T20	5404106
+T21	Non_Lit_Expression 1616 1626	appetizers
+T22	Non_Lit_Expression 1728 1733	charm
+T23	Non_Lit_Expression 1918 1922	club
+T24	Literal_Modifier 2068 2079	Turtle Rock
+A14	Modifier_Type T24 Noun
+#9	AnnotatorNotes T24	5404106
+T25	Coercion 2101 2112	Black Sheep
+T26	Literal_Expression 2296 2304	wineries
+T27	Non_Lit_Expression 2473 2478	drink
+T28	Literal_Expression 2621 2626	walks
+T29	Non_Lit_Expression 2694 2699	tribe
+#10	AnnotatorNotes T25	34.419193, -119.696964
+T30	Coercion 2326 2332	Booker
+#11	AnnotatorNotes T30	35.585369, -120.740452
+T31	Coercion 2337 2347	L’Aventure
+#12	AnnotatorNotes T31	35.585369, -120.740452
+T32	Literal_Expression 2889 2894	price
+A1	Non_Locational T2
+A2	Non_Locational T3
+T33	Non_Lit_Expression 387 396	insurance
+A20	Non_Locational T33
+T34	Non_Toponym 781 790	Newcomers
+T35	Non_Toponym 851 864	Sullivan Goss
+A3	Non_Locational T11
+A4	Non_Locational T12
+A5	Non_Locational T13
+A6	Non_Locational T14
+T36	Literal_Expression 1243 1248	event
+A7	Non_Locational T15
+A11	Non_Locational T21
+A12	Non_Locational T22
+T37	Non_Lit_Expression 1789 1801	conversation
+A13	Non_Locational T37
+T38	Non_Lit_Expression 2046 2056	winemakers
+A21	Non_Locational T38
+T39	Non_Toponym 2101 2112	Black Sheep
+T40	Non_Toponym 2326 2332	Booker
+T41	Non_Toponym 2337 2347	L’Aventure
+T42	Non_Toponym 2383 2406	Epicurean Santa Barbara
+A18	Modifier_Type T7 Noun
+A15	Non_Locational T27
+A16	Non_Locational T29
+T43	Non_Toponym 2736 2759	Epicurean Santa Barbara
+A19	Modifier_Type T6 Noun
+A17	Non_Locational T32

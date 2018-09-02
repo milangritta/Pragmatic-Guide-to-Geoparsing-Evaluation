@@ -1,0 +1,32 @@
+T1	Metonymic 231 244	United States
+#1	AnnotatorNotes T1	6252001
+T2	Metonymic 257 264	Morocco
+#2	AnnotatorNotes T2	2542007
+T3	Non_Lit_Expression 279 284	fight
+T4	Literal_Expression 343 348	world
+T5	Literal 445 450	Rabat
+#3	AnnotatorNotes T5	2538475
+T6	Mixed 514 521	Morocco
+A3	Modifier_Type T6 Noun
+#4	AnnotatorNotes T6	2542007
+T7	Literal 584 591	Morocco
+#5	AnnotatorNotes T7	2542007
+T8	Mixed 725 732	Morocco
+#6	AnnotatorNotes T8	2542007
+T9	Metonymic 1090 1097	Morocco
+#7	AnnotatorNotes T9	2542007
+T10	Metonymic 1106 1119	United States
+#8	AnnotatorNotes T10	6252001
+T11	Metonymic 792 805	United States
+#9	AnnotatorNotes T11	6252001
+T12	Non_Lit_Expression 699 708	countries
+T14	Literal_Expression 1033 1038	areas
+T16	Metonymic 1348 1354	Sahara
+#10	AnnotatorNotes T16	2461445
+T18	Literal_Expression 1561 1566	areas
+T19	Non_Lit_Expression 1262 1271	countries
+T20	Non_Lit_Expression 944 953	countries
+T13	Non_Lit_Expression 747 754	country
+T15	Literal_Modifier 358 371	United States
+#11	AnnotatorNotes T15	6252001
+A2	Modifier_Type T15 Noun

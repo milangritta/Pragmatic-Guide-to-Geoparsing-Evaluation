@@ -1,0 +1,92 @@
+T1	Metonymic 183 188	China
+#1	AnnotatorNotes T1	1814991
+T2	Metonymic 360 365	China
+#2	AnnotatorNotes T2	1814991
+T3	Metonymic 658 663	China
+#3	AnnotatorNotes T3	1814991
+T4	Metonymic 846 851	China
+#4	AnnotatorNotes T4	1814991
+T5	Literal 786 791	China
+#5	AnnotatorNotes T5	1814991
+T6	Literal 974 979	China
+#6	AnnotatorNotes T6	1814991
+T7	Metonymic 1360 1365	China
+#7	AnnotatorNotes T7	1814991
+T8	Metonymic 1037 1042	China
+#8	AnnotatorNotes T8	1814991
+T9	Mixed 2596 2601	China
+A1	Modifier_Type T9 Noun
+#9	AnnotatorNotes T9	1814991
+T10	Metonymic 1535 1540	China
+#10	AnnotatorNotes T10	1814991
+T11	Non_Literal_Modifier 304 308	U.S.
+A2	Modifier_Type T11 Noun
+#11	AnnotatorNotes T11	6252001
+T12	Metonymic 697 701	U.S.
+#12	AnnotatorNotes T12	6252001
+T13	Non_Literal_Modifier 866 870	U.S.
+A5	Modifier_Type T13 Noun
+#13	AnnotatorNotes T13	6252001
+T14	Metonymic 611 615	U.S.
+#14	AnnotatorNotes T14	6252001
+T15	Metonymic 1198 1202	U.S.
+#15	AnnotatorNotes T15	6252001
+T16	Coercion 443 467	University of St. Thomas
+#16	AnnotatorNotes T16	4738622
+T17	Literal 471 478	Houston
+#17	AnnotatorNotes T17	4699066
+T18	Literal 480 485	Texas
+#18	AnnotatorNotes T18	4736286
+T19	Literal 1118 1131	United States
+#19	AnnotatorNotes T19	6252001
+T20	Metonymic 1342 1355	United States
+#20	AnnotatorNotes T20	6252001
+T21	Mixed 2610 2623	United States
+A8	Modifier_Type T21 Noun
+#21	AnnotatorNotes T21	6252001
+T22	Non_Lit_Expression 156 163	tariffs
+T23	Non_Lit_Expression 274 278	body
+T24	Non_Lit_Expression 498 503	rules
+T25	Non_Lit_Expression 773 780	imports
+T26	Non_Lit_Expression 1004 1014	opposition
+T27	Non_Lit_Expression 1073 1081	products
+T28	Non_Literal_Modifier 1257 1265	Canadian
+A15	Modifier_Type T28 Adjective
+#22	AnnotatorNotes T28	6251999
+T29	Non_Lit_Expression 1589 1593	wars
+T30	Non_Lit_Expression 1705 1716	cooperation
+T31	Non_Lit_Expression 1752 1761	framework
+T32	Literal_Expression 1782 1787	trade
+T33	Literal_Expression 1833 1839	center
+T34	Non_Lit_Expression 1912 1922	prosperity
+T35	Non_Lit_Expression 1982 1990	dialogue
+T36	Non_Lit_Expression 2163 2170	answers
+T37	Embedded_Non_Lit 2294 2300	German
+#23	AnnotatorNotes T37	2921044
+T38	Non_Lit_Expression 2353 2358	talks
+T39	Literal_Expression 2469 2474	trade
+T40	Non_Lit_Expression 2533 2539	Growth
+T41	Non_Lit_Expression 2757 2766	economies
+T42	Non_Lit_Expression 381 388	mistake
+T43	Non_Lit_Expression 2724 2732	measures
+A9	Non_Locational T22
+A10	Non_Locational T23
+A3	Non_Locational T42
+T44	Non_Toponym 443 467	University of St. Thomas
+A11	Non_Locational T24
+T45	Non_Lit_Expression 557 566	mechanism
+A24	Non_Locational T45
+A4	Non_Locational T25
+A6	Non_Locational T26
+A12	Non_Locational T27
+A13	Non_Locational T30
+A14	Non_Locational T31
+A16	Non_Locational T34
+A17	Non_Locational T35
+T46	Non_Lit_Expression 2143 2150	answers
+A18	Non_Locational T46
+A19	Non_Locational T36
+T47	Non_Toponym 2294 2334	German Chambers of Commerce and Industry
+A20	Modifier_Type T37 Adjective
+A21	Non_Locational T40
+A22	Non_Locational T43

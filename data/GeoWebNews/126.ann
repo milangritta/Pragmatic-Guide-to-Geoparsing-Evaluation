@@ -1,0 +1,23 @@
+T1	Non_Literal_Modifier 279 288	Saskatoon
+#1	AnnotatorNotes T1	6141256
+T2	Literal 417 438	Northumberland Avenue
+#2	AnnotatorNotes T2	52.139839, -106.717302
+T3	Non_Lit_Expression 223 226	man
+T4	Non_Lit_Expression 320 326	Police
+T5	Literal_Expression 475 478	car
+T7	Non_Lit_Expression 680 683	dog
+T9	Literal_Expression 899 907	incident
+T8	Literal_Expression 704 710	ground
+T10	Non_Lit_Expression 663 670	partner
+T11	Non_Lit_Expression 871 874	dog
+T12	Literal_Expression 403 413	directions
+A8	Modifier_Type T1 Noun
+A2	Non_Locational T3
+A3	Non_Locational T5
+A1	Non_Locational T10
+A4	Non_Locational T7
+A5	Non_Locational T11
+T6	Non_Toponym 148 161	CTV Saskatoon
+T13	Embedded_Non_Lit 152 161	Saskatoon
+A6	Modifier_Type T13 Noun
+#3	AnnotatorNotes T13	6141256

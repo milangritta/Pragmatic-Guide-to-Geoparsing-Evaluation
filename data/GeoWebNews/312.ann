@@ -1,0 +1,58 @@
+T1	Literal_Modifier 243 249	Harare
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	890299
+T2	Non_Literal_Modifier 382 388	Harare
+A2	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	890299
+T3	Embedded_Non_Lit 1070 1089	Harare City Council
+#3	AnnotatorNotes T3	890299
+T4	Literal 252 264	Third Street
+#4	AnnotatorNotes T4	-17.827804, 31.052519
+T5	Literal 729 741	Third Street
+#5	AnnotatorNotes T5	-17.827804, 31.052519
+T6	Literal 464 476	Third street
+#6	AnnotatorNotes T6	-17.827804, 31.052519
+T7	Literal 632 644	Third Street
+#7	AnnotatorNotes T7	-17.827804, 31.052519
+T8	Non_Literal_Modifier 1320 1330	Zimbabwean
+A4	Modifier_Type T8 Adjective
+#8	AnnotatorNotes T8	878675
+T9	Literal 1833 1841	Zimbabwe
+#9	AnnotatorNotes T9	878675
+T10	Non_Literal_Modifier 1428 1434	Rugare
+A6	Modifier_Type T10 Noun
+#10	AnnotatorNotes T10	882229
+T11	Literal_Expression 1494 1499	roads
+T12	Non_Lit_Expression 702 709	council
+T13	Non_Lit_Expression 981 986	death
+T14	Non_Lit_Expression 598 606	proposal
+T15	Non_Lit_Expression 1369 1378	President
+T16	Non_Lit_Expression 687 694	cabinet
+T17	Literal_Expression 532 539	meeting
+T18	Non_Lit_Expression 1240 1246	cancer
+T19	Non_Lit_Expression 332 339	founder
+T20	Non_Lit_Expression 807 817	resolution
+T21	Non_Lit_Expression 846 853	cabinet
+T22	Literal_Expression 1168 1176	district
+T23	Literal_Expression 1417 1426	elections
+T24	Non_Lit_Expression 1468 1474	motion
+T25	Non_Lit_Expression 1611 1617	leader
+T26	Literal_Expression 1721 1728	streets
+T27	Non_Lit_Expression 1799 1811	contribution
+A13	Non_Locational T19
+A3	Non_Locational T14
+A9	Non_Locational T16
+A11	Non_Locational T12
+A14	Non_Locational T20
+A17	Non_Locational T21
+A18	Non_Locational T13
+T28	Non_Toponym 1070 1089	Harare City Council
+A19	Modifier_Type T3 Noun
+T29	Literal_Expression 1136 1143	streets
+A12	Non_Locational T18
+A5	Non_Locational T15
+A7	Non_Locational T24
+T30	Literal_Expression 1545 1552	meeting
+A8	Non_Locational T30
+A10	Non_Locational T25
+A15	Non_Locational T27

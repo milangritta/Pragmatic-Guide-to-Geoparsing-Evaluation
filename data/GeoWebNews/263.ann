@@ -1,0 +1,52 @@
+T1	Literal 411 421	California
+#1	AnnotatorNotes T1	5332921
+T2	Embedded_Non_Lit 1746 1756	Washington
+#2	AnnotatorNotes T2	4140963
+T3	Literal 590 603	West Virginia
+#3	AnnotatorNotes T3	4826850
+T4	Non_Lit_Expression 654 665	Republicans
+T5	Literal 794 798	U.S.
+#4	AnnotatorNotes T5	6252001
+T6	Coercion 1108 1125	Loyola University
+#5	AnnotatorNotes T6	5369120
+T7	Literal 1129 1140	Los Angeles
+#6	AnnotatorNotes T7	5368361
+T8	Embedded_Non_Lit 1221 1245	Arizona State University
+#7	AnnotatorNotes T8	5551752
+T9	Literal_Expression 1261 1266	cases
+T10	Non_Lit_Expression 1315 1329	investigations
+T11	Non_Lit_Expression 1462 1468	courts
+T12	Non_Lit_Expression 1515 1524	president
+T13	Literal_Expression 1725 1731	filing
+T14	Non_Lit_Expression 1797 1806	president
+T15	Non_Lit_Expression 1828 1838	commission
+T16	Literal_Expression 1272 1278	review
+T17	Non_Lit_Expression 288 293	fraud
+T18	Literal_Expression 398 404	places
+T19	Non_Lit_Expression 535 541	theory
+T20	Non_Lit_Expression 857 864	ballots
+T21	Non_Lit_Expression 772 777	fraud
+T22	Literal_Expression 1181 1186	cases
+T23	Non_Lit_Expression 1246 1251	study
+T24	Literal_Expression 1649 1657	election
+T25	Non_Lit_Expression 358 363	votes
+A8	Non_Locational T25
+A6	Non_Locational T19
+A1	Non_Locational T4
+T26	Non_Lit_Expression 714 722	evidence
+A9	Non_Locational T26
+A10	Non_Locational T21
+A11	Non_Locational T20
+T27	Non_Toponym 1108 1125	Loyola University
+T28	Non_Toponym 1221 1245	Arizona State University
+A12	Modifier_Type T8 Noun
+A5	Non_Locational T16
+A13	Non_Locational T23
+A14	Non_Locational T10
+A2	Non_Locational T12
+T29	Non_Toponym 1742 1761	The Washington Post
+A7	Modifier_Type T2 Noun
+A15	Non_Locational T13
+A3	Non_Locational T14
+A4	Non_Locational T15
+T30	Literal_Expression 1958 1963	fraud

@@ -1,0 +1,47 @@
+T1	Mixed 194 200	BOSTON
+#1	AnnotatorNotes T1	4930956
+T2	Literal 1879 1885	Boston
+#2	AnnotatorNotes T2	4930956
+T3	Literal 521 527	Boston
+#3	AnnotatorNotes T3	4930956
+T4	Non_Literal_Modifier 1137 1141	U.S.
+#4	AnnotatorNotes T4	6252001
+T5	Metonymic 1770 1774	U.S.
+#5	AnnotatorNotes T5	6252001
+T6	Embedded_Non_Lit 1784 1788	U.S.
+#6	AnnotatorNotes T6	6252001
+T7	Literal 1817 1830	Massachusetts
+#7	AnnotatorNotes T7	6254926
+T8	Literal 242 255	Massachusetts
+#8	AnnotatorNotes T8	6254926
+T9	Literal 1462 1475	Massachusetts
+#9	AnnotatorNotes T9	6254926
+T10	Non_Lit_Expression 358 366	employee
+T11	Non_Lit_Expression 1021 1028	company
+T12	Literal 1374 1380	Hawaii
+#10	AnnotatorNotes T12	5855797
+T13	Literal 1385 1391	Europe
+#11	AnnotatorNotes T13	6255148
+T14	Literal 1451 1460	Lexington
+#12	AnnotatorNotes T14	4941935
+T15	Non_Lit_Expression 912 918	lawyer
+T16	Non_Lit_Expression 1418 1424	family
+T17	Non_Lit_Expression 1738 1748	department
+T18	Non_Lit_Expression 419 426	company
+T19	Literal_Expression 1294 1301	company
+T20	Literal_Expression 1619 1625	market
+A2	Modifier_Type T1 Noun
+A3	Non_Locational T18
+A4	Non_Locational T10
+T21	Non_Toponym 1784 1803	U.S. District Court
+A5	Modifier_Type T6 Noun
+A1	Modifier_Type T4 Noun
+A9	Non_Locational T19
+T22	Non_Lit_Expression 880 887	trading
+A10	Non_Locational T22
+A7	Non_Locational T15
+A6	Non_Locational T11
+A8	Non_Locational T16
+T23	Literal_Expression 1578 1589	investments
+A11	Non_Locational T23
+T24	Literal_Expression 1598 1604	estate

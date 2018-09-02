@@ -1,0 +1,54 @@
+T1	Non_Lit_Expression 443 450	animals
+T2	Literal_Expression 1027 1032	cargo
+T3	Literal 1086 1091	Japan
+#1	AnnotatorNotes T3	1861060
+T4	Literal 1104 1115	Kansas City
+#2	AnnotatorNotes T4	4393217
+T5	Non_Literal_Modifier 842 848	French
+A3	Modifier_Type T5 Adjective
+#3	AnnotatorNotes T5	3017382
+T6	Literal_Modifier 2646 2652	London
+A5	Modifier_Type T6 Noun
+#4	AnnotatorNotes T6	2643743
+T7	Non_Lit_Expression 1558 1564	policy
+T8	Literal_Expression 1604 1614	containers
+T9	Literal_Expression 1719 1724	cargo
+T10	Literal_Modifier 2820 2828	Heathrow
+A8	Modifier_Type T10 Noun
+#5	AnnotatorNotes T10	2647216
+T11	Non_Literal_Modifier 1267 1271	U.S.
+A9	Modifier_Type T11 Adjective
+#6	AnnotatorNotes T11	6252001
+T12	Literal_Expression 3273 3283	conditions
+T13	Non_Lit_Expression 2424 2432	airports
+T14	Non_Lit_Expression 302 309	flights
+T15	Literal_Expression 560 565	world
+T16	Non_Lit_Expression 598 605	animals
+T17	Literal_Expression 905 908	bin
+T18	Non_Lit_Expression 2310 2317	species
+T19	Literal_Expression 3155 3163	overseas
+T20	Coercion 2655 2687	Heathrow Animal Reception Center
+#7	AnnotatorNotes T20	51.455890, -0.455783
+T21	Coercion 2692 2708	Air Canada Cargo
+#8	AnnotatorNotes T21	45.467263, -73.776689
+T22	Embedded_Non_Lit 3038 3044	Canada
+#9	AnnotatorNotes T22	6251999
+T23	Literal_Expression 253 262	incidents
+A1	Non_Locational T1
+A12	Non_Locational T16
+T24	Literal_Expression 769 778	incidents
+T25	Non_Lit_Expression 988 997	attendant
+A4	Non_Locational T25
+A2	Non_Locational T7
+A6	Non_Locational T8
+A7	Non_Locational T9
+T26	Non_Lit_Expression 2063 2072	shipments
+A10	Non_Locational T26
+T27	Non_Lit_Expression 2473 2480	program
+A13	Non_Locational T27
+T28	Non_Toponym 2655 2687	Heathrow Animal Reception Center
+T29	Non_Toponym 2692 2708	Air Canada Cargo
+T30	Non_Lit_Expression 2800 2804	fish
+A14	Non_Locational T30
+T31	Non_Toponym 3034 3050	Air Canada Cargo
+A11	Modifier_Type T22 Noun

@@ -1,0 +1,313 @@
+T1	Mixed 6523 6530	Tunisia
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	2464461
+T2	Literal 6498 6505	Tunisia
+#2	AnnotatorNotes T2	2464461
+T3	Metonymic 874 881	Tunisia
+#3	AnnotatorNotes T3	2464461
+T4	Metonymic 1013 1020	Tunisia
+#4	AnnotatorNotes T4	2464461
+T5	Non_Literal_Modifier 562 569	Tunisia
+A2	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	2464461
+T6	Non_Literal_Modifier 767 774	Tunisia
+A4	Modifier_Type T6 Noun
+#6	AnnotatorNotes T6	2464461
+T7	Literal 466 473	Tunisia
+#7	AnnotatorNotes T7	2464461
+T8	Metonymic 2160 2167	Tunisia
+#8	AnnotatorNotes T8	2464461
+T9	Non_Literal_Modifier 1915 1923	Tunisian
+A6	Modifier_Type T9 Adjective
+#9	AnnotatorNotes T9	2464461
+T10	Metonymic 2290 2297	Tunisia
+#10	AnnotatorNotes T10	2464461
+T11	Non_Literal_Modifier 2358 2366	Tunisian
+A9	Modifier_Type T11 Adjective
+#11	AnnotatorNotes T11	2464461
+T12	Literal 1473 1480	Tunisia
+#12	AnnotatorNotes T12	2464461
+T13	Non_Literal_Modifier 278 286	Tunisian
+A11	Modifier_Type T13 Adjective
+#13	AnnotatorNotes T13	2464461
+T14	Metonymic 674 681	Tunisia
+#14	AnnotatorNotes T14	2464461
+T15	Metonymic 5465 5472	Tunisia
+#15	AnnotatorNotes T15	2464461
+T16	Non_Literal_Modifier 1185 1193	Tunisian
+A15	Modifier_Type T16 Adjective
+#16	AnnotatorNotes T16	2464461
+T17	Non_Literal_Modifier 2622 2630	Tunisian
+A17	Modifier_Type T17 Adjective
+#17	AnnotatorNotes T17	2464461
+T18	Metonymic 2855 2862	Tunisia
+#18	AnnotatorNotes T18	2464461
+T19	Metonymic 3087 3094	Tunisia
+#19	AnnotatorNotes T19	2464461
+T20	Literal 3550 3557	Tunisia
+#20	AnnotatorNotes T20	2464461
+T21	Non_Literal_Modifier 3811 3819	Tunisian
+A19	Modifier_Type T21 Adjective
+#21	AnnotatorNotes T21	2464461
+T22	Non_Literal_Modifier 3757 3765	Tunisian
+A21	Modifier_Type T22 Adjective
+#22	AnnotatorNotes T22	2464461
+T23	Non_Literal_Modifier 4387 4395	Tunisian
+A23	Modifier_Type T23 Adjective
+#23	AnnotatorNotes T23	2464461
+T24	Literal_Modifier 3971 3979	Tunisian
+A25	Modifier_Type T24 Adjective
+#24	AnnotatorNotes T24	2464461
+T25	Non_Literal_Modifier 4880 4888	Tunisian
+A26	Modifier_Type T25 Adjective
+#25	AnnotatorNotes T25	2464461
+T26	Metonymic 7375 7382	Tunisia
+#26	AnnotatorNotes T26	2464461
+T27	Metonymic 3582 3589	Tunisia
+#27	AnnotatorNotes T27	2464461
+T28	Metonymic 4264 4271	Tunisia
+#28	AnnotatorNotes T28	2464461
+T29	Non_Literal_Modifier 5210 5218	Tunisian
+A31	Modifier_Type T29 Adjective
+#29	AnnotatorNotes T29	2464461
+T30	Metonymic 6644 6651	Tunisia
+#30	AnnotatorNotes T30	2464461
+T31	Metonymic 6286 6293	Tunisia
+#31	AnnotatorNotes T31	2464461
+T32	Non_Literal_Modifier 5669 5677	Tunisian
+A34	Modifier_Type T32 Adjective
+#32	AnnotatorNotes T32	2464461
+T33	Metonymic 5690 5697	Tunisia
+#33	AnnotatorNotes T33	2464461
+T34	Non_Literal_Modifier 5055 5063	Tunisian
+A36	Modifier_Type T34 Adjective
+#34	AnnotatorNotes T34	2464461
+T35	Embedded_Non_Lit 4939 4947	Tunisian
+#35	AnnotatorNotes T35	2464461
+T36	Literal 4698 4705	Tunisia
+#36	AnnotatorNotes T36	2464461
+T37	Metonymic 6337 6342	Tunis
+#37	AnnotatorNotes T37	2464470
+T38	Literal 7021 7026	Tunis
+#38	AnnotatorNotes T38	2464470
+T39	Literal 3878 3883	Tunis
+#39	AnnotatorNotes T39	2464470
+T40	Metonymic 5039 5044	Tunis
+#40	AnnotatorNotes T40	2464470
+T41	Literal 1289 1297	Brussels
+#41	AnnotatorNotes T41	2800866
+T42	Literal 1762 1767	Libya
+#42	AnnotatorNotes T42	2215636
+T43	Literal 1968 1973	Libya
+#43	AnnotatorNotes T43	2215636
+T44	Literal 3165 3170	Libya
+#44	AnnotatorNotes T44	2215636
+T45	Literal 3525 3530	Libya
+#45	AnnotatorNotes T45	2215636
+T46	Literal 4109 4114	Libya
+#46	AnnotatorNotes T46	2215636
+T47	Literal 7087 7092	Libya
+#47	AnnotatorNotes T47	2215636
+T48	Literal 6869 6881	North Africa
+#48	AnnotatorNotes T48	7729887
+T49	Mixed 5555 5567	North Africa
+#49	AnnotatorNotes T49	7729887
+T50	Mixed 6710 6722	North Africa
+#50	AnnotatorNotes T50	7729887
+T51	Literal 7493 7505	North Africa
+#51	AnnotatorNotes T51	7729887
+T52	Metonymic 7461 7466	Paris
+#52	AnnotatorNotes T52	2988507
+T53	Metonymic 6960 6966	France
+#53	AnnotatorNotes T53	3017382
+T54	Metonymic 6618 6624	France
+#54	AnnotatorNotes T54	3017382
+T55	Metonymic 6680 6686	France
+#55	AnnotatorNotes T55	3017382
+T56	Non_Literal_Modifier 6756 6762	French
+A40	Modifier_Type T56 Adjective
+#56	AnnotatorNotes T56	3017382
+T57	Non_Literal_Modifier 7349 7355	French
+A42	Modifier_Type T57 Adjective
+#57	AnnotatorNotes T57	3017382
+T58	Non_Literal_Modifier 7520 7526	French
+A44	Modifier_Type T58 Adjective
+#58	AnnotatorNotes T58	3017382
+T59	Metonymic 3111 3124	United States
+#59	AnnotatorNotes T59	6252001
+T60	Metonymic 3269 3271	US
+#60	AnnotatorNotes T60	6252001
+T61	Non_Literal_Modifier 3638 3640	US
+A46	Modifier_Type T61 Noun
+#61	AnnotatorNotes T61	6252001
+T62	Non_Literal_Modifier 3720 3722	US
+A48	Modifier_Type T62 Noun
+#62	AnnotatorNotes T62	6252001
+T63	Non_Literal_Modifier 4059 4061	US
+A50	Modifier_Type T63 Noun
+#63	AnnotatorNotes T63	6252001
+T64	Metonymic 7607 7609	US
+#64	AnnotatorNotes T64	6252001
+T65	Non_Literal_Modifier 2781 2783	US
+A53	Modifier_Type T65 Noun
+#65	AnnotatorNotes T65	6252001
+T66	Metonymic 3470 3472	US
+#66	AnnotatorNotes T66	6252001
+T67	Metonymic 3933 3935	US
+#67	AnnotatorNotes T67	6252001
+T68	Non_Literal_Modifier 4301 4303	US
+A55	Modifier_Type T68 Noun
+#68	AnnotatorNotes T68	6252001
+T69	Literal 1811 1824	Mount Chaambi
+#69	AnnotatorNotes T69	2496952
+T70	Literal_Modifier 1826 1835	Kasserine
+A57	Modifier_Type T70 Noun
+#70	AnnotatorNotes T70	2473460
+T71	Literal 1962 1966	Iraq
+#71	AnnotatorNotes T71	99237
+T72	Literal 1978 1983	Syria
+#72	AnnotatorNotes T72	163843
+T73	Non_Lit_Expression 215 224	Assistant
+T74	Non_Lit_Expression 385 390	grant
+T75	Literal_Expression 456 462	centre
+T76	Non_Lit_Expression 548 558	operations
+T77	Non_Lit_Expression 651 660	terrorism
+T78	Non_Lit_Expression 837 845	surprise
+T79	Embedded_Non_Lit 979 992	Mediterranean
+#73	AnnotatorNotes T79	363196
+T80	Non_Lit_Expression 1047 1058	partnership
+T81	Literal_Expression 1273 1285	headquarters
+T82	Literal_Expression 1344 1349	areas
+T83	Non_Lit_Expression 1547 1556	emergency
+T84	Literal_Expression 1614 1620	attack
+T85	Non_Lit_Expression 1703 1709	groups
+T86	Non_Lit_Expression 1862 1869	country
+T87	Literal_Expression 1948 1953	zones
+T88	Literal_Expression 2038 2046	collapse
+T89	Non_Lit_Expression 2261 2266	offer
+T90	Non_Lit_Expression 2429 2440	sovereignty
+T91	Non_Lit_Expression 2528 2533	staff
+T92	Literal 2615 2620	Gabès
+#74	AnnotatorNotes T92	2468369
+T93	Literal_Expression 2703 2710	country
+T94	Non_Lit_Expression 2736 2748	interference
+T95	Literal_Expression 2771 2779	location
+T96	Non_Lit_Expression 2837 2845	incident
+T97	Non_Lit_Expression 2999 3010	authorities
+T98	Literal 3258 3263	Sirte
+#75	AnnotatorNotes T98	2210554
+T99	Literal 3321 3328	Misrata
+#76	AnnotatorNotes T99	2214846
+T100	Literal_Expression 3361 3370	operation
+T101	Literal_Expression 3422 3430	fighting
+T102	Embedded_Non_Lit 3436 3446	Washington
+#77	AnnotatorNotes T102	4140963
+T103	Literal_Expression 3539 3546	airbase
+T104	Non_Lit_Expression 3628 3636	partners
+T105	Metonymic 4147 4157	Washington
+#78	AnnotatorNotes T105	4140963
+T106	Non_Lit_Expression 3699 3705	drones
+T107	Literal_Expression 3795 3799	base
+T108	Non_Lit_Expression 4081 4089	missions
+T109	Non_Literal_Modifier 4231 4235	Arab
+A71	Modifier_Type T109 Adjective
+#79	AnnotatorNotes T109	6957698
+T110	Non_Lit_Expression 4340 4347	country
+T111	Literal_Expression 4472 4477	bases
+T112	Literal_Expression 4541 4550	countries
+T113	Literal_Expression 4600 4604	soil
+T114	Literal_Expression 4688 4694	centre
+T115	Non_Lit_Expression 4804 4816	intelligence
+T116	Non_Lit_Expression 4916 4923	purpose
+T117	Literal_Expression 5090 5096	centre
+T118	Non_Lit_Expression 5255 5264	officials
+T119	Non_Lit_Expression 5282 5287	press
+T120	Literal_Expression 5347 5354	project
+T121	Metonymic 5427 5434	Algeria
+#80	AnnotatorNotes T121	2589581
+T122	Metonymic 5734 5741	Algeria
+#81	AnnotatorNotes T122	2589581
+T123	Metonymic 5959 5966	Algeria
+#82	AnnotatorNotes T123	2589581
+T124	Non_Literal_Modifier 6204 6212	Algerian
+A77	Modifier_Type T124 Adjective
+#83	AnnotatorNotes T124	2589581
+T125	Metonymic 6370 6377	Algeria
+#84	AnnotatorNotes T125	2589581
+T126	Embedded_Non_Lit 5578 5582	Arab
+#85	AnnotatorNotes T126	6957698
+T127	Non_Lit_Expression 5630 5639	countries
+T128	Non_Lit_Expression 5771 5777	threat
+T129	Literal_Expression 5806 5812	border
+T130	Literal_Expression 5865 5871	border
+T131	Non_Lit_Expression 5923 5932	agreement
+T132	Literal_Expression 6113 6122	countries
+T134	Literal_Expression 6091 6096	bases
+T135	Non_Lit_Expression 6186 6192	policy
+T136	Non_Lit_Expression 6235 6241	nation
+T137	Non_Lit_Expression 6329 6335	offers
+T138	Non_Lit_Expression 6899 6905	visits
+T139	Literal_Expression 6999 7005	region
+T140	Non_Lit_Expression 7121 7127	crisis
+T141	Non_Lit_Expression 7179 7186	mistake
+T142	Non_Lit_Expression 7228 7234	remark
+T143	Literal_Expression 7294 7300	centre
+T144	Non_Lit_Expression 7574 7587	circumstances
+A58	Non_Locational T73
+A12	Non_Locational T74
+T145	Literal_Expression 620 628	controls
+A3	Non_Locational T77
+A13	Non_Locational T78
+T146	Non_Toponym 979 1001	Mediterranean Dialogue
+A59	Modifier_Type T79 Adjective
+A60	Non_Locational T80
+T147	Literal_Expression 1150 1158	security
+A16	Non_Locational T85
+T148	Literal_Expression 2133 2140	country
+A5	Non_Locational T89
+A7	Non_Locational T90
+T149	Literal_Expression 2483 2493	appearance
+A8	Non_Locational T91
+T150	Literal_Expression 2567 2573	centre
+A10	Non_Locational T94
+A18	Non_Locational T97
+T151	Non_Toponym 3436 3451	Washington Post
+A54	Modifier_Type T102 Noun
+T152	Literal_Expression 3507 3517	operations
+A29	Non_Locational T104
+A47	Non_Locational T106
+T153	Literal_Expression 4167 4179	intelligence
+A20	Non_Locational T153
+T154	Non_Literal_Modifier 4490 4497	Western
+A22	Modifier_Type T154 Adjective
+#86	AnnotatorNotes T154	38.933463, -77.017605
+A24	Non_Locational T115
+T155	Literal_Expression 4738 4744	centre
+A27	Non_Locational T116
+T156	Non_Toponym 4939 4962	Tunisian Special Forces
+A30	Modifier_Type T35 Adjective
+A37	Non_Locational T118
+A49	Non_Locational T119
+T157	Non_Toponym 5578 5589	Arab Spring
+A14	Modifier_Type T126 Adjective
+A35	Non_Locational T128
+T158	Non_Lit_Expression 5846 5850	deal
+A51	Non_Locational T158
+A56	Non_Locational T131
+T159	Non_Literal_Modifier 5993 6000	Western
+A61	Modifier_Type T159 Adjective
+#87	AnnotatorNotes T159	38.933463, -77.017605
+T133	Literal_Expression 6026 6032	region
+A62	Non_Locational T135
+A63	Non_Locational T136
+A33	Non_Locational T137
+T160	Non_Lit_Expression 6586 6597	cooperation
+A64	Non_Locational T160
+T161	Literal_Expression 6920 6928	meetings
+A32	Non_Locational T141
+A39	Non_Locational T142
+T162	Non_Lit_Expression 7415 7424	rejection
+A28	Non_Locational T162
+T163	Literal_Expression 7629 7635	region
+T164	Non_Lit_Expression 7713 7720	affairs
+A38	Non_Locational T164

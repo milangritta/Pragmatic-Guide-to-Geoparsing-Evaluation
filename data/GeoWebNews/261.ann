@@ -1,0 +1,89 @@
+T1	Metonymic 314 320	Mexico
+#1	AnnotatorNotes T1	3996063
+T2	Non_Literal_Modifier 653 660	Mexican
+A1	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	3996063
+T3	Non_Literal_Modifier 872 879	Mexican
+A3	Modifier_Type T3 Adjective
+#3	AnnotatorNotes T3	3996063
+T4	Demonym 1517 1525	Mexicans
+T5	Demonym 1859 1867	Mexicans
+T6	Demonym 2164 2172	Mexicans
+T7	Demonym 3513 3521	Mexicans
+T8	Demonym 3139 3147	Mexicans
+T9	Non_Literal_Modifier 2338 2345	Mexican
+A15	Modifier_Type T9 Adjective
+#4	AnnotatorNotes T9	3996063
+T10	Embedded_Non_Lit 2077 2091	Mexican Senate
+#5	AnnotatorNotes T10	3996063
+T11	Metonymic 3603 3609	Mexico
+#6	AnnotatorNotes T11	3996063
+T12	Demonym 4040 4048	Mexicans
+T13	Demonym 4488 4496	Mexicans
+T14	Metonymic 4566 4572	Mexico
+#7	AnnotatorNotes T14	3996063
+T15	Non_Literal_Modifier 3177 3183	Mexico
+#8	AnnotatorNotes T15	3996063
+T16	Demonym 3930 3938	Mexicans
+T17	Non_Literal_Modifier 4101 4125	United States of America
+#9	AnnotatorNotes T17	6252001
+A23	Modifier_Type T17 Noun
+T18	Metonymic 329 342	United States
+#10	AnnotatorNotes T18	6252001
+T19	Literal 1533 1546	United States
+#11	AnnotatorNotes T19	6252001
+T20	Literal_Expression 270 276	events
+T21	Non_Lit_Expression 388 395	country
+T22	Non_Lit_Expression 994 1001	nations
+T23	Literal_Expression 1047 1059	negotiations
+T24	Non_Lit_Expression 1171 1177	region
+T25	Non_Lit_Expression 1845 1854	countries
+T26	Non_Lit_Expression 1998 2005	country
+T27	Literal_Expression 2065 2071	events
+T28	Non_Lit_Expression 2246 2255	countries
+T29	Non_Lit_Expression 2301 2311	candidates
+T30	Non_Lit_Expression 2845 2854	neighbors
+T31	Non_Lit_Expression 3223 3229	nation
+T32	Embedded_Non_Lit 1077 1091	North American
+#12	AnnotatorNotes T32	11812362
+T33	Literal_Expression 800 810	agreements
+T34	Non_Lit_Expression 1570 1574	laws
+T35	Non_Lit_Expression 231 238	country
+T36	Non_Lit_Expression 351 357	person
+A33	Non_Locational T36
+T37	Non_Lit_Expression 618 629	sovereignty
+A34	Non_Locational T37
+T38	Non_Lit_Expression 779 789	challenges
+A2	Non_Locational T38
+A30	Non_Locational T33
+T39	Non_Lit_Expression 816 823	actions
+A35	Non_Locational T39
+A4	Non_Locational T22
+T40	Non_Toponym 1077 1112	North American Free Trade Agreement
+A25	Modifier_Type T32 Adjective
+T41	Non_Lit_Expression 1239 1246	efforts
+A28	Non_Locational T41
+A5	Non_Locational T34
+T42	Non_Lit_Expression 1659 1666	nations
+A6	Non_Locational T42
+T43	Non_Lit_Expression 1697 1709	relationship
+A31	Non_Locational T43
+T44	Non_Toponym 2077 2091	Mexican Senate
+A7	Modifier_Type T10 Adjective
+A8	Non_Locational T29
+T45	Non_Lit_Expression 2536 2545	neighbors
+A9	Non_Locational T45
+A10	Non_Locational T30
+T46	Non_Lit_Expression 2982 2989	dignity
+A16	Non_Locational T46
+A14	Modifier_Type T15 Noun
+A26	Non_Locational T31
+T47	Non_Lit_Expression 3415 3421	nation
+A27	Non_Locational T47
+T48	Non_Lit_Expression 3466 3472	values
+A11	Non_Locational T48
+T49	Non_Lit_Expression 4197 4201	fear
+A12	Non_Locational T49
+T50	Non_Lit_Expression 4296 4305	countries
+T51	Non_Lit_Expression 4422 4429	respect
+A17	Non_Locational T51

@@ -1,0 +1,62 @@
+T1	Literal 566 574	Kentucky
+#1	AnnotatorNotes T1	6254925
+T2	Mixed 2944 2952	Kentucky
+A1	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	6254925
+T3	Non_Lit_Expression 320 328	agencies
+T4	Non_Lit_Expression 510 521	Legislators
+T5	Non_Lit_Expression 743 752	Districts
+T6	Non_Lit_Expression 962 969	student
+T7	Non_Lit_Expression 716 725	districts
+T8	Non_Lit_Expression 1121 1130	districts
+T9	Non_Lit_Expression 1251 1260	districts
+T10	Literal_Expression 1328 1334	school
+T12	Non_Literal_Modifier 1650 1664	Daviess County
+#4	AnnotatorNotes T12	4289518
+T13	Mixed 3505 3519	Daviess County
+A5	Modifier_Type T13 Noun
+#5	AnnotatorNotes T13	4289518
+T14	Mixed 3550 3563	McLean County
+A6	Modifier_Type T14 Noun
+#6	AnnotatorNotes T14	4300401
+T15	Mixed 3594 3611	Muhlenberg County
+A7	Modifier_Type T15 Noun
+#7	AnnotatorNotes T15	4301955
+T16	Mixed 3648 3659	Ohio County
+A8	Modifier_Type T16 Noun
+#8	AnnotatorNotes T16	4302977
+T17	Mixed 3692 3703	Pike County
+#9	AnnotatorNotes T17	4304226
+T18	Embedded_Non_Lit 456 464	Kentucky
+#10	AnnotatorNotes T18	6254925
+T19	Embedded_Non_Lit 228 236	Kentucky
+#11	AnnotatorNotes T19	6254925
+T20	Non_Lit_Expression 2189 2194	state
+T21	Non_Lit_Expression 2372 2377	state
+T22	Literal_Expression 2704 2713	classroom
+T23	Literal_Expression 3217 3225	counties
+T24	Literal_Expression 3253 3258	state
+T25	Non_Lit_Expression 3332 3341	districts
+A19	Modifier_Type T19 Noun
+T26	Non_Toponym 228 260	Kentucky Department of Education
+A2	Non_Locational T3
+T27	Non_Lit_Expression 436 442	budget
+A20	Non_Locational T27
+T28	Non_Toponym 456 480	Kentucky Family Resource
+A18	Modifier_Type T18 Noun
+A3	Non_Locational T4
+T29	Non_Lit_Expression 836 844	students
+A21	Non_Locational T29
+A4	Non_Locational T6
+T11	Non_Literal_Modifier 1621 1630	Owensboro
+A9	Modifier_Type T11 Noun
+#3	AnnotatorNotes T11	4303436
+A16	Modifier_Type T12 Noun
+T30	Non_Lit_Expression 1834 1841	dollars
+A17	Non_Locational T30
+T31	Non_Lit_Expression 1870 1879	inflation
+A22	Non_Locational T31
+T32	Non_Lit_Expression 2740 2748	teachers
+A10	Non_Locational T32
+T33	Non_Lit_Expression 3421 3425	coal
+A11	Non_Locational T33

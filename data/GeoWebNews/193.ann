@@ -1,0 +1,95 @@
+T1	Metonymic 158 163	China
+#1	AnnotatorNotes T1	1814991
+T2	Non_Literal_Modifier 1270 1277	Chinese
+A1	Modifier_Type T2 Adjective
+#2	AnnotatorNotes T2	1814991
+T3	Metonymic 1807 1812	China
+#3	AnnotatorNotes T3	1814991
+T4	Metonymic 1981 1986	China
+#4	AnnotatorNotes T4	1814991
+T5	Metonymic 2390 2395	China
+#5	AnnotatorNotes T5	1814991
+T6	Metonymic 2165 2170	China
+#6	AnnotatorNotes T6	1814991
+T7	Non_Literal_Modifier 955 962	Chinese
+A3	Modifier_Type T7 Adjective
+#7	AnnotatorNotes T7	1814991
+T8	Non_Literal_Modifier 254 261	Chinese
+A5	Modifier_Type T8 Adjective
+#8	AnnotatorNotes T8	1814991
+T9	Non_Literal_Modifier 584 591	Chinese
+A7	Modifier_Type T9 Adjective
+#9	AnnotatorNotes T9	1814991
+T10	Literal 178 194	Korean Peninsula
+#10	AnnotatorNotes T10	11494804
+T11	Literal_Modifier 1123 1139	Korean Peninsula
+A9	Modifier_Type T11 Noun
+#11	AnnotatorNotes T11	11494804
+T12	Literal 1767 1783	Korean Peninsula
+#12	AnnotatorNotes T12	11494804
+T13	Literal_Expression 2066 2075	peninsula
+T14	Literal_Expression 393 402	peninsula
+T15	Literal_Modifier 749 765	Korean Peninsula
+A11	Modifier_Type T15 Noun
+#13	AnnotatorNotes T15	11494804
+T16	Literal_Expression 2336 2345	peninsula
+T17	Literal 2597 2613	Korean Peninsula
+#14	AnnotatorNotes T17	11494804
+T18	Literal 315 321	Moscow
+#15	AnnotatorNotes T18	524901
+T19	Literal 688 694	Moscow
+#16	AnnotatorNotes T19	524901
+T20	Literal 323 329	Russia
+#17	AnnotatorNotes T20	2017370
+T21	Literal 696 702	Russia
+#18	AnnotatorNotes T21	2017370
+T22	Non_Literal_Modifier 544 551	Russian
+A13	Modifier_Type T22 Adjective
+#19	AnnotatorNotes T22	2017370
+T23	Non_Literal_Modifier 646 653	Russian
+A15	Modifier_Type T23 Adjective
+#20	AnnotatorNotes T23	2017370
+T24	Metonymic 1991 1997	Russia
+#21	AnnotatorNotes T24	2017370
+T25	Metonymic 2400 2406	Russia
+#22	AnnotatorNotes T25	2017370
+T26	Metonymic 2175 2181	Russia
+#23	AnnotatorNotes T26	2017370
+T27	Metonymic 1817 1823	Russia
+#24	AnnotatorNotes T27	2017370
+T28	Literal 924 930	Russia
+#25	AnnotatorNotes T28	2017370
+T29	Metonymic 1323 1327	DPRK
+#26	AnnotatorNotes T29	1873107
+T30	Metonymic 835 872	Democratic People's Republic of Korea
+#27	AnnotatorNotes T30	1873107
+T32	Metonymic 1043 1047	DPRK
+#29	AnnotatorNotes T32	1873107
+T33	Metonymic 2143 2147	DPRK
+#30	AnnotatorNotes T33	1873107
+T34	Metonymic 2246 2250	DPRK
+#31	AnnotatorNotes T34	1873107
+T35	Metonymic 2278 2282	DPRK
+#32	AnnotatorNotes T35	1873107
+T36	Metonymic 2152 2163	South Korea
+#33	AnnotatorNotes T36	1835841
+T37	Metonymic 2251 2262	South Korea
+#34	AnnotatorNotes T37	1835841
+T38	Metonymic 1336 1349	United States
+#35	AnnotatorNotes T38	6252001
+T39	Metonymic 2283 2287	U.S.
+#36	AnnotatorNotes T39	6252001
+T40	Non_Lit_Expression 2435 2447	coordination
+T41	Literal_Expression 2497 2502	issue
+T42	Literal_Expression 2625 2631	region
+T43	Non_Lit_Expression 2364 2369	chaos
+T44	Non_Lit_Expression 2201 2208	parties
+T45	Literal_Expression 2049 2058	situation
+T46	Non_Lit_Expression 1964 1971	roadmap
+T47	Non_Lit_Expression 817 823	threat
+T48	Non_Lit_Expression 344 349	sides
+A6	Non_Locational T47
+T31	Non_Lit_Expression 1549 1556	parties
+A2	Non_Locational T31
+A4	Non_Locational T44
+A8	Non_Locational T40

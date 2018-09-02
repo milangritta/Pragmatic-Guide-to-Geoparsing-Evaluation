@@ -1,0 +1,48 @@
+T1	Literal 653 660	Clacton
+#1	AnnotatorNotes T1	2652974
+T2	Literal 517 532	Caesar's Palace
+#2	AnnotatorNotes T2	6479910
+T3	Literal 453 459	Canada
+#3	AnnotatorNotes T3	6251999
+T4	Literal 468 470	US
+#4	AnnotatorNotes T4	6252001
+T5	Embedded_Non_Lit 313 321	American
+#5	AnnotatorNotes T5	6252001
+T6	Non_Lit_Expression 176 182	busker
+T7	Non_Lit_Expression 249 254	music
+T8	Non_Lit_Expression 380 386	career
+T9	Literal 572 581	Las Vegas
+#6	AnnotatorNotes T9	5506956
+T10	Literal_Expression 639 643	show
+T11	Non_Lit_Expression 727 735	audience
+T12	Non_Lit_Expression 908 915	persona
+T13	Non_Lit_Expression 1059 1069	performers
+T14	Literal_Expression 1105 1109	show
+T15	Literal_Expression 1180 1185	clubs
+T16	Literal_Expression 1517 1524	concert
+T17	Non_Lit_Expression 1705 1708	mic
+T18	Literal_Expression 1745 1753	audience
+T19	Literal 2093 2108	Princes Theatre
+#7	AnnotatorNotes T19	51.791889, 1.153435
+T20	Literal_Expression 1802 1807	crowd
+T21	Non_Lit_Expression 1880 1887	rockers
+T22	Non_Lit_Expression 1922 1929	ballads
+T23	Non_Lit_Expression 1478 1488	excitement
+T24	Non_Lit_Expression 1859 1865	career
+A1	Non_Locational T6
+A2	Non_Locational T7
+T25	Non_Toponym 307 331	Great American Song Book
+A10	Modifier_Type T5 Adjective
+A11	Non_Locational T8
+A12	Non_Locational T11
+A3	Non_Locational T12
+T26	Non_Lit_Expression 997 1008	showmanship
+A13	Non_Locational T26
+A4	Non_Locational T13
+A9	Non_Locational T23
+A5	Non_Locational T17
+A14	Non_Locational T18
+A6	Non_Locational T20
+A15	Non_Locational T24
+A7	Non_Locational T21
+A8	Non_Locational T22

@@ -1,0 +1,92 @@
+T1	Embedded_Non_Lit 283 288	Malta
+#1	AnnotatorNotes T1	2562770
+T2	Metonymic 1783 1788	Malta
+#2	AnnotatorNotes T2	2562770
+T3	Metonymic 1315 1320	Malta
+#3	AnnotatorNotes T3	2562770
+T4	Metonymic 2050 2055	Malta
+#4	AnnotatorNotes T4	2562770
+T5	Mixed 649 654	Malta
+A1	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	2562770
+T6	Metonymic 739 744	Malta
+#6	AnnotatorNotes T6	2562770
+T7	Literal 2417 2422	Malta
+#7	AnnotatorNotes T7	2562770
+T8	Embedded_Non_Lit 718 732	European Union
+#8	AnnotatorNotes T8	6255148
+T9	Non_Literal_Modifier 855 863	European
+A2	Modifier_Type T9 Adjective
+#9	AnnotatorNotes T9	6255148
+T10	Mixed 1500 1502	UK
+#10	AnnotatorNotes T10	2635167
+T11	Metonymic 694 696	UK
+#11	AnnotatorNotes T11	2635167
+T12	Non_Lit_Expression 466 469	MPs
+T13	Non_Lit_Expression 575 581	bodies
+T14	Mixed 880 887	Germany
+#12	AnnotatorNotes T14	2921044
+T15	Non_Lit_Expression 765 769	ally
+T16	Metonymic 789 794	Malta
+#13	AnnotatorNotes T16	2562770
+T17	Literal_Expression 1038 1046	channels
+T18	Mixed 1121 1127	London
+#14	AnnotatorNotes T18	2643743
+T19	Literal_Expression 1183 1188	house
+T20	Non_Lit_Expression 1481 1490	countries
+T21	Non_Lit_Expression 1615 1624	committee
+T22	Non_Lit_Expression 1760 1771	appointment
+T23	Literal_Expression 1855 1862	country
+T24	Non_Lit_Expression 1910 1921	individuals
+T25	Literal_Expression 1961 1967	sector
+T26	Non_Lit_Expression 2019 2029	reputation
+T27	Literal_Expression 2160 2170	industries
+T28	Literal_Expression 2640 2649	situation
+T29	Non_Lit_Expression 2847 2855	measures
+T30	Non_Lit_Expression 2925 2931	layman
+T31	Literal_Expression 3230 3235	areas
+T32	Non_Lit_Expression 3371 3377	people
+T33	Non_Lit_Expression 3432 3447	confidentiality
+T34	Non_Lit_Expression 3593 3598	units
+T35	Non_Lit_Expression 3731 3740	regulator
+T36	Non_Lit_Expression 3848 3857	criticism
+T37	Non_Lit_Expression 327 336	professor
+T38	Non_Lit_Expression 612 618	threat
+T39	Non_Lit_Expression 978 985	history
+T40	Literal_Expression 1391 1400	occasions
+T41	Non_Lit_Expression 1661 1671	nomination
+T42	Non_Lit_Expression 2374 2382	industry
+T43	Non_Lit_Expression 2500 2507	replies
+T44	Non_Lit_Expression 2606 2614	concerns
+T45	Non_Toponym 283 317	Malta Financial Services Authority
+A22	Modifier_Type T1 Noun
+A17	Non_Locational T37
+A5	Non_Locational T12
+A6	Non_Locational T13
+A18	Non_Locational T38
+T46	Non_Toponym 718 732	European Union
+A23	Modifier_Type T8 Noun
+A7	Non_Locational T15
+T47	Non_Lit_Expression 1548 1553	banks
+A3	Non_Locational T47
+A8	Non_Locational T21
+A19	Non_Locational T41
+A24	Non_Locational T22
+A9	Non_Locational T24
+A10	Non_Locational T26
+T48	Non_Lit_Expression 2230 2236	debate
+A25	Non_Locational T48
+A20	Non_Locational T43
+A21	Non_Locational T44
+T49	Literal_Expression 2700 2707	country
+T50	Literal_Expression 2760 2769	situation
+A11	Non_Locational T29
+A12	Non_Locational T30
+T51	Non_Lit_Expression 3307 3317	department
+A26	Non_Locational T51
+A13	Non_Locational T32
+A14	Non_Locational T33
+A27	Non_Locational T34
+T52	Literal_Expression 3637 3647	operations
+A15	Non_Locational T35
+A16	Non_Locational T36

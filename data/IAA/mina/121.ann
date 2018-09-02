@@ -1,0 +1,118 @@
+T1	Literal_Expression 203 208	towns
+T2	Literal_Expression 213 221	villages
+T3	Literal 233 239	Ghouta
+T4	Literal 309 314	Douma
+T6	Mixed 466 474	Damascus	
+T7	Literal_Expression 529 536	country
+T9	Literal_Expression 687 691	city
+T10	Literal 695 700	Douma
+T11	Literal 774 780	Ghouta
+T12	Mixed 808 813	Douma
+T13	Literal_Expression 974 978	town
+T14	Literal_Modifier 1025 1033	Damascus
+T16	Literal_Expression 1370 1375	areas
+T17	Literal_Expression 1614 1622	enclaves
+T19	Literal_Expression 1736 1743	capital
+T20	Literal_Expression 1850 1864	neighbourhoods
+T21	Literal_Expression 1896 1901	areas
+T22	Literal_Expression 2033 2040	capital
+T23	Literal 2090 2096	Ghouta
+T24	Literal 2313 2318	Douma
+T25	Literal_Expression 2400 2404	town
+T26	Literal_Expression 2568 2572	city
+T27	Metonymic 2579 2585	Moscow
+T28	Literal 2641 2647	Ghouta
+T29	Literal_Expression 2796 2802	region
+T30	Literal 2911 2916	Syria
+T31	Literal 2945 2951	Ghouta
+T32	Literal_Modifier 3009 3014	Idlib
+#1	AnnotatorNotes T3	173866
+#2	AnnotatorNotes T11	173866
+#3	AnnotatorNotes T23	173866
+#4	AnnotatorNotes T28	173866
+#5	AnnotatorNotes T31	173866
+#6	AnnotatorNotes T4	170592
+#7	AnnotatorNotes T10	170592
+#8	AnnotatorNotes T12	170592
+#9	AnnotatorNotes T24	170592
+#10	AnnotatorNotes T14	170654
+#11	AnnotatorNotes T6	170654
+#12	AnnotatorNotes T27	524901
+#13	AnnotatorNotes T30	163843
+#14	AnnotatorNotes T32	169389
+T33	Literal_Expression 922 929	capital
+T15	Literal_Expression 1536 1541	areas
+T34	Literal_Modifier 451 457	Syrian
+#15	AnnotatorNotes T34	163843
+T35	Non_Literal_Modifier 150 156	Syrian
+#16	AnnotatorNotes T35	163843
+T36	Literal_Expression 298 305	bastion
+T37	Non_Literal_Modifier 359 365	Syrian
+#17	AnnotatorNotes T37	163843
+T5	Literal_Expression 516 521	parts
+T8	Non_Literal_Modifier 1629 1635	Syrian
+#18	AnnotatorNotes T8	163843
+T39	Literal_Modifier 578 583	Iraqi
+#19	AnnotatorNotes T39	99237
+T40	Literal_Expression 598 602	east
+T41	Literal_Expression 670 679	outskirts
+T42	Non_Lit_Expression 741 746	group
+T43	Literal_Expression 757 762	patch
+T45	Literal_Expression 902 912	stronghold
+T46	Literal_Expression 1009 1017	protests
+T48	Non_Lit_Expression 1208 1218	opposition
+T49	Literal_Expression 1695 1702	suburbs
+T18	Literal_Expression 1791 1803	bombardments
+T50	Non_Lit_Expression 1809 1817	rescuers
+T51	Non_Lit_Expression 2230 2240	terrorists
+T52	Literal_Expression 2248 2259	headquarter
+T53	Literal_Expression 2270 2284	fortifications
+T54	Non_Lit_Expression 2347 2353	forces
+T55	Non_Literal_Modifier 2491 2498	Russian
+#20	AnnotatorNotes T55	2017370
+T56	Non_Literal_Modifier 2605 2612	Russian
+#21	AnnotatorNotes T56	2017370
+T57	Non_Lit_Expression 2674 2683	civilians
+A15	Modifier_Type T35 Adjective
+A16	Modifier_Type T37 Adjective
+A17	Modifier_Type T34 Adjective
+A18	Modifier_Type T39 Adjective
+A19	Modifier_Type T14 Noun
+A20	Modifier_Type T8 Adjective
+A21	Modifier_Type T55 Adjective
+A22	Modifier_Type T32 Noun
+A23	Modifier_Type T56 Adjective
+T58	Non_Lit_Expression 269 279	operations
+T59	Non_Lit_Expression 410 418	campaign
+T38	Non_Lit_Expression 614 621	command
+T60	Non_Lit_Expression 795 805	insurgents
+T44	Non_Lit_Expression 1078 1082	rule
+T47	Non_Lit_Expression 1279 1283	army
+T61	Literal_Expression 1193 1202	offensive
+T62	Non_Lit_Expression 1341 1347	rebels
+T63	Non_Lit_Expression 1591 1595	food
+T64	Non_Lit_Expression 1948 1956	analysts
+T65	Non_Lit_Expression 1981 1989	campaign
+T66	Non_Lit_Expression 2129 2136	enemies
+T67	Non_Lit_Expression 2410 2416	rebels
+T68	Non_Lit_Expression 2726 2737	authorities
+A1	Non_Locational T59
+A2	Modifier_Type T6 Noun
+A12	Non_Locational T38
+A24	Non_Locational T60
+A4	Non_Locational T42
+A5	Non_Locational T44
+A7	Non_Locational T48
+A6	Non_Locational T47
+A25	Non_Locational T62
+A26	Non_Locational T63
+A3	Non_Locational T50
+A8	Non_Locational T65
+A27	Non_Locational T64
+A28	Non_Locational T66
+A9	Non_Locational T51
+A10	Non_Locational T54
+A29	Non_Locational T67
+A11	Non_Locational T57
+A13	Non_Locational T68
+A14	Modifier_Type T12 Noun

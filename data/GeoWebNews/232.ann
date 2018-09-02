@@ -1,0 +1,80 @@
+T1	Metonymic 314 322	Dominica
+#1	AnnotatorNotes T1	3575830
+T2	Metonymic 698 706	Dominica
+#2	AnnotatorNotes T2	3575830
+T3	Metonymic 1865 1873	Dominica
+#3	AnnotatorNotes T3	3575830
+T4	Metonymic 2571 2579	Dominica
+#4	AnnotatorNotes T4	3575830
+T5	Metonymic 2017 2025	Dominica
+#5	AnnotatorNotes T5	3575830
+T6	Metonymic 2960 2968	Dominica
+#6	AnnotatorNotes T6	3575830
+T7	Metonymic 2238 2246	Dominica
+#7	AnnotatorNotes T7	3575830
+T8	Non_Lit_Expression 210 214	song
+T9	Non_Lit_Expression 296 303	country
+T10	Non_Lit_Expression 383 392	secretary
+T11	Non_Lit_Expression 507 513	report
+T12	Literal 674 684	Washington
+#8	AnnotatorNotes T12	4140963
+T13	Literal 2158 2168	Washington
+#9	AnnotatorNotes T13	4140963
+T14	Literal 3273 3283	Washington
+#10	AnnotatorNotes T14	4140963
+T15	Non_Literal_Modifier 2327 2337	Washington
+A9	Modifier_Type T15 Noun
+#11	AnnotatorNotes T15	4140963
+T16	Non_Lit_Expression 776 784	minister
+T17	Non_Lit_Expression 946 952	report
+T18	Non_Lit_Expression 1200 1207	persons
+T19	Non_Lit_Expression 1535 1540	media
+T20	Metonymic 1730 1749	Trinidad and Tobago
+#12	AnnotatorNotes T20	3573591
+T21	Metonymic 2085 2104	Trinidad and Tobago
+#13	AnnotatorNotes T21	3573591
+T22	Literal 2366 2374	Trinidad
+#14	AnnotatorNotes T22	3573591
+T23	Coercion 2151 2154	OAS
+#15	AnnotatorNotes T23	4139915
+T24	Literal_Expression 3020 3026	states
+T25	Non_Lit_Expression 3179 3187	minister
+T26	Metonymic 2393 2396	T&T
+#16	AnnotatorNotes T26	3573591
+T27	Literal_Modifier 659 662	T&T
+A16	Modifier_Type T27 Noun
+#17	AnnotatorNotes T27	3573591
+T28	Metonymic 3057 3060	T&T
+#18	AnnotatorNotes T28	3573591
+T29	Metonymic 3220 3223	T&T
+#19	AnnotatorNotes T29	3573591
+T30	Metonymic 1841 1844	T&T
+#20	AnnotatorNotes T30	3573591
+T31	Non_Lit_Expression 3371 3376	facts
+T32	Non_Lit_Expression 2879 2885	states
+T33	Non_Lit_Expression 3301 3307	matter
+T34	Literal_Expression 2743 2748	forum
+T35	Non_Lit_Expression 2784 2790	nation
+T36	Literal_Expression 3161 3167	states
+T37	Non_Lit_Expression 2201 2207	states
+T38	Non_Lit_Expression 845 851	matter
+T39	Non_Lit_Expression 1593 1601	minister
+T40	Non_Lit_Expression 2492 2501	secretary
+A5	Non_Locational T8
+A1	Non_Locational T10
+A6	Non_Locational T11
+A2	Non_Locational T16
+A7	Non_Locational T38
+A8	Non_Locational T17
+A11	Non_Locational T18
+A12	Non_Locational T19
+A13	Non_Locational T39
+T41	Literal_Expression 1619 1629	conference
+T42	Non_Toponym 2151 2154	OAS
+A4	Non_Locational T40
+T43	Non_Lit_Expression 2661 2665	fees
+A10	Non_Locational T43
+A14	Non_Locational T35
+A3	Non_Locational T25
+A15	Non_Locational T33
+A17	Non_Locational T31

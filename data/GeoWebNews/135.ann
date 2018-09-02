@@ -1,0 +1,47 @@
+T1	Literal_Modifier 1147 1154	Orinoco
+#1	AnnotatorNotes T1	10793688
+T2	Metonymic 1049 1058	Venezuela
+#2	AnnotatorNotes T2	3625428
+T3	Literal 1163 1178	South Venezuela
+#3	AnnotatorNotes T3	3625428
+T4	Non_Literal_Modifier 826 835	Venezuela
+A1	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	3625428
+T5	Non_Literal_Modifier 122 131	Venezuela
+A3	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	3625428
+T6	Literal 390 399	Venezuela
+#6	AnnotatorNotes T6	3625428
+T7	Non_Literal_Modifier 933 942	Venezuela
+A5	Modifier_Type T7 Noun
+#7	AnnotatorNotes T7	3625428
+T8	Non_Literal_Modifier 190 200	Venezuelan
+A7	Modifier_Type T8 Adjective
+#8	AnnotatorNotes T8	3625428
+T9	Literal 753 759	Russia
+#9	AnnotatorNotes T9	2017370
+T10	Non_Literal_Modifier 866 872	Russia
+A9	Modifier_Type T10 Noun
+#10	AnnotatorNotes T10	2017370
+T11	Non_Literal_Modifier 495 502	Russian
+A11	Modifier_Type T11 Adjective
+#11	AnnotatorNotes T11	2017370
+T12	Non_Literal_Modifier 178 185	Russian
+A13	Modifier_Type T12 Adjective
+#12	AnnotatorNotes T12	2017370
+T13	Mixed 654 661	Russian
+A15	Modifier_Type T13 Adjective
+#13	AnnotatorNotes T13	2017370
+T14	Metonymic 329 335	Russia
+#14	AnnotatorNotes T14	2017370
+T15	Literal 1031 1038	Caracas
+#15	AnnotatorNotes T15	3646738
+T16	Literal_Expression 1215 1219	area
+T17	Literal_Expression 1246 1250	land
+T18	Literal 285 292	Caracas
+#16	AnnotatorNotes T18	3646738
+T22	Non_Lit_Expression 1015 1027	negotiations
+T23	Metonymic 1084 1096	South Africa
+#17	AnnotatorNotes T23	953987
+A16	Modifier_Type T1 Noun
+A4	Non_Locational T22

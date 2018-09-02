@@ -1,0 +1,138 @@
+T1	Mixed 178 186	Honolulu
+#1	AnnotatorNotes T1	5856195
+T2	Literal 2378 2386	Honolulu
+#2	AnnotatorNotes T2	5856195
+T3	Literal 2918 2925	Lahaina
+#3	AnnotatorNotes T3	5849996
+T4	Literal 4628 4632	Utah
+#4	AnnotatorNotes T4	5549030
+T5	Literal 4634 4642	Colorado
+#5	AnnotatorNotes T5	5417618
+T6	Literal 4648 4653	Idaho
+#6	AnnotatorNotes T6	5596512
+T7	Metonymic 5442 5448	Hawaii
+#7	AnnotatorNotes T7	5855797
+T8	Mixed 4702 4708	Hawaii
+#8	AnnotatorNotes T8	5855797
+T9	Literal 238 244	Hawaii
+#9	AnnotatorNotes T9	5855797
+T10	Metonymic 615 621	Hawaii
+#10	AnnotatorNotes T10	5855797
+T11	Mixed 1124 1130	Hawaii
+#11	AnnotatorNotes T11	5855797
+T12	Mixed 1458 1464	Hawaii
+#12	AnnotatorNotes T12	5855797
+T13	Literal 1931 1937	Hawaii
+#13	AnnotatorNotes T13	5855797
+T14	Literal 2243 2249	Hawaii
+#14	AnnotatorNotes T14	5855797
+T15	Literal_Modifier 2593 2599	Hawaii
+A4	Modifier_Type T15 Noun
+#15	AnnotatorNotes T15	5855797
+T16	Mixed 1327 1333	Hawaii
+#16	AnnotatorNotes T16	5855797
+T17	Mixed 4148 4154	Hawaii
+#17	AnnotatorNotes T17	5855797
+T18	Mixed 5124 5130	Hawaii
+#18	AnnotatorNotes T18	5855797
+T19	Mixed 5046 5052	Hawaii
+#19	AnnotatorNotes T19	5855797
+T20	Literal 5288 5294	Hawaii
+#20	AnnotatorNotes T20	5855797
+T21	Literal_Modifier 260 273	United States
+A9	Modifier_Type T21 Noun
+#21	AnnotatorNotes T21	6252001
+T22	Non_Literal_Modifier 922 924	US
+A11	Modifier_Type T22 Noun
+#22	AnnotatorNotes T22	6252001
+T23	Non_Literal_Modifier 1639 1641	US
+A13	Modifier_Type T23 Noun
+#23	AnnotatorNotes T23	6252001
+T24	Literal 4344 4346	US
+#24	AnnotatorNotes T24	6252001
+T25	Literal 3884 3894	Western US
+#25	AnnotatorNotes T25	6252001
+T26	Non_Lit_Expression 394 401	workers
+T27	Literal_Expression 440 445	state
+T28	Non_Lit_Expression 671 677	nation
+T29	Literal_Expression 1115 1122	country
+T30	Non_Lit_Expression 1239 1244	state
+T31	Literal_Expression 1979 1987	mainland
+T32	Non_Lit_Expression 2308 2313	state
+T33	Literal 2364 2368	Oahu
+#26	AnnotatorNotes T33	5851609
+T34	Literal_Modifier 2519 2523	Oahu
+A18	Modifier_Type T34 Noun
+#27	AnnotatorNotes T34	5851609
+T35	Coercion 2425 2437	Pearl Harbor
+#28	AnnotatorNotes T35	5852289
+T36	Non_Lit_Expression 2699 2704	state
+T37	Literal_Modifier 3004 3008	Maui
+#29	AnnotatorNotes T37	5850862
+T38	Non_Lit_Expression 3459 3468	providers
+T39	Literal_Expression 3827 3834	islands
+T40	Demonym 3905 3914	Americans
+T41	Mixed 3938 3943	Japan
+#30	AnnotatorNotes T41	1861060
+T42	Mixed 3948 3954	Canada
+#31	AnnotatorNotes T42	6251999
+T43	Literal_Expression 4295 4300	state
+T44	Non_Lit_Expression 4411 4416	state
+T45	Literal 4502 4512	California
+#32	AnnotatorNotes T45	5332921
+T46	Literal 4516 4526	Washington
+#33	AnnotatorNotes T46	5815135
+T47	Non_Lit_Expression 4904 4909	labor
+T48	Literal_Expression 5636 5643	freeway
+T49	Non_Lit_Expression 999 1008	employees
+T50	Non_Lit_Expression 1226 1233	boomers
+T51	Non_Lit_Expression 1284 1291	economy
+T52	Non_Lit_Expression 1526 1531	state
+T53	Literal_Expression 1370 1376	sector
+T54	Non_Lit_Expression 1762 1770	governor
+T55	Non_Lit_Expression 1861 1867	people
+T56	Literal_Expression 2209 2213	data
+T57	Literal_Expression 2992 2998	stores
+T58	Literal_Expression 3587 3591	jobs
+A10	Modifier_Type T37 Noun
+T59	Embedded_Non_Lit 2052 2060	Honolulu
+#34	AnnotatorNotes T59	5856194
+T60	Embedded_Non_Lit 3034 3042	Honolulu
+#35	AnnotatorNotes T60	5856194
+T61	Embedded_Non_Lit 3293 3301	Honolulu
+#36	AnnotatorNotes T61	5856194
+A27	Modifier_Type T1 Noun
+A15	Non_Locational T26
+T62	Non_Lit_Expression 416 420	jobs
+A3	Non_Locational T28
+A12	Non_Locational T49
+A16	Non_Locational T50
+A25	Modifier_Type T16 Noun
+T63	Literal_Expression 1411 1416	state
+A26	Modifier_Type T12 Noun
+T64	Literal_Expression 1623 1637	infrastructure
+A14	Non_Locational T54
+T65	Literal_Expression 1805 1813	election
+A28	Non_Locational T55
+T66	Non_Toponym 2052 2065	Honolulu Star
+A17	Modifier_Type T59 Noun
+A29	Non_Locational T56
+T67	Non_Toponym 2425 2437	Pearl Harbor
+T68	Non_Toponym 2561 2577	US Census Bureau
+T69	Embedded_Non_Lit 2561 2563	US
+A30	Modifier_Type T69 Noun
+#37	AnnotatorNotes T69	6252001
+T70	Non_Lit_Expression 2850 2857	workers
+A2	Non_Locational T70
+T71	Non_Toponym 3026 3042	Star of Honolulu
+A19	Modifier_Type T60 Noun
+T72	Non_Toponym 3285 3301	Star of Honolulu
+A23	Modifier_Type T61 Noun
+T73	Non_Toponym 3397 3418	Hawaii Pacific Health
+T74	Embedded_Non_Lit 3397 3403	Hawaii
+A31	Modifier_Type T74 Noun
+#38	AnnotatorNotes T74	5855797
+A20	Non_Locational T38
+A1	Non_Locational T47
+T75	Literal_Expression 5512 5516	road
+T76	Literal_Expression 5675 5681	system

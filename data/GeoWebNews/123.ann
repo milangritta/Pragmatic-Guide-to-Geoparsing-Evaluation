@@ -1,0 +1,65 @@
+T1	Non_Literal_Modifier 236 238	US
+#1	AnnotatorNotes T1	6252001
+T2	Non_Literal_Modifier 971 973	US
+#2	AnnotatorNotes T2	6252001
+T3	Non_Literal_Modifier 2174 2176	US
+#3	AnnotatorNotes T3	6252001
+T5	Literal 582 587	Syria
+#5	AnnotatorNotes T5	163843
+T6	Literal 1473 1478	Syria
+#6	AnnotatorNotes T6	163843
+T7	Literal 903 909	Manbij
+#7	AnnotatorNotes T7	167357
+T9	Literal 1040 1045	Texas
+#8	AnnotatorNotes T9	4736286
+T10	Literal 1406 1417	Middle East
+#9	AnnotatorNotes T10	6269133
+T12	Literal_Expression 2191 2198	country
+T13	Literal 2262 2272	Manchester
+#10	AnnotatorNotes T13	2643123
+T14	Literal 2433 2443	Colchester
+#11	AnnotatorNotes T14	2652618
+T15	Literal 2704 2715	Afghanistan
+#12	AnnotatorNotes T15	1149361
+T16	Literal 2724 2735	Middle East
+#13	AnnotatorNotes T16	6269133
+T17	Literal_Modifier 919 926	Turkish
+#14	AnnotatorNotes T17	298795
+T18	Literal_Modifier 1032 1038	Austin
+#15	AnnotatorNotes T18	4671654
+T4	Non_Lit_Expression 274 281	members
+T8	Literal_Expression 305 314	explosion
+T19	Non_Literal_Modifier 336 344	American
+#4	AnnotatorNotes T19	6252001
+T20	Non_Lit_Expression 519 526	soldier
+T21	Literal_Expression 1102 1107	blast
+T28	Non_Lit_Expression 1949 1953	duty
+T29	Non_Lit_Expression 1781 1788	country
+T30	Literal_Expression 1377 1383	action
+T31	Demonym 1160 1167	British
+#16	AnnotatorNotes T31	2635167
+T32	Non_Literal_Modifier 1109 1117	American
+#17	AnnotatorNotes T32	6252001
+A13	Modifier_Type T1 Noun
+A14	Modifier_Type T19 Adjective
+A15	Modifier_Type T17 Adjective
+A16	Modifier_Type T2 Noun
+A17	Modifier_Type T32 Adjective
+A19	Modifier_Type T3 Noun
+T22	Non_Lit_Expression 633 643	serviceman
+T23	Non_Lit_Expression 1190 1199	spokesman
+T26	Non_Lit_Expression 2690 2700	operations
+A7	Modifier_Type T18 Noun
+T24	Embedded_Non_Lit 882 884	US
+#18	AnnotatorNotes T24	6252001
+A1	Non_Locational T4
+A2	Non_Locational T20
+A3	Non_Locational T22
+T25	Non_Toponym 882 899	US Special Forces
+A4	Modifier_Type T24 Noun
+A5	Non_Locational T23
+A8	Non_Locational T28
+A6	Non_Locational T26
+T11	Non_Toponym 2120 2141	Sheikh Akil graveyard
+T27	Coercion 2120 2141	Sheikh Akil graveyard
+#19	AnnotatorNotes T27	36.518473, 37.968875

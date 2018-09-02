@@ -1,0 +1,73 @@
+T1	Mixed 346 359	Orange County
+#1	AnnotatorNotes T1	5379513
+T2	Mixed 802 815	Orange County
+#2	AnnotatorNotes T2	5379513
+T3	Metonymic 1691 1704	Orange County
+#3	AnnotatorNotes T3	5379513
+T4	Metonymic 1198 1211	Orange County
+#4	AnnotatorNotes T4	5379513
+T5	Metonymic 530 543	Orange County
+#5	AnnotatorNotes T5	5379513
+T6	Metonymic 2836 2849	Orange County
+#6	AnnotatorNotes T6	5379513
+T7	Non_Literal_Modifier 2971 2984	Orange County
+A1	Modifier_Type T7 Noun
+#7	AnnotatorNotes T7	5379513
+T8	Metonymic 914 927	Orange County
+#8	AnnotatorNotes T8	5379513
+T9	Metonymic 3278 3291	Orange County
+#9	AnnotatorNotes T9	5379513
+T10	Metonymic 3505 3518	Orange County
+#10	AnnotatorNotes T10	5379513
+T11	Metonymic 3804 3817	Orange County
+#11	AnnotatorNotes T11	5379513
+T12	Non_Literal_Modifier 3394 3407	Orange County
+#12	AnnotatorNotes T12	5379513
+T13	Literal_Expression 399 404	earth
+T14	Mixed 433 439	Greece
+#13	AnnotatorNotes T14	390903
+T15	Mixed 443 451	Portugal
+#14	AnnotatorNotes T15	2264397
+T16	Non_Literal_Modifier 576 586	California
+A6	Modifier_Type T16 Noun
+#15	AnnotatorNotes T16	5332921
+T17	Metonymic 2433 2443	California
+#16	AnnotatorNotes T17	5332921
+T18	Non_Literal_Modifier 3584 3594	California
+A8	Modifier_Type T18 Noun
+#17	AnnotatorNotes T18	5332921
+T19	Non_Literal_Modifier 3207 3217	California
+A10	Modifier_Type T19 Noun
+#18	AnnotatorNotes T19	5332921
+T20	Non_Lit_Expression 605 616	governments
+T21	Non_Lit_Expression 1029 1035	victim
+T22	Non_Lit_Expression 1089 1094	state
+T23	Non_Lit_Expression 1343 1354	supervisors
+T24	Non_Lit_Expression 1643 1648	image
+T25	Non_Lit_Expression 1684 1689	towns
+T26	Non_Lit_Expression 1821 1827	county
+T27	Non_Lit_Expression 2342 2349	sheriff
+T28	Non_Lit_Expression 2685 2698	investigation
+T29	Non_Lit_Expression 2815 2821	system
+T30	Literal_Expression 3183 3189	county
+T31	Non_Lit_Expression 3737 3743	county
+T32	Non_Lit_Expression 501 509	homeless
+T33	Embedded_Non_Lit 3860 3870	California
+#19	AnnotatorNotes T33	5332921
+T34	Non_Lit_Expression 226 232	people
+A5	Non_Locational T34
+A2	Non_Locational T32
+A7	Non_Locational T20
+A12	Non_Locational T21
+A13	Non_Locational T23
+T35	Non_Lit_Expression 1511 1515	plan
+A14	Non_Locational T35
+T36	Literal_Expression 1901 1908	scandal
+T37	Non_Lit_Expression 2223 2229	Judges
+A15	Non_Locational T37
+A16	Non_Locational T27
+T38	Non_Lit_Expression 2629 2636	sheriff
+A19	Non_Locational T38
+A3	Modifier_Type T12 Noun
+T39	Non_Toponym 3849 3870	Connecting California
+A4	Modifier_Type T33 Noun

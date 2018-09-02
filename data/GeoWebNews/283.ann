@@ -1,0 +1,100 @@
+T1	Non_Literal_Modifier 320 327	Ukraine
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	690791
+T2	Non_Literal_Modifier 490 497	Ukraine
+A3	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	690791
+T3	Non_Literal_Modifier 988 995	Ukraine
+A5	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	690791
+T4	Non_Literal_Modifier 429 436	Ukraine
+A7	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	690791
+T5	Non_Literal_Modifier 806 815	Ukrainian
+A9	Modifier_Type T5 Adjective
+#5	AnnotatorNotes T5	690791
+T6	Non_Literal_Modifier 1062 1069	Ukraine
+#6	AnnotatorNotes T6	690791
+T7	Non_Literal_Modifier 1270 1279	Ukrainian
+A11	Modifier_Type T7 Adjective
+#7	AnnotatorNotes T7	690791
+T8	Non_Literal_Modifier 1939 1948	Ukrainian
+A13	Modifier_Type T8 Adjective
+#8	AnnotatorNotes T8	690791
+T9	Non_Literal_Modifier 1541 1550	Ukrainian
+A15	Modifier_Type T9 Adjective
+#9	AnnotatorNotes T9	690791
+T10	Non_Literal_Modifier 1839 1846	Ukraine
+A17	Modifier_Type T10 Noun
+#10	AnnotatorNotes T10	690791
+T11	Non_Literal_Modifier 2106 2113	Ukraine
+#11	AnnotatorNotes T11	690791
+A21	Modifier_Type T6 Noun
+T12	Non_Literal_Modifier 267 274	Ukraine
+A23	Modifier_Type T12 Noun
+#12	AnnotatorNotes T12	690791
+T13	Literal 331 338	Nigeria
+#13	AnnotatorNotes T13	2328926
+T14	Literal 454 461	Nigeria
+#14	AnnotatorNotes T14	2328926
+T15	Non_Literal_Modifier 362 370	Nigerian
+A25	Modifier_Type T15 Adjective
+#15	AnnotatorNotes T15	2328926
+T16	Embedded_Non_Lit 701 709	Nigerian
+#16	AnnotatorNotes T16	2328926
+T17	Literal 1016 1023	Nigeria
+#17	AnnotatorNotes T17	2328926
+T18	Non_Literal_Modifier 1529 1536	Nigeria
+A27	Modifier_Type T18 Noun
+#18	AnnotatorNotes T18	2328926
+T19	Non_Literal_Modifier 1931 1938	Nigeria
+#19	AnnotatorNotes T19	2328926
+A29	Modifier_Type T19 Noun
+T20	Literal 512 519	Nigeria
+#20	AnnotatorNotes T20	2328926
+T21	Mixed 929 936	Nigeria
+A31	Modifier_Type T21 Noun
+#21	AnnotatorNotes T21	2328926
+T22	Embedded_Non_Lit 616 621	Abuja
+#22	AnnotatorNotes T22	2352778
+T23	Embedded_Non_Lit 2055 2060	Abuja
+#23	AnnotatorNotes T23	2352778
+T24	Literal 1994 1999	Abuja
+#24	AnnotatorNotes T24	2352778
+T25	Non_Literal_Modifier 220 225	Lagos
+#25	AnnotatorNotes T25	2332459
+T26	Literal 1506 1511	Lagos
+#26	AnnotatorNotes T26	2332459
+T27	Non_Literal_Modifier 1617 1622	Lagos
+A32	Modifier_Type T27 Noun
+#27	AnnotatorNotes T27	2332459
+T28	Embedded_Non_Lit 1792 1797	Lagos
+#28	AnnotatorNotes T28	2332459
+T29	Non_Lit_Expression 146 156	ambassador
+T30	Literal_Expression 561 566	visit
+T31	Non_Lit_Expression 966 971	envoy
+T32	Non_Lit_Expression 1880 1890	delegation
+T33	Non_Lit_Expression 1151 1158	country
+T34	Non_Lit_Expression 1241 1256	representatives
+T35	Literal_Expression 1329 1334	trade
+T36	Non_Lit_Expression 1473 1480	Mission
+T37	Literal_Expression 1600 1607	meeting
+T38	Non_Lit_Expression 200 211	cooperation
+A34	Non_Locational T29
+A39	Non_Locational T38
+A41	Modifier_Type T25 Noun
+A2	Modifier_Type T22 Noun
+A4	Modifier_Type T16 Adjective
+A8	Non_Locational T31
+T39	Non_Toponym 701 745	Nigerian Association of Chambers of Commerce
+T40	Non_Toponym 616 654	Abuja Chamber of Commerce and Industry
+A6	Non_Locational T34
+T41	Non_Lit_Expression 1457 1467	production
+A10	Non_Locational T41
+A12	Non_Locational T36
+T42	Non_Toponym 1792 1830	Lagos Chamber of Commerce and Industry
+A16	Modifier_Type T28 Noun
+A18	Non_Locational T32
+T43	Non_Toponym 2055 2093	Abuja Chamber of Commerce and Industry
+A14	Modifier_Type T23 Noun
+A19	Modifier_Type T11 Noun

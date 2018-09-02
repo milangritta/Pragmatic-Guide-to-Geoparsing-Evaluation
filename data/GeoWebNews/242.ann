@@ -1,0 +1,16 @@
+T1	Mixed 223 233	WASHINGTON
+#1	AnnotatorNotes T1	4140963
+T2	Literal 361 368	Wyoming
+#2	AnnotatorNotes T2	5843591
+T3	Literal_Expression 320 325	lands
+T4	Non_Lit_Expression 484 493	companies
+T5	Literal_Expression 717 725	industry
+T6	Literal_Expression 1070 1075	lands
+T7	Non_Lit_Expression 846 860	administration
+T8	Non_Lit_Expression 543 557	administration
+A4	Modifier_Type T1 Noun
+A1	Non_Locational T4
+A3	Non_Locational T8
+T9	Non_Lit_Expression 630 634	rule
+A5	Non_Locational T9
+A2	Non_Locational T7

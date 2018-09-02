@@ -1,0 +1,77 @@
+T1	Literal 219 227	Holy See
+#1	AnnotatorNotes T1	3164670
+T2	Literal 348 355	Vatican
+#2	AnnotatorNotes T2	3164670
+T3	Literal 1054 1061	Vatican
+#3	AnnotatorNotes T3	3164670
+T4	Literal 1191 1206	Vatican Gardens
+#4	AnnotatorNotes T4	41.9031, 12.4506
+T5	Literal_Expression 1177 1183	statue
+T7	Non_Literal_Modifier 1440 1447	Armenia
+#6	AnnotatorNotes T7	174982
+T8	Demonym 1139 1148	Armenians
+T9	Non_Literal_Modifier 436 455	Republic of Armenia
+#7	AnnotatorNotes T9	174982
+T12	Coercion 1465 1499	Embassy of the Republic of Armenia
+#10	AnnotatorNotes T12	41.904079, 12.494358
+T10	Literal_Expression 361 367	statue
+T13	Literal 991 999	Holy See
+#8	AnnotatorNotes T13	3164670
+T14	Literal 1507 1515	Holy See
+#11	AnnotatorNotes T14	3164670
+T15	Literal 1658 1666	Holy See
+#12	AnnotatorNotes T15	3164670
+T16	Literal 463 471	Holy See
+#13	AnnotatorNotes T16	3164670
+T17	Literal 1940 1948	Holy See
+#14	AnnotatorNotes T17	3164670
+T18	Metonymic 1862 1870	Holy See
+#15	AnnotatorNotes T18	3164670
+T19	Metonymic 1834 1853	Republic of Armenia
+#16	AnnotatorNotes T19	174982
+T20	Embedded_Non_Lit 2142 2147	Italy
+#17	AnnotatorNotes T20	3175395
+T21	Embedded_Non_Lit 2134 2141	Armenia
+#18	AnnotatorNotes T21	174982
+T22	Literal_Expression 583 589	statue
+T23	Literal 611 625	Czech Republic
+#19	AnnotatorNotes T23	3077311
+T24	Non_Literal_Modifier 841 848	Russian
+A7	Modifier_Type T24 Adjective
+#20	AnnotatorNotes T24	2017370
+T25	Non_Lit_Expression 267 275	ceremony
+T26	Literal 1099 1109	Echmiadzin
+#21	AnnotatorNotes T26	616062
+A10	Modifier_Type T9 Noun
+T27	Non_Lit_Expression 503 513	department
+T28	Non_Literal_Modifier 1913 1932	Republic of Armenia
+A13	Modifier_Type T28 Noun
+#22	AnnotatorNotes T28	174982
+A15	Modifier_Type T7 Noun
+T6	Non_Literal_Modifier 1631 1650	Republic of Armenia
+A16	Modifier_Type T6 Noun
+#5	AnnotatorNotes T6	174982
+T11	Literal_Expression 293 299	statue
+T29	Non_Literal_Modifier 339 344	Narek
+A3	Modifier_Type T29 Noun
+#9	AnnotatorNotes T29	7647812
+T30	Non_Literal_Modifier 2117 2124	Italian
+#23	AnnotatorNotes T30	3175395
+T31	Embedded_Non_Lit 2307 2315	Armenian
+#24	AnnotatorNotes T31	174982
+T32	Demonym 1345 1354	Armenians
+T33	Non_Literal_Modifier 967 975	Armenian
+#26	AnnotatorNotes T33	174982
+T34	Non_Literal_Modifier 660 667	Armenia
+#27	AnnotatorNotes T34	174982
+A5	Modifier_Type T34 Noun
+T35	Non_Lit_Expression 1222 1230	ceremony
+A4	Non_Locational T27
+A6	Modifier_Type T33 Adjective
+T36	Non_Toponym 1465 1499	Embassy of the Republic of Armenia
+T37	Non_Toponym 2307 2324	Armenian Genocide
+A1	Modifier_Type T31 Adjective
+T38	Non_Toponym 2134 2178	Armenia-Italy Parliamentary Friendship Group
+A2	Modifier_Type T21 Noun
+A8	Modifier_Type T20 Noun
+A9	Modifier_Type T30 Adjective

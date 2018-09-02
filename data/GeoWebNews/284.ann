@@ -1,0 +1,64 @@
+T1	Mixed 214 221	HOUSTON
+#1	AnnotatorNotes T1	4699066
+T2	Metonymic 428 435	Houston
+#2	AnnotatorNotes T2	4699066
+T3	Embedded_Non_Lit 299 306	Houston
+#3	AnnotatorNotes T3	4699066
+T4	Metonymic 484 495	San Antonio
+#4	AnnotatorNotes T4	4726206
+T5	Metonymic 550 558	Portland
+#5	AnnotatorNotes T5	5746545
+T6	Metonymic 1354 1362	Portland
+#6	AnnotatorNotes T6	5746545
+T7	Embedded_Non_Lit 335 343	Portland
+#7	AnnotatorNotes T7	5746545
+T8	Mixed 560 567	OAKLAND
+#8	AnnotatorNotes T8	5378538
+T9	Embedded_Non_Lit 701 708	Oakland
+#9	AnnotatorNotes T9	5378538
+T10	Mixed 569 575	Calif.
+#10	AnnotatorNotes T10	5332921
+T11	Embedded_Non_Lit 667 672	Texas
+#11	AnnotatorNotes T11	4736286
+T12	Literal_Modifier 1254 1260	Dallas
+A1	Modifier_Type T12 Noun
+#12	AnnotatorNotes T12	4684888
+T13	Mixed 980 986	DALLAS
+#13	AnnotatorNotes T13	4684888
+T14	Embedded_Non_Lit 1058 1064	Dallas
+#14	AnnotatorNotes T14	4684888
+T15	Non_Lit_Expression 460 467	victory
+T16	Non_Lit_Expression 619 625	inning
+T17	Literal_Expression 745 750	crowd
+T18	Literal_Modifier 827 832	Latin
+A5	Modifier_Type T18 Adjective
+T19	Non_Lit_Expression 1036 1041	games
+T20	Non_Lit_Expression 1084 1091	surgery
+T21	Literal_Expression 1331 1337	season
+T22	Non_Lit_Expression 413 419	points
+T23	Non_Lit_Expression 538 544	series
+#15	AnnotatorNotes T18	6255150
+T24	Non_Lit_Expression 1115 1119	team
+T25	Non_Lit_Expression 1319 1323	game
+A16	Modifier_Type T1 Noun
+T26	Non_Toponym 299 314	Houston Rockets
+A15	Modifier_Type T3 Noun
+T27	Non_Toponym 335 357	Portland Trail Blazers
+A14	Modifier_Type T7 Noun
+A8	Non_Locational T22
+A2	Non_Locational T15
+A9	Non_Locational T23
+A17	Modifier_Type T8 Noun
+A18	Modifier_Type T10 Noun
+A3	Non_Locational T16
+T28	Non_Toponym 667 680	Texas Rangers
+A13	Modifier_Type T11 Noun
+T29	Non_Toponym 701 718	Oakland Athletics
+A12	Modifier_Type T9 Noun
+A4	Non_Locational T17
+A19	Modifier_Type T13 Noun
+A7	Non_Locational T19
+T30	Non_Toponym 1058 1074	Dallas Mavericks
+A11	Modifier_Type T14 Noun
+A6	Non_Locational T24
+A10	Non_Locational T25

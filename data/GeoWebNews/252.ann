@@ -1,0 +1,57 @@
+T1	Literal 718 729	Quebec City
+#1	AnnotatorNotes T1	6325494
+T2	Embedded_Non_Lit 166 180	North American
+#2	AnnotatorNotes T2	11812362
+T3	Non_Literal_Modifier 1010 1014	U.S.
+A1	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	6252001
+T4	Literal 1813 1817	U.S.
+#4	AnnotatorNotes T4	6252001
+T5	Non_Literal_Modifier 821 825	U.S.
+A3	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	6252001
+T6	Non_Literal_Modifier 351 359	Canadian
+A5	Modifier_Type T6 Adjective
+#6	AnnotatorNotes T6	6251999
+T7	Non_Literal_Modifier 486 494	Canadian
+A7	Modifier_Type T7 Adjective
+#7	AnnotatorNotes T7	6251999
+T8	Non_Lit_Expression 270 285	representatives
+T9	Literal 404 414	Washington
+#8	AnnotatorNotes T9	4140963
+T10	Literal 1264 1274	Washington
+#9	AnnotatorNotes T10	4140963
+T11	Non_Literal_Modifier 451 459	American
+A10	Modifier_Type T11 Adjective
+#10	AnnotatorNotes T11	6252001
+T12	Literal 1838 1845	America
+#11	AnnotatorNotes T12	6252001
+T13	Demonym 1708 1717	Americans
+T14	Coercion 1102 1124	Summit of the Americas
+#12	AnnotatorNotes T14	3936456
+T15	Literal 1128 1132	Peru
+#13	AnnotatorNotes T15	3932488
+T16	Non_Literal_Modifier 869 876	Mexican
+A14	Modifier_Type T16 Adjective
+#14	AnnotatorNotes T16	3996063
+T17	Metonymic 2094 2100	Mexico
+#15	AnnotatorNotes T17	3996063
+T18	Non_Literal_Modifier 464 471	Mexican
+A16	Modifier_Type T18 Adjective
+#16	AnnotatorNotes T18	3996063
+T19	Metonymic 2071 2084	United States
+#17	AnnotatorNotes T19	6252001
+T20	Non_Lit_Expression 1432 1441	countries
+T21	Non_Lit_Expression 1588 1597	Officials
+T22	Literal_Expression 672 676	deal
+T23	Literal_Expression 1315 1321	office
+T24	Non_Toponym 166 201	North American Free Trade Agreement
+A20	Modifier_Type T2 Adjective
+A9	Non_Locational T8
+T25	Literal_Expression 554 558	deal
+A6	Non_Locational T25
+A8	Non_Locational T22
+T26	Non_Toponym 1102 1124	Summit of the Americas
+T27	Non_Lit_Expression 1212 1224	negotiations
+A2	Non_Locational T27
+A4	Non_Locational T21

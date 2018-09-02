@@ -1,0 +1,30 @@
+T1	Mixed 279 286	NAIROBI
+#1	AnnotatorNotes T1	184742
+T2	Mixed 288 293	Kenya
+#2	AnnotatorNotes T2	192950
+T3	Literal 1004 1009	Kenya
+#3	AnnotatorNotes T3	192950
+T4	Literal_Expression 454 459	halls
+T5	Literal_Expression 467 473	courts
+T6	Literal_Expression 826 833	country
+T7	Literal_Expression 867 872	court
+T8	Non_Lit_Expression 1488 1492	belt
+T9	Non_Literal_Modifier 2022 2024	US
+A2	Modifier_Type T9 Noun
+#4	AnnotatorNotes T9	6252001
+T10	Non_Literal_Modifier 1594 1596	US
+A4	Modifier_Type T10 Noun
+#5	AnnotatorNotes T10	6252001
+T11	Non_Literal_Modifier 1759 1761	UK
+A6	Modifier_Type T11 Noun
+#6	AnnotatorNotes T11	2635167
+T12	Literal_Expression 906 910	door
+T13	Non_Lit_Expression 702 708	judges
+T14	Non_Lit_Expression 776 786	government
+T15	Non_Lit_Expression 559 566	rulings
+A8	Modifier_Type T1 Noun
+A12	Modifier_Type T2 Noun
+A11	Non_Locational T15
+A9	Non_Locational T13
+A10	Non_Locational T14
+T16	Non_Lit_Expression 1676 1681	story

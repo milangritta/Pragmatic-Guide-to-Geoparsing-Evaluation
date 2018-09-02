@@ -1,0 +1,55 @@
+T1	Literal 341 363	Farmers Service Centre
+#1	AnnotatorNotes T1	-20.042350, 57.655038
+T2	Literal 368 377	Goodlands
+#2	AnnotatorNotes T2	934488
+T3	Non_Lit_Expression 300 313	entrepreneurs
+T4	Literal_Expression 582 587	field
+T5	Literal_Expression 392 397	event
+T6	Embedded_Non_Lit 416 425	Mauritius
+#3	AnnotatorNotes T6	934292
+T7	Embedded_Non_Lit 913 922	Mauritius
+#4	AnnotatorNotes T7	934292
+T8	Literal 1253 1262	Mauritius
+#5	AnnotatorNotes T8	934292
+T9	Non_Literal_Modifier 956 965	Mauritius
+A2	Modifier_Type T9 Noun
+#6	AnnotatorNotes T9	934292
+T10	Literal 2173 2182	Mauritius
+#7	AnnotatorNotes T10	934292
+T11	Embedded_Non_Lit 2011 2020	Mauritius
+#8	AnnotatorNotes T11	934292
+T12	Non_Lit_Expression 2282 2294	organisation
+T13	Non_Lit_Expression 2332 2339	visions
+T14	Non_Lit_Expression 624 635	discussions
+T15	Literal_Expression 1113 1120	address
+T16	Non_Lit_Expression 1445 1457	institutions
+T17	Literal_Expression 1982 1992	businesses
+T18	Non_Lit_Expression 1517 1528	information
+T19	Non_Lit_Expression 1793 1802	start-ups
+T20	Non_Lit_Expression 2083 2094	institution
+T21	Non_Lit_Expression 2272 2276	Plan
+T22	Non_Lit_Expression 1001 1013	presentation
+T23	Non_Lit_Expression 1180 1190	initiative
+T24	Non_Lit_Expression 1273 1280	purpose
+T25	Non_Lit_Expression 1728 1733	needs
+T26	Non_Lit_Expression 248 255	schemes
+A15	Non_Locational T26
+A1	Non_Locational T3
+T27	Non_Toponym 412 433	SME Mauritius Limited
+A8	Modifier_Type T6 Noun
+A6	Non_Locational T14
+T28	Non_Toponym 909 930	SME Mauritius Limited
+A14	Modifier_Type T7 Noun
+A3	Non_Locational T22
+A10	Non_Locational T23
+A11	Non_Locational T24
+T29	Non_Lit_Expression 1416 1424	services
+A12	Non_Locational T29
+A7	Non_Locational T18
+A13	Non_Locational T25
+T30	Literal_Expression 1827 1838	development
+T31	Non_Toponym 2007 2028	SME Mauritius Limited
+A16	Modifier_Type T11 Noun
+A9	Non_Locational T21
+A4	Non_Locational T12
+A5	Non_Locational T13

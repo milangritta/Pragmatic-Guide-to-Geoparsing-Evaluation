@@ -1,0 +1,55 @@
+T1	Literal_Expression 279 283	wall
+T2	Literal_Expression 303 307	back
+T3	Literal_Expression 342 351	territory
+T4	Non_Lit_Expression 355 360	court
+T5	Literal_Expression 430 437	gunfire
+T6	Non_Lit_Expression 671 681	defendants
+T7	Literal 990 996	London
+#1	AnnotatorNotes T7	2643743
+T8	Literal 954 974	South Kilburn Estate
+#2	AnnotatorNotes T8	6690572
+T9	Non_Lit_Expression 919 926	evening
+T10	Non_Lit_Expression 1047 1053	target
+T11	Literal_Expression 1261 1266	group
+T12	Literal_Expression 1297 1301	wall
+T13	Literal_Expression 1325 1329	back
+T14	Literal_Expression 1375 1380	scene
+T15	Literal_Modifier 1399 1404	Hayes
+#3	AnnotatorNotes T15	2647261
+T16	Literal_Expression 1568 1579	territories
+T17	Literal 1612 1625	Mozart Estate
+#4	AnnotatorNotes T17	51.529356, -0.204656
+T18	Literal 1742 1762	South Kilburn Estate
+#5	AnnotatorNotes T18	6690572
+T19	Non_Lit_Expression 1846 1855	defendant
+T20	Non_Lit_Expression 461 469	bicycles
+T21	Non_Lit_Expression 611 615	bike
+T22	Non_Lit_Expression 829 834	hours
+T23	Non_Lit_Expression 1556 1561	gangs
+T24	Literal_Expression 1888 1892	gang
+T25	Literal 1977 1997	South Kilburn Estate
+#6	AnnotatorNotes T25	6690572
+T26	Literal_Expression 1963 1969	middle
+T27	Literal_Expression 2029 2038	territory
+T28	Literal 2053 2060	Kilburn
+#7	AnnotatorNotes T28	6690572
+T29	Literal 2240 2246	London
+#8	AnnotatorNotes T29	2643743
+T30	Non_Lit_Expression 2282 2290	offender
+T31	Literal_Modifier 2222 2227	Brent
+#9	AnnotatorNotes T31	2654789
+A16	Modifier_Type T31 Noun
+A20	Modifier_Type T15 Noun
+T32	Homonym 397 404	Montana
+A1	Non_Locational T20
+A2	Non_Locational T21
+A3	Non_Locational T6
+A4	Non_Locational T11
+A5	Non_Locational T23
+T33	Non_Toponym 1650 1661	Harrow Boys
+T34	Embedded_Non_Lit 1650 1656	Harrow
+A6	Modifier_Type T34 Noun
+#10	AnnotatorNotes T34	3333151
+A7	Non_Locational T19
+A8	Non_Locational T24
+A9	Non_Locational T30

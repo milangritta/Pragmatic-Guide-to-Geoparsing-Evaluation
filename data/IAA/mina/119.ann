@@ -1,0 +1,34 @@
+T1	Mixed 202 213	SAN ANTONIO
+T2	Metonymic 631 641	Louisville
+T3	Literal_Expression 476 483	country
+T4	Metonymic 816 823	Arizona
+T5	Literal_Expression 1054 1061	college
+T6	Metonymic 1205 1212	Arizona
+T7	Literal_Expression 2007 2020	neighborhoods
+T8	Literal_Expression 2041 2048	schools
+T9	Metonymic 2257 2263	Russia
+#1	AnnotatorNotes T2	4311747
+#2	AnnotatorNotes T1	4726206
+#3	AnnotatorNotes T6	5318972
+#4	AnnotatorNotes T4	5318972
+#5	AnnotatorNotes T9	2017370
+T11	Non_Lit_Expression 341 346	world
+T14	Non_Lit_Expression 1397 1407	basketball
+T15	Non_Lit_Expression 1865 1876	Republicans
+T16	Non_Lit_Expression 763 770	players
+T17	Non_Lit_Expression 1777 1786	Democrats
+T10	Non_Lit_Expression 583 591	programs
+T12	Non_Lit_Expression 689 695	report
+T13	Non_Lit_Expression 1596 1604	election
+T18	Non_Lit_Expression 1652 1663	politicians
+T19	Non_Lit_Expression 2108 2112	rich
+T20	Non_Lit_Expression 2173 2184	politicians
+A4	Modifier_Type T1 Noun
+A1	Non_Locational T10
+A3	Non_Locational T16
+A2	Non_Locational T12
+A6	Non_Locational T18
+A7	Non_Locational T17
+A5	Non_Locational T15
+A8	Non_Locational T19
+A9	Non_Locational T20

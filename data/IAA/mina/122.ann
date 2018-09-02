@@ -1,0 +1,71 @@
+T1	Literal 259 268	Riverdale
+#1	AnnotatorNotes T1	5103313
+T2	Coercion 236 243	Lukeoil
+T3	Literal 405 418	Morris County
+#2	AnnotatorNotes T3	5101405
+T4	Literal_Modifier 502 515	Morris County
+#3	AnnotatorNotes T4	5101405
+T5	Literal_Expression 629 636	highway
+T6	Literal_Modifier 714 723	Riverdale
+#4	AnnotatorNotes T6	5103313
+T7	Metonymic 2502 2512	NEW JERSEY
+T8	Literal 2566 2575	Riverdale
+T9	Literal 2754 2770	Washington, D.C.
+#5	AnnotatorNotes T9	4138106
+T10	Literal 2780 2799	U.S. Virgin Islands
+#6	AnnotatorNotes T10	4796775
+#7	AnnotatorNotes T8	5103313
+T11	Coercion 1309 1327	Riverdale Luke Oil
+#8	AnnotatorNotes T11	40.987871, -74.325994
+T12	Literal 1920 1927	Florida
+#9	AnnotatorNotes T12	4155751
+T13	Literal 2121 2129	New York
+#10	AnnotatorNotes T13	5128581
+T14	Literal 2156 2165	Riverdale
+#11	AnnotatorNotes T14	5103313
+T15	Literal_Modifier 2195 2204	Riverdale
+#12	AnnotatorNotes T15	5103313
+T16	Literal 2268 2276	New York
+#13	AnnotatorNotes T16	5128581
+#14	AnnotatorNotes T7	5101760
+T17	Coercion 2540 2562	Riverdale Lukoil South
+#15	AnnotatorNotes T17	40.987871, -74.325994
+T18	Literal_Expression 2746 2752	states
+#16	AnnotatorNotes T2	40.987871, -74.325994
+T21	Non_Lit_Expression 432 438	person
+T20	Non_Lit_Expression 905 913	cashiers
+T24	Non_Lit_Expression 1674 1679	store
+A5	Modifier_Type T4 Noun
+A6	Modifier_Type T6 Noun
+A7	Modifier_Type T15 Noun
+T25	Non_Lit_Expression 385 391	winner
+T26	Non_Lit_Expression 780 789	customers
+T27	Non_Lit_Expression 1056 1060	game
+T23	Non_Lit_Expression 1138 1144	winner
+T28	Literal_Expression 1366 1373	jackpot
+T22	Non_Lit_Expression 1560 1569	employees
+T29	Non_Lit_Expression 1616 1623	charity
+T30	Non_Lit_Expression 1913 1916	man
+A10	Non_Locational T25
+A1	Non_Locational T21
+T19	Non_Toponym 236 243	Lukeoil
+A11	Non_Locational T26
+A2	Non_Locational T20
+A3	Non_Locational T23
+A12	Non_Locational T29
+T31	Non_Toponym 1309 1327	Riverdale Luke Oil
+A13	Non_Locational T28
+A4	Non_Locational T22
+A14	Non_Locational T30
+T32	Non_Toponym 2540 2562	Riverdale Lukoil South
+T33	Non_Toponym 2662 2680	New Jersey Lottery
+T34	Embedded_Non_Lit 2662 2672	New Jersey
+A8	Modifier_Type T34 Noun
+#17	AnnotatorNotes T34	5101760
+T36	Non_Toponym 672 678	Lukoil
+T37	Coercion 672 678	Lukoil
+#19	AnnotatorNotes T37	40.987871, -74.325994
+T38	Embedded_Non_Lit 1401 1403	NJ
+#20	AnnotatorNotes T38	5101760
+A15	Modifier_Type T38 Noun
+T39	Non_Toponym 1401 1417	NJ Advance Media

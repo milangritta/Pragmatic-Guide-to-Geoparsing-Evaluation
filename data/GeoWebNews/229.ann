@@ -1,0 +1,45 @@
+T1	Non_Lit_Expression 157 167	Commission
+T2	Non_Lit_Expression 231 240	chemicals
+T3	Non_Lit_Expression 357 365	proposal
+T4	Non_Lit_Expression 421 428	workers
+T5	Non_Lit_Expression 593 603	Commission
+T6	Non_Lit_Expression 667 673	cancer
+T7	Non_Lit_Expression 800 809	chemicals
+T8	Literal 870 876	Europe
+#1	AnnotatorNotes T8	6255148
+T9	Literal_Expression 915 924	workplace
+T10	Literal_Expression 1227 1230	air
+T11	Literal_Expression 1604 1611	sectors
+T12	Literal_Expression 1748 1760	laboratories
+T13	Literal_Expression 1730 1739	foundries
+T14	Non_Lit_Expression 2226 2236	substances
+T15	Embedded_Non_Lit 2351 2359	European
+A9	Modifier_Type T15 Adjective
+#2	AnnotatorNotes T15	6255148
+T16	Non_Lit_Expression 2497 2506	employers
+T17	Non_Lit_Expression 2549 2557	proposal
+T18	Literal_Expression 2667 2673	market
+T19	Non_Lit_Expression 2830 2845	representatives
+A1	Non_Locational T1
+A2	Non_Locational T2
+A3	Non_Locational T3
+A4	Non_Locational T4
+A5	Non_Locational T5
+A6	Non_Locational T6
+T20	Literal_Expression 721 726	floor
+A7	Non_Locational T7
+T21	Non_Toponym 959 991	European Pillar of Social Rights
+T22	Embedded_Non_Lit 959 967	European
+A14	Modifier_Type T22 Noun
+#3	AnnotatorNotes T22	6255148
+T23	Literal_Expression 1848 1853	place
+T24	Literal_Expression 2112 2117	cases
+A8	Non_Locational T14
+A10	Non_Locational T16
+A11	Non_Locational T17
+T25	Non_Lit_Expression 2764 2776	stakeholders
+A12	Non_Locational T25
+A13	Non_Locational T19
+T26	Non_Literal_Modifier 418 420	EU
+A15	Modifier_Type T26 Noun
+#4	AnnotatorNotes T26	6255148

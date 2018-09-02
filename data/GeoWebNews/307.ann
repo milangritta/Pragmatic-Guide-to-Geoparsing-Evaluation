@@ -1,0 +1,133 @@
+T1	Literal_Expression 250 255	house
+T2	Non_Literal_Modifier 720 727	English
+#1	AnnotatorNotes T2	6269131
+T3	Coercion 837 875	Dublin International Piano Competition
+#2	AnnotatorNotes T3	0, 0
+T4	Literal_Modifier 1057 1063	Dublin
+A1	Modifier_Type T4 Noun
+#3	AnnotatorNotes T4	2964574
+T5	Coercion 3159 3200	Dublin International Video Games Festival
+#4	AnnotatorNotes T5	0, 0
+T6	Literal 3991 3997	Dublin
+#5	AnnotatorNotes T6	2964574
+T7	Literal 3113 3119	Dublin
+#6	AnnotatorNotes T7	2964574
+T8	Literal 3094 3111	Convention Centre
+#7	AnnotatorNotes T8	11822722
+T9	Literal 598 608	Rathbeggan
+#8	AnnotatorNotes T9	11777302
+T10	Literal 615 627	Dunshaughlin
+#9	AnnotatorNotes T10	2964472
+T11	Non_Lit_Expression 384 391	pianist
+T12	Coercion 668 693	Guildhall School of Music
+#10	AnnotatorNotes T12	51.519744, -0.091088
+T13	Literal 697 703	London
+#11	AnnotatorNotes T13	2643743
+T14	Literal 1452 1458	London
+#12	AnnotatorNotes T14	2643743
+T15	Literal 4622 4628	London
+#13	AnnotatorNotes T15	2643743
+T16	Coercion 1544 1567	London Guildhall School
+#14	AnnotatorNotes T16	51.519744, -0.091088
+T17	Literal 2199 2206	Ireland
+#15	AnnotatorNotes T17	2963597
+T18	Non_Literal_Modifier 4324 4331	Moldova
+A3	Modifier_Type T18 Noun
+#16	AnnotatorNotes T18	617790
+T19	Coercion 3977 3987	Feis Ceoil
+#17	AnnotatorNotes T19	53.341460, -6.273178
+T20	Literal_Expression 2610 2622	competitions
+T21	Non_Literal_Modifier 2987 2996	Hungarian
+A5	Modifier_Type T21 Adjective
+#18	AnnotatorNotes T21	719819
+T22	Non_Literal_Modifier 3430 3439	Hungarian
+A7	Modifier_Type T22 Adjective
+#19	AnnotatorNotes T22	719819
+T23	Literal 4123 4144	National Concert Hall
+#20	AnnotatorNotes T23	53.334878, -6.258576
+T24	Literal 4564 4576	Dunshaughlin
+#21	AnnotatorNotes T24	2964472
+T25	Literal 3696 3702	Poland
+#22	AnnotatorNotes T25	798544
+T26	Coercion 3554 3573	Clandeboye Festival
+#23	AnnotatorNotes T26	0, 0
+T27	Literal_Expression 4437 4446	countries
+T28	Literal 4540 4560	St Seachnails Church
+#24	AnnotatorNotes T28	53.512869, -6.541040
+T29	Literal 4523 4535	St Patrick’s
+#25	AnnotatorNotes T29	53.512869, -6.541040
+T30	Literal_Expression 4421 4430	broadcast
+T31	Literal_Expression 4108 4115	concert
+T32	Non_Lit_Expression 4183 4194	prizewinner
+T33	Coercion 4202 4241	International Spanish Piano Competition
+#26	AnnotatorNotes T33	0, 0
+T34	Literal 1077 1094	Fitzwilliam Place
+#27	AnnotatorNotes T34	53.333352, -6.252607
+T35	Non_Lit_Expression 1017 1019	CD
+T36	Non_Lit_Expression 1711 1720	performer
+T37	Coercion 3300 3324	Video Games Live Concert
+T38	Coercion 3653 3692	Junior Chopin International Competition
+T39	Literal_Expression 569 575	studio
+A13	Modifier_Type T2 Adjective
+T40	Non_Literal_Modifier 793 798	Irish
+A15	Modifier_Type T40 Adjective
+#28	AnnotatorNotes T40	2963597
+T41	Literal_Expression 1003 1009	launch
+T42	Non_Lit_Expression 1112 1120	pleasure
+T43	Non_Lit_Expression 1193 1201	teachers
+T44	Non_Lit_Expression 1414 1419	album
+T45	Non_Lit_Expression 1501 1510	donations
+T46	Coercion 2732 2742	Feis Ceoil
+#29	AnnotatorNotes T46	53.341460, -6.273178
+T47	Coercion 2859 2869	Sligo Feis
+#30	AnnotatorNotes T47	0, 0
+T48	Coercion 2913 2924	Arklow Feis
+#31	AnnotatorNotes T48	0, 0
+T49	Coercion 2365 2387	Newpark Music Festival
+#32	AnnotatorNotes T49	0, 0
+T50	Literal_Expression 4381 4389	concerto
+T51	Non_Lit_Expression 4056 4067	performance
+T52	Literal_Expression 2260 2264	tour
+T53	Literal_Expression 2277 2283	venues
+T54	Non_Lit_Expression 2678 2683	prize
+T55	Non_Lit_Expression 1995 2002	talents
+T56	Non_Lit_Expression 281 286	music
+T57	Non_Lit_Expression 495 503	director
+T58	Non_Lit_Expression 1400 1405	money
+T59	Non_Lit_Expression 1794 1798	home
+T60	Non_Lit_Expression 2111 2117	Sonata
+T61	Literal_Expression 2166 2172	family
+T62	Literal_Expression 3287 3292	stage
+A9	Non_Locational T56
+A2	Non_Locational T11
+A23	Non_Locational T57
+T63	Non_Toponym 668 693	Guildhall School of Music
+T64	Non_Toponym 837 875	Dublin International Piano Competition
+A11	Non_Locational T35
+A14	Non_Locational T42
+A16	Non_Locational T43
+A17	Non_Locational T58
+A18	Non_Locational T44
+A19	Non_Locational T45
+T65	Non_Toponym 1544 1567	London Guildhall School
+A12	Non_Locational T36
+A20	Non_Locational T55
+A22	Non_Locational T61
+A24	Non_Locational T60
+T66	Non_Toponym 2365 2387	Newpark Music Festival
+T67	Non_Lit_Expression 2489 2494	award
+A25	Non_Locational T67
+A21	Non_Locational T54
+T68	Non_Toponym 2732 2742	Feis Ceoil
+T69	Non_Toponym 2859 2869	Sligo Feis
+T70	Non_Toponym 2913 2924	Arklow Feis
+T71	Non_Toponym 3159 3200	Dublin International Video Games Festival
+T72	Non_Toponym 3300 3324	Video Games Live Concert
+T73	Non_Toponym 3554 3573	Clandeboye Festival
+T74	Non_Toponym 3653 3692	Junior Chopin International Competition
+#33	AnnotatorNotes T38	0, 0
+T75	Non_Toponym 3977 3987	Feis Ceoil
+A6	Non_Locational T51
+A8	Non_Locational T32
+T76	Non_Toponym 4202 4241	International Spanish Piano Competition
+#34	AnnotatorNotes T37	0, 0

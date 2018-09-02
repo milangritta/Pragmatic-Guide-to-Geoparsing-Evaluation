@@ -1,0 +1,36 @@
+T1	Non_Lit_Expression 324 330	prices
+T2	Non_Lit_Expression 491 494	low
+T3	Non_Lit_Expression 628 632	bank
+T4	Literal_Expression 697 702	media
+T5	Non_Lit_Expression 780 786	agency
+T6	Non_Lit_Expression 1009 1016	stories
+T7	Non_Lit_Expression 937 949	announcement
+T8	Non_Lit_Expression 1378 1384	equity
+T9	Non_Lit_Expression 1529 1537	dividend
+T10	Non_Lit_Expression 1712 1722	statements
+T11	Literal_Expression 1780 1784	high
+T13	Non_Lit_Expression 2081 2086	front
+T14	Literal_Expression 2126 2130	area
+T15	Non_Lit_Expression 2319 2326	results
+T16	Non_Toponym 513 528	HSBC Bank Malta
+T17	Embedded_Non_Lit 523 528	Malta
+A1	Modifier_Type T17 Noun
+#1	AnnotatorNotes T17	2562770
+T18	Non_Toponym 860 870	HSBC Malta
+T19	Embedded_Non_Lit 865 870	Malta
+A2	Modifier_Type T19 Noun
+#2	AnnotatorNotes T19	2562770
+T20	Non_Toponym 1846 1867	Central Bank of Malta
+T21	Embedded_Non_Lit 1862 1867	Malta
+A3	Modifier_Type T21 Noun
+#3	AnnotatorNotes T21	2562770
+T22	Non_Toponym 1909 1931	Malta Government Stock
+T23	Embedded_Non_Lit 1909 1914	Malta
+A8	Modifier_Type T23 Noun
+#4	AnnotatorNotes T23	2562770
+A4	Non_Locational T4
+A5	Non_Locational T5
+A7	Non_Locational T7
+A6	Non_Locational T9
+A9	Non_Locational T10
+A10	Non_Locational T15

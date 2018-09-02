@@ -1,0 +1,30 @@
+T1	Literal_Expression 214 218	pool
+T2	Literal_Expression 226 230	home
+T3	Non_Lit_Expression 301 304	dad
+T4	Literal_Expression 374 378	pool
+T5	Literal_Expression 471 479	backyard
+T6	Literal 495 502	Slidell
+#1	AnnotatorNotes T6	4341727
+T7	Embedded_Non_Lit 1075 1082	Slidell
+#2	AnnotatorNotes T7	4341727
+T8	Embedded_Non_Lit 1642 1649	Slidell
+#3	AnnotatorNotes T8	4341727
+T9	Literal 504 507	La.
+#4	AnnotatorNotes T9	4331987
+T10	Literal_Expression 1365 1370	house
+T11	Non_Lit_Expression 654 660	police
+T12	Non_Lit_Expression 1087 1091	Cops
+T13	Literal_Expression 1162 1167	house
+T14	Literal_Expression 779 784	house
+T16	Literal_Expression 1602 1606	pool
+T17	Non_Lit_Expression 937 942	carer
+T15	Non_Toponym 1642 1652	Slidell PD
+A3	Modifier_Type T8 Noun
+A1	Non_Locational T3
+T18	Literal_Expression 536 540	pool
+A4	Non_Locational T11
+A5	Non_Locational T17
+T19	Non_Toponym 1075 1085	Slidell PD
+A2	Modifier_Type T7 Noun
+A6	Non_Locational T12
+T20	Non_Lit_Expression 1499 1507	homicide

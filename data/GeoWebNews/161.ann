@@ -1,0 +1,63 @@
+T1	Coercion 1800 1821	Makeen Market Complex
+#1	AnnotatorNotes T1	32.6208, 69.8392
+T2	Mixed 117 133	SOUTH WAZIRISTAN
+#2	AnnotatorNotes T2	1164536
+T3	Literal 245 268	South Waziristan Agency
+#3	AnnotatorNotes T3	1164536
+T4	Non_Lit_Expression 305 311	elders
+T5	Literal_Expression 1831 1836	shops
+T6	Literal_Expression 1845 1855	facilities
+T7	Literal_Expression 1871 1875	park
+T8	Non_Lit_Expression 1089 1094	peace
+T9	Literal 1376 1380	Wana
+#4	AnnotatorNotes T9	1162634
+T10	Coercion 1616 1637	Agriculture Park Wana
+#5	AnnotatorNotes T10	32.337441, 69.578783
+T11	Literal 1397 1403	Makeen
+#6	AnnotatorNotes T11	1411892
+T12	Literal 1356 1372	Agriculture Park
+#7	AnnotatorNotes T12	32.337441, 69.578783
+T13	Non_Lit_Expression 820 828	brethren
+T14	Metonymic 423 431	Pakistan
+#8	AnnotatorNotes T14	1168579
+T15	Non_Lit_Expression 1280 1285	corps
+T16	Literal_Expression 1715 1720	Plant
+T17	Literal_Expression 1753 1761	facility
+T18	Non_Lit_Expression 1523 1531	projects
+T19	Non_Lit_Expression 1604 1614	government
+T20	Non_Lit_Expression 586 591	peace
+T21	Non_Lit_Expression 732 738	tribes
+T22	Non_Lit_Expression 927 933	elders
+T23	Non_Lit_Expression 1416 1426	facilities
+T24	Non_Lit_Expression 1201 1205	army
+T25	Literal 1099 1105	Makeen
+#9	AnnotatorNotes T25	1411892
+T26	Metonymic 687 691	FATA
+#10	AnnotatorNotes T26	1179245
+T28	Metonymic 1475 1510	Federally Administered Tribal Areas
+#12	AnnotatorNotes T28	1179245
+T29	Non_Lit_Expression 233 241	projects
+T30	Non_Lit_Expression 447 452	phase
+T31	Literal_Expression 1387 1393	Market
+T32	Embedded_Non_Lit 942 950	Pakistan
+#13	AnnotatorNotes T32	1168579
+T33	Embedded_Non_Lit 1046 1054	Pakistan
+#14	AnnotatorNotes T33	1168579
+T34	Embedded_Non_Lit 1554 1562	Pakistan
+#15	AnnotatorNotes T34	1168579
+A9	Modifier_Type T2 Noun
+A11	Non_Locational T4
+A7	Non_Locational T21
+A2	Non_Locational T13
+A8	Non_Locational T22
+T27	Non_Toponym 942 955	Pakistan Army
+A1	Modifier_Type T32 Noun
+T35	Non_Toponym 1046 1059	Pakistan Army
+A4	Modifier_Type T33 Noun
+A10	Non_Locational T24
+A3	Non_Locational T15
+T36	Non_Toponym 1554 1567	Pakistan Army
+A6	Modifier_Type T34 Noun
+A5	Non_Locational T19
+T37	Non_Toponym 1616 1637	Agriculture Park Wana
+T38	Non_Toponym 1800 1821	Makeen Market Complex

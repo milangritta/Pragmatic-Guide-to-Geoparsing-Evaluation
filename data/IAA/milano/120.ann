@@ -1,0 +1,96 @@
+T2	Literal 161 166	Dubai
+T3	Literal_Expression 249 253	city
+T4	Literal 351 368	Meydan Racecourse
+#1	AnnotatorNotes T4	8379005
+T5	Non_Literal_Modifier 536 539	UAE
+T6	Non_Literal_Modifier 553 558	Dubai
+T7	Non_Literal_Modifier 630 635	Dubai
+T8	Literal 784 790	Helmet
+T9	Non_Literal_Modifier 1019 1022	USA
+T1	Literal 3707 3713	Europe
+T10	Literal 3731 3739	Kentucky
+T11	Literal_Expression 3444 3450	corner
+T12	Non_Literal_Modifier 2074 2077	UAE
+#2	AnnotatorNotes T8	4763613
+#3	AnnotatorNotes T2	292223
+#4	AnnotatorNotes T6	292223
+#5	AnnotatorNotes T7	292223
+#6	AnnotatorNotes T12	290557
+#7	AnnotatorNotes T5	290557
+#8	AnnotatorNotes T9	6252001
+#10	AnnotatorNotes T1	6255148
+#11	AnnotatorNotes T10	6254925
+A1	Modifier_Type T12 Noun
+T15	Non_Lit_Expression 675 681	family
+A3	Modifier_Type T9 Noun
+T16	Non_Literal_Modifier 1070 1078	American
+A4	Modifier_Type T16 Adjective
+#12	AnnotatorNotes T16	6252001
+T17	Non_Literal_Modifier 2496 2504	American
+A5	Modifier_Type T17 Adjective
+#13	AnnotatorNotes T17	6252001
+T21	Non_Literal_Modifier 1701 1708	Belgian
+A8	Modifier_Type T21 Adjective
+#14	AnnotatorNotes T21	2802361
+T23	Literal_Expression 2019 2024	gates
+T26	Literal_Expression 2914 2922	position
+T27	Literal_Expression 3205 3210	track
+T28	Literal_Expression 3491 3499	straight
+T14	Non_Lit_Expression 1410 1417	trainer
+T18	Non_Lit_Expression 3154 3162	daughter
+T19	Non_Lit_Expression 2763 2769	jockey
+T20	Non_Lit_Expression 2401 2406	start
+T22	Non_Lit_Expression 1283 1289	career
+T24	Non_Lit_Expression 774 778	colt
+T29	Non_Lit_Expression 1004 1013	favourite
+T30	Non_Literal_Modifier 833 840	Emirati
+A20	Modifier_Type T30 Adjective
+#15	AnnotatorNotes T30	290557
+T31	Demonym 2248 2257	Americans
+#16	AnnotatorNotes T31	N/A
+T32	Coercion 2580 2589	World Cup
+#17	AnnotatorNotes T32	8379005
+T33	Demonym 2967 2974	Emirati
+A26	Modifier_Type T5 Noun
+A28	Modifier_Type T6 Noun
+A30	Modifier_Type T7 Noun
+T13	Coercion 426 441	Dubai World Cup
+#9	AnnotatorNotes T13	292223
+T34	Coercion 709 724	Dubai World Cup
+#18	AnnotatorNotes T34	292223
+T35	Coercion 1377 1392	Dubai World Cup
+#19	AnnotatorNotes T35	292223
+T36	Coercion 1734 1749	Dubai World Cup
+#20	AnnotatorNotes T36	292223
+T37	Coercion 1512 1522	Dubai Turf
+#21	AnnotatorNotes T37	292223
+T38	Embedded_Non_Lit 1826 1836	California
+#22	AnnotatorNotes T38	5332921
+A2	Non_Locational T15
+T39	Non_Toponym 426 441	Dubai World Cup
+T40	Non_Toponym 709 724	Dubai World Cup
+A18	Non_Locational T24
+A16	Non_Locational T29
+A6	Non_Locational T14
+T41	Non_Toponym 1377 1392	Dubai World Cup
+T42	Non_Toponym 1512 1522	Dubai Turf
+T43	Non_Toponym 1734 1749	Dubai World Cup
+T44	Non_Toponym 1826 1843	California Chrome
+A7	Modifier_Type T38 Noun
+T45	Non_Toponym 2580 2589	World Cup
+A10	Non_Locational T19
+A9	Non_Locational T18
+T25	Metonymic 1025 1035	West Coast
+#23	AnnotatorNotes T25	9881904
+T46	Metonymic 2338 2348	West Coast
+#24	AnnotatorNotes T46	9881904
+T47	Metonymic 3390 3400	West Coast
+#25	AnnotatorNotes T47	9881904
+T48	Non_Toponym 4338 4355	California Chrome
+T49	Embedded_Non_Lit 4338 4348	California
+A11	Modifier_Type T49 Noun
+#26	AnnotatorNotes T49	5332921
+T50	Non_Toponym 4216 4229	African Story
+T51	Embedded_Non_Lit 4216 4223	African
+A12	Modifier_Type T51 Adjective
+#27	AnnotatorNotes T51	6255146

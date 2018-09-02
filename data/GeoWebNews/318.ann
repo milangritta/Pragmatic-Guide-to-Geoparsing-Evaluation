@@ -1,0 +1,90 @@
+T1	Non_Literal_Modifier 1291 1302	Los Angeles
+A1	Modifier_Type T1 Noun
+#1	AnnotatorNotes T1	5368361
+T2	Embedded_Non_Lit 1265 1289	University of California
+#2	AnnotatorNotes T2	5404884
+T3	Literal 1624 1630	London
+#3	AnnotatorNotes T3	2643743
+T4	Literal 1942 1947	Spain
+#4	AnnotatorNotes T4	2510769
+T5	Non_Literal_Modifier 1573 1580	Spanish
+A2	Modifier_Type T5 Adjective
+#5	AnnotatorNotes T5	2510769
+T6	Embedded_Non_Lit 4483 4491	New York
+#6	AnnotatorNotes T6	5128581
+T7	Literal 2472 2480	New York
+#7	AnnotatorNotes T7	5128581
+T8	Literal 2453 2459	Taiwan
+#8	AnnotatorNotes T8	1668284
+T9	Literal_Expression 721 730	countries
+T10	Literal 2304 2316	South Africa
+#9	AnnotatorNotes T10	953987
+T11	Literal_Modifier 3337 3345	European
+A4	Modifier_Type T11 Adjective
+#10	AnnotatorNotes T11	6255148
+T12	Literal_Modifier 2667 2676	Stockholm
+#11	AnnotatorNotes T12	2673730
+T13	Literal_Expression 814 823	countries
+T14	Literal_Expression 2161 2171	checkpoint
+T15	Non_Lit_Expression 1477 1483	symbol
+T16	Literal_Expression 630 637	borders
+T17	Non_Lit_Expression 2060 2067	experts
+T18	Literal_Expression 2548 2554	office
+T19	Non_Lit_Expression 3744 3755	communities
+T20	Non_Lit_Expression 471 479	clothing
+T21	Literal_Expression 258 267	interview
+T22	Non_Lit_Expression 350 355	brand
+T23	Literal_Expression 519 527	industry
+T24	Literal_Expression 660 666	stores
+T25	Literal_Expression 801 807	stores
+T26	Non_Lit_Expression 865 872	designs
+T27	Non_Lit_Expression 971 978	reviews
+T28	Non_Lit_Expression 1075 1082	fashion
+T29	Non_Lit_Expression 1350 1357	critics
+T30	Non_Lit_Expression 1426 1435	character
+T31	Non_Lit_Expression 1536 1541	skirt
+T32	Literal_Expression 1926 1938	headquarters
+T33	Non_Lit_Expression 1734 1738	hate
+T34	Literal_Expression 2221 2228	country
+T35	Non_Lit_Expression 2770 2777	message
+T36	Literal_Expression 3144 3152	business
+T37	Literal_Expression 3380 3387	markets
+T38	Non_Lit_Expression 3958 3964	public
+T39	Literal_Expression 4089 4094	lines
+T40	Non_Lit_Expression 314 326	transparency
+A19	Non_Locational T40
+A9	Non_Locational T22
+A8	Non_Locational T20
+A10	Non_Locational T26
+A11	Non_Locational T27
+A12	Non_Locational T28
+T41	Non_Toponym 1265 1289	University of California
+T42	Non_Lit_Expression 1122 1129	control
+A20	Non_Locational T42
+A13	Non_Locational T29
+A14	Non_Locational T30
+A5	Non_Locational T15
+A15	Non_Locational T31
+T43	Non_Lit_Expression 1677 1682	frogs
+A3	Non_Locational T43
+A16	Non_Locational T33
+T44	Non_Lit_Expression 1826 1836	collection
+A21	Non_Locational T44
+A6	Non_Locational T17
+A22	Modifier_Type T12 Noun
+T45	Non_Lit_Expression 2699 2707	concerns
+A23	Non_Locational T45
+A17	Non_Locational T35
+T46	Non_Lit_Expression 3117 3123	talent
+A24	Non_Locational T46
+T47	Non_Lit_Expression 3560 3568	shoppers
+A25	Non_Locational T47
+T48	Literal_Expression 3688 3697	incidents
+A7	Non_Locational T19
+A26	Non_Locational T38
+T49	Non_Lit_Expression 4048 4056	products
+A27	Non_Locational T49
+T50	Non_Toponym 4483 4497	New York Times
+A18	Modifier_Type T6 Noun
+T51	Non_Lit_Expression 4472 4481	employees
+A28	Non_Locational T51

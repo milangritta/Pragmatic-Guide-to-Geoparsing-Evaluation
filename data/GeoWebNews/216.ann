@@ -1,0 +1,27 @@
+T1	Literal 1038 1051	New York City
+#1	AnnotatorNotes T1	5128581
+T2	Literal 1139 1152	United States
+#2	AnnotatorNotes T2	6252001
+T3	Embedded_Non_Lit 245 249	U.S.
+#3	AnnotatorNotes T3	6252001
+T4	Mixed 117 124	ATLANTA
+#4	AnnotatorNotes T4	4180439
+T5	Non_Literal_Modifier 148 155	Atlanta
+A3	Modifier_Type T5 Noun
+#5	AnnotatorNotes T5	4180439
+T6	Non_Literal_Modifier 976 984	American
+A5	Modifier_Type T6 Adjective
+#6	AnnotatorNotes T6	6252001
+T7	Mixed 230 239	City Hall
+#7	AnnotatorNotes T7	4180445
+T8	Non_Lit_Expression 133 137	aide
+T9	Non_Lit_Expression 278 285	outlets
+T10	Non_Lit_Expression 652 660	shelters
+A1	Modifier_Type T4 Noun
+A2	Non_Locational T8
+T11	Non_Toponym 245 258	U.S. Attorney
+A4	Modifier_Type T3 Noun
+T12	Literal_Expression 567 575	programs
+T13	Literal_Expression 723 736	investigation
+T14	Literal_Expression 773 777	city
+T15	Literal_Expression 1123 1131	stations

@@ -1,0 +1,62 @@
+T1	Mixed 177 182	Hanoi
+#1	AnnotatorNotes T1	1581130
+T2	Literal 571 576	Hanoi
+#2	AnnotatorNotes T2	1581130
+T3	Metonymic 191 198	Vietnam
+#3	AnnotatorNotes T3	1562822
+T4	Non_Literal_Modifier 655 662	Vietnam
+#4	AnnotatorNotes T4	1562822
+T5	Metonymic 1049 1056	Vietnam
+#5	AnnotatorNotes T5	1562822
+T6	Metonymic 1843 1850	Vietnam
+#6	AnnotatorNotes T6	1562822
+T7	Metonymic 225 231	Russia
+#7	AnnotatorNotes T7	2017370
+T8	Metonymic 1709 1715	Russia
+#8	AnnotatorNotes T8	2017370
+T9	Metonymic 1062 1068	Russia
+#9	AnnotatorNotes T9	2017370
+T10	Metonymic 744 750	Russia
+#10	AnnotatorNotes T10	2017370
+T12	Literal_Expression 347 353	region
+T13	Literal_Expression 362 367	world
+T15	Literal_Expression 1297 1302	world
+T11	Literal_Modifier 262 267	Asian
+T16	Literal_Modifier 268 275	Pacific
+T17	Literal_Expression 481 490	reception
+#11	AnnotatorNotes T11	6255147
+#12	AnnotatorNotes T16	4030875
+T14	Literal 1281 1288	Pacific
+#13	AnnotatorNotes T14	4030875
+T18	Non_Literal_Modifier 1687 1694	Russian
+T19	Non_Literal_Modifier 2039 2046	Russian
+#14	AnnotatorNotes T19	2017370
+T20	Non_Literal_Modifier 2094 2104	Vietnamese
+#15	AnnotatorNotes T20	1562822
+T22	Non_Lit_Expression 1190 1197	country
+T23	Non_Lit_Expression 850 857	country
+T24	Non_Lit_Expression 1443 1452	countries
+#16	AnnotatorNotes T18	2017370
+T25	Non_Literal_Modifier 527 534	Russian
+#17	AnnotatorNotes T25	2017370
+A12	Modifier_Type T19 Adjective
+A13	Modifier_Type T11 Adjective
+A14	Modifier_Type T16 Noun
+A15	Modifier_Type T25 Adjective
+A16	Modifier_Type T20 Adjective
+A17	Modifier_Type T18 Adjective
+T32	Literal 1276 1280	Asia
+#18	AnnotatorNotes T32	6255147
+T26	Non_Lit_Expression 597 602	Party
+T27	Non_Lit_Expression 1359 1369	ministries
+T29	Non_Lit_Expression 1611 1622	partnership
+T30	Non_Lit_Expression 1787 1797	friendship
+A10	Modifier_Type T4 Noun
+A7	Modifier_Type T1 Noun
+A5	Non_Locational T26
+A4	Non_Locational T27
+A6	Non_Locational T29
+A8	Non_Locational T30
+T21	Non_Literal_Modifier 418 425	Vietnam
+A1	Modifier_Type T21 Noun
+#19	AnnotatorNotes T21	1562822

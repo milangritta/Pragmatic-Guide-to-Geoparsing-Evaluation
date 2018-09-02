@@ -1,0 +1,69 @@
+T1	Mixed 231 242	ALBUQUERQUE
+#1	AnnotatorNotes T1	5454711
+T2	Mixed 566 577	ALBUQUERQUE
+#2	AnnotatorNotes T2	5454711
+T3	Non_Literal_Modifier 608 618	New Mexico
+A1	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	5481136
+T4	Non_Literal_Modifier 256 266	New Mexico
+A3	Modifier_Type T4 Noun
+#4	AnnotatorNotes T4	5481136
+T5	Mixed 579 583	N.M.
+#5	AnnotatorNotes T5	5481136
+T6	Mixed 244 248	N.M.
+#6	AnnotatorNotes T6	5481136
+T7	Non_Literal_Modifier 273 277	U.S.
+A5	Modifier_Type T7 Noun
+#7	AnnotatorNotes T7	6252001
+T8	Non_Literal_Modifier 1055 1059	U.S.
+A7	Modifier_Type T8 Noun
+#8	AnnotatorNotes T8	6252001
+T9	Mixed 1034 1043	SAN DIEGO
+#9	AnnotatorNotes T9	5391811
+T10	Mixed 1498 1508	WASHINGTON
+#10	AnnotatorNotes T10	4140963
+T11	Literal 1628 1641	West Virginia
+#11	AnnotatorNotes T11	4826850
+T12	Literal 1779 1789	California
+#12	AnnotatorNotes T12	5332921
+T13	Non_Lit_Expression 1582 1588	nation
+T14	Literal_Expression 912 920	property
+T15	Non_Lit_Expression 1683 1691	security
+T16	Demonym 1221 1238	Central Americans
+T17	Demonym 1244 1252	Mexicans
+T18	Literal 1171 1177	Mexico
+#13	AnnotatorNotes T18	3996063
+T19	Literal_Expression 1932 1940	election
+T20	Non_Lit_Expression 367 372	chief
+T21	Non_Lit_Expression 557 564	conduct
+T22	Non_Lit_Expression 706 713	company
+T23	Non_Lit_Expression 994 1000	income
+T24	Literal_Expression 1100 1111	environment
+T25	Literal_Expression 1159 1165	border
+T26	Literal_Expression 1202 1211	crossings
+T27	Non_Lit_Expression 1332 1338	agents
+T28	Literal_Expression 1380 1385	lines
+T29	Non_Lit_Expression 1478 1482	role
+T30	Non_Lit_Expression 1727 1733	claims
+T31	Literal_Expression 1801 1812	immigration
+A21	Modifier_Type T1 Noun
+A22	Modifier_Type T6 Noun
+A4	Non_Locational T20
+T32	Non_Lit_Expression 523 532	decisions
+A6	Non_Locational T32
+A15	Non_Locational T21
+A16	Modifier_Type T2 Noun
+A23	Modifier_Type T5 Noun
+A2	Non_Locational T23
+A17	Modifier_Type T9 Noun
+A8	Non_Locational T27
+T33	Non_Lit_Expression 1272 1276	role
+A11	Non_Locational T33
+T34	Non_Lit_Expression 1443 1454	enforcement
+A12	Non_Locational T34
+A13	Non_Locational T29
+A14	Modifier_Type T10 Noun
+A9	Non_Locational T13
+A10	Non_Locational T30
+T35	Non_Lit_Expression 1838 1843	gangs
+A18	Non_Locational T35

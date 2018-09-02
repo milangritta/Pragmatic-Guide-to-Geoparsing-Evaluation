@@ -1,0 +1,39 @@
+T1	Literal 510 523	Bowling Green
+#1	AnnotatorNotes T1	4285268
+T2	Literal_Modifier 525 533	Kentucky
+A1	Modifier_Type T2 Noun
+#2	AnnotatorNotes T2	6254925
+T3	Coercion 826 844	New York Auto Show
+#3	AnnotatorNotes T3	5128581
+T4	Non_Lit_Expression 578 584	engine
+T5	Literal_Expression 276 280	hood
+T6	Non_Lit_Expression 744 751	product
+T7	Literal_Expression 772 781	interview
+T8	Non_Lit_Expression 1671 1677	Rumors
+T9	Literal_Expression 1852 1864	neighborhood
+T10	Non_Lit_Expression 1220 1229	injection
+T11	Non_Lit_Expression 1014 1025	speculation
+T12	Non_Lit_Expression 1312 1319	engines
+T13	Non_Lit_Expression 1441 1444	CEO
+T14	Non_Lit_Expression 239 244	thing
+T15	Literal_Expression 926 929	car
+T16	Non_Lit_Expression 1126 1136	refinement
+T17	Non_Lit_Expression 1426 1429	car
+T18	Non_Lit_Expression 1473 1478	brand
+T19	Non_Lit_Expression 1664 1669	power
+A10	Non_Locational T14
+T20	Non_Lit_Expression 446 457	performance
+A3	Non_Locational T20
+A2	Non_Locational T4
+A4	Non_Locational T6
+T21	Non_Toponym 826 844	New York Auto Show
+A11	Non_Locational T15
+A7	Non_Locational T11
+A12	Non_Locational T16
+A6	Non_Locational T10
+A8	Non_Locational T12
+A13	Non_Locational T17
+A9	Non_Locational T13
+A14	Non_Locational T18
+A15	Non_Locational T19
+A5	Non_Locational T8

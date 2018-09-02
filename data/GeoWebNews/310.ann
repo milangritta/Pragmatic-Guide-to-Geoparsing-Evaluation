@@ -1,0 +1,28 @@
+T1	Literal 364 371	Béziers
+#1	AnnotatorNotes T1	3032833
+T2	Literal_Expression 427 432	house
+T3	Literal 573 584	Montpellier
+#2	AnnotatorNotes T3	2992166
+T4	Coercion 566 569	CHU
+#3	AnnotatorNotes T4	43.631938, 3.849992
+T5	Literal_Expression 840 848	hospital
+T6	Literal_Expression 1005 1012	journal
+T7	Non_Lit_Expression 767 771	team
+T8	Non_Lit_Expression 230 235	heart
+T9	Literal_Expression 345 349	edge
+T10	Literal_Expression 473 484	temperature
+T11	Literal_Expression 934 937	bed
+T12	Non_Lit_Expression 204 207	man
+T13	Non_Lit_Expression 148 154	killer
+T14	Literal_Expression 355 360	river
+T15	Non_Lit_Expression 521 530	newspaper
+T16	Non_Lit_Expression 638 645	patient
+T17	Non_Lit_Expression 818 821	ICU
+A4	Non_Locational T13
+A3	Non_Locational T12
+A2	Non_Locational T8
+A6	Non_Locational T15
+T18	Non_Toponym 566 569	CHU
+A5	Non_Locational T16
+A1	Non_Locational T7
+A7	Non_Locational T11

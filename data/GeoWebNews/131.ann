@@ -1,0 +1,75 @@
+T1	Metonymic 2843 2848	China
+#1	AnnotatorNotes T1	1814991
+T3	Literal 787 794	Beijing
+#2	AnnotatorNotes T3	2038349
+T4	Literal 1707 1714	Beijing
+#3	AnnotatorNotes T4	2038349
+T5	Literal_Expression 1667 1673	office
+T6	Coercion 1681 1703	Supreme People's Court
+#4	AnnotatorNotes T6	39.903198, 116.404954
+T7	Metonymic 1980 1985	China
+#5	AnnotatorNotes T7	1814991
+T8	Non_Literal_Modifier 3067 3072	China
+A4	Modifier_Type T8 Noun
+#6	AnnotatorNotes T8	1814991
+T9	Non_Lit_Expression 3092 3097	party
+T11	Literal 855 862	Tianjin
+#7	AnnotatorNotes T11	1792943
+T14	Literal 973 980	Tianjin
+#8	AnnotatorNotes T14	1792943
+T15	Literal_Modifier 2554 2561	Tianjin
+#9	AnnotatorNotes T15	1792943
+T16	Non_Lit_Expression 1582 1588	police
+T17	Literal_Expression 1972 1976	home
+T18	Literal_Expression 1950 1959	apartment
+T19	Non_Lit_Expression 1918 1926	officers
+T20	Non_Literal_Modifier 2055 2062	Chinese
+A9	Modifier_Type T20 Adjective
+#10	AnnotatorNotes T20	1814991
+T22	Literal_Expression 2374 2380	prison
+T23	Literal_Expression 564 568	jail
+T25	Non_Lit_Expression 2467 2473	person
+T26	Non_Lit_Expression 3269 3274	party
+T27	Non_Lit_Expression 1034 1039	court
+T29	Non_Lit_Expression 389 400	authorities
+T30	Non_Lit_Expression 299 304	world
+T33	Non_Lit_Expression 467 478	authorities
+T36	Non_Lit_Expression 1832 1838	cheeks
+T37	Literal_Expression 847 851	city
+T39	Non_Lit_Expression 2698 2705	charity
+T40	Non_Lit_Expression 870 879	officials
+T2	Non_Lit_Expression 3048 3054	family
+T12	Non_Lit_Expression 3232 3238	courts
+T21	Non_Lit_Expression 237 244	victims
+T24	Non_Lit_Expression 585 596	authorities
+T28	Non_Lit_Expression 3157 3165	analysts
+T32	Non_Lit_Expression 1070 1075	judge
+T34	Non_Lit_Expression 2778 2785	members
+T41	Literal_Expression 343 348	sweep
+T42	Non_Lit_Expression 368 375	critics
+A2	Modifier_Type T15 Noun
+T31	Literal_Expression 3222 3229	country
+A7	Non_Locational T21
+A12	Non_Locational T29
+A15	Non_Locational T42
+A16	Non_Locational T33
+A17	Non_Locational T24
+A18	Non_Locational T40
+A19	Non_Locational T32
+A6	Non_Locational T36
+A8	Non_Locational T19
+T10	Non_Toponym 1681 1703	Supreme People's Court
+A3	Non_Locational T25
+A10	Non_Locational T34
+A13	Non_Locational T39
+A14	Non_Locational T26
+A1	Non_Locational T9
+A5	Non_Locational T2
+A11	Non_Locational T28
+T13	Literal 803 825	No. 2 Detention Centre
+#11	AnnotatorNotes T13	1792947
+T35	Literal_Expression 945 954	snowstorm
+T38	Non_Toponym 2706 2736	Chinese Human Rights Defenders
+T43	Embedded_Non_Lit 2706 2713	Chinese
+A20	Modifier_Type T43 Adjective
+#12	AnnotatorNotes T43	1814991

@@ -1,0 +1,62 @@
+T2	Mixed 1044 1053	ALLENDALE
+#1	AnnotatorNotes T2	5095124
+T3	Non_Literal_Modifier 2048 2057	Allendale
+A1	Modifier_Type T3 Noun
+#2	AnnotatorNotes T3	5095124
+T4	Mixed 2472 2482	New Jersey
+#3	AnnotatorNotes T4	5101760
+T5	Mixed 1055 1059	N.J.
+#4	AnnotatorNotes T5	5101760
+T6	Mixed 521 528	Maywood
+#5	AnnotatorNotes T6	5100972
+A3	Modifier_Type T6 Noun
+T7	Literal 1480 1499	Washington Township
+#6	AnnotatorNotes T7	7259146
+T8	Coercion 1458 1476	Seasons restaurant
+#7	AnnotatorNotes T8	40.996857, -74.060587
+T9	Coercion 1343 1356	Eva's Village
+#8	AnnotatorNotes T9	40.912253, -74.171892
+T10	Literal 1360 1368	Paterson
+#9	AnnotatorNotes T10	5102466
+T12	Non_Lit_Expression 1502 1508	Guests
+T13	Non_Lit_Expression 2100 2104	club
+T14	Non_Lit_Expression 323 327	show
+T15	Coercion 681 694	Eva's Village
+#10	AnnotatorNotes T15	40.912253, -74.171892
+T16	Literal 698 706	Paterson
+#11	AnnotatorNotes T16	5102466
+T17	Mixed 1621 1628	Maywood
+A6	Modifier_Type T17 Noun
+#12	AnnotatorNotes T17	5100972
+T19	Non_Lit_Expression 977 984	mothers
+T1	Non_Lit_Expression 2085 2094	community
+T11	Non_Lit_Expression 2431 2439	families
+A13	Modifier_Type T4 Noun
+T18	Non_Toponym 681 694	Eva's Village
+A4	Non_Locational T19
+A5	Non_Locational T12
+A7	Modifier_Type T2 Noun
+A8	Modifier_Type T5 Noun
+T20	Non_Toponym 1343 1356	Eva's Village
+A2	Non_Locational T11
+T21	Non_Toponym 1458 1476	Seasons restaurant
+T22	Non_Toponym 343 369	The Allendale Woman’s Club
+T23	Embedded_Non_Lit 347 356	Allendale
+A9	Modifier_Type T23 Noun
+#13	AnnotatorNotes T23	5095124
+T24	Non_Toponym 1205 1231	The Allendale Woman’s Club
+T25	Embedded_Non_Lit 1209 1218	Allendale
+A10	Modifier_Type T25 Noun
+#14	AnnotatorNotes T25	5095124
+T26	Non_Toponym 2155 2204	100 Years of Allendale Women Helping Others Award
+T27	Embedded_Non_Lit 2168 2177	Allendale
+A11	Modifier_Type T27 Noun
+#15	AnnotatorNotes T27	5095124
+T28	Non_Toponym 2442 2468	The Allendale Woman’s Club
+T29	Embedded_Non_Lit 2446 2455	Allendale
+A12	Modifier_Type T29 Noun
+#16	AnnotatorNotes T29	5095124
+T30	Non_Toponym 2543 2583	The NJ State Federation of Women’s Clubs
+T31	Embedded_Non_Lit 2547 2549	NJ
+A14	Modifier_Type T31 Noun
+#17	AnnotatorNotes T31	5101760

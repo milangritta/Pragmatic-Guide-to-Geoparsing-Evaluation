@@ -1,0 +1,21 @@
+T1	Non_Literal_Modifier 255 261	Manila
+#1	AnnotatorNotes T1	1701668
+T2	Mixed 400 406	MANILA
+#2	AnnotatorNotes T2	1701668
+T3	Literal 331 347	Manila Cathedral
+#3	AnnotatorNotes T3	14.591580, 120.973474
+T4	Literal 677 693	Manila Cathedral
+#4	AnnotatorNotes T4	14.591580, 120.973474
+T5	Mixed 408 419	Philippines
+#5	AnnotatorNotes T5	1694008
+T6	Non_Literal_Modifier 446 452	Manila
+#6	AnnotatorNotes T6	1701668
+T7	Literal_Expression 838 842	tomb
+T8	Literal_Expression 1019 1023	tomb
+T9	Literal_Expression 900 904	tomb
+T10	Literal_Expression 2565 2569	tomb
+A1	Modifier_Type T1 Noun
+A2	Modifier_Type T6 Noun
+T11	Demonym 1089 1098	Filipinos
+A5	Modifier_Type T2 Noun
+A6	Modifier_Type T5 Noun

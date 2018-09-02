@@ -1,0 +1,97 @@
+T1	Demonym 613 622	Canadians
+T2	Mixed 3122 3129	TORONTO
+#1	AnnotatorNotes T2	6167865
+T3	Non_Literal_Modifier 3161 3168	Toronto
+A3	Modifier_Type T3 Noun
+#2	AnnotatorNotes T3	6167865
+T4	Literal 2392 2399	Toronto
+#3	AnnotatorNotes T4	6167865
+T5	Literal 7081 7088	Toronto
+#4	AnnotatorNotes T5	6167865
+T6	Non_Lit_Expression 197 205	patients
+T7	Demonym 874 883	Canadians
+T8	Demonym 5302 5311	Canadians
+T9	Demonym 5563 5572	Canadians
+T10	Demonym 3447 3456	Canadians
+T11	Non_Literal_Modifier 844 850	Canada
+A14	Modifier_Type T11 Noun
+#5	AnnotatorNotes T11	6251999
+T12	Literal_Expression 251 257	region
+T13	Literal_Expression 373 380	program
+T14	Non_Lit_Expression 412 418	kidney
+T15	Non_Lit_Expression 691 697	donors
+T16	Non_Lit_Expression 1367 1371	body
+T17	Non_Literal_Modifier 2460 2470	New Jersey
+A20	Modifier_Type T17 Noun
+#6	AnnotatorNotes T17	5101760
+T18	Non_Literal_Modifier 7149 7159	New Jersey
+A22	Modifier_Type T18 Noun
+#7	AnnotatorNotes T18	5101760
+T19	Non_Lit_Expression 1933 1939	kidney
+T20	Literal 2487 2498	Disneyworld
+#8	AnnotatorNotes T20	4177401
+T21	Literal 7176 7187	Disneyworld
+#9	AnnotatorNotes T21	4177401
+T22	Literal 4282 4289	Ontario
+#10	AnnotatorNotes T22	6093943
+T23	Literal 4671 4678	Ontario
+#11	AnnotatorNotes T23	6093943
+T24	Demonym 4433 4442	Ontarians
+T25	Non_Literal_Modifier 5533 5539	Canada
+A27	Modifier_Type T25 Noun
+#12	AnnotatorNotes T25	6251999
+T26	Literal_Expression 3385 3389	city
+T27	Non_Lit_Expression 4521 4529	patients
+T28	Literal_Expression 4940 4946	region
+T29	Embedded_Non_Lit 2692 2702	Washington
+#13	AnnotatorNotes T29	4140963
+T30	Embedded_Non_Lit 1535 1543	Canadian
+#14	AnnotatorNotes T30	6251999
+T31	Embedded_Non_Lit 3105 3113	Canadian
+#15	AnnotatorNotes T31	6251999
+T32	Embedded_Non_Lit 6224 6232	Canadian
+#16	AnnotatorNotes T32	6251999
+T33	Embedded_Non_Lit 7794 7802	Canadian
+#17	AnnotatorNotes T33	6251999
+A5	Non_Locational T6
+T34	Non_Lit_Expression 295 301	kidney
+A33	Non_Locational T34
+A16	Non_Locational T14
+A1	Non_Locational T15
+T35	Non_Lit_Expression 1089 1095	organs
+A2	Non_Locational T35
+A6	Non_Locational T16
+T36	Non_Toponym 1535 1558	Canadian Blood Services
+A7	Modifier_Type T30 Adjective
+T37	Non_Lit_Expression 1636 1642	donors
+A15	Non_Locational T37
+A17	Non_Locational T19
+T38	Non_Lit_Expression 2008 2015	kidneys
+A18	Non_Locational T38
+T39	Literal_Expression 2040 2044	case
+T40	Literal_Expression 2224 2230	family
+A19	Non_Locational T40
+T42	Literal_Expression 2611 2614	man
+A21	Non_Locational T42
+T43	Non_Toponym 2692 2707	Washington Post
+A24	Modifier_Type T29 Noun
+T41	Non_Lit_Expression 2930 2936	doctor
+A30	Non_Locational T41
+T44	Non_Toponym 3105 3119	Canadian Press
+A31	Modifier_Type T31 Adjective
+A34	Modifier_Type T2 Noun
+T45	Literal_Expression 3367 3373	boards
+T46	Literal_Expression 3903 3907	body
+A4	Non_Locational T46
+A12	Non_Locational T27
+T47	Literal_Expression 4785 4793	province
+T48	Non_Toponym 6224 6247	Canadian Blood Services
+A8	Modifier_Type T32 Adjective
+T49	Non_Toponym 7381 7396	Washington Post
+T50	Embedded_Non_Lit 7381 7391	Washington
+A9	Modifier_Type T50 Noun
+#18	AnnotatorNotes T50	4140963
+T51	Literal_Expression 7549 7555	people
+A10	Non_Locational T51
+T52	Non_Toponym 7790 7808	The Canadian Press
+A11	Modifier_Type T33 Adjective

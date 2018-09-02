@@ -1,0 +1,38 @@
+T1	Mixed 180 188	NEW YORK
+#1	AnnotatorNotes T1	5128581
+T2	Embedded_Non_Lit 592 600	New York
+#2	AnnotatorNotes T2	5128581
+T3	Literal_Modifier 1055 1063	New York
+A1	Modifier_Type T3 Noun
+#3	AnnotatorNotes T3	5128581
+T4	Non_Lit_Expression 214 218	star
+T5	Literal_Expression 288 293	melee
+T6	Literal_Modifier 560 568	Brooklyn
+A3	Modifier_Type T6 Noun
+#4	AnnotatorNotes T6	5110302
+T7	Literal 571 586	Barclays Center
+#5	AnnotatorNotes T7	9794879
+T8	Literal_Expression 666 676	appearance
+T9	Non_Lit_Expression 800 808	attorney
+T10	Non_Lit_Expression 972 976	cans
+T11	Literal 926 941	Barclays Center
+#6	AnnotatorNotes T11	9794879
+T12	Non_Lit_Expression 848 854	people
+T13	Literal_Expression 918 922	dock
+T14	Literal_Expression 355 361	fights
+T15	Non_Lit_Expression 503 511	fighters
+T16	Non_Lit_Expression 708 715	assault
+T17	Literal_Expression 433 442	promotion
+T18	Literal_Expression 534 544	conference
+T19	Non_Lit_Expression 1013 1022	barricade
+A9	Modifier_Type T1 Noun
+A2	Non_Locational T4
+T20	Non_Lit_Expression 253 260	charges
+A10	Non_Locational T20
+A8	Non_Locational T17
+A7	Non_Locational T15
+T21	Non_Toponym 592 618	New York Police Department
+A11	Modifier_Type T2 Noun
+A4	Non_Locational T9
+A6	Non_Locational T12
+A5	Non_Locational T10
