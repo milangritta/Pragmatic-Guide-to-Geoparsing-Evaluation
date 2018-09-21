@@ -58,7 +58,11 @@ from objects_and_functions import text_to_ann
 # ----------------------------------- START OF ANNOTATOR AGREEMENT ---------------------------------------
 
 # from bratutils import agreement as a
-#
+# test = a.DocumentCollection('data/Spacy/')
+# gold = a.DocumentCollection('data/GeoWebNews/')
+# gold.make_gold()
+# print(test.compare_to_gold(gold))
+
 # milan = a.DocumentCollection('data/IAA/milano/')
 # flora = a.DocumentCollection('data/IAA/flora/')
 # mina = a.DocumentCollection('data/IAA/mina/')

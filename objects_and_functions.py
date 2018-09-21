@@ -3,7 +3,6 @@ from __future__ import print_function
 import codecs
 import os
 import random
-
 import spacy
 import sqlite3
 from os import listdir
@@ -35,7 +34,7 @@ def get_coordinates(con, loc_name):
 
 class Annotation:
     """
-    A small container for annotations, a convenient object for queries.
+    A simple, small container for annotations for convenience.
     """
     def __init__(self, key):
         self.key = key
@@ -147,35 +146,11 @@ def transform_tags(file_name, output):
         out.write(current)
 
 
-def build_noun_toponyms():
-    """
-
-    :return:
-    """
-    # toponyms = set()
-    for line in codecs.open(u"../data/allCountries.txt", u"r", encoding=u"utf-8"):
-        line = line.split("\t")
-        name = line[2]
-        # if line[7] in ["BCH", "DSRT", "ISL", "MT", "VAL", "FRST", "ST", "RD", "AIRP", "BLDG", "CH", "CSTL", "FCL", "RES",
-        #                "BAY", "FRM", "HSP", "MAR", "MKT", "QUAY", "SCH", "UNIV", "SQR", "STDM", "TMPL", "ZOO", "CST",
-        #                "PRK", "RGN", "CNL", "GULF", "LK", "LKS", "OCN", "SEA"]:
-        #     toponyms.add(name)
-        #     if random.random() > 0.9999:
-        #         print(name)
-        if line[6] in ["A", "P"] and int(line[14]) > 500000:
-            # toponyms.add(name)
-            if random.random() > 0.9:
-                print(name)
-    # out = codecs.open("data/n_toponyms.txt", mode="w", encoding="utf-8")
-    # for top in toponyms:
-    #     out.write(top + "\n")
-    # print("Saved:", len(toponyms), "toponyms.")
-
-
-def google_NER(text, nlp):
+def google_NER(text, m):
     """
 
     :param text:
+    :param m: length of metadata to add to the begin offset character
     :return:
     """
     locations = []
@@ -186,58 +161,39 @@ def google_NER(text, nlp):
     for entity in entities:
         for mention in entity.mentions:
             if mention.type == 1 and entity.type == 2:
-                last_offset = mention.text.begin_offset
-                for word in nlp(mention.text.content):
-                    if word.is_punct:
-                        locations.append((last_offset - 1, word.text))
-                        last_offset += len(word) - 1
-                    else:
-                        locations.append((last_offset, word.text))
-                        last_offset += len(word) + 1
-    return dict(locations)
+                locations.append(u"INDEX\tLOCATION " + str(mention.text.begin_offset + m) + u" "
+                + str(m + mention.text.begin_offset + len(mention.text.content)) + u"\t" + mention.text.content + u"\n")
+    return locations
 
 
-def strip_sentence(s, is_augmented, is_annotated, keep_tags):
-    """
+def run_spacy_ner(nlp):
+    for file_name in sorted(text_to_ann().keys()):
+        print("Starting file name", file_name)
+        out_spacy = codecs.open("data/Spacy/" + file_name + ".ann", mode="w", encoding="utf-8")
+        text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
+        meta = len(text.next())
+        text = text.read()
+        for entity in nlp(text).ents:
+            if entity.label_ in [u"LOC", u"FAC", u"NORP", u"GPE"]:
+                name = entity.text
+                if name.startswith(u"the"):
+                    name = name[4:]
+                out_spacy.write(u"INDEX\tLOCATION " + str(entity.start_char + meta) + u" "
+                                + str(entity.end_char + meta) + u"\t" + name + u"\n")
+    # transform_tags(file_name="data/raw.txt", output="data/raw_bmes.txt")
 
-    :param s:
-    :param is_augmented:
-    :param is_annotated:
-    :param keep_tags:
-    :return:
-    """
-    if is_augmented and is_annotated:
-        return [(a, b, c) for (a, b, c) in s if not b] if keep_tags else [a for (a, b, c) in s if not b]
-    else:
-        return [(a, b, c) for (a, b, c) in s] if keep_tags else [a for (a, b, c) in s]
+
+def run_google_ner():
+    for file_name in sorted(text_to_ann().keys()):
+        print("Starting file name", file_name)
+        out_google = codecs.open("data/Google/" + file_name + ".ann", mode="w", encoding="utf-8")
+        text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
+        meta = len(text.next())
+        google = google_NER(text.read(), meta)
+        for entity in google:
+            out_google.write(entity)
+    # transform_tags(file_name="data/raw.txt", output="data/raw_bmes.txt")
 
 
-# build_noun_toponyms()
-
-# nlp = spacy.load('en_core_web_lg')
-# raw = codecs.open("data/raw.txt", mode="w", encoding="utf-8")
-# spacy_o = codecs.open("data/spacy.txt", mode="a", encoding="utf-8")
-# google_o = codecs.open("data/google.txt", mode="a", encoding="utf-8")
-
-# for file_name in sorted(annotations.keys()):
-#     print("Starting file name", file_name)
-#     text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
-#     metadata = text.next()
-#     text = text.read()
-#     google = google_NER(text, nlp)            ---USE BRAT FILES AND BRAT UTILS---
-#     for sentence in nlp(text).sents:
-#         for word in sentence:
-#             spacy_label = u"Entity" if word.ent_type_ in [u"LOC", u"FAC", u"NORP", u"GPE"] else u"0"
-#             spacy_label = spacy_label if word.text != u"the" else u"0"
-#             google_label = u"Entity" if word.idx in google else u"0"
-#             if word.idx in google:
-#                 if google[word.idx] != word.text:
-#                     print(u"ERR: google[word.idx] != word.text", google[word.idx], word.text, word.idx)
-#             spacy_o.write(word.text + u" " + spacy_label + u"\n")
-#             google_o.write(word.text + u" " + google_label + u"\n")
-#             raw.write(word)
-#         spacy_o.write("\n")
-#         google_o.write("\n")
-# transform_tags(file_name="data/raw.txt", output="data/raw_bmes.txt")
-
-# print(metrics.flat_classification_report(y_test, y_pred, labels=sorted_labels, digits=3))
+# run_spacy_ner(nlp=spacy.load('en_core_web_lg'))
+# run_google_ner()
