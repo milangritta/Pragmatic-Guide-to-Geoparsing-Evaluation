@@ -8,60 +8,39 @@ import numpy as np
 from urlparse import urlparse
 from lxml import etree, objectify
 import matplotlib
-from objects_and_functions import text_to_ann
+from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR
 
 # matplotlib.use('TkAgg')
 # from os import listdir
 # import matplotlib.pyplot as plt
 
-# -------------------------------START OF GENERATION---------------------------------
+# ----------------------------------  START OF EMM CONVERSION  ------------------------------------
 
+# file_ids = {}
+# for file_name in sorted(text_to_ann().keys()):
+#     text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
+#     meta = text.next()
+#     link = meta.split("LINK:")[1].strip()
+#     file_ids[link] = file_name + "<SEP>" + str(len(meta))
+#
 # tree = etree.parse(u'data/EMM.xml')
 # root = tree.getroot()
 # for article in root:
-#     etree.strip_attributes(article, '{http://emm.jrc.it}nil')
-#     for attr in article.attrib:
-#         article.attrib.pop(attr, None)
-#     for attribute in article:
-#         if attribute.tag not in ['title', 'link', 'pubDate', '{http://emm.jrc.it}text']:
-#             article.remove(attribute)
-#         else:
-#             attribute.tag = etree.QName(attribute).localname
-# tree.write("data/GeoWebNews.xml", encoding='utf-8', pretty_print=True)
+#     link = article.find("link").text
+#     title_length = len(article.find("title").text) + 2
+#     if link in file_ids:
+#         f = codecs.open("data/EMM/" + file_ids[link].split("<SEP>")[0] + ".ann", mode="w", encoding="utf-8")
+#         for geo in article.findall("{http://emm.jrc.it}fullgeo") + article.findall("{http://emm.jrc.it}georss"):
+#             name = geo.text
+#             meta = int(file_ids[link].split("<SEP>")[1])
+#             for pos in geo.attrib["pos"].split(","):
+#                 if int(pos) >= title_length:
+#                     f.write(u"INDEX\tLOCATION " + str(int(pos) + meta - title_length) + u" "
+#                             + str(int(pos) + len(name) + meta - title_length) + u"\t" + name + u"\n")
 
-# counter = Counter(domains)
-# print counter.most_common()
-# print len(domains)
-
-# plt.hist([x for (x, y) in counter.most_common()], bins=range(0, len(domains), 50))
-# plt.show()
-
-# ------------------------------------END OF CORPUS GENERATION-----------------------------------------
-
-
-# -----------------------------------START OF BRAT FILES GENERATION------------------------------------
-
-# tree = etree.parse(u'data/GeoWebNews.xml')
-# c = etree.parse(u'data/EMM.xml')
-# for (index, article), control in zip(enumerate(tree.getroot()), c.getroot()):
-#     f = codecs.open(u"WebNews500/" + unicode(index) + u".txt", "w", "utf-8")
-#     ann = codecs.open(u"WebNews500/" + unicode(index) + u".ann", "w", "utf-8")
-#     ann.close()
-#     f.write(u"TITLE: " + article.find('title').text + u" LINK: " + article.find("link").text + u"\n")
-#     f.write(article.find('text').text)
-#     f.close()
-#     if article.find('text').text != control.find('{http://emm.jrc.it}text').text:
-#         raise Exception("Ring Ding Ding!!!")
-
-# ------------------------------------END OF BRAT FILES GENERATION---------------------------------------
+# ------------------------------------ END OF EMM CONVERSION-----------------------------------------
 
 # ----------------------------------- START OF ANNOTATOR AGREEMENT ---------------------------------------
-
-# from bratutils import agreement as a
-# test = a.DocumentCollection('data/Spacy/')
-# gold = a.DocumentCollection('data/GeoWebNews/')
-# gold.make_gold()
-# print(test.compare_to_gold(gold))
 
 # milan = a.DocumentCollection('data/IAA/milano/')
 # flora = a.DocumentCollection('data/IAA/flora/')
@@ -69,12 +48,13 @@ from objects_and_functions import text_to_ann
 # milan.make_gold()
 
 # ------------------ PLEASE READ -------------------------
-# You need to paste this code change into agreement.py in BratUtils at line 650
+# You need to paste this code change into agreement.py in BratUtils at line 653
 # because we must exclude the augmentation files and Non_Toponym boundaries.
 # if not line.startswith("#") and not line.startswith("A"):
 #     ann = Annotation(line)
 #     if ann.tag_name not in ["Non_Toponym", "Literal_Expression", "Non_Lit_Expression"]:
 #         self.tags.append(ann)
+# Line 303, add return text, "LITERAL", start_idx, end_idx for SPacy, Google evaluation.
 # -------------------- THANKS ----------------------------
 
 
@@ -112,6 +92,29 @@ from objects_and_functions import text_to_ann
 
 # ----------------------------------- END OF ANNOTATOR AGREEMENT ---------------------------------------
 
+# ------------------ START F-SCORE EVALUATION -----------------
+# SPACY
+# from bratutils import agreement as a
+# test = a.DocumentCollection('data/Spacy/')
+# gold = a.DocumentCollection('data/GeoWebNews/')
+# gold.make_gold()
+# print(test.compare_to_gold(gold))
+
+# GOOGLE
+# from bratutils import agreement as a
+# test = a.DocumentCollection('data/Google/')
+# gold = a.DocumentCollection('data/GeoWebNews/')
+# gold.make_gold()
+# print(test.compare_to_gold(gold))
+
+# EMM
+# from bratutils import agreement as a
+# test = a.DocumentCollection('data/EMM/')
+# gold = a.DocumentCollection('data/GeoWebNews/')
+# gold.make_gold()
+# print(test.compare_to_gold(gold))
+
+# ------------------- END F-SCORE EVALUATION ------------------
 
 # ------------------------------------START OF CORPUS STATISTICS-----------------------------------------
 
