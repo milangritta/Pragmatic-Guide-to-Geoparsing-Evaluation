@@ -6,7 +6,7 @@ from collections import Counter
 from os.path import isfile
 import numpy as np
 from urlparse import urlparse
-from lxml import etree, objectify
+from lxml import etree
 import matplotlib
 from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR
 
