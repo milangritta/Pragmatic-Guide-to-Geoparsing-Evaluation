@@ -2,12 +2,12 @@ T1	Literal_Expression 250 255	house
 T2	Non_Literal_Modifier 720 727	English
 #1	AnnotatorNotes T2	6269131
 T3	Coercion 837 875	Dublin International Piano Competition
-#2	AnnotatorNotes T3	0, 0
+#2	AnnotatorNotes T3	0.0, 0.0
 T4	Literal_Modifier 1057 1063	Dublin
 A1	Modifier_Type T4 Noun
 #3	AnnotatorNotes T4	2964574
 T5	Coercion 3159 3200	Dublin International Video Games Festival
-#4	AnnotatorNotes T5	0, 0
+#4	AnnotatorNotes T5	0.0, 0.0
 T6	Literal 3991 3997	Dublin
 #5	AnnotatorNotes T6	2964574
 T7	Literal 3113 3119	Dublin
@@ -50,7 +50,7 @@ T24	Literal 4564 4576	Dunshaughlin
 T25	Literal 3696 3702	Poland
 #22	AnnotatorNotes T25	798544
 T26	Coercion 3554 3573	Clandeboye Festival
-#23	AnnotatorNotes T26	0, 0
+#23	AnnotatorNotes T26	0.0, 0.0
 T27	Literal_Expression 4437 4446	countries
 T28	Literal 4540 4560	St Seachnails Church
 #24	AnnotatorNotes T28	53.512869, -6.541040
@@ -60,7 +60,7 @@ T30	Literal_Expression 4421 4430	broadcast
 T31	Literal_Expression 4108 4115	concert
 T32	Non_Lit_Expression 4183 4194	prizewinner
 T33	Coercion 4202 4241	International Spanish Piano Competition
-#26	AnnotatorNotes T33	0, 0
+#26	AnnotatorNotes T33	0.0, 0.0
 T34	Literal 1077 1094	Fitzwilliam Place
 #27	AnnotatorNotes T34	53.333352, -6.252607
 T35	Non_Lit_Expression 1017 1019	CD
@@ -80,11 +80,11 @@ T45	Non_Lit_Expression 1501 1510	donations
 T46	Coercion 2732 2742	Feis Ceoil
 #29	AnnotatorNotes T46	53.341460, -6.273178
 T47	Coercion 2859 2869	Sligo Feis
-#30	AnnotatorNotes T47	0, 0
+#30	AnnotatorNotes T47	0.0, 0.0
 T48	Coercion 2913 2924	Arklow Feis
-#31	AnnotatorNotes T48	0, 0
+#31	AnnotatorNotes T48	0.0, 0.0
 T49	Coercion 2365 2387	Newpark Music Festival
-#32	AnnotatorNotes T49	0, 0
+#32	AnnotatorNotes T49	0.0, 0.0
 T50	Literal_Expression 4381 4389	concerto
 T51	Non_Lit_Expression 4056 4067	performance
 T52	Literal_Expression 2260 2264	tour
@@ -125,9 +125,9 @@ T71	Non_Toponym 3159 3200	Dublin International Video Games Festival
 T72	Non_Toponym 3300 3324	Video Games Live Concert
 T73	Non_Toponym 3554 3573	Clandeboye Festival
 T74	Non_Toponym 3653 3692	Junior Chopin International Competition
-#33	AnnotatorNotes T38	0, 0
+#33	AnnotatorNotes T38	0.0, 0.0
 T75	Non_Toponym 3977 3987	Feis Ceoil
 A6	Non_Locational T51
 A8	Non_Locational T32
 T76	Non_Toponym 4202 4241	International Spanish Piano Competition
-#34	AnnotatorNotes T37	0, 0
+#34	AnnotatorNotes T37	0.0, 0.0

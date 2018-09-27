@@ -17,7 +17,7 @@ T7	Literal 602 611	Charlotte
 T8	Literal_Expression 504 511	streets
 T9	Literal_Expression 284 288	side
 T10	Non_Lit_Expression 544 549	cover
-T11	Embedded_Non_Lit 636 650	ank of America
+T11	Embedded_Non_Lit 643 650	America
 #8	AnnotatorNotes T11	6252001
 T12	Non_Lit_Expression 532 536	book
 T13	Non_Lit_Expression 1532 1535	dog

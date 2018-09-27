@@ -116,7 +116,7 @@ T64	Non_Toponym 3879 3913	Cauvery Water Regulation Committee
 T65	Embedded_Non_Lit 3879 3886	Cauvery
 A24	Modifier_Type T65 Noun
 #29	AnnotatorNotes T65	1267384
-T66	Coercion 877 895	Karnataka Assembly
+T66	Embedded_Literal 877 886	Karnataka
 A25	Modifier_Type T66 Noun
 #30	AnnotatorNotes T66	1267701
 T67	Non_Toponym 877 895	Karnataka Assembly

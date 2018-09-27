@@ -1,23 +1,16 @@
 import codecs
-import spacy
 import sqlite3
-from collections import Counter
 # noinspection PyUnresolvedReferences
 from os.path import isfile
 import numpy as np
-from urlparse import urlparse
 from lxml import etree
-import matplotlib
-from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR
+from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coordinates
 
-# matplotlib.use('TkAgg')
-# from os import listdir
-# import matplotlib.pyplot as plt
 
 # ----------------------------------  START OF EMM CONVERSION  ------------------------------------
 
 # file_ids = {}
-# for file_name in sorted(text_to_ann().keys()):
+# for file_name in text_to_ann().keys():
 #     text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
 #     meta = text.next()
 #     link = meta.split("LINK:")[1].strip()
@@ -118,112 +111,141 @@ from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR
 
 # ------------------------------------START OF CORPUS STATISTICS-----------------------------------------
 
-conn = sqlite3.connect('../data/geonames.db')
-c = conn.cursor()
-
-annotations = text_to_ann()
-mixed, coercion, metonymy = 0, 0, 0
-embedded_lit, embedded_non_lit = 0, 0
-literal_exp, non_lit_exp, literals = 0, 0, 0
-literal_type, non_literal_type, total = 0, 0, 0
-literal_heads, non_lit_heads, homonyms = 0, 0, 0
-modifier_noun_lit, modifier_adj_lit, no_geo = 0, 0, 0
-modifier_noun_non, modifier_adj_non, non_toponym = 0, 0, 0
-demonym, language, has_coordinates, has_geonames = 0, 0, 0, 0
-
-for ann in annotations:
-    for key in annotations[ann]:
-        x = annotations[ann][key]
-        total += 1
-        if x.toponym_type == "Literal_Expression":
-            literal_exp += 1
-            if x.non_locational:
-                non_lit_heads += 1
-            else:
-                literal_heads += 1
-        elif x.toponym_type == "Non_Lit_Expression":
-            non_lit_exp += 1
-            if x.non_locational:
-                non_lit_heads += 1
-            else:
-                literal_heads += 1
-        elif x.toponym_type == "Literal":
-            literals += 1
-        elif x.toponym_type == "Mixed":
-            mixed += 1
-        elif x.toponym_type == "Embedded_Literal":
-            embedded_lit += 1
-        elif x.toponym_type == "Embedded_Non_Lit":
-            embedded_non_lit += 1
-        elif x.toponym_type == "Coercion":
-            coercion += 1
-        elif x.toponym_type == "Metonymic":
-            metonymy += 1
-        elif x.toponym_type == "Literal_Modifier":
-            if x.modifier_type == "Noun":
-                modifier_noun_lit += 1
-            if x.modifier_type == "Adjective":
-                modifier_adj_lit += 1
-        elif x.toponym_type == "Non_Literal_Modifier":
-            if x.modifier_type == "Noun":
-                modifier_noun_non += 1
-            if x.modifier_type == "Adjective":
-                modifier_adj_non += 1
-        elif x.toponym_type == "Demonym":
-            demonym += 1
-        elif x.toponym_type == "Language":
-            language += 1
-        elif x.toponym_type == "Homonym":
-            homonyms += 1
-        elif x.toponym_type == "Non_Toponym":
-            non_toponym += 1
-        if x.geonames_id is not None:
-            if "," in x.geonames_id:
-                has_coordinates += 1
-            else:
-                has_geonames += 1
-        else:
-            no_geo += 1
-
-print("------------------------------------------------------------------")
-print("Total Annotations:", total)
-print("Literal Expressions:", literal_exp)
-print("Non_Lit Expressions:", non_lit_exp)
-print("Heads (literal, non_literal):", (literal_heads, non_lit_heads))
-total_minus_expressions = total - literal_exp - non_lit_exp - non_toponym
-print("Total excluding Expressions and Non_Toponyms:", total_minus_expressions)
-print("------------------------------------------------------------------")
-print("Literals:", literals, np.around(float(literals) / total_minus_expressions, 5) * 100, "%")
-print("Mixed:", mixed, np.around(float(mixed) / total_minus_expressions, 5) * 100, "%")
-print("Coercion:", coercion, np.around(float(coercion) / total_minus_expressions, 5) * 100, "%")
-print("Embedded Lit:", embedded_lit, np.around(float(embedded_lit) / total_minus_expressions, 5) * 100, "%")
-print("Literal Mods (noun, adj):", (modifier_noun_lit, modifier_adj_lit),
-    (np.around(float(modifier_noun_lit) / total_minus_expressions, 5) * 100,
-     np.around(float(modifier_adj_lit) / total_minus_expressions, 5) * 100), "%")
-group_tot = literals + mixed + coercion + modifier_noun_lit + modifier_adj_lit + embedded_lit
-print("Group total:", group_tot, np.around(float(group_tot) / total_minus_expressions, 5) * 100, "%")
-print("------------------------------------------------------------------")
-print("Metonymy:", metonymy, np.around(float(metonymy) / total_minus_expressions, 5) * 100, "%")
-print("Non_Lit Mods (noun, adj):", (modifier_noun_non, modifier_adj_non),
-    (np.around(float(modifier_noun_non) / total_minus_expressions, 5) * 100,
-     np.around(float(modifier_adj_non) / total_minus_expressions, 5) * 100), "%")
-print("Demonyms:", demonym, np.around(float(demonym) / total_minus_expressions, 5) * 100, "%")
-print("Language:", language, np.around(float(language) / total_minus_expressions, 5) * 100, "%")
-print("Homonyms:", homonyms, np.around(float(homonyms) / total_minus_expressions, 5) * 100, "%")
-print("Embedded Non_Lit:", embedded_non_lit, np.around(float(embedded_non_lit) / total_minus_expressions, 5) * 100, "%")
-group_tot = homonyms + embedded_non_lit + metonymy + modifier_noun_non + modifier_adj_non + demonym + language
-print("Group total:", group_tot, np.around(float(group_tot) / total_minus_expressions, 5) * 100, "%")
-print("------------------------------------------------------------------")
-print("Sanity Check:", demonym + language + homonyms + embedded_lit + embedded_non_lit + non_toponym +
-                       modifier_adj_non + modifier_noun_non + modifier_adj_lit + modifier_noun_lit + metonymy +
-                       coercion + mixed + literals + literal_exp + non_lit_exp, "should equal total above.")
-print("Coordinates vs Geonames vs None:", has_coordinates, has_geonames, no_geo)
-print("Non_Toponyms", non_toponym, "should equal", coercion + embedded_non_lit + embedded_lit)
-print("Total files annotated:", len(annotations))
-print("------------------------------------------------------------------")
+# conn = sqlite3.connect('../data/geonames.db')
+# c = conn.cursor()
+#
+# annotations = text_to_ann()
+# mixed, coercion, metonymy = 0, 0, 0
+# embedded_lit, embedded_non_lit = 0, 0
+# literal_exp, non_lit_exp, literals = 0, 0, 0
+# literal_type, non_literal_type, total = 0, 0, 0
+# literal_heads, non_lit_heads, homonyms = 0, 0, 0
+# modifier_noun_lit, modifier_adj_lit, no_geo = 0, 0, 0
+# modifier_noun_non, modifier_adj_non, non_toponym = 0, 0, 0
+# demonym, language, has_coordinates, has_geonames = 0, 0, 0, 0
+#
+# for ann in annotations:
+#     for key in annotations[ann]:
+#         x = annotations[ann][key]
+#         total += 1
+#         if x.toponym_type == "Literal_Expression":
+#             literal_exp += 1
+#             if x.non_locational:
+#                 non_lit_heads += 1
+#             else:
+#                 literal_heads += 1
+#         elif x.toponym_type == "Non_Lit_Expression":
+#             non_lit_exp += 1
+#             if x.non_locational:
+#                 non_lit_heads += 1
+#             else:
+#                 literal_heads += 1
+#         elif x.toponym_type == "Literal":
+#             literals += 1
+#         elif x.toponym_type == "Mixed":
+#             mixed += 1
+#         elif x.toponym_type == "Embedded_Literal":
+#             embedded_lit += 1
+#         elif x.toponym_type == "Embedded_Non_Lit":
+#             embedded_non_lit += 1
+#         elif x.toponym_type == "Coercion":
+#             coercion += 1
+#         elif x.toponym_type == "Metonymic":
+#             metonymy += 1
+#         elif x.toponym_type == "Literal_Modifier":
+#             if x.modifier_type == "Noun":
+#                 modifier_noun_lit += 1
+#             if x.modifier_type == "Adjective":
+#                 modifier_adj_lit += 1
+#         elif x.toponym_type == "Non_Literal_Modifier":
+#             if x.modifier_type == "Noun":
+#                 modifier_noun_non += 1
+#             if x.modifier_type == "Adjective":
+#                 modifier_adj_non += 1
+#         elif x.toponym_type == "Demonym":
+#             demonym += 1
+#         elif x.toponym_type == "Language":
+#             language += 1
+#         elif x.toponym_type == "Homonym":
+#             homonyms += 1
+#         elif x.toponym_type == "Non_Toponym":
+#             non_toponym += 1
+#         if x.geonames_id is not None:
+#             if "," in x.geonames_id:
+#                 has_coordinates += 1
+#             else:
+#                 has_geonames += 1
+#         else:
+#             no_geo += 1
+#
+# print("------------------------------------------------------------------")
+# print("Total Annotations:", total)
+# print("Literal Expressions:", literal_exp)
+# print("Non_Lit Expressions:", non_lit_exp)
+# print("Heads (literal, non_literal):", (literal_heads, non_lit_heads))
+# total_minus_expressions = total - literal_exp - non_lit_exp - non_toponym
+# print("Total excluding Expressions and Non_Toponyms:", total_minus_expressions)
+# print("------------------------------------------------------------------")
+# print("Literals:", literals, np.around(float(literals) / total_minus_expressions, 5) * 100, "%")
+# print("Mixed:", mixed, np.around(float(mixed) / total_minus_expressions, 5) * 100, "%")
+# print("Coercion:", coercion, np.around(float(coercion) / total_minus_expressions, 5) * 100, "%")
+# print("Embedded Lit:", embedded_lit, np.around(float(embedded_lit) / total_minus_expressions, 5) * 100, "%")
+# print("Literal Mods (noun, adj):", (modifier_noun_lit, modifier_adj_lit),
+#     (np.around(float(modifier_noun_lit) / total_minus_expressions, 5) * 100,
+#      np.around(float(modifier_adj_lit) / total_minus_expressions, 5) * 100), "%")
+# group_tot = literals + mixed + coercion + modifier_noun_lit + modifier_adj_lit + embedded_lit
+# print("Group total:", group_tot, np.around(float(group_tot) / total_minus_expressions, 5) * 100, "%")
+# print("------------------------------------------------------------------")
+# print("Metonymy:", metonymy, np.around(float(metonymy) / total_minus_expressions, 5) * 100, "%")
+# print("Non_Lit Mods (noun, adj):", (modifier_noun_non, modifier_adj_non),
+#     (np.around(float(modifier_noun_non) / total_minus_expressions, 5) * 100,
+#      np.around(float(modifier_adj_non) / total_minus_expressions, 5) * 100), "%")
+# print("Demonyms:", demonym, np.around(float(demonym) / total_minus_expressions, 5) * 100, "%")
+# print("Language:", language, np.around(float(language) / total_minus_expressions, 5) * 100, "%")
+# print("Homonyms:", homonyms, np.around(float(homonyms) / total_minus_expressions, 5) * 100, "%")
+# print("Embedded Non_Lit:", embedded_non_lit, np.around(float(embedded_non_lit) / total_minus_expressions, 5) * 100, "%")
+# group_tot = homonyms + embedded_non_lit + metonymy + modifier_noun_non + modifier_adj_non + demonym + language
+# print("Group total:", group_tot, np.around(float(group_tot) / total_minus_expressions, 5) * 100, "%")
+# print("------------------------------------------------------------------")
+# print("Sanity Check:", demonym + language + homonyms + embedded_lit + embedded_non_lit + non_toponym +
+#                        modifier_adj_non + modifier_noun_non + modifier_adj_lit + modifier_noun_lit + metonymy +
+#                        coercion + mixed + literals + literal_exp + non_lit_exp, "should equal total above.")
+# print("Coordinates vs Geonames vs None:", has_coordinates, has_geonames, no_geo)
+# print("Non_Toponyms", non_toponym, "should equal", coercion + embedded_non_lit + embedded_lit)
+# print("Total files annotated:", len(annotations))
+# print("------------------------------------------------------------------")
 
 # Geocoding Stats? Which types, plus map, population baseline, etc.
 
 # ------------------------------------END OF CORPUS STATISTICS-----------------------------------------
 
+# ------------------------------------GENERATE INPUTS FOR CAMCODER-----------------------------------------
+
+# line_no = 0
+# annotations = text_to_ann()
+# conn = sqlite3.connect('../data/geonames.db').cursor()
+# f = codecs.open("data/Geocoding/gwn_nomods.txt", mode="w", encoding="utf-8")
+# for file_name in annotations:
+#     source = codecs.open("data/GeoWebNews/" + file_name + ".txt", encoding="utf-8")
+#     meta = len(source.next())  # discard the first line but remember its length
+#     source = source.read()  # grab the rest of the text
+#     destination = codecs.open("data/Geocoding/files/" + str(line_no), mode="w", encoding="utf-8")
+#     destination.write(source)
+#     for ann in annotations[file_name]:
+#         annotation = annotations[file_name][ann]
+#         if annotation.toponym_type not in ["Non_Toponym", "Non_Lit_Expression", "Literal_Expression", "Demonym", "Homonym", "Language",
+#                                            "Literal_Modifier", "Non_Literal_Modifier", "Embedded_Non_Lit", "Embedded_Literal"]:
+#             # print(file_name, annotation.geonames_id, annotation.text, annotation.toponym_type)
+#             assert len(annotation.geonames_id) >= 5
+#             if u"," not in annotation.geonames_id:
+#                 data = get_id_to_coordinates(conn, annotation.geonames_id)
+#                 out = data[2] + ",," + annotation.text + ",," + str(data[0]) + ",," + str(data[1]) + ",," \
+#                       + str(int(annotation.start) - meta) + ",," + str(int(annotation.end) - meta) + "||"
+#                 f.write(out)
+#         else:
+#             print(annotation.text, annotation.geonames_id, annotation.toponym_type)
+#     f.write(u"\n")
+#     line_no += 1
+
+# ------------------------------------       END OF GENERATION       -----------------------------------------
 

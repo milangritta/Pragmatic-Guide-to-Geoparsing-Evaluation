@@ -19,7 +19,7 @@ label_map = {u"Literal": u"Entity", u"Homonym": u"Entity", u"Coercion": u"Entity
              u"Embedded_Literal": u"Entity", u"Demonym": u"Entity", u"Non_Literal_Modifier": u"Entity",
              u"Metonymic": u"Entity", u"Literal_Modifier": u"Entity", u"Embedded_Non_Lit": u"Entity", u"Language": u"Entity"}
 
-test_indices = sorted(annotations.keys())[160:]
+test_indices = annotations.keys()[160:]
 assert len(test_indices) == 40 and len(annotations.keys()) == 200
 
 train = codecs.open("data/train.txt", mode="w", encoding="utf-8")

@@ -55,7 +55,7 @@ def text_to_ann(directory=ANNOT_SOURCE_DIR):
     :return:
     """
     annotations = {}
-    files = [f for f in listdir(directory) if isfile(directory + f)]
+    files = sorted([f for f in listdir(directory) if isfile(directory + f)])
     for f in files:
         if f.endswith(".txt") or f.startswith("."):
             continue
@@ -167,7 +167,7 @@ def google_NER(text, m):
 
 
 def run_spacy_ner(nlp):
-    for file_name in sorted(text_to_ann().keys()):
+    for file_name in text_to_ann().keys():
         print("Starting file name", file_name)
         out_spacy = codecs.open("data/Spacy/" + file_name + ".ann", mode="w", encoding="utf-8")
         text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
@@ -180,11 +180,10 @@ def run_spacy_ner(nlp):
                     name = name[4:]
                 out_spacy.write(u"INDEX\tLOCATION " + str(entity.start_char + meta) + u" "
                                 + str(entity.end_char + meta) + u"\t" + name + u"\n")
-    # transform_tags(file_name="data/raw.txt", output="data/raw_bmes.txt")
 
 
 def run_google_ner():
-    for file_name in sorted(text_to_ann().keys()):
+    for file_name in text_to_ann().keys():
         print("Starting file name", file_name)
         out_google = codecs.open("data/Google/" + file_name + ".ann", mode="w", encoding="utf-8")
         text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
@@ -192,8 +191,22 @@ def run_google_ner():
         google = google_NER(text.read(), meta)
         for entity in google:
             out_google.write(entity)
-    # transform_tags(file_name="data/raw.txt", output="data/raw_bmes.txt")
+
+
+def get_id_to_coordinates(con, id):
+    """
+    Access the database to retrieve coordinates from DB.
+    :param con: sqlite3 database cursor i.e. DB connection
+    :param id: geonames id of the place
+    :return: a list of tuples [(latitude, longitude), ...]
+    """
+    result = con.execute(u"SELECT METADATA FROM COORD WHERE NAME = ?", (id,)).fetchone()
+    if result:
+        return eval(result[0])
+    else:
+        return []
 
 
 # run_spacy_ner(nlp=spacy.load('en_core_web_lg'))
 # run_google_ner()
+# print get_id_to_coordinates(sqlite3.connect('../data/geonames.db').cursor(), u"2993838")

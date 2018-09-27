@@ -27,7 +27,6 @@ T15	Literal 1210 1218	Guma LGA
 T16	Literal_Expression 1441 1448	housing
 T17	Literal_Modifier 1191 1198	Umemger
 A8	Modifier_Type T17 Noun
-#9	AnnotatorNotes T17	N/A
 T18	Non_Lit_Expression 575 583	ministry
 T19	Literal_Expression 746 750	home
 T20	Non_Lit_Expression 885 894	treatment
@@ -40,3 +39,4 @@ A4	Non_Locational T18
 A6	Non_Locational T20
 A9	Non_Locational T21
 A10	Non_Locational T22
+#9	AnnotatorNotes T17	7.940316, 8.755970

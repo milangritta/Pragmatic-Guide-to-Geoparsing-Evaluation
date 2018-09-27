@@ -67,7 +67,7 @@ T52	Non_Lit_Expression 4228 4234	chiefs
 T53	Non_Lit_Expression 4522 4531	community
 T54	Literal_Expression 4605 4614	foothills
 T55	Literal 4622 4643	Pilanesburg Mountains
-#10	AnnotatorNotes T55	-25.2567 27.105
+#10	AnnotatorNotes T55	-25.2567, 27.105
 T56	Non_Lit_Expression 4691 4700	community
 T57	Non_Lit_Expression 4840 4849	villagers
 T58	Literal_Expression 4904 4909	farms
