@@ -35,25 +35,25 @@ from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coord
 
 # ----------------------------------- START OF ANNOTATOR AGREEMENT ---------------------------------------
 
+# from bratutils import agreement as a
 # milan = a.DocumentCollection('data/IAA/milano/')
 # flora = a.DocumentCollection('data/IAA/flora/')
 # mina = a.DocumentCollection('data/IAA/mina/')
-# milan.make_gold()
 
 # ------------------ PLEASE READ -------------------------
 # You need to paste this code change into agreement.py in BratUtils at line 653
-# because we must exclude the augmentation files and Non_Toponym boundaries.
+# because we must exclude the augmentation annotations and the Non_Toponym types.
 # if not line.startswith("#") and not line.startswith("A"):
-#     ann = Annotation(line)
-#     if ann.tag_name not in ["Non_Toponym", "Literal_Expression", "Non_Lit_Expression"]:
+#     if "Non_Toponym" not in line and "Literal_Expression" not in line and "Non_Lit_Expression" not in line:
+#         ann = Annotation(line)
 #         self.tags.append(ann)
-# Line 303, add return text, "LITERAL", start_idx, end_idx for SPacy, Google evaluation.
+# Line 303, add -> return text, "LITERAL", start_idx, end_idx -> This is to evaluate F-Score regardless of type.
 # -------------------- THANKS ----------------------------
 
 
-# print(flora.compare_to_gold(milan))
+# print(milan.compare_to_gold(flora))
 # print("Milan-Flora IAA")
-# print(mina.compare_to_gold(milan))
+# print(milan.compare_to_gold(mina))
 # print("Milan-Mina IAA")
 
 # milan_geo = text_to_ann("data/IAA/milano/")
@@ -88,22 +88,22 @@ from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coord
 # ------------------ START F-SCORE EVALUATION -----------------
 # SPACY
 # from bratutils import agreement as a
-# test = a.DocumentCollection('data/Spacy/')
-# gold = a.DocumentCollection('data/GeoWebNews/')
+# gold = a.DocumentCollection('data/Spacy/')
+# test = a.DocumentCollection('data/GeoWebNews/')
 # gold.make_gold()
 # print(test.compare_to_gold(gold))
 
 # GOOGLE
 # from bratutils import agreement as a
-# test = a.DocumentCollection('data/Google/')
-# gold = a.DocumentCollection('data/GeoWebNews/')
+# gold = a.DocumentCollection('data/Google/')
+# test = a.DocumentCollection('data/GeoWebNews/')
 # gold.make_gold()
 # print(test.compare_to_gold(gold))
 
 # EMM
 # from bratutils import agreement as a
-# test = a.DocumentCollection('data/EMM/')
-# gold = a.DocumentCollection('data/GeoWebNews/')
+# gold = a.DocumentCollection('data/EMM/')
+# test = a.DocumentCollection('data/GeoWebNews/')
 # gold.make_gold()
 # print(test.compare_to_gold(gold))
 
@@ -224,8 +224,8 @@ from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coord
 # line_no = 0
 # annotations = text_to_ann()
 # conn = sqlite3.connect('../data/geonames.db').cursor()
-# f = codecs.open("data/Geocoding/gwn_nomods.txt", mode="w", encoding="utf-8")
-# for file_name in annotations:
+# f = codecs.open("data/Geocoding/gwn_full.txt", mode="w", encoding="utf-8")
+# for file_name in sorted(annotations.keys()):
 #     source = codecs.open("data/GeoWebNews/" + file_name + ".txt", encoding="utf-8")
 #     meta = len(source.next())  # discard the first line but remember its length
 #     source = source.read()  # grab the rest of the text
@@ -233,8 +233,7 @@ from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coord
 #     destination.write(source)
 #     for ann in annotations[file_name]:
 #         annotation = annotations[file_name][ann]
-#         if annotation.toponym_type not in ["Non_Toponym", "Non_Lit_Expression", "Literal_Expression", "Demonym", "Homonym", "Language",
-#                                            "Literal_Modifier", "Non_Literal_Modifier", "Embedded_Non_Lit", "Embedded_Literal"]:
+#         if annotation.toponym_type not in ["Non_Toponym", "Non_Lit_Expression", "Literal_Expression", "Demonym", "Homonym", "Language",]:
 #             # print(file_name, annotation.geonames_id, annotation.text, annotation.toponym_type)
 #             assert len(annotation.geonames_id) >= 5
 #             if u"," not in annotation.geonames_id:
@@ -242,8 +241,8 @@ from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coord
 #                 out = data[2] + ",," + annotation.text + ",," + str(data[0]) + ",," + str(data[1]) + ",," \
 #                       + str(int(annotation.start) - meta) + ",," + str(int(annotation.end) - meta) + "||"
 #                 f.write(out)
-#         else:
-#             print(annotation.text, annotation.geonames_id, annotation.toponym_type)
+#         # else:
+#         #     print(annotation.text, annotation.geonames_id, annotation.toponym_type)
 #     f.write(u"\n")
 #     line_no += 1
 

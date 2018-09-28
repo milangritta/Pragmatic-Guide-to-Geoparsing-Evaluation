@@ -55,7 +55,7 @@ def text_to_ann(directory=ANNOT_SOURCE_DIR):
     :return:
     """
     annotations = {}
-    files = sorted([f for f in listdir(directory) if isfile(directory + f)])
+    files = [f for f in listdir(directory) if isfile(directory + f)]
     for f in files:
         if f.endswith(".txt") or f.startswith("."):
             continue
