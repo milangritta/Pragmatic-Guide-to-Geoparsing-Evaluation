@@ -1,9 +1,12 @@
 import codecs
 import sqlite3
+from xml.dom import minidom
 # noinspection PyUnresolvedReferences
 from os.path import isfile
 import numpy as np
 from lxml import etree
+from xml.etree.ElementTree import Element, SubElement, Comment
+from xml.etree import ElementTree
 from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coordinates
 
 
@@ -219,32 +222,69 @@ from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coord
 
 # ------------------------------------END OF CORPUS STATISTICS-----------------------------------------
 
-# ------------------------------------GENERATE INPUTS FOR CAMCODER-----------------------------------------
+# -------------------------------GENERATE INPUTS FOR CAMCODER & THE XML DATASET------------------------------------
 
 # line_no = 0
 # annotations = text_to_ann()
 # conn = sqlite3.connect('../data/geonames.db').cursor()
 # f = codecs.open("data/Geocoding/gwn_full.txt", mode="w", encoding="utf-8")
+# root = Element('articles')
+# root.set('version', '1.0')
+# boolean = {True: u'Yes', False: u'No'}
+# comment = Comment('GeoWebNews Dataset by Milan Gritta et al. 2018 accompanying the publication "A Practical Guide to Geoparsing Evaluation"')
+# root.append(comment)
 # for file_name in sorted(annotations.keys()):
 #     source = codecs.open("data/GeoWebNews/" + file_name + ".txt", encoding="utf-8")
 #     meta = len(source.next())  # discard the first line but remember its length
 #     source = source.read()  # grab the rest of the text
 #     destination = codecs.open("data/Geocoding/files/" + str(line_no), mode="w", encoding="utf-8")
 #     destination.write(source)
+#
+#     article = SubElement(root, 'article')
+#     text = SubElement(article, 'text')
+#     text.text = source
+#     toponyms = SubElement(article, 'toponyms')
+#
 #     for ann in annotations[file_name]:
 #         annotation = annotations[file_name][ann]
+#         toponym = SubElement(toponyms, 'toponym')
+#         extName = SubElement(toponym, 'extractedName')
+#         normName = SubElement(toponym, 'normalisedName')
+#         topType = SubElement(toponym, 'type')
+#         modType = SubElement(toponym, 'modifierType')
+#         nonLoc = SubElement(toponym, 'nonLocational')
+#         start = SubElement(toponym, 'start')
+#         end = SubElement(toponym, 'end')
+#         extName.text = annotation.text
+#         topType.text = annotation.toponym_type
+#         nonLoc.text = boolean.get(annotation.non_locational)
+#         start.text = str(int(annotation.start) - meta)
+#         end.text = str(int(annotation.end) - meta)
+#         modType.text = annotation.modifier_type
+#
 #         if annotation.toponym_type not in ["Non_Toponym", "Non_Lit_Expression", "Literal_Expression", "Demonym", "Homonym", "Language",]:
-#             # print(file_name, annotation.geonames_id, annotation.text, annotation.toponym_type)
 #             assert len(annotation.geonames_id) >= 5
+#             geonames = SubElement(toponym, 'geonamesID')
+#             lat = SubElement(toponym, 'latitude')
+#             lon = SubElement(toponym, 'longitude')
 #             if u"," not in annotation.geonames_id:
 #                 data = get_id_to_coordinates(conn, annotation.geonames_id)
 #                 out = data[2] + ",," + annotation.text + ",," + str(data[0]) + ",," + str(data[1]) + ",," \
 #                       + str(int(annotation.start) - meta) + ",," + str(int(annotation.end) - meta) + "||"
 #                 f.write(out)
-#         # else:
-#         #     print(annotation.text, annotation.geonames_id, annotation.toponym_type)
+#                 normName.text = data[2]
+#                 geonames.text = annotation.geonames_id
+#                 lat.text = str(data[0])
+#                 lon.text = str(data[1])
+#             else:
+#                 normName.text = ""
+#                 coord = annotation.geonames_id.split(",")
+#                 lat.text = str(coord[0].strip())
+#                 lon.text = str(coord[1].strip())
 #     f.write(u"\n")
 #     line_no += 1
+# xml = minidom.parseString(ElementTree.tostring(root, 'utf-8')).toprettyxml(indent="\t")
+# codecs.open("data/GWN.xml", mode="w", encoding="utf-8").write(xml)
 
 # ------------------------------------       END OF GENERATION       -----------------------------------------
 

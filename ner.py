@@ -17,9 +17,10 @@ nlp = spacy.load('en_core_web_lg')
 
 label_map = {u"Literal": u"Entity", u"Homonym": u"Entity", u"Coercion": u"Entity", u"Mixed": u"Entity",
              u"Embedded_Literal": u"Entity", u"Demonym": u"Entity", u"Non_Literal_Modifier": u"Entity",
-             u"Metonymic": u"Entity", u"Literal_Modifier": u"Entity", u"Embedded_Non_Lit": u"Entity", u"Language": u"Entity"}
+             u"Metonymic": u"Entity", u"Literal_Modifier": u"Entity", u"Embedded_Non_Lit": u"Entity",
+             u"Language": u"Entity"}
 
-test_indices = sorted(annotations.keys())[160:]
+test_indices = sorted(annotations.keys())[120:160]
 assert len(test_indices) == 40 and len(annotations.keys()) == 200
 
 train = codecs.open("data/train.txt", mode="w", encoding="utf-8")
@@ -30,7 +31,8 @@ for file_name in annotations:
     metadata = text.next()
     text = text.read()
     offset = len(metadata)
-    annot = dict([(int(annotations[file_name][x].start), annotations[file_name][x]) for x in annotations[file_name]])
+    annot = dict([(int(annotations[file_name][x].start), annotations[file_name][x]) for x in annotations[file_name]
+                  if annotations[file_name][x].toponym_type != u"Non_Toponym"])
     for sentence in nlp(text).sents:
         sentence_one, np_heads = [], []
         replacements, sentence_two = [], []
@@ -41,11 +43,11 @@ for file_name in annotations:
                 continue
             if word.idx + offset in annot:
                 label = annot[word.idx + offset].toponym_type
-                if label not in [u"Non_Lit_Expression", u"Literal_Expression", u"Non_Toponym"]:
+                if label not in [u"Non_Lit_Expression", u"Literal_Expression"]:
                     is_ann = True
                     ann = word.idx + offset
                     index = word.idx + offset
-                elif label != u"Non_Toponym" and file_name not in test_indices:
+                elif file_name not in test_indices:
                     is_aug = True
                     np_heads.append(word)
                     replacement = []
@@ -58,7 +60,7 @@ for file_name in annotations:
                     replacements.append(replacement)
             sentence_one.append((word.text + u" [Shape]" + word.shape_ + u" " + label_map.get(label, u"0") + "\n", word.i))
             sentence_two.append((word.text + u" [Shape]" + word.shape_ + u" " + label_map.get(label, u"0") + "\n", word.i))
-            # How does BMES actually work? Merge multiple train files?
+
             if label != u"0":
                 index += len(word) + 1
             if ann != 0 and index - 1 >= int(annot[ann].end):
@@ -83,13 +85,5 @@ for file_name in annotations:
                 for word in sentence_two:
                     train.write(word[0])
 
-
 transform_tags(file_name="data/train.txt", output="data/train_bmes.txt")
 transform_tags(file_name="data/test.txt", output="data/test_bmes.txt")
-# http://www.nltk.org/api/nltk.tag.html#module-nltk.tag.stanford
-
-# Fold 1: 86.6 part-augmented -> 87.6 post -> 91.3 new
-# Fold 2: 88.1 part-augmented -> 88.5 post -> 92.3 new
-# Fold 3: 87.6 part-augmented -> 87.0 post -> 94.5 new
-# Fold 4: 90.2 part-augmented -> 91.2 post -> 88.1 new
-# Fold 5: 89.1 part-augmented -> 87.7 post -> 88.9 new

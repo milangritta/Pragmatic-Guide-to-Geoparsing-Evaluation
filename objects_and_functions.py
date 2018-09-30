@@ -2,7 +2,6 @@
 from __future__ import print_function
 import codecs
 import os
-import random
 import spacy
 import sqlite3
 from os import listdir
@@ -12,7 +11,6 @@ from os.path import isfile
 from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
-import xml.etree.ElementTree as ET
 ANNOT_SOURCE_DIR = u"data/GeoWebNews/"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/milangritta/Downloads/GeoWebNews-0dca974782b0.json"
 
