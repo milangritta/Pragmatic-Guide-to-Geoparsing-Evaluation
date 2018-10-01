@@ -7,45 +7,47 @@ import numpy as np
 from lxml import etree
 from xml.etree.ElementTree import Element, SubElement, Comment
 from xml.etree import ElementTree
-from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coordinates
+from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coordinates, fmeasure_from_file
 
 
 # ----------------------------------  START OF EMM CONVERSION  ------------------------------------
 
-# file_ids = {}
-# for file_name in text_to_ann().keys():
-#     text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
-#     meta = text.next()
-#     link = meta.split("LINK:")[1].strip()
-#     file_ids[link] = file_name + "<SEP>" + str(len(meta))
-#
-# tree = etree.parse(u'data/EMM.xml')
-# root = tree.getroot()
-# for article in root:
-#     link = article.find("link").text
-#     title_length = len(article.find("title").text) + 2
-#     if link in file_ids:
-#         f = codecs.open("data/EMM/" + file_ids[link].split("<SEP>")[0] + ".ann", mode="w", encoding="utf-8")
-#         for geo in article.findall("{http://emm.jrc.it}fullgeo") + article.findall("{http://emm.jrc.it}georss"):
-#             name = geo.text
-#             meta = int(file_ids[link].split("<SEP>")[1])
-#             for pos in geo.attrib["pos"].split(","):
-#                 if int(pos) >= title_length:
-#                     f.write(u"INDEX\tLOCATION " + str(int(pos) + meta - title_length) + u" "
-#                             + str(int(pos) + len(name) + meta - title_length) + u"\t" + name + u"\n")
+if True:
+    file_ids = {}
+    for file_name in text_to_ann().keys():
+        text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
+        meta = text.next()
+        link = meta.split("LINK:")[1].strip()
+        file_ids[link] = file_name + "<SEP>" + str(len(meta))
+
+    tree = etree.parse(u'data/EMM.xml')
+    root = tree.getroot()
+    for article in root:
+        link = article.find("link").text
+        title_length = len(article.find("title").text) + 2
+        if link in file_ids:
+            f = codecs.open("data/EMM/" + file_ids[link].split("<SEP>")[0] + ".ann", mode="w", encoding="utf-8")
+            for geo in article.findall("{http://emm.jrc.it}fullgeo") + article.findall("{http://emm.jrc.it}georss"):
+                name = geo.text
+                meta = int(file_ids[link].split("<SEP>")[1])
+                for pos in geo.attrib["pos"].split(","):
+                    if int(pos) >= title_length:
+                        f.write(u"INDEX\tLOCATION " + str(int(pos) + meta - title_length) + u" "
+                                + str(int(pos) + len(name) + meta - title_length) + u"\t" + name + u"\n")
 
 # ------------------------------------ END OF EMM CONVERSION-----------------------------------------
 
 # ----------------------------------- START OF ANNOTATOR AGREEMENT ---------------------------------------
 
-# from bratutils import agreement as a
-# milan = a.DocumentCollection('data/IAA/milano/')
-# flora = a.DocumentCollection('data/IAA/flora/')
-# mina = a.DocumentCollection('data/IAA/mina/')
+if False:
+    from bratutils import agreement as a
+    milan = a.DocumentCollection('data/IAA/milano/')
+    flora = a.DocumentCollection('data/IAA/flora/')
+    mina = a.DocumentCollection('data/IAA/mina/')
 
 # ------------------ PLEASE READ -------------------------
-# You need to paste this code change into agreement.py in BratUtils at line 653
-# because we must exclude the augmentation annotations and the Non_Toponym types.
+# To run this code, you need to paste this code change into agreement.py in BratUtils at line 653
+# in order to exclude the augmentation annotations and the Non_Toponym types. The code starts below:
 # if not line.startswith("#") and not line.startswith("A"):
 #     if "Non_Toponym" not in line and "Literal_Expression" not in line and "Non_Lit_Expression" not in line:
 #         ann = Annotation(line)
@@ -53,57 +55,56 @@ from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coord
 # Line 303, add -> return text, "LITERAL", start_idx, end_idx -> This is to evaluate F-Score regardless of type.
 # -------------------- THANKS ----------------------------
 
+    print(milan.compare_to_gold(flora))
+    print("Milan-Flora IAA")
+    print(milan.compare_to_gold(mina))
+    print("Milan-Mina IAA")
 
-# print(milan.compare_to_gold(flora))
-# print("Milan-Flora IAA")
-# print(milan.compare_to_gold(mina))
-# print("Milan-Mina IAA")
+    milan_geo = text_to_ann("data/IAA/milano/")
+    mina_geo = text_to_ann("data/IAA/mina/")
+    exclude = ["Non_Toponym", "Literal_Expression", "Non_Lit_Expression"]
+    agree, total = 0.0, 0.0
 
-# milan_geo = text_to_ann("data/IAA/milano/")
-# mina_geo = text_to_ann("data/IAA/mina/")
-# exclude = ["Non_Toponym", "Literal_Expression", "Non_Lit_Expression"]
-# agree, total = 0.0, 0.0
-#
-# for milan_file, mina_file in zip(milan_geo, mina_geo):
-#     assert milan_file == mina_file
-#     for milan_ann in milan_geo[milan_file]:
-#         gold = milan_geo[milan_file][milan_ann]
-#         if gold.toponym_type in exclude:
-#             continue
-#         for mina_ann in mina_geo[mina_file]:
-#             comp = mina_geo[mina_file][mina_ann]
-#             if comp.toponym_type in exclude:
-#                 continue
-#             if comp.start == gold.start and comp.end == gold.end:
-#                 total += 1
-#                 if comp.geonames_id != gold.geonames_id:
-#                     print(comp.text, comp.toponym_type)
-#                     print(comp.geonames_id, gold.geonames_id)
-#                     print(milan_file, comp.key)
-#                     print("---------------------------------")
-#                 else:
-#                     agree += 1
-#
-# print("Geocoding agreement (accuracy):", agree / total)
+    for milan_file, mina_file in zip(milan_geo, mina_geo):
+        assert milan_file == mina_file
+        for milan_ann in milan_geo[milan_file]:
+            gold = milan_geo[milan_file][milan_ann]
+            if gold.toponym_type in exclude:
+                continue
+            for mina_ann in mina_geo[mina_file]:
+                comp = mina_geo[mina_file][mina_ann]
+                if comp.toponym_type in exclude:
+                    continue
+                if comp.start == gold.start and comp.end == gold.end:
+                    total += 1
+                    if comp.geonames_id != gold.geonames_id:
+                        print(comp.text, comp.toponym_type)
+                        print(comp.geonames_id, gold.geonames_id)
+                        print(milan_file, comp.key)
+                        print("---------------------------------")
+                    else:
+                        agree += 1
+
+    print("Geocoding agreement (accuracy):", agree / total)
 
 # ----------------------------------- END OF ANNOTATOR AGREEMENT ---------------------------------------
 
 # ------------------ START F-SCORE EVALUATION -----------------
-# SPACY
+# SPACY NER
 # from bratutils import agreement as a
 # gold = a.DocumentCollection('data/Spacy/')
 # test = a.DocumentCollection('data/GeoWebNews/')
 # gold.make_gold()
 # print(test.compare_to_gold(gold))
 
-# GOOGLE
+# GOOGLE NLP
 # from bratutils import agreement as a
 # gold = a.DocumentCollection('data/Google/')
 # test = a.DocumentCollection('data/GeoWebNews/')
 # gold.make_gold()
 # print(test.compare_to_gold(gold))
 
-# EMM
+# EMM ONLY
 # from bratutils import agreement as a
 # gold = a.DocumentCollection('data/EMM/')
 # test = a.DocumentCollection('data/GeoWebNews/')
@@ -114,177 +115,195 @@ from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coord
 
 # ------------------------------------START OF CORPUS STATISTICS-----------------------------------------
 
-# conn = sqlite3.connect('../data/geonames.db')
-# c = conn.cursor()
-#
-# annotations = text_to_ann()
-# mixed, coercion, metonymy = 0, 0, 0
-# embedded_lit, embedded_non_lit = 0, 0
-# literal_exp, non_lit_exp, literals = 0, 0, 0
-# literal_type, non_literal_type, total = 0, 0, 0
-# literal_heads, non_lit_heads, homonyms = 0, 0, 0
-# modifier_noun_lit, modifier_adj_lit, no_geo = 0, 0, 0
-# modifier_noun_non, modifier_adj_non, non_toponym = 0, 0, 0
-# demonym, language, has_coordinates, has_geonames = 0, 0, 0, 0
-#
-# for ann in annotations:
-#     for key in annotations[ann]:
-#         x = annotations[ann][key]
-#         total += 1
-#         if x.toponym_type == "Literal_Expression":
-#             literal_exp += 1
-#             if x.non_locational:
-#                 non_lit_heads += 1
-#             else:
-#                 literal_heads += 1
-#         elif x.toponym_type == "Non_Lit_Expression":
-#             non_lit_exp += 1
-#             if x.non_locational:
-#                 non_lit_heads += 1
-#             else:
-#                 literal_heads += 1
-#         elif x.toponym_type == "Literal":
-#             literals += 1
-#         elif x.toponym_type == "Mixed":
-#             mixed += 1
-#         elif x.toponym_type == "Embedded_Literal":
-#             embedded_lit += 1
-#         elif x.toponym_type == "Embedded_Non_Lit":
-#             embedded_non_lit += 1
-#         elif x.toponym_type == "Coercion":
-#             coercion += 1
-#         elif x.toponym_type == "Metonymic":
-#             metonymy += 1
-#         elif x.toponym_type == "Literal_Modifier":
-#             if x.modifier_type == "Noun":
-#                 modifier_noun_lit += 1
-#             if x.modifier_type == "Adjective":
-#                 modifier_adj_lit += 1
-#         elif x.toponym_type == "Non_Literal_Modifier":
-#             if x.modifier_type == "Noun":
-#                 modifier_noun_non += 1
-#             if x.modifier_type == "Adjective":
-#                 modifier_adj_non += 1
-#         elif x.toponym_type == "Demonym":
-#             demonym += 1
-#         elif x.toponym_type == "Language":
-#             language += 1
-#         elif x.toponym_type == "Homonym":
-#             homonyms += 1
-#         elif x.toponym_type == "Non_Toponym":
-#             non_toponym += 1
-#         if x.geonames_id is not None:
-#             if "," in x.geonames_id:
-#                 has_coordinates += 1
-#             else:
-#                 has_geonames += 1
-#         else:
-#             no_geo += 1
-#
-# print("------------------------------------------------------------------")
-# print("Total Annotations:", total)
-# print("Literal Expressions:", literal_exp)
-# print("Non_Lit Expressions:", non_lit_exp)
-# print("Heads (literal, non_literal):", (literal_heads, non_lit_heads))
-# total_minus_expressions = total - literal_exp - non_lit_exp - non_toponym
-# print("Total excluding Expressions and Non_Toponyms:", total_minus_expressions)
-# print("------------------------------------------------------------------")
-# print("Literals:", literals, np.around(float(literals) / total_minus_expressions, 5) * 100, "%")
-# print("Mixed:", mixed, np.around(float(mixed) / total_minus_expressions, 5) * 100, "%")
-# print("Coercion:", coercion, np.around(float(coercion) / total_minus_expressions, 5) * 100, "%")
-# print("Embedded Lit:", embedded_lit, np.around(float(embedded_lit) / total_minus_expressions, 5) * 100, "%")
-# print("Literal Mods (noun, adj):", (modifier_noun_lit, modifier_adj_lit),
-#     (np.around(float(modifier_noun_lit) / total_minus_expressions, 5) * 100,
-#      np.around(float(modifier_adj_lit) / total_minus_expressions, 5) * 100), "%")
-# group_tot = literals + mixed + coercion + modifier_noun_lit + modifier_adj_lit + embedded_lit
-# print("Group total:", group_tot, np.around(float(group_tot) / total_minus_expressions, 5) * 100, "%")
-# print("------------------------------------------------------------------")
-# print("Metonymy:", metonymy, np.around(float(metonymy) / total_minus_expressions, 5) * 100, "%")
-# print("Non_Lit Mods (noun, adj):", (modifier_noun_non, modifier_adj_non),
-#     (np.around(float(modifier_noun_non) / total_minus_expressions, 5) * 100,
-#      np.around(float(modifier_adj_non) / total_minus_expressions, 5) * 100), "%")
-# print("Demonyms:", demonym, np.around(float(demonym) / total_minus_expressions, 5) * 100, "%")
-# print("Language:", language, np.around(float(language) / total_minus_expressions, 5) * 100, "%")
-# print("Homonyms:", homonyms, np.around(float(homonyms) / total_minus_expressions, 5) * 100, "%")
-# print("Embedded Non_Lit:", embedded_non_lit, np.around(float(embedded_non_lit) / total_minus_expressions, 5) * 100, "%")
-# group_tot = homonyms + embedded_non_lit + metonymy + modifier_noun_non + modifier_adj_non + demonym + language
-# print("Group total:", group_tot, np.around(float(group_tot) / total_minus_expressions, 5) * 100, "%")
-# print("------------------------------------------------------------------")
-# print("Sanity Check:", demonym + language + homonyms + embedded_lit + embedded_non_lit + non_toponym +
-#                        modifier_adj_non + modifier_noun_non + modifier_adj_lit + modifier_noun_lit + metonymy +
-#                        coercion + mixed + literals + literal_exp + non_lit_exp, "should equal total above.")
-# print("Coordinates vs Geonames vs None:", has_coordinates, has_geonames, no_geo)
-# print("Non_Toponyms", non_toponym, "should equal", coercion + embedded_non_lit + embedded_lit)
-# print("Total files annotated:", len(annotations))
-# print("------------------------------------------------------------------")
+if False:
+    conn = sqlite3.connect('../data/geonames.db')
+    c = conn.cursor()
 
-# Geocoding Stats? Which types, plus map, population baseline, etc.
+    annotations = text_to_ann()
+    mixed, coercion, metonymy = 0, 0, 0
+    embedded_lit, embedded_non_lit = 0, 0
+    literal_exp, non_lit_exp, literals = 0, 0, 0
+    literal_type, non_literal_type, total = 0, 0, 0
+    literal_heads, non_lit_heads, homonyms = 0, 0, 0
+    modifier_noun_lit, modifier_adj_lit, no_geo = 0, 0, 0
+    modifier_noun_non, modifier_adj_non, non_toponym = 0, 0, 0
+    demonym, language, has_coordinates, has_geonames = 0, 0, 0, 0
+
+    for ann in annotations:
+        for key in annotations[ann]:
+            x = annotations[ann][key]
+            total += 1
+            if x.toponym_type == "Literal_Expression":
+                literal_exp += 1
+                if x.non_locational:
+                    non_lit_heads += 1
+                else:
+                    literal_heads += 1
+            elif x.toponym_type == "Non_Lit_Expression":
+                non_lit_exp += 1
+                if x.non_locational:
+                    non_lit_heads += 1
+                else:
+                    literal_heads += 1
+            elif x.toponym_type == "Literal":
+                literals += 1
+            elif x.toponym_type == "Mixed":
+                mixed += 1
+            elif x.toponym_type == "Embedded_Literal":
+                embedded_lit += 1
+            elif x.toponym_type == "Embedded_Non_Lit":
+                embedded_non_lit += 1
+            elif x.toponym_type == "Coercion":
+                coercion += 1
+            elif x.toponym_type == "Metonymic":
+                metonymy += 1
+            elif x.toponym_type == "Literal_Modifier":
+                if x.modifier_type == "Noun":
+                    modifier_noun_lit += 1
+                if x.modifier_type == "Adjective":
+                    modifier_adj_lit += 1
+            elif x.toponym_type == "Non_Literal_Modifier":
+                if x.modifier_type == "Noun":
+                    modifier_noun_non += 1
+                if x.modifier_type == "Adjective":
+                    modifier_adj_non += 1
+            elif x.toponym_type == "Demonym":
+                demonym += 1
+            elif x.toponym_type == "Language":
+                language += 1
+            elif x.toponym_type == "Homonym":
+                homonyms += 1
+            elif x.toponym_type == "Non_Toponym":
+                non_toponym += 1
+            if x.geonames_id is not None:
+                if "," in x.geonames_id:
+                    has_coordinates += 1
+                else:
+                    has_geonames += 1
+            else:
+                no_geo += 1
+
+    print("------------------------------------------------------------------")
+    print("Total Annotations:", total)
+    print("Literal Expressions:", literal_exp)
+    print("Non_Lit Expressions:", non_lit_exp)
+    print("Heads (literal, non_literal):", (literal_heads, non_lit_heads))
+    total_minus_expressions = total - literal_exp - non_lit_exp - non_toponym
+    print("Total excluding Expressions and Non_Toponyms:", total_minus_expressions)
+    print("------------------------------------------------------------------")
+    print("Literals:", literals, np.around(float(literals) / total_minus_expressions, 5) * 100, "%")
+    print("Mixed:", mixed, np.around(float(mixed) / total_minus_expressions, 5) * 100, "%")
+    print("Coercion:", coercion, np.around(float(coercion) / total_minus_expressions, 5) * 100, "%")
+    print("Embedded Lit:", embedded_lit, np.around(float(embedded_lit) / total_minus_expressions, 5) * 100, "%")
+    print("Literal Mods (noun, adj):", (modifier_noun_lit, modifier_adj_lit),
+        (np.around(float(modifier_noun_lit) / total_minus_expressions, 5) * 100,
+         np.around(float(modifier_adj_lit) / total_minus_expressions, 5) * 100), "%")
+    group_tot = literals + mixed + coercion + modifier_noun_lit + modifier_adj_lit + embedded_lit
+    print("Group total:", group_tot, np.around(float(group_tot) / total_minus_expressions, 5) * 100, "%")
+    print("------------------------------------------------------------------")
+    print("Metonymy:", metonymy, np.around(float(metonymy) / total_minus_expressions, 5) * 100, "%")
+    print("Non_Lit Mods (noun, adj):", (modifier_noun_non, modifier_adj_non),
+        (np.around(float(modifier_noun_non) / total_minus_expressions, 5) * 100,
+         np.around(float(modifier_adj_non) / total_minus_expressions, 5) * 100), "%")
+    print("Demonyms:", demonym, np.around(float(demonym) / total_minus_expressions, 5) * 100, "%")
+    print("Language:", language, np.around(float(language) / total_minus_expressions, 5) * 100, "%")
+    print("Homonyms:", homonyms, np.around(float(homonyms) / total_minus_expressions, 5) * 100, "%")
+    print("Embedded Non_Lit:", embedded_non_lit, np.around(float(embedded_non_lit) / total_minus_expressions, 5) * 100, "%")
+    group_tot = homonyms + embedded_non_lit + metonymy + modifier_noun_non + modifier_adj_non + demonym + language
+    print("Group total:", group_tot, np.around(float(group_tot) / total_minus_expressions, 5) * 100, "%")
+    print("------------------------------------------------------------------")
+    print("Sanity Check:", demonym + language + homonyms + embedded_lit + embedded_non_lit + non_toponym +
+                           modifier_adj_non + modifier_noun_non + modifier_adj_lit + modifier_noun_lit + metonymy +
+                           coercion + mixed + literals + literal_exp + non_lit_exp, "should equal total above.")
+    print("Coordinates vs Geonames vs None:", has_coordinates, has_geonames, no_geo)
+    print("Non_Toponyms", non_toponym, "should equal", coercion + embedded_non_lit + embedded_lit)
+    print("Total files annotated:", len(annotations))
+    print("------------------------------------------------------------------")
 
 # ------------------------------------END OF CORPUS STATISTICS-----------------------------------------
 
 # -------------------------------GENERATE INPUTS FOR CAMCODER & THE XML DATASET------------------------------------
 
-# line_no = 0
-# annotations = text_to_ann()
-# conn = sqlite3.connect('../data/geonames.db').cursor()
-# f = codecs.open("data/Geocoding/gwn_full.txt", mode="w", encoding="utf-8")
-# root = Element('articles')
-# root.set('version', '1.0')
-# boolean = {True: u'Yes', False: u'No'}
-# comment = Comment('GeoWebNews Dataset by Milan Gritta et al. 2018 accompanying the publication "A Practical Guide to Geoparsing Evaluation"')
-# root.append(comment)
-# for file_name in sorted(annotations.keys()):
-#     source = codecs.open("data/GeoWebNews/" + file_name + ".txt", encoding="utf-8")
-#     meta = len(source.next())  # discard the first line but remember its length
-#     source = source.read()  # grab the rest of the text
-#     destination = codecs.open("data/Geocoding/files/" + str(line_no), mode="w", encoding="utf-8")
-#     destination.write(source)
-#
-#     article = SubElement(root, 'article')
-#     text = SubElement(article, 'text')
-#     text.text = source
-#     toponyms = SubElement(article, 'toponyms')
-#
-#     for ann in annotations[file_name]:
-#         annotation = annotations[file_name][ann]
-#         toponym = SubElement(toponyms, 'toponym')
-#         extName = SubElement(toponym, 'extractedName')
-#         normName = SubElement(toponym, 'normalisedName')
-#         topType = SubElement(toponym, 'type')
-#         modType = SubElement(toponym, 'modifierType')
-#         nonLoc = SubElement(toponym, 'nonLocational')
-#         start = SubElement(toponym, 'start')
-#         end = SubElement(toponym, 'end')
-#         extName.text = annotation.text
-#         topType.text = annotation.toponym_type
-#         nonLoc.text = boolean.get(annotation.non_locational)
-#         start.text = str(int(annotation.start) - meta)
-#         end.text = str(int(annotation.end) - meta)
-#         modType.text = annotation.modifier_type
-#
-#         if annotation.toponym_type not in ["Non_Toponym", "Non_Lit_Expression", "Literal_Expression", "Demonym", "Homonym", "Language",]:
-#             assert len(annotation.geonames_id) >= 5
-#             geonames = SubElement(toponym, 'geonamesID')
-#             lat = SubElement(toponym, 'latitude')
-#             lon = SubElement(toponym, 'longitude')
-#             if u"," not in annotation.geonames_id:
-#                 data = get_id_to_coordinates(conn, annotation.geonames_id)
-#                 out = data[2] + ",," + annotation.text + ",," + str(data[0]) + ",," + str(data[1]) + ",," \
-#                       + str(int(annotation.start) - meta) + ",," + str(int(annotation.end) - meta) + "||"
-#                 f.write(out)
-#                 normName.text = data[2]
-#                 geonames.text = annotation.geonames_id
-#                 lat.text = str(data[0])
-#                 lon.text = str(data[1])
-#             else:
-#                 normName.text = ""
-#                 coord = annotation.geonames_id.split(",")
-#                 lat.text = str(coord[0].strip())
-#                 lon.text = str(coord[1].strip())
-#     f.write(u"\n")
-#     line_no += 1
-# xml = minidom.parseString(ElementTree.tostring(root, 'utf-8')).toprettyxml(indent="\t")
-# codecs.open("data/GWN.xml", mode="w", encoding="utf-8").write(xml)
+if False:
+    line_no = 0
+    annotations = text_to_ann()
+    conn = sqlite3.connect('../data/geonames.db').cursor()
+    f = codecs.open("data/Geocoding/gwn_nomods.txt", mode="w", encoding="utf-8")
+    root = Element('articles')
+    boolean = {True: u'Yes', False: u'No'}
+    comment = Comment('GeoWebNews Dataset by Milan Gritta et al. 2018 accompanying the publication "A Practical Guide to Geoparsing Evaluation"')
+    root.append(comment)
+    for file_name in sorted(annotations.keys()):
+        source = codecs.open("data/GeoWebNews/" + file_name + ".txt", encoding="utf-8")
+        meta = len(source.next())  # discard the first line but remember its length
+        source = source.read()  # grab the rest of the text
+        destination = codecs.open("data/Geocoding/files/" + str(line_no), mode="w", encoding="utf-8")
+        destination.write(source)
+
+        article = SubElement(root, 'article')
+        text = SubElement(article, 'text')
+        text.text = source
+        toponyms = SubElement(article, 'toponyms')
+
+        for ann in annotations[file_name]:
+            annotation = annotations[file_name][ann]
+            toponym = SubElement(toponyms, 'toponym')
+            extName = SubElement(toponym, 'extractedName')
+            normName = SubElement(toponym, 'normalisedName')
+            topType = SubElement(toponym, 'type')
+            modType = SubElement(toponym, 'modifierType')
+            nonLoc = SubElement(toponym, 'nonLocational')
+            start = SubElement(toponym, 'start')
+            end = SubElement(toponym, 'end')
+            extName.text = annotation.text
+            topType.text = annotation.toponym_type
+            nonLoc.text = boolean.get(annotation.non_locational)
+            start.text = str(int(annotation.start) - meta)
+            end.text = str(int(annotation.end) - meta)
+            modType.text = annotation.modifier_type
+
+            if annotation.toponym_type not in ["Non_Toponym", "Non_Lit_Expression", "Literal_Expression", "Demonym", "Homonym", "Language"]:
+                assert len(annotation.geonames_id) >= 5
+                geonames = SubElement(toponym, 'geonamesID')
+                lat = SubElement(toponym, 'latitude')
+                lon = SubElement(toponym, 'longitude')
+                if u"," not in annotation.geonames_id:
+                    data = get_id_to_coordinates(conn, annotation.geonames_id)
+                    if annotation.modifier_type != "Adjective":
+                        out = data[2] + ",," + annotation.text + ",," + str(data[0]) + ",," + str(data[1]) + ",," \
+                              + str(int(annotation.start) - meta) + ",," + str(int(annotation.end) - meta) + "||"
+                        f.write(out)
+                    normName.text = data[2]
+                    geonames.text = annotation.geonames_id
+                    lat.text = str(data[0])
+                    lon.text = str(data[1])
+                else:
+                    normName.text = ""
+                    coord = annotation.geonames_id.split(",")
+                    lat.text = str(coord[0].strip())
+                    lon.text = str(coord[1].strip())
+        f.write(u"\n")
+        line_no += 1
+    xml = minidom.parseString(ElementTree.tostring(root, 'utf-8')).toprettyxml(indent="\t")
+    codecs.open("data/GWN.xml", mode="w", encoding="utf-8").write(xml)
+    f.close()
 
 # ------------------------------------       END OF GENERATION       -----------------------------------------
 
+if False:
+    fold = "3rdFold.out"
+    full = codecs.open("data/NCRFpp/full" + fold, encoding="utf-8")
+    partial = codecs.open("data/NCRFpp/partial" + fold, encoding="utf-8")
+    none = codecs.open("data/NCRFpp/no" + fold, encoding="utf-8")
+    out = codecs.open("data/NCRFpp/ensemble" + fold, mode="w", encoding="utf-8")
+    for f, p, n in zip(full, partial, none):
+        if f.strip() == u"":
+            out.write(f)
+            continue
+        f, p, n = f.split(" "), p.split(" "), n.split(" ")
+        assert f[0] == p[0] == n[0]
+        result = [f[1], p[1], n[1]]
+        label = max(set(result), key=result.count)
+        out.write(f[0] + u" " + label)
+    out.close()
+    fmeasure_from_file('data/NCRFpp/gold' + fold, 'data/NCRFpp/ensemble' + fold)

@@ -20,7 +20,12 @@ label_map = {u"Literal": u"Entity", u"Homonym": u"Entity", u"Coercion": u"Entity
              u"Metonymic": u"Entity", u"Literal_Modifier": u"Entity", u"Embedded_Non_Lit": u"Entity",
              u"Language": u"Entity"}
 
-test_indices = sorted(annotations.keys())[120:160]
+# label_map = {u"Literal": u"Literal", u"Homonym": u"Associative", u"Coercion": u"Literal", u"Mixed": u"Literal",
+#              u"Embedded_Literal": u"Literal", u"Demonym": u"Associative", u"Non_Literal_Modifier": u"Associative",
+#              u"Metonymic": u"Associative", u"Literal_Modifier": u"Literal", u"Embedded_Non_Lit": u"Associative",
+#              u"Language": u"Associative"}  # THIS LABEL MAP IS FOR BINARY SEQUENCE LABELLING (more difficult)
+
+test_indices = sorted(annotations.keys())[80:120]
 assert len(test_indices) == 40 and len(annotations.keys()) == 200
 
 train = codecs.open("data/train.txt", mode="w", encoding="utf-8")
@@ -47,6 +52,7 @@ for file_name in annotations:
                     is_ann = True
                     ann = word.idx + offset
                     index = word.idx + offset
+                # ----------- Uncomment to remove Augmentation ------------
                 elif file_name not in test_indices:
                     is_aug = True
                     np_heads.append(word)
@@ -58,6 +64,7 @@ for file_name in annotations:
                     for t in top:
                         replacement.append((t.text + u" [Shape]" + t.shape_ + u" Entity\n", word.i))
                     replacements.append(replacement)
+                # -------------------- End of Augmentation ------------------
             sentence_one.append((word.text + u" [Shape]" + word.shape_ + u" " + label_map.get(label, u"0") + "\n", word.i))
             sentence_two.append((word.text + u" [Shape]" + word.shape_ + u" " + label_map.get(label, u"0") + "\n", word.i))
 
@@ -72,6 +79,7 @@ for file_name in annotations:
                 test.write(word[0])
             else:
                 train.write(word[0])
+        # ------- Uncomment to remove augmentation -------------
         if is_aug and file_name not in test_indices:
             for head, replacement in zip(np_heads, replacements):
                 left, right = head.left_edge.i, head.right_edge.i
@@ -84,6 +92,7 @@ for file_name in annotations:
                                 sentence_two.insert(i - (right - left), r)
                 for word in sentence_two:
                     train.write(word[0])
+        # ---------------- End of Augmentation -----------------
 
 transform_tags(file_name="data/train.txt", output="data/train_bmes.txt")
 transform_tags(file_name="data/test.txt", output="data/test_bmes.txt")
