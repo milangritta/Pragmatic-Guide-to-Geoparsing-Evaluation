@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <articles>
-	<!--GeoWebNews Dataset by Milan Gritta et al. 2019 accompanying the publication "A Practical Guide to Geoparsing Evaluation"-->
+	<!--GeoWebNews Dataset by Milan Gritta et al. 2019 accompanying the publication "A Pragmatic Guide to Geoparsing Evaluation"-->
 	<article>
 		<text>This area formed the heart of the plantation of Bernard Xavier Philippe de Marigny de Mandeville, who lived in a mansion where the electrical substation now stands. Expecting that the Louisiana Purchase would spur urban expansion, Marigny had his parcel subdivided for urbanization in 1805, hiring French engineer Nicolas de Finiels to design a plat. Finiels successfully reconciled an extension of the French Quarter street grid with a sharp bend of the Mississippi River by reshaping key connector squares into polygons of various configurations, which surveyor Barthelemy Lafon then laid out in 1806. The first neighborhood downriver from the city proper, the Faubourg Marigny soon developed into a predominantly Creole community, including substantial numbers of both Free People of Color, as well as enslaved African Americans and German, Irish and other immigrant populations. A century later, these riverfront blocks hosted a variety of light industrial land uses worked by the neighborhood’s blue-collar residents. The four blocks surrounding this intersection were occupied in the early 1900s by rice mills, an ice plant, horse and mule stables, a yarn and hosiery factory and a streetcar barn; the streets themselves were paved in granite stones.
 
@@ -64599,9 +64599,6 @@ Paul Metcalfe stars in the lead role and takes the audience through Rod's incred
 				<nonLocational>No</nonLocational>
 				<start>3436</start>
 				<end>3475</end>
-				<geonamesID/>
-				<latitude>0.0</latitude>
-				<longitude>0.0</longitude>
 			</toponym>
 			<toponym>
 				<extractedName>family</extractedName>
@@ -64740,9 +64737,6 @@ Paul Metcalfe stars in the lead role and takes the audience through Rod's incred
 				<nonLocational>No</nonLocational>
 				<start>3083</start>
 				<end>3107</end>
-				<geonamesID/>
-				<latitude>0.0</latitude>
-				<longitude>0.0</longitude>
 			</toponym>
 			<toponym>
 				<extractedName>Fitzwilliam Place</extractedName>
@@ -64914,9 +64908,6 @@ Paul Metcalfe stars in the lead role and takes the audience through Rod's incred
 				<nonLocational>No</nonLocational>
 				<start>3985</start>
 				<end>4024</end>
-				<geonamesID/>
-				<latitude>0.0</latitude>
-				<longitude>0.0</longitude>
 			</toponym>
 			<toponym>
 				<extractedName>Guildhall School of Music</extractedName>
@@ -65013,9 +65004,6 @@ Paul Metcalfe stars in the lead role and takes the audience through Rod's incred
 				<nonLocational>No</nonLocational>
 				<start>2942</start>
 				<end>2983</end>
-				<geonamesID/>
-				<latitude>0.0</latitude>
-				<longitude>0.0</longitude>
 			</toponym>
 			<toponym>
 				<extractedName>English</extractedName>
@@ -65037,9 +65025,6 @@ Paul Metcalfe stars in the lead role and takes the audience through Rod's incred
 				<nonLocational>No</nonLocational>
 				<start>620</start>
 				<end>658</end>
-				<geonamesID/>
-				<latitude>0.0</latitude>
-				<longitude>0.0</longitude>
 			</toponym>
 			<toponym>
 				<extractedName>house</extractedName>
@@ -65160,9 +65145,6 @@ Paul Metcalfe stars in the lead role and takes the audience through Rod's incred
 				<nonLocational>No</nonLocational>
 				<start>3337</start>
 				<end>3356</end>
-				<geonamesID/>
-				<latitude>0.0</latitude>
-				<longitude>0.0</longitude>
 			</toponym>
 			<toponym>
 				<extractedName>Video Games Live Concert</extractedName>
@@ -65181,9 +65163,6 @@ Paul Metcalfe stars in the lead role and takes the audience through Rod's incred
 				<nonLocational>No</nonLocational>
 				<start>2148</start>
 				<end>2170</end>
-				<geonamesID/>
-				<latitude>0.0</latitude>
-				<longitude>0.0</longitude>
 			</toponym>
 			<toponym>
 				<extractedName>Arklow Feis</extractedName>
@@ -65193,9 +65172,6 @@ Paul Metcalfe stars in the lead role and takes the audience through Rod's incred
 				<nonLocational>No</nonLocational>
 				<start>2696</start>
 				<end>2707</end>
-				<geonamesID/>
-				<latitude>0.0</latitude>
-				<longitude>0.0</longitude>
 			</toponym>
 			<toponym>
 				<extractedName>Sligo Feis</extractedName>
@@ -65271,9 +65247,6 @@ Paul Metcalfe stars in the lead role and takes the audience through Rod's incred
 				<nonLocational>No</nonLocational>
 				<start>2642</start>
 				<end>2652</end>
-				<geonamesID/>
-				<latitude>0.0</latitude>
-				<longitude>0.0</longitude>
 			</toponym>
 			<toponym>
 				<extractedName>Feis Ceoil</extractedName>

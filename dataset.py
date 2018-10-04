@@ -12,7 +12,7 @@ from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coord
 
 # ----------------------------------  START OF EMM CONVERSION  ------------------------------------
 
-if True:
+if False:
     file_ids = {}
     for file_name in text_to_ann().keys():
         text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
@@ -88,6 +88,16 @@ if False:
     print("Geocoding agreement (accuracy):", agree / total)
 
 # ----------------------------------- END OF ANNOTATOR AGREEMENT ---------------------------------------
+
+# ------------------ PLEASE READ -------------------------
+# To run the code below, you need to paste this code change into agreement.py in BratUtils at line 653
+# in order to exclude the augmentation annotations and the Non_Toponym types. The code starts below:
+# if not line.startswith("#") and not line.startswith("A"):
+#     if "Non_Toponym" not in line and "Literal_Expression" not in line and "Non_Lit_Expression" not in line:
+#         ann = Annotation(line)
+#         self.tags.append(ann)
+# Line 303, add -> return text, "LITERAL", start_idx, end_idx -> This is to evaluate F-Score regardless of type.
+# -------------------- THANKS ----------------------------
 
 # ------------------ START F-SCORE EVALUATION -----------------
 # SPACY NER
@@ -231,7 +241,7 @@ if False:
     f = codecs.open("data/Geocoding/gwn_nomods.txt", mode="w", encoding="utf-8")
     root = Element('articles')
     boolean = {True: u'Yes', False: u'No'}
-    comment = Comment('GeoWebNews Dataset by Milan Gritta et al. 2018 accompanying the publication "A Practical Guide to Geoparsing Evaluation"')
+    comment = Comment('GeoWebNews Dataset by Milan Gritta et al. 2019 accompanying the publication "A Pragmatic Guide to Geoparsing Evaluation"')
     root.append(comment)
     for file_name in sorted(annotations.keys()):
         source = codecs.open("data/GeoWebNews/" + file_name + ".txt", encoding="utf-8")
@@ -262,7 +272,8 @@ if False:
             end.text = str(int(annotation.end) - meta)
             modType.text = annotation.modifier_type
 
-            if annotation.toponym_type not in ["Non_Toponym", "Non_Lit_Expression", "Literal_Expression", "Demonym", "Homonym", "Language"]:
+            if annotation.toponym_type not in ["Non_Toponym", "Non_Lit_Expression", "Literal_Expression", "Demonym",
+                                               "Homonym", "Language"] and annotation.geonames_id is not None:
                 assert len(annotation.geonames_id) >= 5
                 geonames = SubElement(toponym, 'geonamesID')
                 lat = SubElement(toponym, 'latitude')
@@ -290,6 +301,8 @@ if False:
 
 # ------------------------------------       END OF GENERATION       -----------------------------------------
 
+
+# ----- This is the Ensemble Setup for Geotagging Evaluation of the NCRF++ trained model -------------
 if False:
     fold = "3rdFold.out"
     full = codecs.open("data/NCRFpp/full" + fold, encoding="utf-8")
