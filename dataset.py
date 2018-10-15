@@ -123,6 +123,21 @@ if False:
 
 # ------------------- END F-SCORE EVALUATION ------------------
 
+
+# --------------------------------- Statistical Testing Code Block ------------------------------------
+
+if False:
+    google_ann = text_to_ann("data/Google/")
+    spacy_ann = text_to_ann("data/Spacy/")
+    gold_ann = text_to_ann()
+    for file_name in gold_ann:
+        for gold in gold_ann[file_name]:
+            toponym = gold_ann[file_name][gold]
+    # stat = statsmodels.stats.contingency_tables.mcnemar(table, exact=False, correction=True)
+
+# --------------------------------- End of Statistical Testing Code Block ------------------------------------
+
+
 # ------------------------------------START OF CORPUS STATISTICS-----------------------------------------
 
 if False:
@@ -238,7 +253,7 @@ if False:
     line_no = 0
     annotations = text_to_ann()
     conn = sqlite3.connect('../data/geonames.db').cursor()
-    f = codecs.open("data/Geocoding/gwn_nomods.txt", mode="w", encoding="utf-8")
+    f = codecs.open("data/Geocoding/gwn_full.txt", mode="w", encoding="utf-8")
     root = Element('articles')
     boolean = {True: u'Yes', False: u'No'}
     comment = Comment('GeoWebNews Dataset by Milan Gritta et al. 2019 accompanying the publication "A Pragmatic Guide to Geoparsing Evaluation"')
@@ -267,7 +282,7 @@ if False:
             end = SubElement(toponym, 'end')
             extName.text = annotation.text
             topType.text = annotation.toponym_type
-            nonLoc.text = boolean.get(annotation.non_locational)
+            nonLoc.text = boolean[annotation.non_locational]
             start.text = str(int(annotation.start) - meta)
             end.text = str(int(annotation.end) - meta)
             modType.text = annotation.modifier_type
@@ -280,10 +295,9 @@ if False:
                 lon = SubElement(toponym, 'longitude')
                 if u"," not in annotation.geonames_id:
                     data = get_id_to_coordinates(conn, annotation.geonames_id)
-                    if annotation.modifier_type != "Adjective":
-                        out = data[2] + ",," + annotation.text + ",," + str(data[0]) + ",," + str(data[1]) + ",," \
-                              + str(int(annotation.start) - meta) + ",," + str(int(annotation.end) - meta) + "||"
-                        f.write(out)
+                    out = data[2] + ",," + annotation.text + ",," + str(data[0]) + ",," + str(data[1]) + ",," \
+                          + str(int(annotation.start) - meta) + ",," + str(int(annotation.end) - meta) + "||"
+                    f.write(out)
                     normName.text = data[2]
                     geonames.text = annotation.geonames_id
                     lat.text = str(data[0])
@@ -304,7 +318,7 @@ if False:
 
 # ----- This is the Ensemble Setup for Geotagging Evaluation of the NCRF++ trained model -------------
 if False:
-    fold = "3rdFold.out"
+    fold = "5thFold.out"
     full = codecs.open("data/NCRFpp/full" + fold, encoding="utf-8")
     partial = codecs.open("data/NCRFpp/partial" + fold, encoding="utf-8")
     none = codecs.open("data/NCRFpp/no" + fold, encoding="utf-8")
