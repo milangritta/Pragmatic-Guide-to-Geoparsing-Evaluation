@@ -127,12 +127,14 @@ if False:
 # --------------------------------- Statistical Testing Code Block ------------------------------------
 
 if False:
+    #  McNemar's Test for Geotagging
     google_ann = text_to_ann("data/Google/")
     spacy_ann = text_to_ann("data/Spacy/")
     gold_ann = text_to_ann()
     for file_name in gold_ann:
         for gold in gold_ann[file_name]:
             toponym = gold_ann[file_name][gold]
+            
     # stat = statsmodels.stats.contingency_tables.mcnemar(table, exact=False, correction=True)
 
 # --------------------------------- End of Statistical Testing Code Block ------------------------------------
