@@ -27,7 +27,7 @@ Contains the 5 + 1 recommended datasets from the paper. We thought it would be c
 
 ### /data/Geocoding
 ***/data/Geocoding/files/*** contains the raw text files required to generate machine-readable test data for Toponym Resolution.
-***/data/Geocoding/gwn_full.txt*** contains the gold labels and indices for GeoWebNews. Required by ***/dataset.py***.
+***/data/Geocoding/gwn_full.txt*** contains the gold labels and indices for GeoWebNews. Required by ***/dataset.py***. The CamCoder model referenced in the paper can be downloaded [here](https://github.com/milangritta/Geocoding-with-Map-Vector).
 
 ### /data/GeoWebNews
 Contains the 200 + 200 BRAT annotation + raw text files. These are used to compute F-Scores during Geotagging comparisons.

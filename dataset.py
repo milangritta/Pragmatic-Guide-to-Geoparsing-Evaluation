@@ -7,8 +7,8 @@ import numpy as np
 from lxml import etree
 from xml.etree.ElementTree import Element, SubElement, Comment
 from xml.etree import ElementTree
-from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coordinates, fmeasure_from_file
-
+from geopy.distance import great_circle
+from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coordinates, fmeasure_from_file, print_stats
 
 # ----------------------------------  START OF EMM CONVERSION  ------------------------------------
 
@@ -22,11 +22,15 @@ if False:
 
     tree = etree.parse(u'data/EMM.xml')
     root = tree.getroot()
+    geocoding = {}
     for article in root:
         link = article.find("link").text
-        title_length = len(article.find("title").text) + 2
+        title_length = len(article.find("title").text) + 2  # the (+2) is some odd offset that makes no sense
         if link in file_ids:
-            f = codecs.open("data/EMM/" + file_ids[link].split("<SEP>")[0] + ".ann", mode="w", encoding="utf-8")
+            file_id = file_ids[link].split("<SEP>")[0]
+            f = codecs.open("data/EMM/" + file_id + ".ann", mode="w", encoding="utf-8")
+            if file_id not in geocoding:
+                geocoding[file_id] = []
             for geo in article.findall("{http://emm.jrc.it}fullgeo") + article.findall("{http://emm.jrc.it}georss"):
                 name = geo.text
                 meta = int(file_ids[link].split("<SEP>")[1])
@@ -34,10 +38,38 @@ if False:
                     if int(pos) >= title_length:
                         f.write(u"INDEX\tLOCATION " + str(int(pos) + meta - title_length) + u" "
                                 + str(int(pos) + len(name) + meta - title_length) + u"\t" + name + u"\n")
+                        geocoding[file_id].append(geo.attrib['name'] + u"\t" + name + u"\t" + geo.attrib['lat'] + u"\t"
+                                                  + geo.attrib['lon'] + u"\t" + str(int(pos) - title_length)
+                                                  + u"\t" + str(int(pos) + len(name) - title_length))
 
-# ------------------------------------ END OF EMM CONVERSION-----------------------------------------
+    # ------------- Toponym Resolution for EMM ------ Not part of the paper --- Only my PhD thesis ---------------
 
-# ----------------------------------- START OF ANNOTATOR AGREEMENT ---------------------------------------
+    final_errors = []
+    f = codecs.open("data/Geocoding/gwn_full.txt", mode="r", encoding="utf-8")
+    for key in sorted(geocoding.keys()):
+        for gold in f.next().split("||"):
+            gold = gold.split(",,")
+            if len(gold) == 1:
+                continue
+            for predicted in geocoding[key]:
+                predicted = predicted.split("\t")
+                if gold[1] == predicted[1] and abs(int(gold[4]) - int(predicted[4])) < 10:
+                    found = True
+                    final_errors.append(great_circle((gold[2], gold[3]), (predicted[2], predicted[3])).km)
+                    # print great_circle((gold[2], gold[3]), (predicted[2], predicted[3])).km, ",", gold[0],",", gold[1], \
+                    # ",", gold[2], ",", gold[3],",", predicted[0], ",", predicted[1], ",", predicted[2], ",", predicted[3]
+
+    print_stats(final_errors)
+    print("Total", len(final_errors))
+    print("Files:", len(geocoding))
+
+# -------------------------------------- End of EMM Toponym Resolution ----------------------------------------
+
+
+# ------------------------------------------ END OF EMM CONVERSION ----------------------------------------------
+
+
+# --------------------------------------- START OF ANNOTATOR AGREEMENT ------------------------------------------
 
 if False:
     from bratutils import agreement as a
@@ -128,13 +160,14 @@ if False:
 
 if False:
     #  McNemar's Test for Geotagging
-    google_ann = text_to_ann("data/Google/")
-    spacy_ann = text_to_ann("data/Spacy/")
-    gold_ann = text_to_ann()
+    google_ann = text_to_ann("data/Google/")  # Comparing Google Cloud NLP
+    spacy_ann = text_to_ann("data/Spacy/")    # with Spacy NLP
+    gold_ann = text_to_ann()   # These are the gold answers/labels
+    table = [[0, 0], [0, 0]]   # stored in this table.
     for file_name in gold_ann:
         for gold in gold_ann[file_name]:
             toponym = gold_ann[file_name][gold]
-            
+            print(toponym)
     # stat = statsmodels.stats.contingency_tables.mcnemar(table, exact=False, correction=True)
 
 # --------------------------------- End of Statistical Testing Code Block ------------------------------------
@@ -320,7 +353,7 @@ if False:
 
 # ----- This is the Ensemble Setup for Geotagging Evaluation of the NCRF++ trained model -------------
 if False:
-    fold = "5thFold.out"
+    fold = "1stFold.out"
     full = codecs.open("data/NCRFpp/full" + fold, encoding="utf-8")
     partial = codecs.open("data/NCRFpp/partial" + fold, encoding="utf-8")
     none = codecs.open("data/NCRFpp/no" + fold, encoding="utf-8")
@@ -335,4 +368,4 @@ if False:
         label = max(set(result), key=result.count)
         out.write(f[0] + u" " + label)
     out.close()
-    fmeasure_from_file('data/NCRFpp/gold' + fold, 'data/NCRFpp/ensemble' + fold)
+    fmeasure_from_file('data/NCRFpp/gold' + fold, 'data/NCRFpp/no' + fold)
