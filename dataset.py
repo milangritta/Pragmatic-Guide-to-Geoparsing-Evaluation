@@ -9,6 +9,7 @@ from xml.etree.ElementTree import Element, SubElement, Comment
 from xml.etree import ElementTree
 from geopy.distance import great_circle
 from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coordinates, fmeasure_from_file, print_stats
+from objects_and_functions import get_coordinates
 
 # ----------------------------------  START OF EMM CONVERSION  ------------------------------------
 
@@ -53,8 +54,12 @@ if False:
                 continue
             for predicted in geocoding[key]:
                 predicted = predicted.split("\t")
-                if gold[1] == predicted[1] and abs(int(gold[4]) - int(predicted[4])) < 10:
+                if gold[1] == predicted[1] and gold[4] == predicted[4]:
                     found = True
+                    # pop = get_coordinates(sqlite3.connect('../data/geonames.db').cursor(), predicted[1])
+                    # if len(pop) < 1:
+                    #     continue
+                    # final_errors.append(great_circle((gold[2], gold[3]), (pop[0][0], pop[0][1])).km)
                     final_errors.append(great_circle((gold[2], gold[3]), (predicted[2], predicted[3])).km)
                     # print great_circle((gold[2], gold[3]), (predicted[2], predicted[3])).km, ",", gold[0],",", gold[1], \
                     # ",", gold[2], ",", gold[3],",", predicted[0], ",", predicted[1], ",", predicted[2], ",", predicted[3]
@@ -176,9 +181,6 @@ if False:
 # ------------------------------------START OF CORPUS STATISTICS-----------------------------------------
 
 if False:
-    conn = sqlite3.connect('../data/geonames.db')
-    c = conn.cursor()
-
     annotations = text_to_ann()
     mixed, coercion, metonymy = 0, 0, 0
     embedded_lit, embedded_non_lit = 0, 0

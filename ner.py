@@ -53,17 +53,17 @@ for file_name in annotations:
                     ann = word.idx + offset
                     index = word.idx + offset
                 # ----------- Uncomment to remove Augmentation ------------
-                elif file_name not in test_indices:
-                    is_aug = True
-                    np_heads.append(word)
-                    replacement = []
-                    top = nlp(m_toponyms[random.randint(0, len(m_toponyms) - 1)])
-                    for t in top:
-                        sentence_one.append((t.text + u" [Shape]" + t.shape_ + u" Entity\n", word.i - t.i))
-                    top = nlp(n_toponyms[random.randint(0, len(n_toponyms) - 1)])
-                    for t in top:
-                        replacement.append((t.text + u" [Shape]" + t.shape_ + u" Entity\n", word.i))
-                    replacements.append(replacement)
+                # elif file_name not in test_indices:
+                #     is_aug = True
+                #     np_heads.append(word)
+                #     replacement = []
+                #     top = nlp(m_toponyms[random.randint(0, len(m_toponyms) - 1)])
+                #     for t in top:
+                #         sentence_one.append((t.text + u" [Shape]" + t.shape_ + u" Entity\n", word.i - t.i))
+                #     top = nlp(n_toponyms[random.randint(0, len(n_toponyms) - 1)])
+                #     for t in top:
+                #         replacement.append((t.text + u" [Shape]" + t.shape_ + u" Entity\n", word.i))
+                #     replacements.append(replacement)
                 # -------------------- End of Augmentation ------------------
             sentence_one.append((word.text + u" [Shape]" + word.shape_ + u" " + label_map.get(label, u"0") + "\n", word.i))
             sentence_two.append((word.text + u" [Shape]" + word.shape_ + u" " + label_map.get(label, u"0") + "\n", word.i))
@@ -80,18 +80,18 @@ for file_name in annotations:
             else:
                 train.write(word[0])
         # ------- Uncomment to remove augmentation -------------
-        if is_aug and file_name not in test_indices:
-            for head, replacement in zip(np_heads, replacements):
-                left, right = head.left_edge.i, head.right_edge.i
-                for i, word in enumerate(deepcopy(sentence_two)):
-                    if left <= word[1] <= right:
-                        sentence_two.remove(word)
-                        if word[1] == right:
-                            replacement.reverse()
-                            for r in replacement:
-                                sentence_two.insert(i - (right - left), r)
-                for word in sentence_two:
-                    train.write(word[0])
+        # if is_aug and file_name not in test_indices:
+        #     for head, replacement in zip(np_heads, replacements):
+        #         left, right = head.left_edge.i, head.right_edge.i
+        #         for i, word in enumerate(deepcopy(sentence_two)):
+        #             if left <= word[1] <= right:
+        #                 sentence_two.remove(word)
+        #                 if word[1] == right:
+        #                     replacement.reverse()
+        #                     for r in replacement:
+        #                         sentence_two.insert(i - (right - left), r)
+        #         for word in sentence_two:
+        #             train.write(word[0])
         # ---------------- End of Augmentation -----------------
 
 transform_tags(file_name="data/train.txt", output="data/train_bmes.txt")
