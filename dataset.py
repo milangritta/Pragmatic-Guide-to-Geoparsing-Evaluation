@@ -8,13 +8,14 @@ from lxml import etree
 from xml.etree.ElementTree import Element, SubElement, Comment
 from xml.etree import ElementTree
 from geopy.distance import great_circle
-from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coordinates, fmeasure_from_file, print_stats
+from objects_and_functions import text_to_ann, ANNOT_SOURCE_DIR, get_id_to_coordinates, fmeasure_from_file
 from objects_and_functions import get_coordinates
 
 # ----------------------------------  START OF EMM CONVERSION  ------------------------------------
 
 if False:
     file_ids = {}
+    out = codecs.open("data/Geocoding/gwn_emm.txt", mode="w", encoding="utf-8")
     for file_name in text_to_ann().keys():
         text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
         meta = text.next()
@@ -24,9 +25,10 @@ if False:
     tree = etree.parse(u'data/EMM.xml')
     root = tree.getroot()
     geocoding = {}
+    duplicates = set()
     for article in root:
         link = article.find("link").text
-        title_length = len(article.find("title").text) + 2  # the (+2) is some odd offset that makes no sense
+        title_length = len(article.find("title").text) + 2  # (+2) is some offset that makes no sense but must be there.
         if link in file_ids:
             file_id = file_ids[link].split("<SEP>")[0]
             f = codecs.open("data/EMM/" + file_id + ".ann", mode="w", encoding="utf-8")
@@ -37,39 +39,18 @@ if False:
                 meta = int(file_ids[link].split("<SEP>")[1])
                 for pos in geo.attrib["pos"].split(","):
                     if int(pos) >= title_length:
-                        f.write(u"INDEX\tLOCATION " + str(int(pos) + meta - title_length) + u" "
-                                + str(int(pos) + len(name) + meta - title_length) + u"\t" + name + u"\n")
-                        geocoding[file_id].append(geo.attrib['name'] + u"\t" + name + u"\t" + geo.attrib['lat'] + u"\t"
-                                                  + geo.attrib['lon'] + u"\t" + str(int(pos) - title_length)
-                                                  + u"\t" + str(int(pos) + len(name) - title_length))
-
-    # ------------- Toponym Resolution for EMM ------ Not part of the paper --- Only my PhD thesis ---------------
-
-    final_errors = []
-    f = codecs.open("data/Geocoding/gwn_full.txt", mode="r", encoding="utf-8")
+                        record = u"INDEX\tLOCATION " + str(int(pos) + meta - title_length) + u" " \
+                                 + str(int(pos) + len(name) + meta - title_length) + u"\t" + name + u"\n"
+                        if record not in duplicates:
+                            f.write(record)
+                            geocoding[file_id].append(geo.attrib['name'].replace(":", ",") + u",," + name + u",,"
+                                                    + geo.attrib['lat'] + u",," + geo.attrib['lon'] + u",,"
+                                                    + str(int(pos) - title_length) + u",," + str(int(pos) + len(name) - title_length) + u'||')
+                        duplicates.add(record)
     for key in sorted(geocoding.keys()):
-        for gold in f.next().split("||"):
-            gold = gold.split(",,")
-            if len(gold) == 1:
-                continue
-            for predicted in geocoding[key]:
-                predicted = predicted.split("\t")
-                if gold[1] == predicted[1] and gold[4] == predicted[4]:
-                    found = True
-                    # pop = get_coordinates(sqlite3.connect('../data/geonames.db').cursor(), predicted[1])
-                    # if len(pop) < 1:
-                    #     continue
-                    # final_errors.append(great_circle((gold[2], gold[3]), (pop[0][0], pop[0][1])).km)
-                    final_errors.append(great_circle((gold[2], gold[3]), (predicted[2], predicted[3])).km)
-                    # print great_circle((gold[2], gold[3]), (predicted[2], predicted[3])).km, ",", gold[0],",", gold[1], \
-                    # ",", gold[2], ",", gold[3],",", predicted[0], ",", predicted[1], ",", predicted[2], ",", predicted[3]
-
-    print_stats(final_errors)
-    print("Total", len(final_errors))
-    print("Files:", len(geocoding))
-
-# -------------------------------------- End of EMM Toponym Resolution ----------------------------------------
-
+        for record in geocoding[key]:
+            out.write(record)
+        out.write(u"\n")
 
 # ------------------------------------------ END OF EMM CONVERSION ----------------------------------------------
 
@@ -78,19 +59,20 @@ if False:
 
 if False:
     from bratutils import agreement as a
+
     milan = a.DocumentCollection('data/IAA/milano/')
     flora = a.DocumentCollection('data/IAA/flora/')
     mina = a.DocumentCollection('data/IAA/mina/')
 
-# ------------------ PLEASE READ -------------------------
-# To run this code, you need to paste this code change into agreement.py in BratUtils at line 653
-# in order to exclude the augmentation annotations and the Non_Toponym types. The code starts below:
-# if not line.startswith("#") and not line.startswith("A"):
-#     if "Non_Toponym" not in line and "Literal_Expression" not in line and "Non_Lit_Expression" not in line:
-#         ann = Annotation(line)
-#         self.tags.append(ann)
-# Line 303, add -> return text, "LITERAL", start_idx, end_idx -> This is to evaluate F-Score regardless of type.
-# -------------------- THANKS ----------------------------
+    # ------------------ PLEASE READ -------------------------
+    # To run this code, you need to paste this code change into agreement.py in BratUtils at line 653
+    # in order to exclude the augmentation annotations and the Non_Toponym types. The code starts below:
+    # if not line.startswith("#") and not line.startswith("A"):
+    #     if "Non_Toponym" not in line and "Literal_Expression" not in line and "Non_Lit_Expression" not in line:
+    #         ann = Annotation(line)
+    #         self.tags.append(ann)
+    # Line 303, add -> return text, "LITERAL", start_idx, end_idx -> This is to evaluate F-Score regardless of type.
+    # -------------------- THANKS ----------------------------
 
     print(milan.compare_to_gold(flora))
     print("Milan-Flora IAA")
@@ -129,35 +111,44 @@ if False:
 # ------------------ PLEASE READ -------------------------
 # To run the code below, you need to paste this code change into agreement.py in BratUtils at line 653
 # in order to exclude the augmentation annotations and the Non_Toponym types. The code starts below:
+
 # if not line.startswith("#") and not line.startswith("A"):
 #     if "Non_Toponym" not in line and "Literal_Expression" not in line and "Non_Lit_Expression" not in line:
 #         ann = Annotation(line)
 #         self.tags.append(ann)
-# Line 303, add -> return text, "LITERAL", start_idx, end_idx -> This is to evaluate F-Score regardless of type.
+# Uncomment line 302, start a new line 303, add this -> return text.lower(), "LITERAL", start_idx, end_idx
+# This is to evaluate F-Score regardless of toponym type.
 # -------------------- THANKS ----------------------------
 
 # ------------------ START F-SCORE EVALUATION -----------------
+# Take a look at the official MUC-7 Guide at http://www.aclweb.org/anthology/M98-1024
+
 # SPACY NER
 # from bratutils import agreement as a
-# gold = a.DocumentCollection('data/Spacy/')
-# test = a.DocumentCollection('data/GeoWebNews/')
+# test = a.DocumentCollection('data/Spacy/')
+# gold = a.DocumentCollection('data/GeoWebNews/')
 # gold.make_gold()
 # print(test.compare_to_gold(gold))
 
 # GOOGLE NLP
 # from bratutils import agreement as a
-# gold = a.DocumentCollection('data/Google/')
-# test = a.DocumentCollection('data/GeoWebNews/')
+# test = a.DocumentCollection('data/Google/')
+# gold = a.DocumentCollection('data/GeoWebNews/')
 # gold.make_gold()
 # print(test.compare_to_gold(gold))
 
 # EMM ONLY
 # from bratutils import agreement as a
-# gold = a.DocumentCollection('data/EMM/')
-# test = a.DocumentCollection('data/GeoWebNews/')
+# test = a.DocumentCollection('data/EMM/')
+# gold = a.DocumentCollection('data/GeoWebNews/')
 # gold.make_gold()
 # print(test.compare_to_gold(gold))
 
+# Precision -> cor / pos
+# Recall -> cor / 2,720 (SIZE OF GeoWebNews DATASET or the size of your particular dataset if different)
+# F-Score -> 2 * Precision * Recall / (Precision + Recall)
+
+# The MUC-7 table has multiple interpretations depending on the task, please read the paper I cited above. Thanks!
 # ------------------- END F-SCORE EVALUATION ------------------
 
 
@@ -166,14 +157,15 @@ if False:
 if False:
     #  McNemar's Test for Geotagging
     google_ann = text_to_ann("data/Google/")  # Comparing Google Cloud NLP
-    spacy_ann = text_to_ann("data/Spacy/")    # with Spacy NLP
-    gold_ann = text_to_ann()   # These are the gold answers/labels
-    table = [[0, 0], [0, 0]]   # stored in this table.
+    spacy_ann = text_to_ann("data/Spacy/")  # with Spacy NLP
+    gold_ann = text_to_ann()  # These are the gold answers/labels
+    table = [[0, 0], [0, 0]]  # stored in this table.
     for file_name in gold_ann:
         for gold in gold_ann[file_name]:
             toponym = gold_ann[file_name][gold]
             print(toponym)
     # stat = statsmodels.stats.contingency_tables.mcnemar(table, exact=False, correction=True)
+    # WORK IN PROGRESS...
 
 # --------------------------------- End of Statistical Testing Code Block ------------------------------------
 
@@ -340,6 +332,12 @@ if False:
                     lat.text = str(data[0])
                     lon.text = str(data[1])
                 else:
+                    # IF YOU WOULD LIKE TO GEOCODE ALL 2,601 POSSIBLE TOPONYMS, UNCOMMENT THE CODE BELOW
+                    # Our paper evaluates 2,401 toponyms, the ones below are REALLY HARD!!! Have a go if you wish!
+                    # data = annotation.geonames_id.split(",")
+                    # out = annotation.text + ",," + annotation.text + ",," + str(data[0]) + ",," + str(data[1]) + ",," \
+                    #       + str(int(annotation.start) - meta) + ",," + str(int(annotation.end) - meta) + "||"
+                    # f.write(out)
                     normName.text = ""
                     coord = annotation.geonames_id.split(",")
                     lat.text = str(coord[0].strip())
@@ -371,3 +369,38 @@ if False:
         out.write(f[0] + u" " + label)
     out.close()
     fmeasure_from_file('data/NCRFpp/gold' + fold, 'data/NCRFpp/no' + fold)
+
+
+# ----------------- DATABASE ALIGNMENT - CONVERTING TOPONYM COORDINATES TO GEONAMES COORDINATES ----------------
+
+def align_database_with_geonames(file_name):
+    db = sqlite3.connect('../data/geonames.db').cursor()
+    inp = codecs.open(file_name, encoding="utf-8")
+    out = codecs.open(file_name + "_geonames.txt", mode="w", encoding="utf-8")
+    for inp_line in inp:
+        for annotation in inp_line.split("||")[:-1]:
+            annotation = annotation.split(",,")
+            candidates = get_coordinates(db, annotation[0].split(",")[0])
+            if len(candidates) == 0:
+                out.write(u',,'.join(annotation))
+                out.write(u'||')
+                print("No Geonames record for:", annotation[0])
+                continue
+            minDist = np.inf
+            lat, lon = 0, 0
+            for cand in candidates:
+                distance = great_circle((cand[0], cand[1]), (annotation[2], annotation[3])).km
+                if distance < minDist:
+                    minDist = distance
+                    lat = str(cand[0])
+                    lon = str(cand[1])
+            annotation[2] = lat
+            annotation[3] = lon
+            out.write(u',,'.join(annotation))
+            out.write(u'||')
+        out.write(u'\n')
+
+
+# ------------- END OF DATABASE ALIGNMENT - CONVERTING TOPONYM COORDINATES TO GEONAMES COORDINATES -------------
+
+# align_database_with_geonames("data/Geocoding/gwn_emm.txt")

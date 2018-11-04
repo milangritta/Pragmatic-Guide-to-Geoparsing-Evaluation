@@ -206,21 +206,6 @@ def get_id_to_coordinates(con, id):
         return []
 
 
-def print_stats(accuracy):
-    """
-    Prints Mean, Median, AUC and acc@161km for the list. THIS CODE WAS BORROWED FROM OUR OTHER REPOSITORY.
-    :param accuracy: a list of geocoding errors
-    """
-    print("==============================================================================================")
-    print(u"Median error:", np.median(sorted(accuracy)))
-    print(u"Mean error:", np.mean(accuracy))
-    accuracy = np.log(np.array(accuracy) + 1)
-    k = np.log(161)
-    print(u"Accuracy to 161 km: ", sum([1.0 for dist in accuracy if dist < k]) / len(accuracy))
-    print(u"AUC = ", np.trapz(accuracy) / (np.log(20039) * (len(accuracy) - 1))) # Trapezoidal rule.
-    print("==============================================================================================")
-
-
 # --------- COPIED WITH A TINY EDIT FROM https://github.com/jiesutd/NCRFpp TO EVALUATE NCRF++ MODEL -----------
 
 def readSentence(input_file):
