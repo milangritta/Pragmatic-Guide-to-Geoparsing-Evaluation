@@ -295,6 +295,7 @@ if False:
         destination.write(source)
 
         article = SubElement(root, 'article')
+        article.set('file', file_name)
         text = SubElement(article, 'text')
         text.text = source
         toponyms = SubElement(article, 'toponyms')

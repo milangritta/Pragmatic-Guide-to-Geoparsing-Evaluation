@@ -6,7 +6,6 @@ import numpy as np
 import spacy
 import sqlite3
 from os import listdir
-import six
 # noinspection PyUnresolvedReferences
 from os.path import isfile
 from google.cloud import language
@@ -16,7 +15,7 @@ ANNOT_SOURCE_DIR = u"data/GeoWebNews/"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/milangritta/Downloads/GeoWebNews-0dca974782b0.json"
 
 
-def get_coordinates(con, loc_name):
+def get_coordinates(con, loc_name):  # Copied from our previous work, see Map Vector repository, thanks!
     """
     Access the database to retrieve coordinates and other data from DB.
     :param con: sqlite3 database cursor i.e. DB connection
@@ -50,8 +49,8 @@ class Annotation:
 
 def text_to_ann(directory=ANNOT_SOURCE_DIR):
     """
-
-    :return:
+    Given a directory, read all annotation files and return for further processing.
+    :return: a dictionary of annotations indexed by file names
     """
     annotations = {}
     files = [f for f in listdir(directory) if isfile(directory + f)]
@@ -93,10 +92,9 @@ def text_to_ann(directory=ANNOT_SOURCE_DIR):
 
 def transform_tags(file_name, output):
     """
-
-    :param file_name:
-    :param output:
-    :return:
+    In order to train the NCRF++ tagger, the data needs to be converted to the 'BMES' format.
+    :param file_name: which file to read
+    :param output: where to save the output
     """
     inp = codecs.open(file_name, encoding="utf-8")
     out = codecs.open(output, mode="w", encoding="utf-8")
@@ -147,10 +145,10 @@ def transform_tags(file_name, output):
 
 def google_NER(text, m):
     """
-
-    :param text:
+    This subroutine calls the API, processes and returns the annotated text.
+    :param text: to be parsed
     :param m: length of metadata to add to the begin offset character
-    :return:
+    :return: formatted and annotated text
     """
     locations = []
     client = language.LanguageServiceClient()
@@ -166,6 +164,10 @@ def google_NER(text, m):
 
 
 def run_spacy_ner(nlp):
+    """
+    Tag any text with Spacy NER and save in a folder for evaluation.
+    :param nlp: a Spacy model e.g. nlp=spacy.load('en_core_web_lg')
+    """
     for file_name in text_to_ann().keys():
         print("Starting file name", file_name)
         out_spacy = codecs.open("data/Spacy/" + file_name + ".ann", mode="w", encoding="utf-8")
@@ -182,6 +184,9 @@ def run_spacy_ner(nlp):
 
 
 def run_google_ner():
+    """
+    First, obtain your own Google Cloud credentials... Then you can try out this SOTA NER tagger. Amazing!
+    """
     for file_name in text_to_ann().keys():
         print("Starting file name", file_name)
         out_google = codecs.open("data/Google/" + file_name + ".ann", mode="w", encoding="utf-8")
@@ -192,7 +197,7 @@ def run_google_ner():
             out_google.write(entity)
 
 
-def get_id_to_coordinates(con, id):
+def get_id_to_coordinates(con, id):  # Adapted from our previous work, see Map Vector repository, thanks!
     """
     Access the database to retrieve coordinates from DB.
     :param con: sqlite3 database cursor i.e. DB connection
