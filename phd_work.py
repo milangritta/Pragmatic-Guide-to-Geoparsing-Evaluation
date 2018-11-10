@@ -1,6 +1,7 @@
 import sqlite3
+from collections import Counter
 from os import listdir
-
+import matplotlib.pyplot as plt
 import numpy
 from lxml import etree
 # noinspection PyUnresolvedReferences
@@ -23,33 +24,33 @@ from objects_and_functions import get_coordinates
 
 def emm_news_analysis():
     """
-
+    An analysis of the sources of news articles, their language types, tagged locations, etc.
     """
     d = "/Users/milangritta/Desktop/Medisys/"
-    domains, languages, locations = [], [], []
+    domains, languages, locations, word_counts = [], [], [], []
     files = [f for f in listdir(d) if isfile(d + f)]
+    print("No of files:", len(files))
     for f in files:
-        if f.endswith(".xml"):
+        if f.endswith(".xml"):  # no hidden files...
             tree = etree.parse(d + f)
             root = tree.getroot()
             for article in root.findall('channel/item'):
-                domains.append(urlparse(article.find('link').text).hostname)
+                domains.append(urlparse(article.find('link').text).hostname.split(".")[-1])
                 languages.append(article.find('{http://www.iso.org/3166}language').text)
                 location_count = set()
                 for a in article.findall('{http://emm.jrc.it}fullgeo') + article.findall('{http://emm.jrc.it}georss'):
                     location_count.update(set(a.attrib['pos'].split(",")))  # sets avoid counting duplicates
                 locations.append(len(location_count))
+                word_counts.append(int(article.find('{http://emm.jrc.it}text').attrib['wordCount']))
 
-    # plt.hist(locations, [0, 10, 20, 30, 40, 50, 60, 70], facecolor='b')
-    # plt.xlabel('Tagged Toponyms')
-    # plt.ylabel('Article Count')
-    # plt.title('Toponyms tagged per article (out of 10,000 news articles)')
-    # plt.grid(True)
-    # plt.show()
-    print("Domains:", domains)
-    print("Languages:", languages)
-    print("Locations:", locations)
-    print("No of files:", len(files))
+    # c = Counter(domains).most_common()
+    # c = Counter(languages).most_common()
+    # for k in c:
+    #     print k[0], ",", k[1]
+    # hist = numpy.histogram(word_counts, range=(0, 2000))
+    hist = numpy.histogram(locations, range=(0, 70))
+    for count, bucket in zip(hist[0], hist[1]):
+        print count, ",", bucket
 
 
 def geowebnews_analysis():
@@ -70,6 +71,9 @@ def geowebnews_analysis():
         literal, associative = [], []
         geo_location_pop[article.attrib['file']] = []
         for toponym in article.findall('toponyms/toponym'):
+            label = toponym.find('type').text
+            if label in [u"Non_Lit_Expression", u"Literal_Expression", u"Non_Toponym"]:
+                continue
             norm_name = toponym.find('normalisedName').text
             norm_name = norm_name if norm_name is not None else u""
             # ------------ Toponym Resolution for each article using Population -------------
@@ -80,9 +84,6 @@ def geowebnews_analysis():
                 distance = great_circle(gold_coordinates, pop_coordinates)
                 geo_location_pop[article.attrib['file']].append(distance)
             # -------------------- Build two lists of toponyms -------------------------
-            label = toponym.find('type').text
-            if label in [u"Non_Lit_Expression", u"Literal_Expression", u"Non_Toponym"]:
-                continue
             if label_map[label] == u"Associative":
                 associative.append(toponym)
             else:

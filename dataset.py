@@ -18,9 +18,9 @@ if False:
     out = codecs.open("data/Geocoding/gwn_emm.txt", mode="w", encoding="utf-8")
     for file_name in text_to_ann().keys():
         text = codecs.open(ANNOT_SOURCE_DIR + file_name + ".txt", encoding="utf-8")
-        meta = text.next()
-        link = meta.split("LINK:")[1].strip()
-        file_ids[link] = file_name + "<SEP>" + str(len(meta))
+        meta_length = text.next()
+        link = meta_length.split("LINK:")[1].strip()
+        file_ids[link] = file_name + "<SEP>" + str(len(meta_length))
 
     tree = etree.parse(u'data/EMM.xml')
     root = tree.getroot()
@@ -36,11 +36,11 @@ if False:
                 geocoding[file_id] = []
             for geo in article.findall("{http://emm.jrc.it}fullgeo") + article.findall("{http://emm.jrc.it}georss"):
                 name = geo.text
-                meta = int(file_ids[link].split("<SEP>")[1])
+                meta_length = int(file_ids[link].split("<SEP>")[1])
                 for pos in geo.attrib["pos"].split(","):
                     if int(pos) >= title_length:
-                        record = u"INDEX\tLOCATION " + str(int(pos) + meta - title_length) + u" " \
-                                 + str(int(pos) + len(name) + meta - title_length) + u"\t" + name + u"\n"
+                        record = u"INDEX\tLOCATION " + str(int(pos) + meta_length - title_length) + u" " \
+                                 + str(int(pos) + len(name) + meta_length - title_length) + u"\t" + name + u"\n"
                         if record not in duplicates:
                             f.write(record)
                             geocoding[file_id].append(geo.attrib['name'].replace(":", ",") + u",," + name + u",,"
@@ -276,7 +276,7 @@ if False:
 
 # ------------------------------------END OF CORPUS STATISTICS-----------------------------------------
 
-# -------------------------------GENERATE INPUTS FOR CAMCODER & THE XML DATASET------------------------------------
+# -------------------------------GENERATE INPUTS FOR CAMCODER & OUTPUT THE XML DATASET---------------------------------
 
 if False:
     line_no = 0
@@ -289,13 +289,18 @@ if False:
     root.append(comment)
     for file_name in sorted(annotations.keys()):
         source = codecs.open("data/GeoWebNews/" + file_name + ".txt", encoding="utf-8")
-        meta = len(source.next())  # discard the first line but remember its length
+        meta = source.next()  # discard the first line but remember its length
+        meta_length = len(meta)
         source = source.read()  # grab the rest of the text
         destination = codecs.open("data/Geocoding/files/" + str(line_no), mode="w", encoding="utf-8")
         destination.write(source)
 
         article = SubElement(root, 'article')
         article.set('file', file_name)
+        title = SubElement(article, 'title')
+        title.text = meta.split("LINK:")[0].replace(u"TITLE:", u"").strip()
+        link = SubElement(article, 'link')
+        link.text = meta.split("LINK:")[1].strip()
         text = SubElement(article, 'text')
         text.text = source
         toponyms = SubElement(article, 'toponyms')
@@ -313,8 +318,8 @@ if False:
             extName.text = annotation.text
             topType.text = annotation.toponym_type
             nonLoc.text = boolean[annotation.non_locational]
-            start.text = str(int(annotation.start) - meta)
-            end.text = str(int(annotation.end) - meta)
+            start.text = str(int(annotation.start) - meta_length)
+            end.text = str(int(annotation.end) - meta_length)
             modType.text = annotation.modifier_type
 
             if annotation.toponym_type not in ["Non_Toponym", "Non_Lit_Expression", "Literal_Expression", "Demonym",
@@ -326,7 +331,7 @@ if False:
                 if u"," not in annotation.geonames_id:
                     data = get_id_to_coordinates(conn, annotation.geonames_id)
                     out = data[2] + ",," + annotation.text + ",," + str(data[0]) + ",," + str(data[1]) + ",," \
-                          + str(int(annotation.start) - meta) + ",," + str(int(annotation.end) - meta) + "||"
+                          + str(int(annotation.start) - meta_length) + ",," + str(int(annotation.end) - meta_length) + "||"
                     f.write(out)
                     normName.text = data[2]
                     geonames.text = annotation.geonames_id

@@ -1,4 +1,4 @@
-# Pragmatic Guide to Geoparsing Evaluation
+# A Pragmatic Guide to Geoparsing Evaluation
 
 UPDATE: 31.10.2018: The paper was submitted for peer review @ Springer's LREV. In the meantime, you can get the preprint from -> ["A Pragmatic Guide to Geoparsing Evaluation."](https://arxiv.org/abs/1810.12368) We welcome any comments and suggestions!
 
