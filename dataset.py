@@ -408,5 +408,3 @@ def align_database_with_geonames(file_name):
 
 
 # ------------- END OF DATABASE ALIGNMENT - CONVERTING TOPONYM COORDINATES TO GEONAMES COORDINATES -------------
-
-# align_database_with_geonames("data/Geocoding/gwn_emm.txt")

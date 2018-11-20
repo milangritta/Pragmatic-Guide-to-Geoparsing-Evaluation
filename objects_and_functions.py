@@ -2,9 +2,7 @@
 from __future__ import print_function
 import codecs
 import os
-import numpy as np
 import spacy
-import sqlite3
 from os import listdir
 # noinspection PyUnresolvedReferences
 from os.path import isfile
@@ -12,7 +10,7 @@ from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
 ANNOT_SOURCE_DIR = u"data/GeoWebNews/"
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/milangritta/Downloads/GeoWebNews-0dca974782b0.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "path to your credentials file"
 
 
 def get_coordinates(con, loc_name):  # Copied from our previous work, see Map Vector repository, thanks!
@@ -342,4 +340,3 @@ def fmeasure_from_file(golden_file, predict_file, label_type="BMES"):
 
 # run_spacy_ner(nlp=spacy.load('en_core_web_lg'))
 # run_google_ner()
-# print get_id_to_coordinates(sqlite3.connect('../data/geonames.db').cursor(), u"2993838")

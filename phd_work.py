@@ -55,8 +55,7 @@ def emm_news_analysis():
 
 def geowebnews_analysis():
     """
-
-    :return:
+    Generate informative insights from the corpus for my PhD thesis. Have a read! If it's ready...
     """
     label_map = {u"Literal": u"Literal", u"Homonym": u"Associative", u"Coercion": u"Literal", u"Mixed": u"Literal",
                  u"Embedded_Literal": u"Literal", u"Demonym": u"Associative", u"Non_Literal_Modifier": u"Associative",
@@ -128,10 +127,10 @@ def geowebnews_analysis():
     hist_lit = Counter(toponym_feature_types[u"Literal"])
     hist_ass = Counter(toponym_feature_types[u"Associative"])
     for key in set(hist_ass.keys() + hist_lit.keys()):
-        if hist_lit.get(key, 0) > 4 and hist_ass.get(key, 0) > 4:
-            print(key, u",", float(hist_lit.get(key, 0)) / len(toponym_feature_types[u"Literal"]),
-                       u",", float(hist_ass.get(key, 0)) / len(toponym_feature_types[u"Associative"]))
+        if hist_lit.get(key, 0) > 9 and hist_ass.get(key, 0) > 9:
+            print(key, u",", float(hist_lit.get(key, 0)) / len(toponym_feature_types[u"Literal"]), hist_lit.get(key, 0),
+                       u",", float(hist_ass.get(key, 0)) / len(toponym_feature_types[u"Associative"]), hist_ass.get(key, 0))
 
 
 # emm_news_analysis()
-geowebnews_analysis()
+# geowebnews_analysis()
