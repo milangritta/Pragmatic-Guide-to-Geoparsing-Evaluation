@@ -1,12 +1,12 @@
 # A Pragmatic Guide to Geoparsing Evaluation
 
-UPDATE: 31.10.2018: The paper was submitted for peer review @ Springer's LREV. In the meantime, you can get the preprint from -> ["A Pragmatic Guide to Geoparsing Evaluation."](https://arxiv.org/abs/1810.12368) We welcome any comments and suggestions!
+UPDATE: 1.8.2019: The paper was now accepted @ Springer's LREV. In the meantime, you can get the preprint from -> ["A Pragmatic Guide to Geoparsing Evaluation."](https://arxiv.org/abs/1810.12368) We welcome any comments and suggestions!
 
 ### Abstract
 Empirical methods in geoparsing have thus far lacked a standard evaluation framework described as the task, data and metrics used to establish state-of-the-art systems. Evaluation is further made inconsistent, even unrepresentative of real world usage, by the lack of distinction between the different types of toponyms. This necessitates new guidelines, a consolidation of metrics and a detailed toponym taxonomy with implications for Named Entity Recognition (NER). To address these deficiencies, our manuscript introduces such framework in three parts. Part 1) Task Definition: clarified via corpus linguistic analysis proposing a fine-grained Pragmatic Taxonomy of Toponyms with new guidelines. Part 2) Evaluation Data: shared via a dataset called GeoWebNews to provide test/train data to enable immediate use of our contributions. In addition to fine-grained Geotagging and Toponym Resolution (Geocoding), this dataset is also suitable for prototyping  machine learning NLP models. Part 3) Metrics: discussed and reviewed for a rigorous evaluation with appropriate recommendations for NER/Geoparsing practitioners.
 
 ### Resources for training the NCRF++ Tagger
-You can download them from ...
+You can download the additional (but not essential) resources from the [Cambridge Uni Repository](https://www.repository.cam.ac.uk/handle/1810/293888).
 
 #### What's in this repository?
 All resources mentioned in the paper, code, datasets, config files, annotation, outputs, models, licence, readme, etc.
