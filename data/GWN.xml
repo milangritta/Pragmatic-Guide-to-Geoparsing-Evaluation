@@ -19536,12 +19536,12 @@ Actress Jaime King ’s four year old son was injured after being showered with 
 				<end>2375</end>
 			</toponym>
 			<toponym>
-				<extractedName>BA-Karachi</extractedName>
+				<extractedName>Karachi</extractedName>
 				<normalisedName>Karachi</normalisedName>
 				<type>Embedded_Non_Lit</type>
 				<modifierType>Noun</modifierType>
 				<nonLocational>No</nonLocational>
-				<start>2365</start>
+				<start>2368</start>
 				<end>2375</end>
 				<geonamesID>1174872</geonamesID>
 				<latitude>24.8608</latitude>
@@ -35373,12 +35373,12 @@ In observance of World Cancer Awareness Day on Friday, April 6, the Jamaica Canc
 				<end>749</end>
 			</toponym>
 			<toponym>
-				<extractedName>amaica Cancer Society</extractedName>
+				<extractedName>Jamaica Cancer Society</extractedName>
 				<normalisedName/>
 				<type>Non_Toponym</type>
 				<modifierType/>
 				<nonLocational>No</nonLocational>
-				<start>1797</start>
+				<start>1796</start>
 				<end>1818</end>
 			</toponym>
 		</toponyms>
@@ -46791,13 +46791,13 @@ Your tax deductible gift can help stop human rights violations and save lives ar
 				<longitude>-117.28553</longitude>
 			</toponym>
 			<toponym>
-				<extractedName>401 - 333 Victoria St</extractedName>
+				<extractedName>401 - 333 Victoria St.</extractedName>
 				<normalisedName/>
 				<type>Literal</type>
 				<modifierType/>
 				<nonLocational>No</nonLocational>
 				<start>1041</start>
-				<end>1062</end>
+				<end>1063</end>
 				<geonamesID/>
 				<latitude>49.490844</latitude>
 				<longitude>-117.294749</longitude>
@@ -58422,13 +58422,13 @@ Britain used to be a key source market for Zimbabwe's tourism industry, but visi
 				<end>1723</end>
 			</toponym>
 			<toponym>
-				<extractedName>Zimbabwe Tourism Authorit</extractedName>
+				<extractedName>Zimbabwe Tourism Authority</extractedName>
 				<normalisedName/>
 				<type>Non_Toponym</type>
 				<modifierType/>
 				<nonLocational>No</nonLocational>
 				<start>249</start>
-				<end>274</end>
+				<end>275</end>
 			</toponym>
 			<toponym>
 				<extractedName>passengers</extractedName>
@@ -62020,13 +62020,13 @@ Seat is on a roll but can the Arona, its new junior SUV, cut it in such an ultra
 				<longitude>-98.5</longitude>
 			</toponym>
 			<toponym>
-				<extractedName>U.S</extractedName>
+				<extractedName>U.S.</extractedName>
 				<normalisedName>United States</normalisedName>
 				<type>Metonymic</type>
 				<modifierType/>
 				<nonLocational>No</nonLocational>
 				<start>103</start>
-				<end>106</end>
+				<end>107</end>
 				<geonamesID>6252001</geonamesID>
 				<latitude>39.76</latitude>
 				<longitude>-98.5</longitude>
@@ -64002,12 +64002,12 @@ Using witness accounts, the National Bureau of Investigation (NBI) arrested Deen
 				<longitude>121.0475</longitude>
 			</toponym>
 			<toponym>
-				<extractedName>aranaque Regional Trial Court</extractedName>
+				<extractedName>Paranaque Regional Trial Court</extractedName>
 				<normalisedName>City of Parañaque</normalisedName>
 				<type>Embedded_Non_Lit</type>
 				<modifierType>Noun</modifierType>
 				<nonLocational>No</nonLocational>
-				<start>254</start>
+				<start>253</start>
 				<end>283</end>
 				<geonamesID>1694782</geonamesID>
 				<latitude>14.5</latitude>
